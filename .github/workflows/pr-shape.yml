@@ -1,0 +1,35 @@
+name: pr-shape
+
+on:
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  one-commit-rebased:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - name: Fetch current base
+        run: git fetch origin "${{ github.base_ref }}"
+      - name: Require exactly one commit directly on current master
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE_SHA="$(git rev-parse "origin/${{ github.base_ref }}")"
+          HEAD_SHA="$(git rev-parse HEAD)"
+          COUNT="$(git rev-list --count "$BASE_SHA..$HEAD_SHA")"
+          test "$COUNT" -eq 1 || { echo "PR must contain exactly one commit; found $COUNT"; exit 1; }
+          PARENTS="$(git show -s --format=%P "$HEAD_SHA")"
+          test "$PARENTS" = "$BASE_SHA" || {
+            echo "PR commit must have current master HEAD as its only parent."
+            echo "Expected: $BASE_SHA"
+            echo "Actual:   $PARENTS"
+            exit 1
+          }
