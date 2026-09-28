@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "repository": "ayatskiy/lingua-cards",
+  "purpose": "Standalone durable vocabulary-card catalog and export metadata backend for Deutsch Lesson Cards, reusable across ChatGPT Projects and chats.",
+  "default_branch": "master",
+  "runtime_branch": "runtime/cards",
+  "required_runtime_visibility": "private",
+  "bootstrap": "START_HERE.md",
+  "rules": "AGENTS.md",
+  "workflow": "docs/CARD_WORKFLOW.md",
+  "plugin_source": {
+    "repository": "ayatskiy/ai-plugins",
+    "path": "plugins/deutsch-lesson-cards",
+    "plugin_id": "plugins_6abaa53ddf44819198c3e2f47d84f6e6"
+  },
+  "source_of_truth": {
+    "index": "cards/index.json",
+    "records": "cards/CARD-*.json",
+    "card_schema": "schemas/card.schema.json",
+    "index_schema": "schemas/card-index.schema.json",
+    "card_export_metadata": "exports/cards/",
+    "verb_export_metadata": "exports/verbs/",
+    "srs_schedule": "external: Anki/AnkiDroid"
+  },
+  "invariants": [
+    "One canonical card per normalized German lemma/phrase.",
+    "Deduplicate before card creation.",
+    "Do not write real learner data while repository visibility is public.",
+    "Stable identity must not depend on mutable examples or translations.",
+    "Runtime writes require read-back verification.",
+    "Anki owns SRS scheduling."
+  ],
+  "validation_command": "python scripts/validate_repo.py"
+}
