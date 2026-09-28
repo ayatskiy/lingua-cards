@@ -1,56 +1,50 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/ayatskiy/lingua-cards/schemas/card.schema.json",
-  "title": "Lingua card record",
+  "title": "Canonical German flashcard",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "schema_version",
     "card_id",
-    "created_date",
     "canonical_key",
-    "lemma_de",
-    "translation_ru",
-    "part_of_speech",
-    "cue",
-    "target_de",
-    "first_seen_lesson",
-    "last_seen_lesson",
-    "first_seen_date",
-    "last_seen_date",
-    "seen_in_lessons",
-    "source_refs",
-    "anki_guid",
-    "export_status"
+    "german",
+    "russian",
+    "part_of_speech"
   ],
   "properties": {
     "schema_version": {
       "type": "integer",
-      "minimum": 1
+      "const": 3
     },
     "card_id": {
       "type": "string",
-      "pattern": "^CARD-[0-9]{6}$"
-    },
-    "created_date": {
-      "type": "string",
-      "format": "date"
+      "pattern": "^CARD-[0-9a-f]{64}$"
     },
     "canonical_key": {
       "type": "string",
       "minLength": 3
     },
-    "lemma_de": {
+    "german": {
       "type": "string",
       "minLength": 1
     },
-    "translation_ru": {
+    "russian": {
       "type": "string",
       "minLength": 1
     },
     "part_of_speech": {
-      "type": "string",
-      "minLength": 1
+      "enum": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb",
+        "pronoun",
+        "preposition",
+        "connector",
+        "phrase",
+        "other"
+      ]
     },
     "article": {
       "type": [
@@ -114,20 +108,6 @@
         "null"
       ]
     },
-    "grammar_note": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "cue": {
-      "type": "string",
-      "minLength": 1
-    },
-    "target_de": {
-      "type": "string",
-      "minLength": 1
-    },
     "example_de": {
       "type": [
         "string",
@@ -140,77 +120,7 @@
         "null"
       ]
     },
-    "first_seen_lesson": {
-      "type": "string",
-      "minLength": 1
-    },
-    "last_seen_lesson": {
-      "type": "string",
-      "minLength": 1
-    },
-    "first_seen_date": {
-      "type": "string",
-      "format": "date"
-    },
-    "last_seen_date": {
-      "type": "string",
-      "format": "date"
-    },
-    "seen_in_lessons": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "items": {
-        "type": "string",
-        "minLength": 1
-      }
-    },
-    "source_refs": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "source_type",
-          "source_id"
-        ],
-        "properties": {
-          "source_type": {
-            "type": "string",
-            "minLength": 1
-          },
-          "source_id": {
-            "type": "string",
-            "minLength": 1
-          },
-          "label": {
-            "type": [
-              "string",
-              "null"
-            ]
-          }
-        }
-      }
-    },
-    "anki_guid": {
-      "type": "string",
-      "minLength": 1
-    },
-    "export_status": {
-      "enum": [
-        "NEW",
-        "APPROVED",
-        "EXPORTED",
-        "REJECTED"
-      ]
-    },
-    "export_batch": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "anki_note_id": {
+    "grammar_note": {
       "type": [
         "string",
         "null"

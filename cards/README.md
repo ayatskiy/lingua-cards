@@ -1,9 +1,15 @@
 # cards/
 
-Canonical card catalog.
+Global canonical card store with deterministic content-derived identity.
 
-- `index.json` maps canonical keys to stable card IDs.
-- `CARD-*.json` stores one record per unique German lemma/phrase.
-- Operational records live on `runtime/cards`.
+For:
 
-Do not create duplicates for a key already present in `index.json`.
+`canonical_key = verb:sich erinnern`
+
+compute SHA-256, then store:
+
+`cards/by-key/<first-two-hash-chars>/CARD-<full-sha256>.json`
+
+There is **no global index file**.
+
+The deterministic path is the duplicate lookup. Card files contain learning content only.
