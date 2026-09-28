@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ayatskiy/lingua-cards/schemas/card-index.schema.json",
+  "title": "Lingua cards canonical index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "updated_at",
+    "next_card_number",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "next_card_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "entries": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "card_id",
+          "lemma_de",
+          "part_of_speech",
+          "first_seen_date",
+          "last_seen_date"
+        ],
+        "properties": {
+          "card_id": {
+            "type": "string",
+            "pattern": "^CARD-[0-9]{6}$"
+          },
+          "lemma_de": {
+            "type": "string",
+            "minLength": 1
+          },
+          "part_of_speech": {
+            "type": "string",
+            "minLength": 1
+          },
+          "first_seen_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "last_seen_date": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    }
+  }
+}
