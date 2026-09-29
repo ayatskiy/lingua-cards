@@ -1,7 +1,7 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "repository": "ayatskiy/lingua-cards",
-  "purpose": "Standalone, project-agnostic canonical German flashcard catalog for Deutsch Lesson Cards.",
+  "purpose": "Standalone project-agnostic German flashcard deck repository for Deutsch Lesson Cards.",
   "default_branch": "master",
   "write_mode": "pull_request_only",
   "merge_policy": "human_only_never_auto_merge",
@@ -14,32 +14,33 @@
     "preferred_visibility": "private",
     "public_content_requires_explicit_user_authorization": true
   },
-  "identity": {
-    "algorithm": "sha256(canonical_key)",
-    "card_id": "CARD-<64 lowercase hex>",
-    "path": "cards/by-key/<first-two-hash-chars>/<card_id>.json",
-    "global_index": false
+  "terminology": {
+    "deck": "one user-facing collection containing many flashcards",
+    "flashcard": "one lexical learning item inside a deck",
+    "dedupe_shard": "technical cross-deck duplicate lookup"
+  },
+  "storage": {
+    "decks": "projects/<project-slug>/decks/<deck-name>.json",
+    "dedupe_shards": "dedupe/<sha256(canonical_key)[0:2]>.json",
+    "global_single_index": false,
+    "per_word_files": false
   },
   "bootstrap": "START_HERE.md",
   "rules": "AGENTS.md",
   "workflow": "docs/CARD_WORKFLOW.md",
+  "user_guide": "docs/ANKIDROID_GUIDE.md",
+  "schemas": {
+    "deck": "schemas/deck.schema.json",
+    "dedupe_shard": "schemas/dedupe-shard.schema.json"
+  },
   "plugin_source": {
     "repository": "ayatskiy/ai-plugins",
     "path": "plugins/deutsch-lesson-cards",
     "plugin_id": "plugins_6abaa53ddf44819198c3e2f47d84f6e6"
   },
-  "source_of_truth": {
-    "records": "cards/by-key/*/CARD-*.json",
-    "project_sets": "projects/<project-slug>/sets/<set-name>.json",
-    "card_schema": "schemas/card.schema.json",
-    "set_schema": "schemas/card-set.schema.json",
-    "srs_schedule": "external: Anki/AnkiDroid"
+  "external": {
+    "srs_schedule": "Anki/AnkiDroid",
+    "verb_documents": "generated DOCX/PDF artifacts"
   },
-  "non_goals": [
-    "verb inventory persistence",
-    "grammar document persistence",
-    "review scheduling/progress storage",
-    "lesson/source provenance storage"
-  ],
   "validation_command": "python scripts/validate_repo.py"
 }

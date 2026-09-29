@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ayatskiy/lingua-cards/schemas/dedupe-shard.schema.json",
+  "title": "Lingua Cards dedupe shard",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "entries": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^projects/[^/]+/decks/[^/]+\\.json$"
+      }
+    }
+  }
+}

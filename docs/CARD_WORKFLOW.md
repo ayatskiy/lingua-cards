@@ -1,26 +1,19 @@
-# Universal Card Workflow
+# Universal Deck Workflow
 
-## Purpose
+## Meaning of «собери карточки»
 
-`lingua-cards` stores only canonical vocabulary flashcards. It is reusable from any ChatGPT Project or ordinary chat.
+Create **one deck / набор карточек** containing many useful flashcards from the requested source.
 
-Supported card sources include:
-- current conversation;
-- pasted text or dialogue;
-- selected messages;
-- screenshots/files;
-- exercises;
-- verified video/transcript/manuscript material;
-- German text created by a requested translation.
+Supported sources include a lesson, conversation, pasted text, file, screenshot, verified video material, or translated German text.
 
-## Project/set placement
+## Deck placement
 
-Choose a project folder:
-1. explicit project/folder name from the user;
-2. known current ChatGPT Project name;
+Project folder:
+1. explicit user project/folder;
+2. known current ChatGPT Project;
 3. `general`.
 
-Set filename:
+Deck filename:
 1. explicit short name;
 2. explicit lesson number;
 3. otherwise ISO date `YYYY-MM-DD`;
@@ -28,147 +21,143 @@ Set filename:
 
 Path:
 
-`projects/<project-slug>/sets/<set-name>.json`
+`projects/<project-slug>/decks/<deck-name>.json`
 
-A set contains only:
-- `schema_version`;
-- ordered IDs of **new canonical cards created for that set**.
+No extra project/lesson/date/source metadata is needed inside the deck; path and filename provide grouping.
 
-No chat IDs, source URLs, timestamps, lesson metadata, or provenance.
+## Deck file
 
-## Canonical identity: no global index
+```json
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:entscheidung",
+      "german": "die Entscheidung",
+      "russian": "решение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Entscheidungen",
+      "example_de": "Das war eine schwierige Entscheidung.",
+      "example_ru": "Это было трудное решение."
+    },
+    {
+      "canonical_key": "verb:sich entscheiden",
+      "german": "sich entscheiden",
+      "russian": "решаться; принимать решение",
+      "part_of_speech": "verb"
+    }
+  ]
+}
+```
 
-There is deliberately no `index.json`.
+## Normalization
 
-### Canonical normalization
+Canonical key format:
 
-Normalization must be deterministic across agents:
+`<part_of_speech>:<normalized_item>`
 
-- normalize Unicode to NFC;
-- trim leading/trailing whitespace and collapse internal whitespace runs to one space;
-- preserve German umlauts and `ß`; do not transliterate to `ae/oe/ue/ss`;
-- lowercase for the key using ordinary Unicode lowercase, not aggressive case-folding that turns `ß` into `ss`;
-- noun: use the dictionary lemma without `der/die/das`; article remains a separate display field;
-- verb: use dictionary infinitive; preserve semantically required `sich`; write separable verbs as their joined infinitive such as `aufstehen`;
-- adjective/adverb: use the base form;
-- phrase/connector: preserve meaningful internal punctuation, remove only surrounding whitespace and non-semantic terminal punctuation;
-- do not normalize two genuinely different lexical items into one key merely because spelling is similar.
+Rules:
+- Unicode NFC;
+- trim and collapse whitespace;
+- preserve umlauts and `ß`;
+- lowercase;
+- noun: dictionary lemma without article;
+- verb: dictionary infinitive, preserving required `sich` and joined separable prefix;
+- adjective/adverb: base form;
+- phrase/connector: preserve meaningful internal punctuation.
+
+Examples:
+- `noun:entscheidung`
+- `verb:gehen`
+- `verb:sich entscheiden`
+- `phrase:meiner meinung nach`
+
+## Sharded global duplicate check
+
+Do not use one giant global index.
 
 For each candidate:
 
-1. normalize the German item;
-2. form `canonical_key = <part_of_speech>:<normalized_item>`;
-3. compute lowercase SHA-256 hex of the UTF-8 canonical key;
-4. set `card_id = CARD-<full_hash>`;
-5. derive path `cards/by-key/<hash[0:2]>/<card_id>.json`;
-6. check that exact path.
+1. compute canonical key;
+2. compute SHA-256 hex;
+3. use first two hex characters as shard;
+4. read `dedupe/<shard>.json`; missing file = empty shard;
+5. if key exists, skip;
+6. if new, add flashcard to new deck and key -> deck path to shard.
 
-If the file exists with the same key, skip it as a duplicate.
-
-If it does not exist, create it and add its card ID to the current set.
-
-This avoids an ever-growing central index and makes duplicate lookup O(1) by deterministic path.
-
-Worked example for `die Entscheidung`:
+Example:
 
 ```text
-normalized lemma = entscheidung
-canonical_key    = noun:entscheidung
-sha256           = 31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
-card_id          = CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
-lookup path      = cards/by-key/31/CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b.json
+candidate       = die Entscheidung
+canonical_key   = noun:entscheidung
+sha256          = 31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
+shard           = 31
+lookup          = dedupe/31.json
+new deck        = projects/deutsch-uebungen/decks/lesson-12.json
 ```
 
-If that file already exists and its `canonical_key` is `noun:entscheidung`, creation is skipped.
+```json
+{
+  "schema_version": 1,
+  "entries": {
+    "noun:entscheidung": "projects/deutsch-uebungen/decks/lesson-12.json"
+  }
+}
+```
 
-## Canonical card content
+If the same key appears later, no new flashcard is added to the later deck unless the user explicitly requests duplicates.
 
-A card contains learning content only:
-- card ID;
-- canonical key;
-- German target;
-- Russian meaning;
-- part of speech;
-- optional article/plural;
-- optional verb forms when this vocabulary item is a verb;
-- optional government;
-- optional German example;
-- optional Russian translation of the example;
-- optional grammar note.
-
-No project/lesson/date/source/history/export metadata.
-
-## Translation-first requests
-
-For requests such as:
-- «переведи этот разговор на немецкий и собери карточки»;
-- «переведи текст на немецкий и сделай карточки»;
-
-first produce natural German near B1, then extract useful vocabulary from that German adaptation. Do not represent the translated wording as original-source text.
+With 256 shards, each lookup touches only a small part of the registry and avoids one shared write hot spot.
 
 ## Selection quality
 
-Prefer atomic, useful active vocabulary:
+Prefer useful active vocabulary:
 - nouns with article/plural;
-- verbs with relevant separability/reflexivity/government;
+- verbs with separability/reflexivity/government;
 - adjectives/adverbs;
 - connectors and B1 Redemittel;
-- short useful phrases.
+- useful short phrases.
 
-Avoid low-value filler and one-off proper names unless explicitly requested.
+Do not add every token mechanically.
+
+## Translation-first requests
+
+If user asks to translate first, produce natural German near B1, identify it as translation/adaptation, then build the deck from that German text.
 
 ## AnkiDroid export
 
-`lingua-cards` JSON is canonical source; `.apkg` is generated output.
+One deck JSON becomes one Anki deck/package.
 
-Use stable Anki note identity from `card_id` (or the canonical key). Mutable examples/translations must not define note identity.
+Each flashcard may receive a generated stable technical note ID derived from SHA-256(canonical_key). This is an export identity only; it does not create one repository file per word.
 
-Recommended Anki note model:
-- first field: stable `CardID`;
-- remaining fields: German, Russian, part of speech, article/plural, verb forms, government, examples, grammar note;
-- no lesson/project/date/source fields.
-
-When the APKG generator supports deterministic GUIDs, derive the Anki note GUID from `CardID`. Keeping `CardID` as the first field also provides an explicit stable source identifier.
-
-Default:
+Default study direction:
 - front: Russian cue;
-- back: German target + useful linguistic detail.
+- back: German target + useful linguistic details.
 
-Deck/set name: user label, lesson number, or date. Project grouping may be represented by an Anki parent deck, but never by extra fields inside the note.
+Use deck filename as human-facing Anki deck name.
 
-Generated `.apkg`/TSV files are returned to the user and are not committed here.
+Return `.apkg`/TSV to user; do not commit binaries.
 
-For end-user installation/import/review/progress instructions, use `docs/ANKIDROID_GUIDE.md`.
+For app usage instructions use `docs/ANKIDROID_GUIDE.md`.
 
-## Verb workflow boundary
+## Verb boundary
 
-The source-wide verb-table command is separate.
+The source-wide verb-table workflow is separate. It returns DOCX/PDF and does not store those files or tables here.
 
-It may generate a DOCX/PDF with:
-- Infinitiv;
-- Präsens;
-- Präteritum;
-- Partizip II;
-- Perfekt;
-- meaning;
-- government;
-- examples;
-- translations;
-- grammar notes.
+## Git workflow
 
-That document is **not stored in this repository**.
-
-## Git write workflow
-
-Every card batch:
+Every deck batch:
 1. start from current `master`;
-2. create `cards/<project>-<set>`;
-3. create new canonical card files and one set manifest;
-4. make exactly one commit;
-5. ensure that commit's only parent is current `master` HEAD;
-6. validate;
-7. open a PR;
-8. if `master` moves, rebase/squash back to one commit and repeat duplicate checks;
-9. leave the PR open and give the user its direct URL.
+2. create dedicated branch;
+3. extract candidates;
+4. read only required dedupe shards;
+5. create one deck file containing all new flashcards;
+6. update all touched dedupe shards;
+7. make exactly one commit whose parent is current `master` HEAD;
+8. validate;
+9. open PR;
+10. if master moved, rebase/squash and rerun dedupe;
+11. stop and return PR URL.
 
-**Never merge the PR automatically.**
+Never merge automatically.
