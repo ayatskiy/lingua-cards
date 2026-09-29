@@ -9,13 +9,30 @@ For every deck the repository stores:
 - canonical source: `projects/<project>/decks/<name>.json`;
 - Quizlet import text: `apps/quizlet/<project>/<name>.txt`.
 
-The Quizlet TXT is UTF-8 text with one flashcard per line and a TAB between German term and Russian definition.
+The default vocabulary TXT is UTF-8 text with one flashcard per line and a TAB between the German term and Russian meaning. It intentionally excludes German morphology from the definition side so Quizlet study modes do not leak the answer. When canonical data contains plural, verb forms or government, separate grammar TXT sets are generated alongside the vocabulary file.
+
+## Vocabulary and grammar sets
+
+The main `<deck>.txt` contains only `German<TAB>Russian meaning`.
+
+Derived files such as `<deck>-grammar-plural.txt`, `<deck>-grammar-praesens-3sg.txt`, `<deck>-grammar-praeteritum.txt`, `<deck>-grammar-partizip-ii.txt`, `<deck>-grammar-perfekt.txt` and `<deck>-grammar-rektion.txt` keep morphology/government practice separate from vocabulary recognition.
 
 ## Repository snapshot vs Quizlet account
 
 The repository TXT is the complete current snapshot of the deck. Updating `apps/quizlet/<project>/<deck>.txt` in GitHub does **not** automatically update an already-published Quizlet set.
 
-Use one of the two workflows below.
+Use one of the workflows below.
+
+## Import through a connected app/plugin
+
+If the current ChatGPT runtime exposes the connected Quizlet action, the learner may ask to publish a generated repository deck directly, for example:
+
+- «создай карточки, сохрани в GitHub и импортируй в Quizlet»;
+- «возьми `deutsch-uebungen/2026-09-29` из GitHub и импортируй в Quizlet».
+
+The agent must still use canonical JSON as semantic source, validate the derived vocabulary/grammar sets, and treat the external app as a deployment target rather than a second source of truth. Do not re-run cross-deck dedupe for a GitHub→app import. Never report a successful import without confirmation from the connected app action.
+
+If the runtime does not expose such an action, use the website import below.
 
 ## Create a new Quizlet set
 
@@ -59,7 +76,7 @@ Quizlet's official import workflow is copy/paste based rather than a proprietary
 
 ## Study orientation
 
-The stored term is German and the definition is Russian plus useful notes. Quizlet study modes can change which side is shown/answered, so you can use both recognition and active recall.
+In the vocabulary set the stored term is German and the definition is Russian meaning only. Grammar facts are practiced in separate sets so German morphology does not act as a multiple-choice hint in the vocabulary deck.
 
 ## Export back out
 

@@ -62,28 +62,51 @@ For each key:
 3. if key exists, skip it;
 4. if new, add it to the canonical deck and shard.
 
-## Quizlet export — default
+## Quizlet exports — vocabulary plus grammar
 
 Generate UTF-8 text with no header.
 
-Each line:
+### Default vocabulary set
 
-`<German term><TAB><Russian definition + compact notes>`
+`apps/quizlet/<project>/<deck>.txt` tests lexical meaning. Each line is exactly:
 
-Definition enrichment may include plural, verb forms, government, examples and concise grammar notes, separated with ` · `.
+`<German term><TAB><Russian meaning>`
+
+Do **not** append German plural forms, conjugated forms, Partizip II, Perfekt, government, German examples, or other target-language material to the definition side. In Quizlet Learn/Test those details can reveal the correct multiple-choice answer.
 
 Example:
 
 ```text
-die Entscheidung	решение · Plural: Entscheidungen
-kommen	приходить; происходить из · Präsens: kommt · Präteritum: kam · Partizip II: gekommen · Perfekt: ist gekommen · Rektion: aus + Dat.
+die Entscheidung	решение
+kommen	приходить; происходить из
+```
+
+### Separate grammar sets
+
+Keep morphology and government in canonical JSON, then derive focused Quizlet sets when the corresponding data exists:
+
+- `<deck>-grammar-plural.txt`;
+- `<deck>-grammar-praesens-3sg.txt`;
+- `<deck>-grammar-praeteritum.txt`;
+- `<deck>-grammar-partizip-ii.txt`;
+- `<deck>-grammar-perfekt.txt`;
+- `<deck>-grammar-rektion.txt`.
+
+Each grammar card tests one fact. Do not add grammar-set cards to cross-deck lexical dedupe because they are derived views of existing canonical items.
+
+Examples:
+
+```text
+das Geburtsdatum — Plural	die Geburtsdaten
+kommen — Präteritum	kam
+kommen — Rektion	aus + Dat. (происхождение)
 ```
 
 Quizlet import settings:
 - between term and definition: **Tab**;
-- between cards: **New line**;
-- term language: German;
-- definition language: Russian.
+- between cards: **New line**.
+
+For the vocabulary set use German terms and Russian definitions. Grammar sets may intentionally use German on both sides because they test German morphology rather than lexical meaning.
 
 ## Updating an existing deck
 
@@ -93,8 +116,8 @@ When adding, changing, or removing cards in an existing repository deck:
 2. keep the existing project/deck identity unless the user asks for a new deck;
 3. update canonical membership/content;
 4. update dedupe shards only when canonical lexical membership changes;
-5. regenerate the **entire** Quizlet TXT snapshot from the canonical JSON;
-6. validate row count and German terms against canonical JSON;
+5. regenerate the **entire** hint-free vocabulary TXT and every applicable grammar TXT from canonical JSON;
+6. validate every generated row exactly against canonical fields;
 7. open the normal one-commit PR.
 
 Do not append blindly to the TXT and do not use it as semantic source when canonical JSON exists.
@@ -107,6 +130,16 @@ Generate APKG only when the user explicitly requests Anki or asks for a format c
 
 Store it under `apps/anki/<project>/<deck>.apkg`.
 
+## Connected study-app import
+
+GitHub remains the semantic source of truth. The connected Quizlet plugin/action may be used as an optional publishing target when its runtime action is available and the user asks for it.
+
+Supported intent includes:
+- create/update the canonical deck and PR, then import the validated vocabulary/grammar sets into the connected app;
+- «возьми deck из GitHub и импортируй в Quizlet» — read canonical JSON, validate/regenerate app views as needed, and publish them without re-running new-lesson dedupe or rewriting vocabulary.
+
+Never claim the external app was updated unless its tool confirms the write. If no compatible action is exposed in the current runtime, return the validated TXT files/manual import path instead.
+
 ## Translation-first requests
 
 If the user asks to translate first, translate naturally near B1, identify the result as an adaptation, then extract the deck.
@@ -118,7 +151,7 @@ For every new deck batch:
 2. create dedicated branch;
 3. extract candidates and run dedupe;
 4. create canonical JSON;
-5. generate Quizlet TXT;
+5. generate the hint-free Quizlet vocabulary TXT and applicable grammar sets;
 6. optionally generate Anki only if requested;
 7. validate canonical JSON, dedupe and app artifacts;
 8. make exactly one commit based on current `master`;

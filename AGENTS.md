@@ -40,9 +40,13 @@ Canonical decks:
 
 `projects/<project-slug>/decks/<deck-name>.json`
 
-Primary Quizlet exports:
+Primary Quizlet vocabulary export:
 
 `apps/quizlet/<project-slug>/<deck-name>.txt`
+
+Derived Quizlet grammar exports:
+
+`apps/quizlet/<project-slug>/<deck-name>-grammar-<kind>.txt`
 
 Optional Anki exports:
 
@@ -57,17 +61,36 @@ Quizlet is the default application.
 For every new canonical deck:
 1. create/update the canonical JSON;
 2. update dedupe shards;
-3. generate the Quizlet TXT;
-4. validate JSON↔Quizlet consistency;
-5. do **not** generate Anki unless explicitly requested.
+3. generate the hint-free Quizlet vocabulary TXT;
+4. generate separate Quizlet grammar sets for available plural, verb-form and government data;
+5. validate canonical↔Quizlet consistency;
+6. do **not** generate Anki unless explicitly requested.
 
 ## Quizlet representation
 
-UTF-8 text, no header:
-- German term in column 1;
+UTF-8 text, no header, one flashcard per line.
+
+### Vocabulary set
+
+`apps/quizlet/<project>/<deck>.txt` is optimized for recall rather than reference display:
+- column 1: canonical German term;
 - one TAB;
-- Russian meaning plus compact useful details in column 2;
-- one flashcard per line.
+- column 2: Russian meaning only;
+- do not append German plural forms, verb forms, government, German examples, or other target-language material that can reveal the correct multiple-choice answer.
+
+Canonical JSON still keeps morphology/government as semantic data.
+
+### Grammar sets
+
+When corresponding canonical fields exist, generate separate one-fact-per-card sets:
+- `-grammar-plural.txt`;
+- `-grammar-praesens-3sg.txt`;
+- `-grammar-praeteritum.txt`;
+- `-grammar-partizip-ii.txt`;
+- `-grammar-perfekt.txt`;
+- `-grammar-rektion.txt`.
+
+Grammar sets are derived views of the same canonical deck and do not create new canonical lexical items or dedupe entries.
 
 Tabs/newlines inside term or definition are flattened to spaces.
 
