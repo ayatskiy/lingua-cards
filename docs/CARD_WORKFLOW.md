@@ -37,16 +37,22 @@ Choose deck:
 
 The JSON is application-neutral and contains all selected flashcards. No Quizlet/Anki-specific fields belong in it.
 
-## Selection
+## Selection modes
 
-Prefer:
+Default mixed-card requests prefer:
 - nouns with article/plural;
 - verbs with separability/reflexivity/government;
 - adjectives/adverbs;
 - connectors and B1 Redemittel;
 - useful short phrases.
 
-Do not mechanically add every token.
+Do not mechanically add every token in the default mixed mode.
+
+If the learner explicitly asks for **verbs for cards** / «глаголы для карточек» / «собери глаголы в карточки», keep the request in this card workflow (do not route it to the standalone verb-document workflow). Include the distinct source verbs that are appropriate as flashcards, enrich them with verb forms/government, apply the normal canonical dedupe rules, and generate the derived `<deck>-verbs.txt` view.
+
+If the learner explicitly asks for **grammar for cards** / «грамматика для карточек», keep the request in this card workflow. Capture supported grammar attached to the lesson items in canonical fields (`plural`, `verb_forms`, `government`, `grammar_note`) and generate the corresponding grammar sets. This does not create a separate canonical grammar database.
+
+Routing precedence: when a request contains «карточки» together with «глаголы» or «грамматика», card intent wins. A plain «собери глаголы / таблицу глаголов» without card intent remains the separate standalone verb-table workflow.
 
 ## Normalization and dedupe
 
@@ -81,6 +87,14 @@ die Entscheidung	решение
 kommen	приходить; происходить из
 ```
 
+### Verbs-only set
+
+When canonical cards contain verbs, generate:
+
+`apps/quizlet/<project>/<deck>-verbs.txt`
+
+It contains only those canonical verb cards, each as the same hint-free `German<TAB>Russian meaning` row. It is a derived study view and must not create duplicate canonical items or new dedupe entries.
+
 ### Separate grammar sets
 
 Keep morphology and government in canonical JSON, then derive focused Quizlet sets when the corresponding data exists:
@@ -90,7 +104,8 @@ Keep morphology and government in canonical JSON, then derive focused Quizlet se
 - `<deck>-grammar-praeteritum.txt`;
 - `<deck>-grammar-partizip-ii.txt`;
 - `<deck>-grammar-perfekt.txt`;
-- `<deck>-grammar-rektion.txt`.
+- `<deck>-grammar-rektion.txt`;
+- `<deck>-grammar-notes.txt` when `grammar_note` exists.
 
 Each grammar card tests one fact. Do not add grammar-set cards to cross-deck lexical dedupe because they are derived views of existing canonical items.
 
@@ -116,7 +131,7 @@ When adding, changing, or removing cards in an existing repository deck:
 2. keep the existing project/deck identity unless the user asks for a new deck;
 3. update canonical membership/content;
 4. update dedupe shards only when canonical lexical membership changes;
-5. regenerate the **entire** hint-free vocabulary TXT and every applicable grammar TXT from canonical JSON;
+5. regenerate the **entire** hint-free vocabulary TXT, the verbs-only TXT when verbs exist, and every applicable grammar TXT from canonical JSON;
 6. validate every generated row exactly against canonical fields;
 7. open the normal one-commit PR.
 
@@ -130,15 +145,18 @@ Generate APKG only when the user explicitly requests Anki or asks for a format c
 
 Store it under `apps/anki/<project>/<deck>.apkg`.
 
-## Connected study-app import
+## Connected Quizlet creation
 
-GitHub remains the semantic source of truth. The connected Quizlet plugin/action may be used as an optional publishing target when its runtime action is available and the user asks for it.
+GitHub remains the semantic source of truth. New lesson material is **never Quizlet-only**: first complete the GitHub branch -> validation -> PR transaction and keep the PR open; only then may the connected Quizlet action be used if the learner asked for GitHub + Quizlet in one request.
 
-Supported intent includes:
-- create/update the canonical deck and PR, then import the validated vocabulary/grammar sets into the connected app;
-- «возьми deck из GitHub и импортируй в Quizlet» — read canonical JSON, validate/regenerate app views as needed, and publish them without re-running new-lesson dedupe or rewriting vocabulary.
+For an existing GitHub deck, «возьми deck из GitHub и создай набор в Quizlet» means: read canonical JSON from the requested ref, validate/regenerate the repository views as needed, then ask the connected Quizlet action to create a **new** set from that content without re-running new-lesson dedupe or rewriting the canonical deck.
 
-Never claim the external app was updated unless its tool confirms the write. If no compatible action is exposed in the current runtime, return the validated TXT files/manual import path instead.
+Current connected-action limitations must be respected:
+- it creates new flashcard sets only; it cannot edit/add to/update an existing Quizlet set;
+- creation is asynchronous, so success exists only after the generation-status action reports `complete` and returns the set link;
+- it is a generative set-creation action, not a deterministic raw-TXT importer. Instruct it to use the canonical pairs/count exactly and add nothing, but do not claim byte-for-byte fidelity unless a future supported read-back verifies the complete set.
+
+If exact deterministic import is required, use the repository TXT with Quizlet website Import. If the connected action is unavailable, return the validated TXT/manual import path.
 
 ## Translation-first requests
 
@@ -151,7 +169,7 @@ For every new deck batch:
 2. create dedicated branch;
 3. extract candidates and run dedupe;
 4. create canonical JSON;
-5. generate the hint-free Quizlet vocabulary TXT and applicable grammar sets;
+5. generate the hint-free Quizlet vocabulary TXT, the verbs-only TXT when applicable, and applicable grammar sets;
 6. optionally generate Anki only if requested;
 7. validate canonical JSON, dedupe and app artifacts;
 8. make exactly one commit based on current `master`;

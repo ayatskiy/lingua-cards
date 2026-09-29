@@ -1,5 +1,5 @@
 {
-  "schema_version": 7,
+  "schema_version": 8,
   "repository": "ayatskiy/lingua-cards",
   "purpose": "Standalone project-agnostic German flashcard deck repository with Quizlet-first application exports.",
   "default_branch": "master",
@@ -34,7 +34,17 @@
     "quizlet_vocab": "apps/quizlet/<project-slug>/<deck-name>.txt",
     "quizlet_grammar": "apps/quizlet/<project-slug>/<deck-name>-grammar-<kind>.txt",
     "quizlet_vocab_definition_policy": "russian_only_no_german_answer_clues",
-    "quizlet_grammar_required_when_data_available": true
+    "quizlet_grammar_required_when_data_available": true,
+    "quizlet_verbs": "apps/quizlet/<project-slug>/<deck-name>-verbs.txt",
+    "quizlet_grammar_kinds": [
+      "plural",
+      "praesens-3sg",
+      "praeteritum",
+      "partizip-ii",
+      "perfekt",
+      "rektion",
+      "notes"
+    ]
   },
   "bootstrap": "START_HERE.md",
   "rules": "AGENTS.md",
@@ -54,7 +64,9 @@
   "external": {
     "primary_study_app": "Quizlet",
     "fallback_study_app": "Anki/AnkiDroid",
-    "verb_documents": "generated DOCX/PDF artifacts"
+    "verb_documents": "generated DOCX/PDF artifacts",
+    "connected_quizlet_action": "new_set_generation_only_async_no_existing_set_update",
+    "connected_quizlet_fidelity": "generative_not_deterministic_txt_import"
   },
   "validation_command": "python scripts/validate_repo.py"
 }
