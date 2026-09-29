@@ -42,7 +42,7 @@ die Entscheidung	решение · Plural: Entscheidungen
 kommen	приходить; происходить из · Präsens: kommt · Präteritum: kam · Partizip II: gekommen · Perfekt: ist gekommen · Rektion: aus + Dat. (происхождение)
 ```
 
-The file has no header because every non-empty row is a card.
+The file has no header because every non-empty row is a card. The TXT is a complete repository snapshot, not a live synchronization link to the learner's Quizlet account.
 
 ## Canonical deck
 

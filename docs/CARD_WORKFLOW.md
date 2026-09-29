@@ -85,6 +85,22 @@ Quizlet import settings:
 - term language: German;
 - definition language: Russian.
 
+## Updating an existing deck
+
+When adding, changing, or removing cards in an existing repository deck:
+
+1. treat the canonical JSON as semantic source;
+2. keep the existing project/deck identity unless the user asks for a new deck;
+3. update canonical membership/content;
+4. update dedupe shards only when canonical lexical membership changes;
+5. regenerate the **entire** Quizlet TXT snapshot from the canonical JSON;
+6. validate row count and German terms against canonical JSON;
+7. open the normal one-commit PR.
+
+Do not append blindly to the TXT and do not use it as semantic source when canonical JSON exists.
+
+The repository update is not a Quizlet account sync. After merge, the learner must reconcile an existing Quizlet set through Edit/Edit set, or create a replacement set from the regenerated full TXT when changes are extensive.
+
 ## Anki export — optional fallback
 
 Generate APKG only when the user explicitly requests Anki or asks for a format conversion to Anki.
