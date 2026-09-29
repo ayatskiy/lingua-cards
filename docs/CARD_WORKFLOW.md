@@ -69,6 +69,18 @@ If it does not exist, create it and add its card ID to the current set.
 
 This avoids an ever-growing central index and makes duplicate lookup O(1) by deterministic path.
 
+Worked example for `die Entscheidung`:
+
+```text
+normalized lemma = entscheidung
+canonical_key    = noun:entscheidung
+sha256           = 31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
+card_id          = CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
+lookup path      = cards/by-key/31/CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b.json
+```
+
+If that file already exists and its `canonical_key` is `noun:entscheidung`, creation is skipped.
+
 ## Canonical card content
 
 A card contains learning content only:
@@ -125,6 +137,8 @@ Default:
 Deck/set name: user label, lesson number, or date. Project grouping may be represented by an Anki parent deck, but never by extra fields inside the note.
 
 Generated `.apkg`/TSV files are returned to the user and are not committed here.
+
+For end-user installation/import/review/progress instructions, use `docs/ANKIDROID_GUIDE.md`.
 
 ## Verb workflow boundary
 

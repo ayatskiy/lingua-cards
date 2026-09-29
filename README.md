@@ -45,11 +45,27 @@ Project sets contain only canonical card IDs. The set filename is the human-faci
 - agents/plugins **never merge PRs**; they leave PRs open and return the link;
 - never push directly to `master`.
 
-## Android target
+## Worked card lookup example
+
+For **die Entscheidung**:
+
+```text
+normalized lemma = entscheidung
+canonical_key    = noun:entscheidung
+sha256           = 31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
+card_id          = CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
+path             = cards/by-key/31/CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b.json
+```
+
+The agent checks this exact path. Existing file with the same key = duplicate, so no new card is created.
+
+## Android target and user instructions
 
 Canonical client: **AnkiDroid**.
 
 Primary delivery format: `.apkg`.
 Optional backup/interchange: UTF-8 TSV.
+
+Ready user instructions are stored in [docs/ANKIDROID_GUIDE.md](docs/ANKIDROID_GUIDE.md). Agents should answer ordinary usage questions from that local guide without web search unless the user explicitly asks for current version-specific UI verification.
 
 Start with `START_HERE.md`.

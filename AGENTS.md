@@ -129,6 +129,19 @@ python scripts/validate_repo.py
 
 PR CI must also pass the one-commit/up-to-date check.
 
-## 10. User-facing reports
+## 10. Ready user-help instructions
+
+For ordinary card-usage questions, use `docs/ANKIDROID_GUIDE.md` as the local source of truth.
+
+Examples:
+- how to install the card app;
+- how to import `.apkg`;
+- how to review cards;
+- where to see progress/statistics;
+- how optional AnkiWeb sync works.
+
+Do not browse/search the web for these instructions unless the user explicitly asks for current version-specific UI verification.
+
+## 11. User-facing reports
 
 Every repository-change report must include the direct clickable PR URL. Never report a PR as merged unless the human user actually merged it.
