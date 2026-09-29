@@ -17,7 +17,8 @@ Required workflow:
 Do not auto-merge. Do not push directly to `master`.
 
 Content model:
-- one deck file contains many flashcards;
-- deck path: `projects/<project-slug>/decks/<deck-name>.json`;
+- one deck source JSON contains many flashcards;
+- every deck has a required sibling APKG;
+- paths: `projects/<project-slug>/decks/<deck-name>.json` and `.apkg`;
 - duplicate registry: `dedupe/<00-ff>.json`;
 - no per-word repository files.

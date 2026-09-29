@@ -103,7 +103,7 @@ This gives global duplicate detection while avoiding one ever-growing write hot 
 - flashcard = one word/phrase/item inside the deck;
 - no source/chat/history metadata inside flashcards;
 - complete verb tables/grammar DOCX/PDF are not stored here;
-- generated `.apkg` is a delivery artifact, not canonical Git state;
+- every deck keeps both its canonical `.json` source and a versioned sibling `.apkg` ready for import;
 - AnkiDroid owns review scheduling and progress;
 - every repository change uses a PR;
 - every PR has exactly one commit rebased on current `master`;
@@ -114,6 +114,6 @@ This gives global duplicate detection while avoiding one ever-growing write hot 
 
 Recommended client: **AnkiDroid Flashcards**.
 
-One deck JSON is exported as one Anki deck/package. Ready instructions are in [docs/ANKIDROID_GUIDE.md](docs/ANKIDROID_GUIDE.md).
+One deck is stored as a pair: `<deck-name>.json` + `<deck-name>.apkg`. The JSON remains the editable source; the APKG is the ready-to-import distributable. Ready instructions are in [docs/ANKIDROID_GUIDE.md](docs/ANKIDROID_GUIDE.md).
 
 Start with `START_HERE.md`.
