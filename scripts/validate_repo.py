@@ -76,6 +76,7 @@ GRAMMAR_KINDS = (
     "partizip-ii",
     "perfekt",
     "rektion",
+    "notes",
 )
 
 def canonical_lemma(card):
@@ -84,6 +85,9 @@ def canonical_lemma(card):
 
 def render_vocab(card):
     return f"{card.get('german', '')}\t{card.get('russian', '')}"
+
+def render_verbs(cards):
+    return [render_vocab(card) for card in cards if card.get("part_of_speech") == "verb"]
 
 def render_grammar(cards, kind):
     rows = []
@@ -100,6 +104,8 @@ def render_grammar(cards, kind):
             rows.append(f"{canonical_lemma(card)} — Perfekt\t{card['verb_forms']['perfekt']}")
         elif kind == "rektion" and card.get("government"):
             rows.append(f"{canonical_lemma(card)} — Rektion\t{card['government']}")
+        elif kind == "notes" and card.get("grammar_note"):
+            rows.append(f"{card['german']} — Grammatik\t{card['grammar_note']}")
     return rows
 
 for path in sorted((ROOT / "projects").glob("*/decks/*.json")) if (ROOT / "projects").exists() else []:
@@ -150,6 +156,22 @@ for path in sorted((ROOT / "projects").glob("*/decks/*.json")) if (ROOT / "proje
         except Exception as exc:
             fail(f"invalid Quizlet artifact {qpath.relative_to(ROOT)}: {exc}")
 
+    # A verbs-only Quizlet view is required whenever canonical verb cards exist.
+    expected_verbs = render_verbs(cards)
+    vpath = ROOT / "apps" / "quizlet" / project / f"{name}-verbs.txt"
+    if expected_verbs:
+        if not vpath.is_file():
+            fail(f"{rel} is missing derived Quizlet verbs artifact {vpath.relative_to(ROOT)}")
+        else:
+            try:
+                lines = [line for line in vpath.read_text(encoding="utf-8").splitlines() if line.strip()]
+                if lines != expected_verbs:
+                    fail(f"{vpath.relative_to(ROOT)} does not exactly match canonical verb rows")
+            except Exception as exc:
+                fail(f"invalid Quizlet verbs artifact {vpath.relative_to(ROOT)}: {exc}")
+    elif vpath.exists():
+        fail(f"{vpath.relative_to(ROOT)} exists but canonical deck has no verb cards")
+
     # Grammar Quizlet sets are required whenever canonical source fields are available.
     for kind in GRAMMAR_KINDS:
         expected = render_grammar(cards, kind)
@@ -193,11 +215,17 @@ for path in sorted((ROOT / "projects").glob("*/decks/*.json")) if (ROOT / "proje
             fail(f"invalid Anki artifact {apath.relative_to(ROOT)}: {exc}")
 
 # No orphan app artifacts.
-grammar_name_re = re.compile(r"^(?P<deck>.+)-grammar-(?P<kind>plural|praesens-3sg|praeteritum|partizip-ii|perfekt|rektion)$")
+grammar_name_re = re.compile(r"^(?P<deck>.+)-grammar-(?P<kind>plural|praesens-3sg|praeteritum|partizip-ii|perfekt|rektion|notes)$")
 for qpath in sorted((ROOT / "apps" / "quizlet").glob("*/*.txt")) if (ROOT / "apps" / "quizlet").exists() else []:
     project, artifact_name = qpath.parent.name, qpath.stem
-    match = grammar_name_re.match(artifact_name)
-    deck_name = match.group("deck") if match else artifact_name
+    direct = ROOT / "projects" / project / "decks" / f"{artifact_name}.json"
+    if direct.is_file():
+        continue
+    if artifact_name.endswith("-verbs"):
+        deck_name = artifact_name[:-6]
+    else:
+        match = grammar_name_re.match(artifact_name)
+        deck_name = match.group("deck") if match else artifact_name
     canonical = ROOT / "projects" / project / "decks" / f"{deck_name}.json"
     if not canonical.is_file():
         fail(f"orphan Quizlet artifact: {qpath.relative_to(ROOT)}")

@@ -44,6 +44,10 @@ Primary Quizlet vocabulary export:
 
 `apps/quizlet/<project-slug>/<deck-name>.txt`
 
+Derived Quizlet verb export:
+
+`apps/quizlet/<project-slug>/<deck-name>-verbs.txt`
+
 Derived Quizlet grammar exports:
 
 `apps/quizlet/<project-slug>/<deck-name>-grammar-<kind>.txt`
@@ -62,9 +66,10 @@ For every new canonical deck:
 1. create/update the canonical JSON;
 2. update dedupe shards;
 3. generate the hint-free Quizlet vocabulary TXT;
-4. generate separate Quizlet grammar sets for available plural, verb-form and government data;
-5. validate canonical↔Quizlet consistency;
-6. do **not** generate Anki unless explicitly requested.
+4. when verbs exist, generate the derived verbs-only Quizlet TXT;
+5. generate separate Quizlet grammar sets for available plural, verb-form, government and grammar-note data;
+6. validate canonical↔Quizlet consistency;
+7. do **not** generate Anki unless explicitly requested.
 
 ## Quizlet representation
 
@@ -80,6 +85,10 @@ UTF-8 text, no header, one flashcard per line.
 
 Canonical JSON still keeps morphology/government as semantic data.
 
+### Verbs-only set
+
+When canonical cards contain verbs, generate `<deck>-verbs.txt` from those same canonical verb cards using the same hint-free `German<TAB>Russian meaning` rows. It is a derived study view, not a second canonical deck and not a source-wide DOCX/PDF inventory.
+
 ### Grammar sets
 
 When corresponding canonical fields exist, generate separate one-fact-per-card sets:
@@ -88,7 +97,8 @@ When corresponding canonical fields exist, generate separate one-fact-per-card s
 - `-grammar-praeteritum.txt`;
 - `-grammar-partizip-ii.txt`;
 - `-grammar-perfekt.txt`;
-- `-grammar-rektion.txt`.
+- `-grammar-rektion.txt`;
+- `-grammar-notes.txt` when `grammar_note` exists.
 
 Grammar sets are derived views of the same canonical deck and do not create new canonical lexical items or dedupe entries.
 
@@ -98,9 +108,10 @@ Tabs/newlines inside term or definition are flattened to spaces.
 
 The repository controls canonical deck data and export artifacts, not the learner's Quizlet account.
 
-For a **new Quizlet set**, use the full TXT with Quizlet's website import flow.
+For a **new Quizlet set**, the deterministic path is website import from the full TXT. A connected Quizlet action may instead generate a new set from the validated canonical/TXT content, but that action is asynchronous/generative rather than a raw TXT importer, so do not claim byte-for-byte fidelity without a supported read-back verification.
 
 For an **existing Quizlet set**:
+- the connected Quizlet action cannot modify/update the existing set; it creates new sets only;
 - regenerate the full TXT snapshot from canonical JSON;
 - tell the learner to open the existing set and use Edit/Edit set for small changes;
 - for large rewrites, recommend creating and verifying a replacement set from the regenerated TXT;
@@ -136,7 +147,7 @@ Do not store source URLs, chat IDs, lesson IDs, timestamps, review state or expo
 
 ## Verbs
 
-Complete source-wide verb inventories and DOCX/PDF grammar tables are separate outputs and are never persisted here.
+Complete source-wide verb inventories and DOCX/PDF grammar tables are separate outputs and are never persisted here. A `-verbs.txt` file is allowed because it is only a derived Quizlet view of verb cards already present in the canonical lesson deck.
 
 ## User help
 

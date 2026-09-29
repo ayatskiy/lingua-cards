@@ -9,13 +9,15 @@ For every deck the repository stores:
 - canonical source: `projects/<project>/decks/<name>.json`;
 - Quizlet import text: `apps/quizlet/<project>/<name>.txt`.
 
-The default vocabulary TXT is UTF-8 text with one flashcard per line and a TAB between the German term and Russian meaning. It intentionally excludes German morphology from the definition side so Quizlet study modes do not leak the answer. When canonical data contains plural, verb forms or government, separate grammar TXT sets are generated alongside the vocabulary file.
+The default vocabulary TXT is UTF-8 text with one flashcard per line and a TAB between the German term and Russian meaning. It intentionally excludes German morphology from the definition side so Quizlet study modes do not leak the answer. When canonical data contains verbs, a derived `<deck>-verbs.txt` is generated; when it contains plural, verb forms, government or `grammar_note`, separate grammar TXT sets are generated.
 
-## Vocabulary and grammar sets
+## Vocabulary, verbs and grammar sets
 
 The main `<deck>.txt` contains only `German<TAB>Russian meaning`.
 
-Derived files such as `<deck>-grammar-plural.txt`, `<deck>-grammar-praesens-3sg.txt`, `<deck>-grammar-praeteritum.txt`, `<deck>-grammar-partizip-ii.txt`, `<deck>-grammar-perfekt.txt` and `<deck>-grammar-rektion.txt` keep morphology/government practice separate from vocabulary recognition.
+`<deck>-verbs.txt` contains only the canonical verb cards from the same lesson deck, using the same hint-free row format.
+
+Derived files such as `<deck>-grammar-plural.txt`, `<deck>-grammar-praesens-3sg.txt`, `<deck>-grammar-praeteritum.txt`, `<deck>-grammar-partizip-ii.txt`, `<deck>-grammar-perfekt.txt` and `<deck>-grammar-rektion.txt`, plus `<deck>-grammar-notes.txt` when notes exist, keep morphology/government/grammar practice separate from vocabulary recognition.
 
 ## Repository snapshot vs Quizlet account
 
@@ -23,16 +25,15 @@ The repository TXT is the complete current snapshot of the deck. Updating `apps/
 
 Use one of the workflows below.
 
-## Import through a connected app/plugin
+## Create through the connected Quizlet action
 
-If the current ChatGPT runtime exposes the connected Quizlet action, the learner may ask to publish a generated repository deck directly, for example:
+If the current ChatGPT runtime exposes the connected Quizlet action, the learner may ask for GitHub + Quizlet in one command or later ask to create a Quizlet set from an existing GitHub deck.
 
-- «создай карточки, сохрани в GitHub и импортируй в Quizlet»;
-- «возьми `deutsch-uebungen/2026-09-29` из GitHub и импортируй в Quizlet».
+New lesson material must still go to GitHub first: branch -> validation -> PR, with the PR left open. The Quizlet action is then allowed to create a **new** set from the canonical content. It cannot update an existing Quizlet set.
 
-The agent must still use canonical JSON as semantic source, validate the derived vocabulary/grammar sets, and treat the external app as a deployment target rather than a second source of truth. Do not re-run cross-deck dedupe for a GitHub→app import. Never report a successful import without confirmation from the connected app action.
+The Quizlet action is asynchronous and generative. The agent must wait until generation status reports `complete` before reporting a set/link, instruct generation to preserve the exact requested card count/pairs and add nothing, and avoid claiming a deterministic TXT import unless a supported full read-back verifies it.
 
-If the runtime does not expose such an action, use the website import below.
+If deterministic fidelity is required, or the action is unavailable, use the website TXT import below.
 
 ## Create a new Quizlet set
 
