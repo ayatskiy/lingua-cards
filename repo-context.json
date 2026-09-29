@@ -1,5 +1,5 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
   "repository": "ayatskiy/lingua-cards",
   "purpose": "Standalone project-agnostic German flashcard deck repository for Deutsch Lesson Cards.",
   "default_branch": "master",
@@ -23,7 +23,10 @@
     "decks": "projects/<project-slug>/decks/<deck-name>.json",
     "dedupe_shards": "dedupe/<sha256(canonical_key)[0:2]>.json",
     "global_single_index": false,
-    "per_word_files": false
+    "per_word_files": false,
+    "apkg": "projects/<project-slug>/decks/<deck-name>.apkg",
+    "apkg_required": true,
+    "apkg_source": "generated from sibling deck JSON"
   },
   "bootstrap": "START_HERE.md",
   "rules": "AGENTS.md",

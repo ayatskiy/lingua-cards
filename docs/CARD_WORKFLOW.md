@@ -19,9 +19,10 @@ Deck filename:
 3. otherwise ISO date `YYYY-MM-DD`;
 4. append `-02`, `-03`, etc. on collision.
 
-Path:
+Paths:
 
-`projects/<project-slug>/decks/<deck-name>.json`
+- `projects/<project-slug>/decks/<deck-name>.json` — canonical source
+- `projects/<project-slug>/decks/<deck-name>.apkg` — ready AnkiDroid package
 
 No extra project/lesson/date/source metadata is needed inside the deck; path and filename provide grouping.
 
@@ -137,7 +138,7 @@ Default study direction:
 
 Use deck filename as human-facing Anki deck name.
 
-Return `.apkg`/TSV to user; do not commit binaries.
+Generate `<deck-name>.apkg` from the deck JSON and commit it beside the JSON in the same PR. Also return it to the user as a downloadable artifact when possible. TSV is optional and normally not committed.
 
 For app usage instructions use `docs/ANKIDROID_GUIDE.md`.
 
@@ -152,12 +153,13 @@ Every deck batch:
 2. create dedicated branch;
 3. extract candidates;
 4. read only required dedupe shards;
-5. create one deck file containing all new flashcards;
-6. update all touched dedupe shards;
-7. make exactly one commit whose parent is current `master` HEAD;
-8. validate;
-9. open PR;
-10. if master moved, rebase/squash and rerun dedupe;
-11. stop and return PR URL.
+5. create one deck JSON containing all new flashcards;
+6. generate the matching sibling `.apkg` and verify it opens as an Anki package;
+7. update all touched dedupe shards;
+8. make exactly one commit whose parent is current `master` HEAD;
+9. validate, including JSON↔APKG card-count consistency;
+10. open PR;
+11. if master moved, rebase/squash and rerun dedupe/export;
+12. stop and return PR URL.
 
 Never merge automatically.

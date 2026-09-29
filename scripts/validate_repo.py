@@ -3,6 +3,9 @@ import hashlib
 import json
 import re
 import sys
+import sqlite3
+import tempfile
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -115,6 +118,33 @@ for path in sorted(dedupe_dir.glob("[0-9a-f][0-9a-f].json")) if dedupe_dir.exist
             fail(f"{rel} points {ck} to missing deck {deck_path}")
         elif ck not in deck_paths.get(deck_path, set()):
             fail(f"{rel} points {ck} to {deck_path}, but deck does not contain key")
+
+# Every deck JSON must have a sibling APKG whose card count matches the JSON.
+for deck_path, keys in deck_paths.items():
+    json_path = ROOT / deck_path
+    apkg_path = json_path.with_suffix(".apkg")
+    if not apkg_path.is_file():
+        fail(f"{deck_path} is missing sibling APKG {apkg_path.relative_to(ROOT).as_posix()}")
+        continue
+    try:
+        with zipfile.ZipFile(apkg_path, "r") as z:
+            names = set(z.namelist())
+            collection_name = "collection.anki2" if "collection.anki2" in names else ("collection.anki21" if "collection.anki21" in names else None)
+            if not collection_name:
+                fail(f"{apkg_path.relative_to(ROOT)} has no Anki collection database")
+                continue
+            data = z.read(collection_name)
+        with tempfile.NamedTemporaryFile(suffix=".anki2") as tmp:
+            tmp.write(data); tmp.flush()
+            con = sqlite3.connect(tmp.name)
+            card_count = con.execute("SELECT COUNT(*) FROM cards").fetchone()[0]
+            note_count = con.execute("SELECT COUNT(*) FROM notes").fetchone()[0]
+            con.close()
+        expected = len(keys)
+        if card_count != expected or note_count != expected:
+            fail(f"{apkg_path.relative_to(ROOT)} has {card_count} cards/{note_count} notes; expected {expected}")
+    except Exception as exc:
+        fail(f"invalid APKG {apkg_path.relative_to(ROOT)}: {exc}")
 
 for ck, deck_path in deck_keys.items():
     shard = hashlib.sha256(ck.encode("utf-8")).hexdigest()[:2]

@@ -36,11 +36,12 @@ Agents, plugins, automations, and assistants must never merge a PR in this repos
 
 ## Storage
 
-Decks:
+Decks are stored as a required pair:
 
-`projects/<project-slug>/decks/<deck-name>.json`
+- `projects/<project-slug>/decks/<deck-name>.json` — canonical editable source;
+- `projects/<project-slug>/decks/<deck-name>.apkg` — versioned ready-to-import Anki package.
 
-Each deck file contains many flashcard objects.
+The JSON contains many flashcard objects. The APKG is generated from that JSON and committed in the same PR.
 
 Duplicate shards:
 
@@ -74,7 +75,7 @@ For each candidate:
 5. if key exists, skip;
 6. otherwise add flashcard to the new deck and update that shard.
 
-Deck and all touched shards must be changed in the same one-commit PR.
+Deck JSON, sibling APKG, and all touched shards must be changed in the same one-commit PR.
 
 ## Flashcard content
 

@@ -6,7 +6,7 @@ Ordinary usage questions should be answered from this file without web search. S
 
 ## What is generated
 
-One request such as «собери карточки из этого урока» produces one **deck / набор карточек** with many individual flashcards.
+One request such as «собери карточки из этого урока» produces one **deck / набор карточек** with many individual flashcards. In GitHub the deck is stored as `<name>.json` plus the ready `<name>.apkg` beside it.
 
 Example:
 
@@ -23,7 +23,7 @@ AnkiDroid owns spaced-repetition scheduling, due cards, review history, and prog
 ## Import
 
 1. Install AnkiDroid on Android.
-2. Save/download the generated `.apkg`.
+2. Download the deck's `.apkg` from `lingua-cards` (or use the copy returned in chat).
 3. Open it from Downloads/File Manager and choose AnkiDroid.
 4. If Android does not offer that action, open AnkiDroid and use its import action to select the file.
 5. Confirm import.
