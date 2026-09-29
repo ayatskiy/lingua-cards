@@ -1,0 +1,818 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:geburtsdatum",
+      "german": "das Geburtsdatum",
+      "russian": "дата рождения",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Geburtsdaten"
+    },
+    {
+      "canonical_key": "noun:geburtsort",
+      "german": "der Geburtsort",
+      "russian": "место рождения",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Geburtsorte"
+    },
+    {
+      "canonical_key": "noun:schulbildung",
+      "german": "die Schulbildung",
+      "russian": "школьное образование",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:berufsweg",
+      "german": "der Berufsweg",
+      "russian": "профессиональный путь",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Berufswege"
+    },
+    {
+      "canonical_key": "noun:erlebnis",
+      "german": "das Erlebnis",
+      "russian": "событие, пережитый опыт",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Erlebnisse"
+    },
+    {
+      "canonical_key": "noun:stichpunkt",
+      "german": "der Stichpunkt",
+      "russian": "тезис, пункт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Stichpunkte"
+    },
+    {
+      "canonical_key": "phrase:sich eine biografie ausdenken",
+      "german": "sich eine Biografie ausdenken",
+      "russian": "придумать биографию",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:vorstellen",
+      "german": "jemanden vorstellen",
+      "russian": "представлять кого-либо",
+      "part_of_speech": "verb",
+      "government": "jemanden (Akk.) vorstellen"
+    },
+    {
+      "canonical_key": "noun:persönlichkeit",
+      "german": "die Persönlichkeit",
+      "russian": "личность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Persönlichkeiten"
+    },
+    {
+      "canonical_key": "noun:sendung",
+      "german": "die Sendung",
+      "russian": "передача, программа",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Sendungen"
+    },
+    {
+      "canonical_key": "noun:rundfunk",
+      "german": "der Rundfunk",
+      "russian": "радиовещание",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:fernsehen",
+      "german": "das Fernsehen",
+      "russian": "телевидение",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:tätigkeit",
+      "german": "die Tätigkeit",
+      "russian": "деятельность, занятие",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tätigkeiten"
+    },
+    {
+      "canonical_key": "noun:leistung",
+      "german": "die Leistung",
+      "russian": "достижение, результат",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Leistungen"
+    },
+    {
+      "canonical_key": "noun:bundeskanzler",
+      "german": "der Bundeskanzler",
+      "russian": "федеральный канцлер",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Bundeskanzler"
+    },
+    {
+      "canonical_key": "noun:wiederaufbau",
+      "german": "der Wiederaufbau",
+      "russian": "восстановление, реконструкция",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:reformator",
+      "german": "der Reformator",
+      "russian": "реформатор",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Reformatoren"
+    },
+    {
+      "canonical_key": "noun:bibelübersetzung",
+      "german": "die Bibelübersetzung",
+      "russian": "перевод Библии",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bibelübersetzungen"
+    },
+    {
+      "canonical_key": "noun:philosoph",
+      "german": "der Philosoph",
+      "russian": "философ",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Philosophen"
+    },
+    {
+      "canonical_key": "noun:manifest",
+      "german": "das Manifest",
+      "russian": "манифест",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Manifeste"
+    },
+    {
+      "canonical_key": "noun:widerstand",
+      "german": "der Widerstand",
+      "russian": "сопротивление",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Widerstände"
+    },
+    {
+      "canonical_key": "noun:ostpolitik",
+      "german": "die Ostpolitik",
+      "russian": "восточная политика",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:komponist",
+      "german": "der Komponist",
+      "russian": "композитор",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Komponisten"
+    },
+    {
+      "canonical_key": "noun:dichter",
+      "german": "der Dichter",
+      "russian": "поэт, писатель",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Dichter"
+    },
+    {
+      "canonical_key": "noun:erfinder",
+      "german": "der Erfinder",
+      "russian": "изобретатель",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Erfinder"
+    },
+    {
+      "canonical_key": "noun:buchdruck",
+      "german": "der Buchdruck",
+      "russian": "книгопечатание",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:reichskanzler",
+      "german": "der Reichskanzler",
+      "russian": "рейхсканцлер",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Reichskanzler"
+    },
+    {
+      "canonical_key": "noun:reichsgründung",
+      "german": "die Reichsgründung",
+      "russian": "основание Германской империи",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Reichsgründungen"
+    },
+    {
+      "canonical_key": "noun:physiker",
+      "german": "der Physiker",
+      "russian": "физик",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Physiker"
+    },
+    {
+      "canonical_key": "noun:relativitätstheorie",
+      "german": "die Relativitätstheorie",
+      "russian": "теория относительности",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Relativitätstheorien"
+    },
+    {
+      "canonical_key": "phrase:eine wahl begründen",
+      "german": "eine Wahl begründen",
+      "russian": "обосновать выбор",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:woher kommst du",
+      "german": "Woher kommst du?",
+      "russian": "Откуда ты?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:kommen",
+      "german": "kommen",
+      "russian": "приходить; происходить из",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "kommt",
+        "praeteritum": "kam",
+        "partizip_ii": "gekommen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist gekommen"
+      },
+      "government": "aus + Dat. (происхождение)"
+    },
+    {
+      "canonical_key": "verb:wohnen",
+      "german": "wohnen",
+      "russian": "жить, проживать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wohnt",
+        "praeteritum": "wohnte",
+        "partizip_ii": "gewohnt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gewohnt"
+      },
+      "government": "in + Dat. (место)"
+    },
+    {
+      "canonical_key": "noun:flughafen",
+      "german": "der Flughafen",
+      "russian": "аэропорт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Flughäfen"
+    },
+    {
+      "canonical_key": "noun:problem",
+      "german": "das Problem",
+      "russian": "проблема",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Probleme"
+    },
+    {
+      "canonical_key": "noun:tasche",
+      "german": "die Tasche",
+      "russian": "сумка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Taschen"
+    },
+    {
+      "canonical_key": "noun:tante",
+      "german": "die Tante",
+      "russian": "тётя",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tanten"
+    },
+    {
+      "canonical_key": "noun:adresse",
+      "german": "die Adresse",
+      "russian": "адрес",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Adressen"
+    },
+    {
+      "canonical_key": "verb:anrufen",
+      "german": "jemanden anrufen",
+      "russian": "звонить кому-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "ruft an",
+        "praeteritum": "rief an",
+        "partizip_ii": "angerufen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat angerufen"
+      },
+      "government": "jemanden (Akk.) anrufen"
+    },
+    {
+      "canonical_key": "noun:telefon",
+      "german": "das Telefon",
+      "russian": "телефон",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Telefone"
+    },
+    {
+      "canonical_key": "noun:nummer",
+      "german": "die Nummer",
+      "russian": "номер",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Nummern"
+    },
+    {
+      "canonical_key": "noun:polizei",
+      "german": "die Polizei",
+      "russian": "полиция",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:polizist",
+      "german": "der Polizist",
+      "russian": "полицейский",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Polizisten"
+    },
+    {
+      "canonical_key": "verb:helfen",
+      "german": "jemandem helfen",
+      "russian": "помогать кому-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "hilft",
+        "praeteritum": "half",
+        "partizip_ii": "geholfen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geholfen"
+      },
+      "government": "jemandem (Dat.) helfen"
+    },
+    {
+      "canonical_key": "verb:suchen",
+      "german": "suchen",
+      "russian": "искать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "sucht",
+        "praeteritum": "suchte",
+        "partizip_ii": "gesucht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gesucht"
+      },
+      "government": "jemanden/etwas (Akk.) suchen"
+    },
+    {
+      "canonical_key": "phrase:weg sein",
+      "german": "weg sein",
+      "russian": "пропасть; отсутствовать",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:vater",
+      "german": "der Vater",
+      "russian": "отец",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Väter"
+    },
+    {
+      "canonical_key": "noun:buchstabe",
+      "german": "der Buchstabe",
+      "russian": "буква",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Buchstaben"
+    },
+    {
+      "canonical_key": "verb:buchstabieren",
+      "german": "buchstabieren",
+      "russian": "произносить/писать по буквам",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "buchstabiert",
+        "praeteritum": "buchstabierte",
+        "partizip_ii": "buchstabiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat buchstabiert"
+      },
+      "government": "etwas (Akk.) buchstabieren"
+    },
+    {
+      "canonical_key": "noun:hausnummer",
+      "german": "die Hausnummer",
+      "russian": "номер дома",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Hausnummern"
+    },
+    {
+      "canonical_key": "noun:name",
+      "german": "der Name",
+      "russian": "имя; название",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Namen"
+    },
+    {
+      "canonical_key": "noun:straße",
+      "german": "die Straße",
+      "russian": "улица, дорога",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Straßen"
+    },
+    {
+      "canonical_key": "phrase:wie schreibt man das",
+      "german": "Wie schreibt man das?",
+      "russian": "Как это пишется?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:fliegen",
+      "german": "fliegen",
+      "russian": "летать; лететь",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "fliegt",
+        "praeteritum": "flog",
+        "partizip_ii": "geflogen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist geflogen"
+      }
+    },
+    {
+      "canonical_key": "verb:arbeiten",
+      "german": "arbeiten",
+      "russian": "работать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "arbeitet",
+        "praeteritum": "arbeitete",
+        "partizip_ii": "gearbeitet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gearbeitet"
+      }
+    },
+    {
+      "canonical_key": "phrase:mein name ist",
+      "german": "Mein Name ist ...",
+      "russian": "Меня зовут ... / Моё имя ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:heißen",
+      "german": "heißen",
+      "russian": "называться, зваться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "heißt",
+        "praeteritum": "hieß",
+        "partizip_ii": "geheißen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geheißen"
+      }
+    },
+    {
+      "canonical_key": "phrase:wie heißt du",
+      "german": "Wie heißt du?",
+      "russian": "Как тебя зовут?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:taxi",
+      "german": "das Taxi",
+      "russian": "такси",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Taxis"
+    },
+    {
+      "canonical_key": "noun:tankstelle",
+      "german": "die Tankstelle",
+      "russian": "заправка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tankstellen"
+    },
+    {
+      "canonical_key": "verb:tanken",
+      "german": "tanken",
+      "russian": "заправляться; заправлять топливом",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "tankt",
+        "praeteritum": "tankte",
+        "partizip_ii": "getankt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat getankt"
+      }
+    },
+    {
+      "canonical_key": "verb:sich vorstellen",
+      "german": "sich vorstellen",
+      "russian": "представляться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stellt sich vor",
+        "praeteritum": "stellte sich vor",
+        "partizip_ii": "vorgestellt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich vorgestellt"
+      }
+    },
+    {
+      "canonical_key": "verb:erkennen",
+      "german": "erkennen",
+      "russian": "узнавать; распознавать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erkennt",
+        "praeteritum": "erkannte",
+        "partizip_ii": "erkannt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erkannt"
+      },
+      "government": "jemanden/etwas (Akk.) erkennen"
+    },
+    {
+      "canonical_key": "noun:taxifahrer",
+      "german": "der Taxifahrer",
+      "russian": "таксист",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Taxifahrer"
+    },
+    {
+      "canonical_key": "phrase:keine ahnung",
+      "german": "Keine Ahnung.",
+      "russian": "Без понятия. / Не знаю.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:familienname",
+      "german": "der Familienname",
+      "russian": "фамилия",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Familiennamen"
+    },
+    {
+      "canonical_key": "noun:vorname",
+      "german": "der Vorname",
+      "russian": "имя",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Vornamen"
+    },
+    {
+      "canonical_key": "noun:kurs",
+      "german": "der Kurs",
+      "russian": "курс",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Kurse"
+    },
+    {
+      "canonical_key": "noun:sprache",
+      "german": "die Sprache",
+      "russian": "язык",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Sprachen"
+    },
+    {
+      "canonical_key": "noun:beispiel",
+      "german": "das Beispiel",
+      "russian": "пример",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Beispiele"
+    },
+    {
+      "canonical_key": "verb:lernen",
+      "german": "lernen",
+      "russian": "учить, изучать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lernt",
+        "praeteritum": "lernte",
+        "partizip_ii": "gelernt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gelernt"
+      },
+      "government": "etwas (Akk.) lernen"
+    },
+    {
+      "canonical_key": "verb:sprechen",
+      "german": "sprechen",
+      "russian": "говорить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "spricht",
+        "praeteritum": "sprach",
+        "partizip_ii": "gesprochen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gesprochen"
+      },
+      "government": "mit + Dat.; über + Akk.; eine Sprache sprechen"
+    },
+    {
+      "canonical_key": "verb:sagen",
+      "german": "sagen",
+      "russian": "говорить, сказать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "sagt",
+        "praeteritum": "sagte",
+        "partizip_ii": "gesagt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gesagt"
+      },
+      "government": "jemandem (Dat.) etwas (Akk.) sagen"
+    },
+    {
+      "canonical_key": "verb:warten",
+      "german": "warten",
+      "russian": "ждать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wartet",
+        "praeteritum": "wartete",
+        "partizip_ii": "gewartet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gewartet"
+      },
+      "government": "auf + Akk."
+    },
+    {
+      "canonical_key": "verb:spinnen",
+      "german": "spinnen",
+      "russian": "чудить; быть не в своём уме (разг.)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "spinnt",
+        "praeteritum": "spann",
+        "partizip_ii": "gesponnen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gesponnen"
+      }
+    },
+    {
+      "canonical_key": "verb:stoppen",
+      "german": "stoppen",
+      "russian": "останавливать(ся)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stoppt",
+        "praeteritum": "stoppte",
+        "partizip_ii": "gestoppt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gestoppt"
+      }
+    },
+    {
+      "canonical_key": "verb:vermuten",
+      "german": "vermuten",
+      "russian": "предполагать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "vermutet",
+        "praeteritum": "vermutete",
+        "partizip_ii": "vermutet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat vermutet"
+      },
+      "government": "etwas (Akk.) vermuten; vermuten, dass ..."
+    },
+    {
+      "canonical_key": "verb:versuchen",
+      "german": "versuchen",
+      "russian": "пытаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "versucht",
+        "praeteritum": "versuchte",
+        "partizip_ii": "versucht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat versucht"
+      },
+      "government": "versuchen, zu + Infinitiv"
+    },
+    {
+      "canonical_key": "verb:beruhigen",
+      "german": "jemanden beruhigen",
+      "russian": "успокаивать кого-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beruhigt",
+        "praeteritum": "beruhigte",
+        "partizip_ii": "beruhigt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat beruhigt"
+      },
+      "government": "jemanden (Akk.) beruhigen"
+    },
+    {
+      "canonical_key": "verb:öffnen",
+      "german": "öffnen",
+      "russian": "открывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "öffnet",
+        "praeteritum": "öffnete",
+        "partizip_ii": "geöffnet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geöffnet"
+      },
+      "government": "etwas (Akk.) öffnen"
+    },
+    {
+      "canonical_key": "verb:auswählen",
+      "german": "auswählen",
+      "russian": "выбирать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wählt aus",
+        "praeteritum": "wählte aus",
+        "partizip_ii": "ausgewählt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat ausgewählt"
+      },
+      "government": "jemanden/etwas (Akk.) auswählen"
+    },
+    {
+      "canonical_key": "phrase:meiner meinung nach",
+      "german": "meiner Meinung nach",
+      "russian": "по моему мнению",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:familie",
+      "german": "die Familie",
+      "russian": "семья",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Familien"
+    },
+    {
+      "canonical_key": "noun:werk",
+      "german": "das Werk",
+      "russian": "произведение; труд",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Werke"
+    },
+    {
+      "canonical_key": "noun:studentin",
+      "german": "die Studentin",
+      "russian": "студентка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Studentinnen"
+    },
+    {
+      "canonical_key": "noun:lexikon",
+      "german": "das Lexikon",
+      "russian": "энциклопедия; справочник",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Lexika"
+    },
+    {
+      "canonical_key": "adjective:wichtig",
+      "german": "wichtig",
+      "russian": "важный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:entscheidend",
+      "german": "entscheidend",
+      "russian": "решающий; ключевой",
+      "part_of_speech": "adjective"
+    }
+  ]
+}
