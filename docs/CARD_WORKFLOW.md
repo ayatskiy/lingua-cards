@@ -1,145 +1,174 @@
-# Lesson Card Workflow
+# Universal Card Workflow
 
-## Commands
+## Purpose
 
-The connected plugin exposes two learner workflows:
+`lingua-cards` stores only canonical vocabulary flashcards. It is reusable from any ChatGPT Project or ordinary chat.
 
-- **Собери карточки по этому уроку**
-- **Собери все глаголы по этому уроку**
-
-## Card extraction boundary
-
-Use material actually present in the current lesson:
-- chat and corrections;
+Supported card sources include:
+- current conversation;
+- pasted text or dialogue;
+- selected messages;
 - screenshots/files;
 - exercises;
-- verified video/manuscript/subtitle content;
-- generated lesson scenarios;
-- questions and answers.
+- verified video/transcript/manuscript material;
+- German text created by a requested translation.
 
-Do not invent unseen or unheard content.
+## Project/set placement
 
-## Vocabulary selection
+Choose a project folder:
+1. explicit project/folder name from the user;
+2. known current ChatGPT Project name;
+3. `general`.
 
-Collect useful vocabulary rather than every token.
+Set filename:
+1. explicit short name;
+2. explicit lesson number;
+3. otherwise ISO date `YYYY-MM-DD`;
+4. append `-02`, `-03`, etc. on collision.
 
-Prefer:
-- nouns with article and plural;
-- verbs with separability/reflexivity and useful government;
+Path:
+
+`projects/<project-slug>/sets/<set-name>.json`
+
+A set contains only:
+- `schema_version`;
+- ordered IDs of **new canonical cards created for that set**.
+
+No chat IDs, source URLs, timestamps, lesson metadata, or provenance.
+
+## Canonical identity: no global index
+
+There is deliberately no `index.json`.
+
+### Canonical normalization
+
+Normalization must be deterministic across agents:
+
+- normalize Unicode to NFC;
+- trim leading/trailing whitespace and collapse internal whitespace runs to one space;
+- preserve German umlauts and `ß`; do not transliterate to `ae/oe/ue/ss`;
+- lowercase for the key using ordinary Unicode lowercase, not aggressive case-folding that turns `ß` into `ss`;
+- noun: use the dictionary lemma without `der/die/das`; article remains a separate display field;
+- verb: use dictionary infinitive; preserve semantically required `sich`; write separable verbs as their joined infinitive such as `aufstehen`;
+- adjective/adverb: use the base form;
+- phrase/connector: preserve meaningful internal punctuation, remove only surrounding whitespace and non-semantic terminal punctuation;
+- do not normalize two genuinely different lexical items into one key merely because spelling is similar.
+
+For each candidate:
+
+1. normalize the German item;
+2. form `canonical_key = <part_of_speech>:<normalized_item>`;
+3. compute lowercase SHA-256 hex of the UTF-8 canonical key;
+4. set `card_id = CARD-<full_hash>`;
+5. derive path `cards/by-key/<hash[0:2]>/<card_id>.json`;
+6. check that exact path.
+
+If the file exists with the same key, skip it as a duplicate.
+
+If it does not exist, create it and add its card ID to the current set.
+
+This avoids an ever-growing central index and makes duplicate lookup O(1) by deterministic path.
+
+Worked example for `die Entscheidung`:
+
+```text
+normalized lemma = entscheidung
+canonical_key    = noun:entscheidung
+sha256           = 31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
+card_id          = CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
+lookup path      = cards/by-key/31/CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b.json
+```
+
+If that file already exists and its `canonical_key` is `noun:entscheidung`, creation is skipped.
+
+## Canonical card content
+
+A card contains learning content only:
+- card ID;
+- canonical key;
+- German target;
+- Russian meaning;
+- part of speech;
+- optional article/plural;
+- optional verb forms when this vocabulary item is a verb;
+- optional government;
+- optional German example;
+- optional Russian translation of the example;
+- optional grammar note.
+
+No project/lesson/date/source/history/export metadata.
+
+## Translation-first requests
+
+For requests such as:
+- «переведи этот разговор на немецкий и собери карточки»;
+- «переведи текст на немецкий и сделай карточки»;
+
+first produce natural German near B1, then extract useful vocabulary from that German adaptation. Do not represent the translated wording as original-source text.
+
+## Selection quality
+
+Prefer atomic, useful active vocabulary:
+- nouns with article/plural;
+- verbs with relevant separability/reflexivity/government;
 - adjectives/adverbs;
 - connectors and B1 Redemittel;
-- useful fixed phrases.
+- short useful phrases.
 
-Skip incidental names and low-value filler.
-
-## Deduplication
-
-Before creating a card:
-
-1. normalize the candidate;
-2. compute `canonical_key`;
-3. look it up in `cards/index.json`;
-4. if it exists, do not create a new card or Anki note;
-5. update last-seen lesson/date and provenance only;
-6. if it is new, allocate the next `CARD-NNNNNN`, create the record, and update the index.
-
-Normalization:
-- Unicode NFC;
-- trim;
-- lowercase for key;
-- noun: lemma without article;
-- verb: infinitive, preserving semantically relevant `sich` and separable prefix;
-- adjective/adverb: base form;
-- phrase: normalized phrase;
-- punctuation-only differences do not create distinct keys.
-
-Key format:
-
-`<part_of_speech>:<normalized_lemma_or_phrase>`
-
-## Card metadata
-
-Store when applicable:
-- stable card ID;
-- canonical key;
-- German lemma/phrase;
-- Russian translation;
-- part of speech;
-- article/plural;
-- verb forms;
-- government;
-- German example;
-- Russian example translation;
-- grammar note;
-- first/last seen lesson and date;
-- all lessons in which the item was selected;
-- source refs;
-- deterministic Anki GUID;
-- export status.
-
-## Lesson naming
-
-Lesson ID:
-
-`LESSON-YYYYMMDD-NN`
-
-Human-readable deck title:
-
-`Deutsch B1::Lektion <N> — <topic> — <YYYY-MM-DD>`
-
-Artifacts:
-- `Lektion-<N>_<YYYY-MM-DD>_Karten.apkg`
-- `Lektion-<N>_<YYYY-MM-DD>_Karten.tsv`
-- `Lektion-<N>_<YYYY-MM-DD>_Verben.docx`
-- PDF on request.
+Avoid low-value filler and one-off proper names unless explicitly requested.
 
 ## AnkiDroid export
 
-Primary target is AnkiDroid.
+`lingua-cards` JSON is canonical source; `.apkg` is generated output.
 
-Use a deterministic note GUID derived from `card_id` or `canonical_key`, not from mutable example text.
+Use stable Anki note identity from `card_id` (or the canonical key). Mutable examples/translations must not define note identity.
 
-Default direction:
+Recommended Anki note model:
+- first field: stable `CardID`;
+- remaining fields: German, Russian, part of speech, article/plural, verb forms, government, examples, grammar note;
+- no lesson/project/date/source fields.
+
+When the APKG generator supports deterministic GUIDs, derive the Anki note GUID from `CardID`. Keeping `CardID` as the first field also provides an explicit stable source identifier.
+
+Default:
 - front: Russian cue;
-- back: German target + useful metadata + example.
+- back: German target + useful linguistic detail.
 
-Do not claim import to Android succeeded unless it was actually verified.
+Deck/set name: user label, lesson number, or date. Project grouping may be represented by an Anki parent deck, but never by extra fields inside the note.
 
-## Verb inventory
+Generated `.apkg`/TSV files are returned to the user and are not committed here.
 
-The verb command is a complete per-lesson inventory and does **not** deduplicate away verbs seen in earlier lessons.
+For end-user installation/import/review/progress instructions, use `docs/ANKIDROID_GUIDE.md`.
 
-Required columns:
-1. Infinitiv
-2. Präsens (er/sie/es)
-3. Präteritum
-4. Partizip II
-5. Perfekt
-6. Bedeutung (RU)
-7. Rektion / Besonderheiten
-8. Beispiele DE — Präsens / Präteritum / Perfekt
-9. Перевод примеров
-10. Грамматика / пояснение
+## Verb workflow boundary
 
-Default downloadable artifact: DOCX. PDF when requested.
+The source-wide verb-table command is separate.
 
-## Runtime persistence
+It may generate a DOCX/PDF with:
+- Infinitiv;
+- Präsens;
+- Präteritum;
+- Partizip II;
+- Perfekt;
+- meaning;
+- government;
+- examples;
+- translations;
+- grammar notes.
 
-Runtime branch: `runtime/cards`.
+That document is **not stored in this repository**.
 
-Allowed runtime paths:
-- `cards/CARD-*.json`
-- `cards/index.json`
-- `exports/cards/*.json`
-- `exports/verbs/*.json`
+## Git write workflow
 
-Before write:
-- verify repository is private;
-- read latest `cards/index.json`;
-- detect duplicates;
-- use stable transaction/export IDs.
+Every card batch:
+1. start from current `master`;
+2. create `cards/<project>-<set>`;
+3. create new canonical card files and one set manifest;
+4. make exactly one commit;
+5. ensure that commit's only parent is current `master` HEAD;
+6. validate;
+7. open a PR;
+8. if `master` moves, rebase/squash back to one commit and repeat duplicate checks;
+9. leave the PR open and give the user its direct URL.
 
-After write:
-- read back the index;
-- read back at least one touched card/export record;
-- only then report persistence as successful.
+**Never merge the PR automatically.**

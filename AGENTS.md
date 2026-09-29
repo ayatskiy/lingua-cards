@@ -1,50 +1,147 @@
 # AGENTS.md
 
-Mandatory rules for humans and agents working in this repository.
+Mandatory operating rules for every human contributor and AI/coding agent.
 
-## Development workflow
+## 1. Bootstrap
 
-`master` is integration-only. Never write development changes directly to `master`.
+At the start of every repository task:
 
-For schemas, docs, validation, CI, or repository contracts:
+1. read `START_HERE.md`;
+2. read `repo-context.json`;
+3. read this file;
+4. load only task-relevant workflow/schema files.
 
-1. start from latest `master`;
-2. create a dedicated branch;
-3. make focused changes;
-4. run `python scripts/validate_repo.py`;
-5. open a PR targeting `master`;
-6. merge only when the task/user authorizes it.
+## 2. Master is integration-only
 
-Always include the direct clickable PR URL in the user-facing report.
+**Never push or commit directly to `master`.**
 
-## Runtime card workflow
+This applies to documentation, schemas, CI, canonical cards, project card sets, and every other repository path. There are no small-change or runtime exceptions.
 
-Operational lesson-card state is separate from development history.
+## 3. Required Pull Request shape
 
-Runtime writes:
-- branch: `runtime/cards`;
-- allowed paths:
-  - `cards/CARD-*.json`
-  - `cards/index.json`
-  - `exports/cards/*.json`
-  - `exports/verbs/*.json`;
-- deduplicate through `cards/index.json` before creating cards;
-- use stable IDs and deterministic Anki GUIDs;
-- write one lesson batch atomically when possible;
-- read back after write before claiming success.
+Every change must follow:
 
-## Privacy guard
+```text
+latest master
+-> dedicated branch
+-> exactly ONE commit
+-> validate
+-> PR to master
+-> checks pass
+-> STOP and give the user the PR link
+```
 
-Real lesson/card data must not be persisted while the repository is public. Before runtime writes, verify repository visibility. If visibility is not private, stop and ask the user to make the repository private.
+Rules:
+- exactly one commit may exist in `master..HEAD`;
+- the PR commit must have exactly one parent;
+- that parent must equal current `master` HEAD;
+- if `master` moves, rebase and squash back to one commit;
+- no merge commits inside the PR branch;
+- do not keep working on a stale PR branch.
 
-## Source boundary
+The CI workflow `.github/workflows/pr-shape.yml` enforces the commit shape.
 
-Card extraction may use the current chat/project lesson: screenshots, uploaded files, exercises, verified video/manuscript material, scenarios, questions, answers, and corrections.
+### Absolute no-auto-merge rule
 
-Do not invent unseen or unheard source material.
+Agents, plugins, automations, and assistants **must never merge a Pull Request in this repository**.
 
-## SRS boundary
+Even when:
+- the user asked for the underlying change;
+- CI is green;
+- the PR is mergeable;
+- previous repository conventions allowed merge-after-validation.
 
-GitHub owns card identity, deduplication, provenance, and export metadata.
+The correct completion is: leave the PR open and return its direct link. Only the human user merges it.
 
-Anki/AnkiDroid owns scheduling, intervals, due dates, FSRS/ease state, and review history.
+## 4. Card identity and deduplication
+
+There is no global word index.
+
+Canonical-key normalization must follow `docs/CARD_WORKFLOW.md` exactly. In particular, preserve German umlauts and `ß`, use NFC, collapse whitespace, use noun lemmas without articles, and keep reflexive/separable verb identity stable.
+
+Normalize to:
+
+`<part_of_speech>:<normalized_german_item>`
+
+Then compute SHA-256 and derive:
+
+`CARD-<64 hex chars>`
+
+Path:
+
+`cards/by-key/<first-2-hash-chars>/<card_id>.json`
+
+Before creating a card, compute that exact path:
+- if it exists and has the same `canonical_key`, the item is a duplicate;
+- if it does not exist, create the canonical card;
+- if it exists with a different key, stop and report an identity collision/corruption.
+
+This deterministic lookup is the only canonical duplicate check.
+
+## 5. Card storage model
+
+Canonical cards contain only learning content:
+- stable card ID;
+- canonical key;
+- German target;
+- Russian meaning;
+- part of speech;
+- optional article/plural;
+- optional verb forms when the **card itself** is a verb;
+- optional government;
+- optional German example;
+- optional Russian example translation;
+- optional concise grammar note.
+
+Do not store project, lesson, date, source, provenance, chat ID, first/last-seen, review progress, or export history inside a card.
+
+Per-project grouping:
+- `projects/<project-slug>/sets/<set-name>.json`
+- set manifest contains only `schema_version` and canonical card IDs.
+
+## 6. Verbs are a separate output workflow
+
+This repository does **not** store:
+- source-wide verb inventories;
+- tense tables;
+- verb DOCX/PDF files;
+- grammar study documents.
+
+The separate verb skill may generate those files for the user, but it must not persist them to `lingua-cards`.
+
+A verb may still be a normal vocabulary card when selected as useful vocabulary; in that case its card may contain its lexical forms.
+
+## 7. Privacy
+
+Before persisting content derived from private chats/files, verify repository visibility is private. If public, stop unless the user explicitly authorizes public storage of that content.
+
+## 8. Generated artifacts
+
+`.apkg`, TSV, DOCX, and PDF are generated delivery artifacts, not canonical Git state. Return them to the user rather than committing them here.
+
+## 9. Validation
+
+Run:
+
+```bash
+python scripts/validate_repo.py
+```
+
+PR CI must also pass the one-commit/up-to-date check.
+
+## 10. Ready user-help instructions
+
+For ordinary card-usage questions, use `docs/ANKIDROID_GUIDE.md` as the local source of truth.
+
+Examples:
+- how to install the card app;
+- how to import `.apkg`;
+- how to review cards;
+- where to see progress/statistics;
+- how optional AnkiWeb sync works.
+
+Do not browse/search the web for these instructions unless the user explicitly asks for current version-specific UI verification.
+
+## 11. User-facing reports
+
+Every repository-change report must include the direct clickable PR URL. Never report a PR as merged unless the human user actually merged it.

@@ -1,10 +1,25 @@
 {
-  "schema_version": 1,
+  "schema_version": 3,
   "repository": "ayatskiy/lingua-cards",
-  "purpose": "Standalone durable vocabulary-card catalog and export metadata backend for Deutsch Lesson Cards, reusable across ChatGPT Projects and chats.",
+  "purpose": "Standalone, project-agnostic canonical German flashcard catalog for Deutsch Lesson Cards.",
   "default_branch": "master",
-  "runtime_branch": "runtime/cards",
-  "required_runtime_visibility": "private",
+  "write_mode": "pull_request_only",
+  "merge_policy": "human_only_never_auto_merge",
+  "pr_contract": {
+    "commits_exactly": 1,
+    "must_be_rebased_on_current_master": true,
+    "direct_master_push": false
+  },
+  "privacy": {
+    "preferred_visibility": "private",
+    "public_content_requires_explicit_user_authorization": true
+  },
+  "identity": {
+    "algorithm": "sha256(canonical_key)",
+    "card_id": "CARD-<64 lowercase hex>",
+    "path": "cards/by-key/<first-two-hash-chars>/<card_id>.json",
+    "global_index": false
+  },
   "bootstrap": "START_HERE.md",
   "rules": "AGENTS.md",
   "workflow": "docs/CARD_WORKFLOW.md",
@@ -14,21 +29,17 @@
     "plugin_id": "plugins_6abaa53ddf44819198c3e2f47d84f6e6"
   },
   "source_of_truth": {
-    "index": "cards/index.json",
-    "records": "cards/CARD-*.json",
+    "records": "cards/by-key/*/CARD-*.json",
+    "project_sets": "projects/<project-slug>/sets/<set-name>.json",
     "card_schema": "schemas/card.schema.json",
-    "index_schema": "schemas/card-index.schema.json",
-    "card_export_metadata": "exports/cards/",
-    "verb_export_metadata": "exports/verbs/",
+    "set_schema": "schemas/card-set.schema.json",
     "srs_schedule": "external: Anki/AnkiDroid"
   },
-  "invariants": [
-    "One canonical card per normalized German lemma/phrase.",
-    "Deduplicate before card creation.",
-    "Do not write real learner data while repository visibility is public.",
-    "Stable identity must not depend on mutable examples or translations.",
-    "Runtime writes require read-back verification.",
-    "Anki owns SRS scheduling."
+  "non_goals": [
+    "verb inventory persistence",
+    "grammar document persistence",
+    "review scheduling/progress storage",
+    "lesson/source provenance storage"
   ],
   "validation_command": "python scripts/validate_repo.py"
 }
