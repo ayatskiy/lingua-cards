@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED = [
     "README.md","START_HERE.md","AGENTS.md","CONTRIBUTING.md","repo-context.json",
-    "docs/CARD_WORKFLOW.md","cards/README.md","projects/README.md",
+    "docs/CARD_WORKFLOW.md","docs/ANKIDROID_GUIDE.md","cards/README.md","projects/README.md",
     "schemas/card.schema.json","schemas/card-set.schema.json",
     ".github/pull_request_template.md",".github/workflows/validate.yml",".github/workflows/pr-shape.yml",
 ]

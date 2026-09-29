@@ -13,5 +13,6 @@ Canonical bootstrap for any human or agent working with `ayatskiy/lingua-cards`.
 9. **Never merge a PR automatically.** Leave it open for the user and return its direct URL.
 10. Before persisting private conversation/file content, verify repository visibility is private unless the user explicitly authorizes public storage.
 11. This repository stores cards only. Verb tables/grammar documents are generated outside it.
+12. For user questions such as «как пользоваться карточками», «как импортировать .apkg», «какое приложение поставить», or «где смотреть прогресс», read `docs/ANKIDROID_GUIDE.md` and answer from it without web search unless the user explicitly asks for current version-specific verification.
 
 Plugin source: `ayatskiy/ai-plugins/plugins/deutsch-lesson-cards`.
