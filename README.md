@@ -19,6 +19,9 @@ apps/
   quizlet/
     <project-slug>/
       <deck-name>.txt
+      <deck-name>-grammar-plural.txt
+      <deck-name>-grammar-praeteritum.txt
+      ... # derived grammar sets when data is available
   anki/
     <project-slug>/
       <deck-name>.apkg
@@ -31,18 +34,18 @@ apps/
 Quizlet imports structured text on its website. This repository uses UTF-8 text with:
 
 ```text
-German term<TAB>Russian definition and compact notes
+German term<TAB>Russian meaning
 one flashcard per line
 ```
 
 Example:
 
 ```text
-die Entscheidung	решение · Plural: Entscheidungen
-kommen	приходить; происходить из · Präsens: kommt · Präteritum: kam · Partizip II: gekommen · Perfekt: ist gekommen · Rektion: aus + Dat. (происхождение)
+die Entscheidung	решение
+kommen	приходить; происходить из
 ```
 
-The file has no header because every non-empty row is a card. The TXT is a complete repository snapshot, not a live synchronization link to the learner's Quizlet account.
+The vocabulary file has no header because every non-empty row is a card. It deliberately excludes German morphology and other target-language notes from the definition side so Quizlet multiple-choice distractors do not reveal the answer. Plural, verb forms and government remain in canonical JSON and are exported as separate Quizlet grammar sets. Repository TXT files are snapshots, not live synchronization links to the learner's Quizlet account.
 
 ## Canonical deck
 

@@ -49,15 +49,22 @@ App-specific escaping/flattening is allowed.
 
 ## Target paths in lingua-cards
 
-Quizlet:
+Quizlet vocabulary:
 `apps/quizlet/<project>/<deck>.txt`
+
+Quizlet grammar views when canonical data is available:
+`apps/quizlet/<project>/<deck>-grammar-<kind>.txt`
 
 Anki:
 `apps/anki/<project>/<deck>.apkg`
 
 ## Quizlet target
 
-UTF-8, no header, German TAB Russian/notes, one card per line.
+Generate UTF-8, no-header, one-card-per-line artifacts from canonical semantics.
+
+The main vocabulary file is exactly `German<TAB>Russian meaning`; do not append German morphology or other answer clues to its definition side.
+
+When canonical data contains plural, verb forms or government, also generate the focused grammar sets defined by the repository Quizlet workflow. These derived grammar rows do not count as new vocabulary and do not run cross-deck dedupe.
 
 ## Anki target
 
