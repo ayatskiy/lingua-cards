@@ -1,165 +1,117 @@
-# Universal Deck Workflow
+# Card Workflow — Quizlet First
 
 ## Meaning of «собери карточки»
 
-Create **one deck / набор карточек** containing many useful flashcards from the requested source.
+Create one canonical deck containing many useful flashcards from the requested source and produce a **Quizlet import file by default**.
 
 Supported sources include a lesson, conversation, pasted text, file, screenshot, verified video material, or translated German text.
 
-## Deck placement
+## Paths
 
-Project folder:
+Canonical source:
+
+`projects/<project-slug>/decks/<deck-name>.json`
+
+Default Quizlet artifact:
+
+`apps/quizlet/<project-slug>/<deck-name>.txt`
+
+Optional Anki artifact:
+
+`apps/anki/<project-slug>/<deck-name>.apkg`
+
+## Naming
+
+Choose project:
 1. explicit user project/folder;
 2. known current ChatGPT Project;
 3. `general`.
 
-Deck filename:
-1. explicit short name;
+Choose deck:
+1. explicit short user name;
 2. explicit lesson number;
 3. otherwise ISO date `YYYY-MM-DD`;
 4. append `-02`, `-03`, etc. on collision.
 
-Paths:
+## Canonical JSON
 
-- `projects/<project-slug>/decks/<deck-name>.json` — canonical source
-- `projects/<project-slug>/decks/<deck-name>.apkg` — ready AnkiDroid package
+The JSON is application-neutral and contains all selected flashcards. No Quizlet/Anki-specific fields belong in it.
 
-No extra project/lesson/date/source metadata is needed inside the deck; path and filename provide grouping.
+## Selection
 
-## Deck file
-
-```json
-{
-  "schema_version": 1,
-  "cards": [
-    {
-      "canonical_key": "noun:entscheidung",
-      "german": "die Entscheidung",
-      "russian": "решение",
-      "part_of_speech": "noun",
-      "article": "die",
-      "plural": "Entscheidungen",
-      "example_de": "Das war eine schwierige Entscheidung.",
-      "example_ru": "Это было трудное решение."
-    },
-    {
-      "canonical_key": "verb:sich entscheiden",
-      "german": "sich entscheiden",
-      "russian": "решаться; принимать решение",
-      "part_of_speech": "verb"
-    }
-  ]
-}
-```
-
-## Normalization
-
-Canonical key format:
-
-`<part_of_speech>:<normalized_item>`
-
-Rules:
-- Unicode NFC;
-- trim and collapse whitespace;
-- preserve umlauts and `ß`;
-- lowercase;
-- noun: dictionary lemma without article;
-- verb: dictionary infinitive, preserving required `sich` and joined separable prefix;
-- adjective/adverb: base form;
-- phrase/connector: preserve meaningful internal punctuation.
-
-Examples:
-- `noun:entscheidung`
-- `verb:gehen`
-- `verb:sich entscheiden`
-- `phrase:meiner meinung nach`
-
-## Sharded global duplicate check
-
-Do not use one giant global index.
-
-For each candidate:
-
-1. compute canonical key;
-2. compute SHA-256 hex;
-3. use first two hex characters as shard;
-4. read `dedupe/<shard>.json`; missing file = empty shard;
-5. if key exists, skip;
-6. if new, add flashcard to new deck and key -> deck path to shard.
-
-Example:
-
-```text
-candidate       = die Entscheidung
-canonical_key   = noun:entscheidung
-sha256          = 31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
-shard           = 31
-lookup          = dedupe/31.json
-new deck        = projects/deutsch-uebungen/decks/lesson-12.json
-```
-
-```json
-{
-  "schema_version": 1,
-  "entries": {
-    "noun:entscheidung": "projects/deutsch-uebungen/decks/lesson-12.json"
-  }
-}
-```
-
-If the same key appears later, no new flashcard is added to the later deck unless the user explicitly requests duplicates.
-
-With 256 shards, each lookup touches only a small part of the registry and avoids one shared write hot spot.
-
-## Selection quality
-
-Prefer useful active vocabulary:
+Prefer:
 - nouns with article/plural;
 - verbs with separability/reflexivity/government;
 - adjectives/adverbs;
 - connectors and B1 Redemittel;
 - useful short phrases.
 
-Do not add every token mechanically.
+Do not mechanically add every token.
+
+## Normalization and dedupe
+
+Canonical key:
+
+`<part_of_speech>:<normalized_item>`
+
+Use Unicode NFC, trim/collapse whitespace, preserve umlauts and `ß`, lowercase for the key, noun dictionary lemma without article, verb infinitive preserving required `sich` and joined separable prefix, base adjective/adverb, and meaningful phrase punctuation.
+
+For each key:
+1. SHA-256;
+2. first two hex chars -> `dedupe/<shard>.json`;
+3. if key exists, skip it;
+4. if new, add it to the canonical deck and shard.
+
+## Quizlet export — default
+
+Generate UTF-8 text with no header.
+
+Each line:
+
+`<German term><TAB><Russian definition + compact notes>`
+
+Definition enrichment may include plural, verb forms, government, examples and concise grammar notes, separated with ` · `.
+
+Example:
+
+```text
+die Entscheidung	решение · Plural: Entscheidungen
+kommen	приходить; происходить из · Präsens: kommt · Präteritum: kam · Partizip II: gekommen · Perfekt: ist gekommen · Rektion: aus + Dat.
+```
+
+Quizlet import settings:
+- between term and definition: **Tab**;
+- between cards: **New line**;
+- term language: German;
+- definition language: Russian.
+
+## Anki export — optional fallback
+
+Generate APKG only when the user explicitly requests Anki or asks for a format conversion to Anki.
+
+Store it under `apps/anki/<project>/<deck>.apkg`.
 
 ## Translation-first requests
 
-If user asks to translate first, produce natural German near B1, identify it as translation/adaptation, then build the deck from that German text.
-
-## AnkiDroid export
-
-One deck JSON becomes one Anki deck/package.
-
-Each flashcard may receive a generated stable technical note ID derived from SHA-256(canonical_key). This is an export identity only; it does not create one repository file per word.
-
-Default study direction:
-- front: Russian cue;
-- back: German target + useful linguistic details.
-
-Use deck filename as human-facing Anki deck name.
-
-Generate `<deck-name>.apkg` from the deck JSON and commit it beside the JSON in the same PR. Also return it to the user as a downloadable artifact when possible. TSV is optional and normally not committed.
-
-For app usage instructions use `docs/ANKIDROID_GUIDE.md`.
-
-## Verb boundary
-
-The source-wide verb-table workflow is separate. It returns DOCX/PDF and does not store those files or tables here.
+If the user asks to translate first, translate naturally near B1, identify the result as an adaptation, then extract the deck.
 
 ## Git workflow
 
-Every deck batch:
+For every new deck batch:
 1. start from current `master`;
 2. create dedicated branch;
-3. extract candidates;
-4. read only required dedupe shards;
-5. create one deck JSON containing all new flashcards;
-6. generate the matching sibling `.apkg` and verify it opens as an Anki package;
-7. update all touched dedupe shards;
-8. make exactly one commit whose parent is current `master` HEAD;
-9. validate, including JSON↔APKG card-count consistency;
-10. open PR;
-11. if master moved, rebase/squash and rerun dedupe/export;
-12. stop and return PR URL.
+3. extract candidates and run dedupe;
+4. create canonical JSON;
+5. generate Quizlet TXT;
+6. optionally generate Anki only if requested;
+7. validate canonical JSON, dedupe and app artifacts;
+8. make exactly one commit based on current `master`;
+9. open PR;
+10. if master moved, rebase/squash and regenerate/revalidate;
+11. stop and return PR URL.
 
 Never merge automatically.
+
+## Verb boundary
+
+The complete verb-table workflow remains separate and returns DOCX/PDF rather than storing those documents here.

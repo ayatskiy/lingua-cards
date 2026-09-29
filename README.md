@@ -1,39 +1,52 @@
 # lingua-cards
 
-Standalone, project-agnostic source of truth for German **flashcard decks** created by the **Deutsch Lesson Cards** ChatGPT plugin.
+Standalone, project-agnostic source of truth for German flashcard decks created by the **Deutsch Lesson Cards** plugin.
 
-## Domain model
+## Product model
 
-A user request such as «собери карточки по этому уроку» creates **one deck / набор карточек** that contains many individual flashcards.
+One learning source creates one **deck / набор карточек** containing many flashcards.
 
-```text
-one lesson/topic/dialogue/source
-        ↓
-one deck file
-        ↓
-many flashcards
-```
-
-This repository does not create one repository file per word.
-
-## Layout
+The canonical deck is application-neutral JSON:
 
 ```text
-projects/
-  <project-slug>/
-    decks/
-      lesson-12.json
-      2026-09-29.json
-      restaurant-dialog.json
-
-dedupe/
-  00.json
-  01.json
-  ...
-  ff.json
+projects/<project-slug>/decks/<deck-name>.json
 ```
 
-A deck file contains its flashcards directly:
+Application-specific study artifacts are stored separately:
+
+```text
+apps/
+  quizlet/
+    <project-slug>/
+      <deck-name>.txt
+  anki/
+    <project-slug>/
+      <deck-name>.apkg
+```
+
+**Quizlet is the default target.** Every canonical deck must have a Quizlet import file. Anki is an optional fallback and is generated only when explicitly requested or through format conversion.
+
+## Quizlet-first format
+
+Quizlet imports structured text on its website. This repository uses UTF-8 text with:
+
+```text
+German term<TAB>Russian definition and compact notes
+one flashcard per line
+```
+
+Example:
+
+```text
+die Entscheidung	решение · Plural: Entscheidungen
+kommen	приходить; происходить из · Präsens: kommt · Präteritum: kam · Partizip II: gekommen · Perfekt: ist gekommen · Rektion: aus + Dat. (происхождение)
+```
+
+The file has no header because every non-empty row is a card.
+
+## Canonical deck
+
+The JSON remains the semantic source of truth for vocabulary, morphology and notes. App exports are reproducible views of that source.
 
 ```json
 {
@@ -45,75 +58,38 @@ A deck file contains its flashcards directly:
       "russian": "решение",
       "part_of_speech": "noun",
       "article": "die",
-      "plural": "Entscheidungen",
-      "example_de": "Das war eine schwierige Entscheidung.",
-      "example_ru": "Это было трудное решение."
-    },
-    {
-      "canonical_key": "verb:sich entscheiden",
-      "german": "sich entscheiden",
-      "russian": "решаться; принимать решение",
-      "part_of_speech": "verb"
+      "plural": "Entscheidungen"
     }
   ]
 }
 ```
 
-The deck filename is the user-facing deck name. Prefer a user-supplied short name, lesson number, or ISO date.
+## Duplicate prevention
 
-## Global duplicate prevention without one huge index
+Cross-deck duplicate prevention remains app-independent. A canonical key is hashed with SHA-256 and looked up in:
 
-There is no single `index.json`.
+`dedupe/<first-two-hash-characters>.json`
 
-For each candidate lexical item:
+The shard maps the canonical key to the canonical deck JSON where the item was first introduced.
 
-```text
-canonical_key = <part_of_speech>:<normalized_item>
-hash          = sha256(canonical_key)
-shard         = first two hex characters
-lookup        = dedupe/<shard>.json
-```
+## Format conversion
 
-Example for **die Entscheidung**:
+See `docs/FORMAT_CONVERSION.md`.
 
-```text
-canonical_key = noun:entscheidung
-sha256        = 31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
-lookup        = dedupe/31.json
-```
+Conversion creates or refreshes a target-app artifact while preserving the source artifact by default. In this repository, prefer the canonical JSON as the semantic source even when the request is phrased as “Quizlet → Anki” or “Anki → Quizlet”.
 
-A shard may contain:
+## Repository rules
 
-```json
-{
-  "schema_version": 1,
-  "entries": {
-    "noun:entscheidung": "projects/deutsch-uebungen/decks/lesson-12.json"
-  }
-}
-```
-
-If the key already exists, that item is skipped in a later deck. If it is new, it is added to the new deck and the shard is updated in the same PR.
-
-This gives global duplicate detection while avoiding one ever-growing write hot spot.
-
-## Boundaries
-
-- deck file = one group of many flashcards;
-- flashcard = one word/phrase/item inside the deck;
-- no source/chat/history metadata inside flashcards;
-- complete verb tables/grammar DOCX/PDF are not stored here;
-- every deck keeps both its canonical `.json` source and a versioned sibling `.apkg` ready for import;
-- AnkiDroid owns review scheduling and progress;
-- every repository change uses a PR;
-- every PR has exactly one commit rebased on current `master`;
+- never push directly to `master`;
+- every change goes through a PR;
+- each PR contains exactly one commit rebased on current `master`;
 - agents/plugins never merge PRs;
-- never push directly to `master`.
+- flashcards do not carry source/chat/history metadata;
+- complete verb DOCX/PDF tables remain outside this repository.
 
-## Android
+## User guides
 
-Recommended client: **AnkiDroid Flashcards**.
-
-One deck is stored as a pair: `<deck-name>.json` + `<deck-name>.apkg`. The JSON remains the editable source; the APKG is the ready-to-import distributable. Ready instructions are in [docs/ANKIDROID_GUIDE.md](docs/ANKIDROID_GUIDE.md).
+- Primary: [Quizlet](docs/QUIZLET_GUIDE.md)
+- Fallback: [Anki / AnkiDroid](docs/ANKIDROID_GUIDE.md)
 
 Start with `START_HERE.md`.
