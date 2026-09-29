@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ayatskiy/lingua-cards/schemas/deck.schema.json",
+  "title": "Lingua Cards deck",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "cards"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "canonical_key",
+          "german",
+          "russian",
+          "part_of_speech"
+        ],
+        "properties": {
+          "canonical_key": {
+            "type": "string",
+            "minLength": 3
+          },
+          "german": {
+            "type": "string",
+            "minLength": 1
+          },
+          "russian": {
+            "type": "string",
+            "minLength": 1
+          },
+          "part_of_speech": {
+            "enum": [
+              "noun",
+              "verb",
+              "adjective",
+              "adverb",
+              "pronoun",
+              "preposition",
+              "connector",
+              "phrase",
+              "other"
+            ]
+          },
+          "article": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "plural": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "verb_forms": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "praesens_3sg": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "praeteritum": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "partizip_ii": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "perfekt_auxiliary": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "haben",
+                  "sein",
+                  null
+                ]
+              },
+              "perfekt": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "government": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "example_de": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "example_ru": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "grammar_note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

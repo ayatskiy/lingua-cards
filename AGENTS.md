@@ -1,147 +1,97 @@
 # AGENTS.md
 
-Mandatory operating rules for every human contributor and AI/coding agent.
+Mandatory rules for every human contributor and AI/coding agent.
 
-## 1. Bootstrap
+## Terminology
 
-At the start of every repository task:
+Use these terms consistently:
 
-1. read `START_HERE.md`;
-2. read `repo-context.json`;
-3. read this file;
-4. load only task-relevant workflow/schema files.
+- **deck / набор карточек** — one user-facing collection created from a lesson, topic, dialogue, text, video, or other source;
+- **flashcard** — one vocabulary/phrase item inside a deck;
+- **dedupe shard** — technical cross-deck lookup used only to prevent duplicate lexical items.
 
-## 2. Master is integration-only
+Never model one word as one repository-level deck/file.
 
-**Never push or commit directly to `master`.**
+## Git workflow
 
-This applies to documentation, schemas, CI, canonical cards, project card sets, and every other repository path. There are no small-change or runtime exceptions.
+Never push directly to `master`.
 
-## 3. Required Pull Request shape
-
-Every change must follow:
+Every change follows:
 
 ```text
 latest master
 -> dedicated branch
 -> exactly ONE commit
 -> validate
--> PR to master
+-> PR
 -> checks pass
--> STOP and give the user the PR link
+-> STOP and return PR URL
 ```
 
-Rules:
-- exactly one commit may exist in `master..HEAD`;
-- the PR commit must have exactly one parent;
-- that parent must equal current `master` HEAD;
-- if `master` moves, rebase and squash back to one commit;
-- no merge commits inside the PR branch;
-- do not keep working on a stale PR branch.
+The PR commit must have current `master` HEAD as its only parent. If `master` changes, rebase/squash and rerun validation.
 
-The CI workflow `.github/workflows/pr-shape.yml` enforces the commit shape.
+### No-auto-merge
 
-### Absolute no-auto-merge rule
+Agents, plugins, automations, and assistants must never merge a PR in this repository. Only the human owner merges it.
 
-Agents, plugins, automations, and assistants **must never merge a Pull Request in this repository**.
+## Storage
 
-Even when:
-- the user asked for the underlying change;
-- CI is green;
-- the PR is mergeable;
-- previous repository conventions allowed merge-after-validation.
+Decks:
 
-The correct completion is: leave the PR open and return its direct link. Only the human user merges it.
+`projects/<project-slug>/decks/<deck-name>.json`
 
-## 4. Card identity and deduplication
+Each deck file contains many flashcard objects.
 
-There is no global word index.
+Duplicate shards:
 
-Canonical-key normalization must follow `docs/CARD_WORKFLOW.md` exactly. In particular, preserve German umlauts and `ß`, use NFC, collapse whitespace, use noun lemmas without articles, and keep reflexive/separable verb identity stable.
+`dedupe/<sha256(canonical_key)[0:2]>.json`
 
-Normalize to:
+Each shard maps canonical key -> first deck path.
 
-`<part_of_speech>:<normalized_german_item>`
+There is no per-word repository file and no one-file global index.
 
-Then compute SHA-256 and derive:
+## Normalization
 
-`CARD-<64 hex chars>`
+Follow `docs/CARD_WORKFLOW.md`:
 
-Path:
+- Unicode NFC;
+- trim and collapse whitespace;
+- preserve umlauts and `ß`;
+- lowercase for canonical key;
+- nouns use dictionary lemma without article;
+- verbs use dictionary infinitive, preserving required `sich` and joined separable prefix;
+- adjectives/adverbs use base form;
+- phrases preserve meaningful internal punctuation.
 
-`cards/by-key/<first-2-hash-chars>/<card_id>.json`
+## Duplicate check
 
-Before creating a card, compute that exact path:
-- if it exists and has the same `canonical_key`, the item is a duplicate;
-- if it does not exist, create the canonical card;
-- if it exists with a different key, stop and report an identity collision/corruption.
+For each candidate:
 
-This deterministic lookup is the only canonical duplicate check.
+1. normalize;
+2. create `canonical_key`;
+3. hash with SHA-256;
+4. read only the corresponding `dedupe/<shard>.json`;
+5. if key exists, skip;
+6. otherwise add flashcard to the new deck and update that shard.
 
-## 5. Card storage model
+Deck and all touched shards must be changed in the same one-commit PR.
 
-Canonical cards contain only learning content:
-- stable card ID;
-- canonical key;
-- German target;
-- Russian meaning;
-- part of speech;
-- optional article/plural;
-- optional verb forms when the **card itself** is a verb;
-- optional government;
-- optional German example;
-- optional Russian example translation;
-- optional concise grammar note.
+## Flashcard content
 
-Do not store project, lesson, date, source, provenance, chat ID, first/last-seen, review progress, or export history inside a card.
+Allowed learning fields include German, Russian, part of speech, article/plural, useful verb forms, government, examples, and a concise grammar note.
 
-Per-project grouping:
-- `projects/<project-slug>/sets/<set-name>.json`
-- set manifest contains only `schema_version` and canonical card IDs.
+Do not store source URLs, chat IDs, lesson IDs, project IDs, timestamps, provenance, review progress, or export history inside flashcards.
 
-## 6. Verbs are a separate output workflow
+## Verbs
 
-This repository does **not** store:
-- source-wide verb inventories;
-- tense tables;
-- verb DOCX/PDF files;
-- grammar study documents.
+Complete source-wide verb inventories, tense tables, grammar documents, DOCX and PDF are separate outputs and are never persisted here.
 
-The separate verb skill may generate those files for the user, but it must not persist them to `lingua-cards`.
+A verb may still appear as an ordinary flashcard inside a deck.
 
-A verb may still be a normal vocabulary card when selected as useful vocabulary; in that case its card may contain its lexical forms.
+## User help
 
-## 7. Privacy
+For ordinary install/import/review/progress questions use `docs/ANKIDROID_GUIDE.md` without web search unless version-specific current UI verification is explicitly requested.
 
-Before persisting content derived from private chats/files, verify repository visibility is private. If public, stop unless the user explicitly authorizes public storage of that content.
+## Reporting
 
-## 8. Generated artifacts
-
-`.apkg`, TSV, DOCX, and PDF are generated delivery artifacts, not canonical Git state. Return them to the user rather than committing them here.
-
-## 9. Validation
-
-Run:
-
-```bash
-python scripts/validate_repo.py
-```
-
-PR CI must also pass the one-commit/up-to-date check.
-
-## 10. Ready user-help instructions
-
-For ordinary card-usage questions, use `docs/ANKIDROID_GUIDE.md` as the local source of truth.
-
-Examples:
-- how to install the card app;
-- how to import `.apkg`;
-- how to review cards;
-- where to see progress/statistics;
-- how optional AnkiWeb sync works.
-
-Do not browse/search the web for these instructions unless the user explicitly asks for current version-specific UI verification.
-
-## 11. User-facing reports
-
-Every repository-change report must include the direct clickable PR URL. Never report a PR as merged unless the human user actually merged it.
+Every repository-change report includes the direct PR URL. Never claim a PR is merged unless the human user merged it.

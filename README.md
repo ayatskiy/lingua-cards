@@ -1,71 +1,119 @@
 # lingua-cards
 
-Standalone, project-agnostic source of truth for German flashcards used by the **Deutsch Lesson Cards** ChatGPT plugin.
+Standalone, project-agnostic source of truth for German **flashcard decks** created by the **Deutsch Lesson Cards** ChatGPT plugin.
 
-This repository stores **flashcards only**. It does not store lesson history, chat/source provenance, verb study tables, DOCX/PDF verb files, or review progress.
+## Domain model
 
-## Storage model
+A user request such as «собери карточки по этому уроку» creates **one deck / набор карточек** that contains many individual flashcards.
 
 ```text
-cards/
-  by-key/
-    ab/
-      CARD-ab...<64-hex-sha256>.json
+one lesson/topic/dialogue/source
+        ↓
+one deck file
+        ↓
+many flashcards
+```
 
+This repository does not create one repository file per word.
+
+## Layout
+
+```text
 projects/
   <project-slug>/
-    sets/
-      2026-09-29.json
+    decks/
       lesson-12.json
+      2026-09-29.json
+      restaurant-dialog.json
+
+dedupe/
+  00.json
+  01.json
+  ...
+  ff.json
 ```
 
-A canonical card is identified deterministically:
+A deck file contains its flashcards directly:
+
+```json
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:entscheidung",
+      "german": "die Entscheidung",
+      "russian": "решение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Entscheidungen",
+      "example_de": "Das war eine schwierige Entscheidung.",
+      "example_ru": "Это было трудное решение."
+    },
+    {
+      "canonical_key": "verb:sich entscheiden",
+      "german": "sich entscheiden",
+      "russian": "решаться; принимать решение",
+      "part_of_speech": "verb"
+    }
+  ]
+}
+```
+
+The deck filename is the user-facing deck name. Prefer a user-supplied short name, lesson number, or ISO date.
+
+## Global duplicate prevention without one huge index
+
+There is no single `index.json`.
+
+For each candidate lexical item:
 
 ```text
-canonical_key = <part_of_speech>:<normalized_german_item>
+canonical_key = <part_of_speech>:<normalized_item>
 hash          = sha256(canonical_key)
-card_id       = CARD-<full 64-char hex hash>
-path          = cards/by-key/<first-two-hash-chars>/<card_id>.json
+shard         = first two hex characters
+lookup        = dedupe/<shard>.json
 ```
 
-There is deliberately **no global index file**. Duplicate detection is a direct lookup of the deterministic card path. This avoids an ever-growing hot-spot file and removes the need for a global sequential counter.
+Example for **die Entscheidung**:
 
-Project sets contain only canonical card IDs. The set filename is the human-facing grouping: a user-provided short name, lesson number, or ISO date.
+```text
+canonical_key = noun:entscheidung
+sha256        = 31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
+lookup        = dedupe/31.json
+```
 
-## Core invariants
+A shard may contain:
 
-- one canonical card per normalized German lemma/phrase across the whole repository;
-- cards contain learning content only;
-- no project, lesson, date, source, chat, provenance, first/last-seen, or export metadata inside cards;
-- verb inventories and grammar tables are **not stored here**;
-- generated `.apkg`, DOCX, and PDF files are delivery artifacts, not repository state;
-- Anki/AnkiDroid owns review scheduling and progress;
-- every repository change goes through a Pull Request;
-- every PR contains exactly one commit rebased directly on current `master`;
-- agents/plugins **never merge PRs**; they leave PRs open and return the link;
+```json
+{
+  "schema_version": 1,
+  "entries": {
+    "noun:entscheidung": "projects/deutsch-uebungen/decks/lesson-12.json"
+  }
+}
+```
+
+If the key already exists, that item is skipped in a later deck. If it is new, it is added to the new deck and the shard is updated in the same PR.
+
+This gives global duplicate detection while avoiding one ever-growing write hot spot.
+
+## Boundaries
+
+- deck file = one group of many flashcards;
+- flashcard = one word/phrase/item inside the deck;
+- no source/chat/history metadata inside flashcards;
+- complete verb tables/grammar DOCX/PDF are not stored here;
+- generated `.apkg` is a delivery artifact, not canonical Git state;
+- AnkiDroid owns review scheduling and progress;
+- every repository change uses a PR;
+- every PR has exactly one commit rebased on current `master`;
+- agents/plugins never merge PRs;
 - never push directly to `master`.
 
-## Worked card lookup example
+## Android
 
-For **die Entscheidung**:
+Recommended client: **AnkiDroid Flashcards**.
 
-```text
-normalized lemma = entscheidung
-canonical_key    = noun:entscheidung
-sha256           = 31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
-card_id          = CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b
-path             = cards/by-key/31/CARD-31f3de787252e2246bad78628c5f92ac1c441b6c2ea26b1da70f5b1f67afc15b.json
-```
-
-The agent checks this exact path. Existing file with the same key = duplicate, so no new card is created.
-
-## Android target and user instructions
-
-Canonical client: **AnkiDroid**.
-
-Primary delivery format: `.apkg`.
-Optional backup/interchange: UTF-8 TSV.
-
-Ready user instructions are stored in [docs/ANKIDROID_GUIDE.md](docs/ANKIDROID_GUIDE.md). Agents should answer ordinary usage questions from that local guide without web search unless the user explicitly asks for current version-specific UI verification.
+One deck JSON is exported as one Anki deck/package. Ready instructions are in [docs/ANKIDROID_GUIDE.md](docs/ANKIDROID_GUIDE.md).
 
 Start with `START_HERE.md`.

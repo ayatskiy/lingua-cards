@@ -1,20 +1,22 @@
 # projects/
 
-Project folders group card sets without adding provenance to canonical cards.
+Each project contains user-facing deck files:
 
 ```text
 projects/
   <project-slug>/
-    sets/
-      <set-name>.json
+    decks/
+      <deck-name>.json
 ```
 
 Examples:
 
 ```text
-projects/deutsch-uebungen/sets/2026-09-29.json
-projects/travel-german/sets/lesson-12.json
-projects/general/sets/2026-09-29.json
+projects/deutsch-uebungen/decks/lesson-12.json
+projects/deutsch-uebungen/decks/2026-09-29.json
+projects/travel-german/decks/restaurant-dialog.json
 ```
 
-A set manifest contains only `schema_version` and ordered canonical card IDs.
+Each deck file contains many flashcards.
+
+Project/deck grouping is expressed by path and filename, not duplicated inside every flashcard.
