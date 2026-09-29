@@ -1,7 +1,7 @@
 {
-  "schema_version": 5,
+  "schema_version": 6,
   "repository": "ayatskiy/lingua-cards",
-  "purpose": "Standalone project-agnostic German flashcard deck repository for Deutsch Lesson Cards.",
+  "purpose": "Standalone project-agnostic German flashcard deck repository with Quizlet-first application exports.",
   "default_branch": "master",
   "write_mode": "pull_request_only",
   "merge_policy": "human_only_never_auto_merge",
@@ -17,21 +17,27 @@
   "terminology": {
     "deck": "one user-facing collection containing many flashcards",
     "flashcard": "one lexical learning item inside a deck",
+    "canonical_deck": "application-neutral JSON source",
+    "app_artifact": "application-specific Quizlet/Anki representation",
     "dedupe_shard": "technical cross-deck duplicate lookup"
   },
   "storage": {
-    "decks": "projects/<project-slug>/decks/<deck-name>.json",
+    "canonical_decks": "projects/<project-slug>/decks/<deck-name>.json",
+    "quizlet": "apps/quizlet/<project-slug>/<deck-name>.txt",
+    "anki": "apps/anki/<project-slug>/<deck-name>.apkg",
+    "default_app": "quizlet",
+    "required_default_artifact": "quizlet",
+    "anki_required": false,
     "dedupe_shards": "dedupe/<sha256(canonical_key)[0:2]>.json",
     "global_single_index": false,
-    "per_word_files": false,
-    "apkg": "projects/<project-slug>/decks/<deck-name>.apkg",
-    "apkg_required": true,
-    "apkg_source": "generated from sibling deck JSON"
+    "per_word_files": false
   },
   "bootstrap": "START_HERE.md",
   "rules": "AGENTS.md",
   "workflow": "docs/CARD_WORKFLOW.md",
-  "user_guide": "docs/ANKIDROID_GUIDE.md",
+  "format_conversion": "docs/FORMAT_CONVERSION.md",
+  "user_guide": "docs/QUIZLET_GUIDE.md",
+  "fallback_user_guide": "docs/ANKIDROID_GUIDE.md",
   "schemas": {
     "deck": "schemas/deck.schema.json",
     "dedupe_shard": "schemas/dedupe-shard.schema.json"
@@ -42,7 +48,8 @@
     "plugin_id": "plugins_6abaa53ddf44819198c3e2f47d84f6e6"
   },
   "external": {
-    "srs_schedule": "Anki/AnkiDroid",
+    "primary_study_app": "Quizlet",
+    "fallback_study_app": "Anki/AnkiDroid",
     "verb_documents": "generated DOCX/PDF artifacts"
   },
   "validation_command": "python scripts/validate_repo.py"

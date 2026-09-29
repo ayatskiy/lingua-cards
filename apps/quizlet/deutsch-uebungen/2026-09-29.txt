@@ -1,0 +1,89 @@
+das Geburtsdatum	дата рождения · Plural: Geburtsdaten
+der Geburtsort	место рождения · Plural: Geburtsorte
+die Schulbildung	школьное образование
+der Berufsweg	профессиональный путь · Plural: Berufswege
+das Erlebnis	событие, пережитый опыт · Plural: Erlebnisse
+der Stichpunkt	тезис, пункт · Plural: Stichpunkte
+sich eine Biografie ausdenken	придумать биографию
+jemanden vorstellen	представлять кого-либо · Rektion: jemanden (Akk.) vorstellen
+die Persönlichkeit	личность · Plural: Persönlichkeiten
+die Sendung	передача, программа · Plural: Sendungen
+der Rundfunk	радиовещание
+das Fernsehen	телевидение
+die Tätigkeit	деятельность, занятие · Plural: Tätigkeiten
+die Leistung	достижение, результат · Plural: Leistungen
+der Bundeskanzler	федеральный канцлер · Plural: Bundeskanzler
+der Wiederaufbau	восстановление, реконструкция
+der Reformator	реформатор · Plural: Reformatoren
+die Bibelübersetzung	перевод Библии · Plural: Bibelübersetzungen
+der Philosoph	философ · Plural: Philosophen
+das Manifest	манифест · Plural: Manifeste
+der Widerstand	сопротивление · Plural: Widerstände
+die Ostpolitik	восточная политика
+der Komponist	композитор · Plural: Komponisten
+der Dichter	поэт, писатель · Plural: Dichter
+der Erfinder	изобретатель · Plural: Erfinder
+der Buchdruck	книгопечатание
+der Reichskanzler	рейхсканцлер · Plural: Reichskanzler
+die Reichsgründung	основание Германской империи · Plural: Reichsgründungen
+der Physiker	физик · Plural: Physiker
+die Relativitätstheorie	теория относительности · Plural: Relativitätstheorien
+eine Wahl begründen	обосновать выбор
+Woher kommst du?	Откуда ты?
+kommen	приходить; происходить из · Präsens: kommt · Präteritum: kam · Partizip II: gekommen · Perfekt: ist gekommen · Rektion: aus + Dat. (происхождение)
+wohnen	жить, проживать · Präsens: wohnt · Präteritum: wohnte · Partizip II: gewohnt · Perfekt: hat gewohnt · Rektion: in + Dat. (место)
+der Flughafen	аэропорт · Plural: Flughäfen
+das Problem	проблема · Plural: Probleme
+die Tasche	сумка · Plural: Taschen
+die Tante	тётя · Plural: Tanten
+die Adresse	адрес · Plural: Adressen
+jemanden anrufen	звонить кому-либо · Präsens: ruft an · Präteritum: rief an · Partizip II: angerufen · Perfekt: hat angerufen · Rektion: jemanden (Akk.) anrufen
+das Telefon	телефон · Plural: Telefone
+die Nummer	номер · Plural: Nummern
+die Polizei	полиция
+der Polizist	полицейский · Plural: Polizisten
+jemandem helfen	помогать кому-либо · Präsens: hilft · Präteritum: half · Partizip II: geholfen · Perfekt: hat geholfen · Rektion: jemandem (Dat.) helfen
+suchen	искать · Präsens: sucht · Präteritum: suchte · Partizip II: gesucht · Perfekt: hat gesucht · Rektion: jemanden/etwas (Akk.) suchen
+weg sein	пропасть; отсутствовать
+der Vater	отец · Plural: Väter
+der Buchstabe	буква · Plural: Buchstaben
+buchstabieren	произносить/писать по буквам · Präsens: buchstabiert · Präteritum: buchstabierte · Partizip II: buchstabiert · Perfekt: hat buchstabiert · Rektion: etwas (Akk.) buchstabieren
+die Hausnummer	номер дома · Plural: Hausnummern
+der Name	имя; название · Plural: Namen
+die Straße	улица, дорога · Plural: Straßen
+Wie schreibt man das?	Как это пишется?
+fliegen	летать; лететь · Präsens: fliegt · Präteritum: flog · Partizip II: geflogen · Perfekt: ist geflogen
+arbeiten	работать · Präsens: arbeitet · Präteritum: arbeitete · Partizip II: gearbeitet · Perfekt: hat gearbeitet
+Mein Name ist ...	Меня зовут ... / Моё имя ...
+heißen	называться, зваться · Präsens: heißt · Präteritum: hieß · Partizip II: geheißen · Perfekt: hat geheißen
+Wie heißt du?	Как тебя зовут?
+das Taxi	такси · Plural: Taxis
+die Tankstelle	заправка · Plural: Tankstellen
+tanken	заправляться; заправлять топливом · Präsens: tankt · Präteritum: tankte · Partizip II: getankt · Perfekt: hat getankt
+sich vorstellen	представляться · Präsens: stellt sich vor · Präteritum: stellte sich vor · Partizip II: vorgestellt · Perfekt: hat sich vorgestellt
+erkennen	узнавать; распознавать · Präsens: erkennt · Präteritum: erkannte · Partizip II: erkannt · Perfekt: hat erkannt · Rektion: jemanden/etwas (Akk.) erkennen
+der Taxifahrer	таксист · Plural: Taxifahrer
+Keine Ahnung.	Без понятия. / Не знаю.
+der Familienname	фамилия · Plural: Familiennamen
+der Vorname	имя · Plural: Vornamen
+der Kurs	курс · Plural: Kurse
+die Sprache	язык · Plural: Sprachen
+das Beispiel	пример · Plural: Beispiele
+lernen	учить, изучать · Präsens: lernt · Präteritum: lernte · Partizip II: gelernt · Perfekt: hat gelernt · Rektion: etwas (Akk.) lernen
+sprechen	говорить · Präsens: spricht · Präteritum: sprach · Partizip II: gesprochen · Perfekt: hat gesprochen · Rektion: mit + Dat.; über + Akk.; eine Sprache sprechen
+sagen	говорить, сказать · Präsens: sagt · Präteritum: sagte · Partizip II: gesagt · Perfekt: hat gesagt · Rektion: jemandem (Dat.) etwas (Akk.) sagen
+warten	ждать · Präsens: wartet · Präteritum: wartete · Partizip II: gewartet · Perfekt: hat gewartet · Rektion: auf + Akk.
+spinnen	чудить; быть не в своём уме (разг.) · Präsens: spinnt · Präteritum: spann · Partizip II: gesponnen · Perfekt: hat gesponnen
+stoppen	останавливать(ся) · Präsens: stoppt · Präteritum: stoppte · Partizip II: gestoppt · Perfekt: hat gestoppt
+vermuten	предполагать · Präsens: vermutet · Präteritum: vermutete · Partizip II: vermutet · Perfekt: hat vermutet · Rektion: etwas (Akk.) vermuten; vermuten, dass ...
+versuchen	пытаться · Präsens: versucht · Präteritum: versuchte · Partizip II: versucht · Perfekt: hat versucht · Rektion: versuchen, zu + Infinitiv
+jemanden beruhigen	успокаивать кого-либо · Präsens: beruhigt · Präteritum: beruhigte · Partizip II: beruhigt · Perfekt: hat beruhigt · Rektion: jemanden (Akk.) beruhigen
+öffnen	открывать · Präsens: öffnet · Präteritum: öffnete · Partizip II: geöffnet · Perfekt: hat geöffnet · Rektion: etwas (Akk.) öffnen
+auswählen	выбирать · Präsens: wählt aus · Präteritum: wählte aus · Partizip II: ausgewählt · Perfekt: hat ausgewählt · Rektion: jemanden/etwas (Akk.) auswählen
+meiner Meinung nach	по моему мнению
+die Familie	семья · Plural: Familien
+das Werk	произведение; труд · Plural: Werke
+die Studentin	студентка · Plural: Studentinnen
+das Lexikon	энциклопедия; справочник · Plural: Lexika
+wichtig	важный
+entscheidend	решающий; ключевой
