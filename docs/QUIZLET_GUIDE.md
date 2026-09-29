@@ -11,7 +11,13 @@ For every deck the repository stores:
 
 The Quizlet TXT is UTF-8 text with one flashcard per line and a TAB between German term and Russian definition.
 
-## Import into Quizlet
+## Repository snapshot vs Quizlet account
+
+The repository TXT is the complete current snapshot of the deck. Updating `apps/quizlet/<project>/<deck>.txt` in GitHub does **not** automatically update an already-published Quizlet set.
+
+Use one of the two workflows below.
+
+## Create a new Quizlet set
 
 Quizlet's current bulk import is performed on the **website**.
 
@@ -28,6 +34,24 @@ Quizlet's current bulk import is performed on the **website**.
 11. Review the preview and create/publish the set.
 
 After publishing, study it on web or in the Quizlet mobile app.
+
+## Update an existing Quizlet set
+
+For a small or targeted change:
+
+1. Regenerate the canonical JSON and full Quizlet TXT through the normal repository PR.
+2. Open the existing set in Quizlet.
+3. Open the more/options menu and choose **Edit / Edit set**.
+4. Reconcile the affected cards with the regenerated TXT: add new rows, edit changed terms/definitions, remove deleted rows, and reorder if needed.
+5. Save/Done.
+
+For a large rewrite, the documented bulk-import flow creates a new set rather than synchronizing over an existing one. The safe replacement workflow is:
+
+1. Create a new Quizlet set from the regenerated full TXT.
+2. Verify card count, languages, and a sample of changed cards.
+3. Only after verification decide whether to keep, rename, or retire the old set.
+
+Agents must never say that the Quizlet account was updated merely because a GitHub PR changed the TXT.
 
 ## Why TXT
 

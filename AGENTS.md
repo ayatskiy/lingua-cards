@@ -71,6 +71,18 @@ UTF-8 text, no header:
 
 Tabs/newlines inside term or definition are flattened to spaces.
 
+## Quizlet account create/update semantics
+
+The repository controls canonical deck data and export artifacts, not the learner's Quizlet account.
+
+For a **new Quizlet set**, use the full TXT with Quizlet's website import flow.
+
+For an **existing Quizlet set**:
+- regenerate the full TXT snapshot from canonical JSON;
+- tell the learner to open the existing set and use Edit/Edit set for small changes;
+- for large rewrites, recommend creating and verifying a replacement set from the regenerated TXT;
+- never claim Quizlet itself was updated merely because repository files changed.
+
 ## Anki fallback
 
 Anki is optional. When requested, generate a stable APKG under `apps/anki/<project>/<deck>.apkg` and validate note/card count against the canonical JSON.
