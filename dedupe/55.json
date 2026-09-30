@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
-    "phrase:woher kommst du": "projects/deutsch-uebungen/decks/2026-09-29.json"
+    "adverb:eher": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "phrase:woher kommst du": "projects/deutsch-uebungen/decks/2026-09-29.json",
+    "verb:übernehmen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
+    "adjective:jugendlich": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
     "phrase:weg sein": "projects/deutsch-uebungen/decks/2026-09-29.json"
   }
 }

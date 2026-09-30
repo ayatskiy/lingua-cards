@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entries": {
     "noun:geburtsdatum": "projects/deutsch-uebungen/decks/2026-09-29.json",
-    "noun:luxus": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
+    "noun:luxus": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "verb:erzählen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

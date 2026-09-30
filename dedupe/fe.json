@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "phrase:bekannt sein für": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
+    "phrase:bekannt sein für": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "verb:ergänzen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

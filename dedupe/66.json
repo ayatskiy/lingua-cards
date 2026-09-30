@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:hass": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
+    "noun:hass": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "verb:überzeugen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

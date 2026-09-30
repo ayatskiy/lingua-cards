@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
+    "adjective:unpraktisch": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "phrase:in den weltraum schicken": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
     "verb:erleben": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
     "verb:kommen": "projects/deutsch-uebungen/decks/2026-09-29.json"
   }

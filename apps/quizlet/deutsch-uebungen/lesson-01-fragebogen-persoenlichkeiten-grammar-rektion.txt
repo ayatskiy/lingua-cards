@@ -33,3 +33,57 @@ mitnehmen — Rektion	jemanden/etwas (Akk.) mitnehmen
 verheiraten — Rektion	jemanden (Akk.) mit + Dat. verheiraten
 machen — Rektion	etwas (Akk.) machen; jemanden + Adjektiv machen
 passen zu — Rektion	zu + Dat.
+eifersüchtig — Rektion	auf + Akk.
+zufrieden — Rektion	mit + Dat.
+enttäuscht — Rektion	von + Dat.
+dankbar — Rektion	für + Akk.
+beunruhigt — Rektion	über + Akk.
+interessiert — Rektion	an + Dat.
+erschrocken — Rektion	über + Akk.
+böse — Rektion	auf + Akk.
+erstaunt — Rektion	über + Akk.
+jemanden nicht im stich lassen — Rektion	jemanden (Akk.)
+jemanden nicht aus den augen lassen — Rektion	jemanden (Akk.)
+rücksicht nehmen auf — Rektion	auf + Akk.
+wert legen auf — Rektion	auf + Akk.
+sich in etwas auskennen — Rektion	in + Dat.
+sich für etwas begeistern — Rektion	für + Akk.
+sich für etwas entscheiden — Rektion	für + Akk.
+sich über etwas unterhalten — Rektion	über + Akk.
+etwas auswendig können — Rektion	etwas (Akk.)
+sich in jemanden hineindenken — Rektion	in + Akk.
+jemandem hinterherlaufen — Rektion	jemandem (Dat.)
+in den weltraum schicken — Rektion	in + Akk.
+wählen — Rektion	jemanden/etwas (Akk.) wählen
+fehlen — Rektion	jemandem (Dat.) fehlen
+zuordnen — Rektion	jemandem/etwas (Dat.) etwas (Akk.) zuordnen
+begründen — Rektion	etwas (Akk.) begründen
+ermitteln — Rektion	etwas (Akk.) ermitteln
+hören — Rektion	jemanden/etwas (Akk.) hören
+entscheiden — Rektion	über + Akk.; sich für/gegen + Akk. entscheiden
+aufführen — Rektion	etwas (Akk.) aufführen
+interpretieren — Rektion	etwas (Akk.) interpretieren
+übersetzen — Rektion	etwas in + Akk. übersetzen
+sich wünschen — Rektion	sich (Dat.) etwas (Akk.) wünschen
+umfassen — Rektion	etwas (Akk.) umfassen
+schicken — Rektion	jemandem (Dat.) etwas (Akk.) schicken
+überzeugen — Rektion	jemanden (Akk.) von + Dat. überzeugen
+austauschen — Rektion	etwas (Akk.) austauschen
+ablesen — Rektion	etwas an + Dat. ablesen
+unterstreichen — Rektion	etwas (Akk.) unterstreichen
+klären — Rektion	etwas (Akk.) klären
+ergänzen — Rektion	etwas (Akk.) ergänzen
+übernehmen — Rektion	etwas (Akk.) übernehmen
+telefonieren — Rektion	mit + Dat.
+trinken — Rektion	etwas (Akk.) trinken
+heiraten — Rektion	jemanden (Akk.) heiraten
+verstärken — Rektion	etwas (Akk.) verstärken
+abschwächen — Rektion	etwas (Akk.) abschwächen
+erzählen — Rektion	jemandem (Dat.) etwas (Akk.) erzählen
+aussehen — Rektion	Adjektiv / wie ... aussehen
+sich interessieren — Rektion	für + Akk.
+halten — Rektion	etwas (Akk.) halten
+aufwachsen — Rektion	in + Dat.
+abschließen — Rektion	etwas (Akk.) abschließen
+studieren — Rektion	etwas (Akk.) studieren / an + Dat. studieren
+gründen — Rektion	etwas (Akk.) gründen

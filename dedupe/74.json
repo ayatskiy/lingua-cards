@@ -2,6 +2,9 @@
   "schema_version": 1,
   "entries": {
     "noun:rundfunk": "projects/deutsch-uebungen/decks/2026-09-29.json",
-    "phrase:wie schreibt man das": "projects/deutsch-uebungen/decks/2026-09-29.json"
+    "phrase:wie schreibt man das": "projects/deutsch-uebungen/decks/2026-09-29.json",
+    "verb:aufführen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "verb:schicken": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "verb:studieren": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }
