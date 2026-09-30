@@ -1,6 +1,9 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:manifest": "projects/deutsch-uebungen/decks/2026-09-29.json"
+    "noun:manifest": "projects/deutsch-uebungen/decks/2026-09-29.json",
+    "verb:bauen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "verb:darstellen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "verb:können": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

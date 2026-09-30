@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:problem": "projects/deutsch-uebungen/decks/2026-09-29.json"
+    "noun:problem": "projects/deutsch-uebungen/decks/2026-09-29.json",
+    "verb:gefallen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:schulbildung": "projects/deutsch-uebungen/decks/2026-09-29.json"
+    "noun:schulbildung": "projects/deutsch-uebungen/decks/2026-09-29.json",
+    "verb:führen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

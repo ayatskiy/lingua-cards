@@ -1,0 +1,949 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:fragebogen",
+      "german": "der Fragebogen",
+      "russian": "анкета; вопросник",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Fragebögen"
+    },
+    {
+      "canonical_key": "noun:antwort",
+      "german": "die Antwort",
+      "russian": "ответ",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Antworten"
+    },
+    {
+      "canonical_key": "noun:lernpartner",
+      "german": "der Lernpartner",
+      "russian": "партнёр по учебе",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Lernpartner"
+    },
+    {
+      "canonical_key": "noun:lieblingsfilm",
+      "german": "der Lieblingsfilm",
+      "russian": "любимый фильм",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Lieblingsfilme"
+    },
+    {
+      "canonical_key": "noun:lieblingsmusik",
+      "german": "die Lieblingsmusik",
+      "russian": "любимая музыка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:wunsch",
+      "german": "der Wunsch",
+      "russian": "желание",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Wünsche"
+    },
+    {
+      "canonical_key": "noun:traum",
+      "german": "der Traum",
+      "russian": "мечта; сон",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Träume"
+    },
+    {
+      "canonical_key": "noun:insel",
+      "german": "die Insel",
+      "russian": "остров",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Inseln"
+    },
+    {
+      "canonical_key": "noun:heimatland",
+      "german": "das Heimatland",
+      "russian": "родная страна",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Heimatländer"
+    },
+    {
+      "canonical_key": "noun:thema",
+      "german": "das Thema",
+      "russian": "тема",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Themen"
+    },
+    {
+      "canonical_key": "noun:ernährung",
+      "german": "die Ernährung",
+      "russian": "питание",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:geografie",
+      "german": "die Geografie",
+      "russian": "география",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:industrie",
+      "german": "die Industrie",
+      "russian": "промышленность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Industrien"
+    },
+    {
+      "canonical_key": "noun:literatur",
+      "german": "die Literatur",
+      "russian": "литература",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:gesellschaft",
+      "german": "die Gesellschaft",
+      "russian": "общество; компания",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gesellschaften"
+    },
+    {
+      "canonical_key": "noun:siedler",
+      "german": "der Siedler",
+      "russian": "поселенец",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Siedler"
+    },
+    {
+      "canonical_key": "noun:nomadenstamm",
+      "german": "der Nomadenstamm",
+      "russian": "кочевое племя",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Nomadenstämme"
+    },
+    {
+      "canonical_key": "noun:wissenschaftler",
+      "german": "der Wissenschaftler",
+      "russian": "учёный",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Wissenschaftler"
+    },
+    {
+      "canonical_key": "noun:erkenntnis",
+      "german": "die Erkenntnis",
+      "russian": "познание; вывод; понимание",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Erkenntnisse"
+    },
+    {
+      "canonical_key": "noun:urwald",
+      "german": "der Urwald",
+      "russian": "тропический/девственный лес",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Urwälder"
+    },
+    {
+      "canonical_key": "noun:wüste",
+      "german": "die Wüste",
+      "russian": "пустыня",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Wüsten"
+    },
+    {
+      "canonical_key": "noun:grundlage",
+      "german": "die Grundlage",
+      "russian": "основа",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Grundlagen"
+    },
+    {
+      "canonical_key": "noun:länderkunde",
+      "german": "die Länderkunde",
+      "russian": "страноведение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:begründer",
+      "german": "der Begründer",
+      "russian": "основатель; основоположник",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Begründer"
+    },
+    {
+      "canonical_key": "noun:lehrtätigkeit",
+      "german": "die Lehrtätigkeit",
+      "russian": "преподавательская деятельность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Lehrtätigkeiten"
+    },
+    {
+      "canonical_key": "noun:mission",
+      "german": "die Mission",
+      "russian": "миссия; поручение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Missionen"
+    },
+    {
+      "canonical_key": "noun:forschungsresultat",
+      "german": "das Forschungsresultat",
+      "russian": "результат исследования",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Forschungsresultate"
+    },
+    {
+      "canonical_key": "noun:band",
+      "german": "der Band",
+      "russian": "том (книги)",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Bände",
+      "grammar_note": "der Band (Bände) = том; das Band = лента"
+    },
+    {
+      "canonical_key": "noun:luxus",
+      "german": "der Luxus",
+      "russian": "роскошь",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:glücksspiel",
+      "german": "das Glücksspiel",
+      "russian": "азартная игра",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Glücksspiele"
+    },
+    {
+      "canonical_key": "noun:thronfolger",
+      "german": "der Thronfolger",
+      "russian": "наследник престола",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Thronfolger"
+    },
+    {
+      "canonical_key": "noun:hass",
+      "german": "der Hass",
+      "russian": "ненависть",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:revolution",
+      "german": "die Revolution",
+      "russian": "революция",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Revolutionen"
+    },
+    {
+      "canonical_key": "noun:lebenswandel",
+      "german": "der Lebenswandel",
+      "russian": "образ жизни",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:angriffsziel",
+      "german": "das Angriffsziel",
+      "russian": "объект нападок; мишень",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Angriffsziele"
+    },
+    {
+      "canonical_key": "noun:flugblatt",
+      "german": "das Flugblatt",
+      "russian": "листовка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Flugblätter"
+    },
+    {
+      "canonical_key": "noun:bestie",
+      "german": "die Bestie",
+      "russian": "зверь; чудовище",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bestien"
+    },
+    {
+      "canonical_key": "adjective:deutschsprachig",
+      "german": "deutschsprachig",
+      "russian": "немецкоязычный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:lebenslustig",
+      "german": "lebenslustig",
+      "russian": "жизнерадостный; любящий жизнь",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:abenteuerlich",
+      "german": "abenteuerlich",
+      "russian": "приключенческий; рискованный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:suspekt",
+      "german": "suspekt",
+      "russian": "подозрительный; сомнительный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:böswillig",
+      "german": "böswillig",
+      "russian": "злонамеренный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "phrase:bekannt sein für",
+      "german": "bekannt sein für + Akk.",
+      "russian": "быть известным чем-либо",
+      "part_of_speech": "phrase",
+      "grammar_note": "für + Akkusativ"
+    },
+    {
+      "canonical_key": "phrase:eine frage stellen",
+      "german": "eine Frage stellen",
+      "russian": "задать вопрос",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:aus den fugen geraten",
+      "german": "aus den Fugen geraten",
+      "russian": "выйти из равновесия; расстроиться (о порядке/системе)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sich einen traum erfüllen",
+      "german": "sich einen Traum erfüllen",
+      "russian": "осуществить свою мечту",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:essen",
+      "german": "essen",
+      "russian": "есть, кушать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "isst",
+        "praeteritum": "aß",
+        "partizip_ii": "gegessen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gegessen"
+      },
+      "government": "etwas (Akk.) essen"
+    },
+    {
+      "canonical_key": "verb:faszinieren",
+      "german": "jemanden faszinieren",
+      "russian": "очаровывать; увлекать кого-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "fasziniert",
+        "praeteritum": "faszinierte",
+        "partizip_ii": "fasziniert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat fasziniert"
+      },
+      "government": "jemanden (Akk.) faszinieren"
+    },
+    {
+      "canonical_key": "verb:leben",
+      "german": "leben",
+      "russian": "жить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lebt",
+        "praeteritum": "lebte",
+        "partizip_ii": "gelebt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gelebt"
+      },
+      "government": "in + Dat. (место)"
+    },
+    {
+      "canonical_key": "verb:sterben",
+      "german": "sterben",
+      "russian": "умирать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stirbt",
+        "praeteritum": "starb",
+        "partizip_ii": "gestorben",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist gestorben"
+      }
+    },
+    {
+      "canonical_key": "verb:werden",
+      "german": "werden",
+      "russian": "становиться; стать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wird",
+        "praeteritum": "wurde",
+        "partizip_ii": "geworden",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist geworden"
+      },
+      "grammar_note": "также вспомогательный глагол для Passiv и Futur"
+    },
+    {
+      "canonical_key": "verb:besitzen",
+      "german": "besitzen",
+      "russian": "владеть; иметь в собственности",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "besitzt",
+        "praeteritum": "besaß",
+        "partizip_ii": "besessen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat besessen"
+      },
+      "government": "etwas (Akk.) besitzen"
+    },
+    {
+      "canonical_key": "verb:denken an",
+      "german": "an etwas denken",
+      "russian": "думать о чём-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "denkt",
+        "praeteritum": "dachte",
+        "partizip_ii": "gedacht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gedacht"
+      },
+      "government": "an + Akk."
+    },
+    {
+      "canonical_key": "verb:lachen über",
+      "german": "über etwas lachen",
+      "russian": "смеяться над чем-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lacht",
+        "praeteritum": "lachte",
+        "partizip_ii": "gelacht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gelacht"
+      },
+      "government": "über + Akk."
+    },
+    {
+      "canonical_key": "verb:besteigen",
+      "german": "besteigen",
+      "russian": "подниматься на; взбираться на",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "besteigt",
+        "praeteritum": "bestieg",
+        "partizip_ii": "bestiegen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat bestiegen"
+      },
+      "government": "etwas (Akk.) besteigen"
+    },
+    {
+      "canonical_key": "verb:lesen",
+      "german": "lesen",
+      "russian": "читать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "liest",
+        "praeteritum": "las",
+        "partizip_ii": "gelesen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gelesen"
+      },
+      "government": "etwas (Akk.) lesen"
+    },
+    {
+      "canonical_key": "verb:markieren",
+      "german": "markieren",
+      "russian": "отмечать; выделять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "markiert",
+        "praeteritum": "markierte",
+        "partizip_ii": "markiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat markiert"
+      },
+      "government": "etwas (Akk.) markieren"
+    },
+    {
+      "canonical_key": "verb:gefallen",
+      "german": "jemandem gefallen",
+      "russian": "нравиться кому-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "gefällt",
+        "praeteritum": "gefiel",
+        "partizip_ii": "gefallen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gefallen"
+      },
+      "government": "jemandem (Dat.) gefallen"
+    },
+    {
+      "canonical_key": "verb:schreiben",
+      "german": "schreiben",
+      "russian": "писать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schreibt",
+        "praeteritum": "schrieb",
+        "partizip_ii": "geschrieben",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geschrieben"
+      },
+      "government": "jemandem (Dat.) etwas (Akk.) schreiben"
+    },
+    {
+      "canonical_key": "verb:lassen",
+      "german": "lassen",
+      "russian": "оставлять; позволять; велеть",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lässt",
+        "praeteritum": "ließ",
+        "partizip_ii": "gelassen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gelassen"
+      },
+      "grammar_note": "lassen + Infinitiv: позволить/поручить сделать"
+    },
+    {
+      "canonical_key": "verb:stellen",
+      "german": "stellen",
+      "russian": "ставить; задавать (вопрос)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stellt",
+        "praeteritum": "stellte",
+        "partizip_ii": "gestellt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gestellt"
+      },
+      "government": "jemandem eine Frage stellen"
+    },
+    {
+      "canonical_key": "verb:notieren",
+      "german": "notieren",
+      "russian": "записывать; отмечать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "notiert",
+        "praeteritum": "notierte",
+        "partizip_ii": "notiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat notiert"
+      },
+      "government": "etwas (Akk.) notieren"
+    },
+    {
+      "canonical_key": "verb:kennen",
+      "german": "kennen",
+      "russian": "знать; быть знакомым с",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "kennt",
+        "praeteritum": "kannte",
+        "partizip_ii": "gekannt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gekannt"
+      },
+      "government": "jemanden/etwas (Akk.) kennen"
+    },
+    {
+      "canonical_key": "verb:erfinden",
+      "german": "erfinden",
+      "russian": "изобретать; придумывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erfindet",
+        "praeteritum": "erfand",
+        "partizip_ii": "erfunden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erfunden"
+      },
+      "government": "etwas (Akk.) erfinden"
+    },
+    {
+      "canonical_key": "verb:entdecken",
+      "german": "entdecken",
+      "russian": "обнаруживать; открывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "entdeckt",
+        "praeteritum": "entdeckte",
+        "partizip_ii": "entdeckt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat entdeckt"
+      },
+      "government": "jemanden/etwas (Akk.) entdecken"
+    },
+    {
+      "canonical_key": "verb:bauen",
+      "german": "bauen",
+      "russian": "строить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "baut",
+        "praeteritum": "baute",
+        "partizip_ii": "gebaut",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gebaut"
+      },
+      "government": "etwas (Akk.) bauen"
+    },
+    {
+      "canonical_key": "verb:beschreiben",
+      "german": "beschreiben",
+      "russian": "описывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beschreibt",
+        "praeteritum": "beschrieb",
+        "partizip_ii": "beschrieben",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat beschrieben"
+      },
+      "government": "jemanden/etwas (Akk.) beschreiben"
+    },
+    {
+      "canonical_key": "verb:sich fühlen",
+      "german": "sich fühlen",
+      "russian": "чувствовать себя",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "fühlt sich",
+        "praeteritum": "fühlte sich",
+        "partizip_ii": "gefühlt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gefühlt"
+      },
+      "government": "sich + Adjektiv fühlen"
+    },
+    {
+      "canonical_key": "verb:verlassen",
+      "german": "verlassen",
+      "russian": "покидать; оставлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verlässt",
+        "praeteritum": "verließ",
+        "partizip_ii": "verlassen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verlassen"
+      },
+      "government": "jemanden/etwas (Akk.) verlassen"
+    },
+    {
+      "canonical_key": "verb:führen",
+      "german": "führen",
+      "russian": "вести; руководить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "führt",
+        "praeteritum": "führte",
+        "partizip_ii": "geführt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geführt"
+      },
+      "government": "ein Leben/Gespräch führen"
+    },
+    {
+      "canonical_key": "verb:überraschen",
+      "german": "jemanden überraschen",
+      "russian": "удивлять кого-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "überrascht",
+        "praeteritum": "überraschte",
+        "partizip_ii": "überrascht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat überrascht"
+      },
+      "government": "jemanden (Akk.) überraschen"
+    },
+    {
+      "canonical_key": "verb:erscheinen",
+      "german": "erscheinen",
+      "russian": "появляться; казаться; выходить (о книге)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erscheint",
+        "praeteritum": "erschien",
+        "partizip_ii": "erschienen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist erschienen"
+      }
+    },
+    {
+      "canonical_key": "verb:entwickeln",
+      "german": "entwickeln",
+      "russian": "разрабатывать; развивать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "entwickelt",
+        "praeteritum": "entwickelte",
+        "partizip_ii": "entwickelt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat entwickelt"
+      },
+      "government": "etwas (Akk.) entwickeln"
+    },
+    {
+      "canonical_key": "verb:finden",
+      "german": "finden",
+      "russian": "находить; считать (каким-либо)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "findet",
+        "praeteritum": "fand",
+        "partizip_ii": "gefunden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gefunden"
+      },
+      "government": "jemanden/etwas (Akk.) finden"
+    },
+    {
+      "canonical_key": "verb:veröffentlichen",
+      "german": "veröffentlichen",
+      "russian": "публиковать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "veröffentlicht",
+        "praeteritum": "veröffentlichte",
+        "partizip_ii": "veröffentlicht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat veröffentlicht"
+      },
+      "government": "etwas (Akk.) veröffentlichen"
+    },
+    {
+      "canonical_key": "verb:spielen",
+      "german": "spielen",
+      "russian": "играть",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "spielt",
+        "praeteritum": "spielte",
+        "partizip_ii": "gespielt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gespielt"
+      },
+      "government": "Klavier/ein Spiel spielen"
+    },
+    {
+      "canonical_key": "verb:geraten",
+      "german": "geraten",
+      "russian": "попадать; приходить в состояние",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "gerät",
+        "praeteritum": "geriet",
+        "partizip_ii": "geraten",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist geraten"
+      },
+      "government": "in + Akk.; aus den Fugen geraten"
+    },
+    {
+      "canonical_key": "verb:reagieren auf",
+      "german": "auf etwas reagieren",
+      "russian": "реагировать на что-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "reagiert",
+        "praeteritum": "reagierte",
+        "partizip_ii": "reagiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat reagiert"
+      },
+      "government": "auf + Akk."
+    },
+    {
+      "canonical_key": "verb:darstellen",
+      "german": "darstellen",
+      "russian": "изображать; представлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stellt dar",
+        "praeteritum": "stellte dar",
+        "partizip_ii": "dargestellt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat dargestellt"
+      },
+      "government": "jemanden/etwas als + Akk. darstellen"
+    },
+    {
+      "canonical_key": "verb:hinrichten",
+      "german": "jemanden hinrichten",
+      "russian": "казнить кого-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "richtet hin",
+        "praeteritum": "richtete hin",
+        "partizip_ii": "hingerichtet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat hingerichtet"
+      },
+      "government": "jemanden (Akk.) hinrichten"
+    },
+    {
+      "canonical_key": "verb:erleben",
+      "german": "erleben",
+      "russian": "переживать; испытывать; застать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erlebt",
+        "praeteritum": "erlebte",
+        "partizip_ii": "erlebt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erlebt"
+      },
+      "government": "etwas (Akk.) erleben"
+    },
+    {
+      "canonical_key": "verb:mitnehmen",
+      "german": "mitnehmen",
+      "russian": "брать с собой",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "nimmt mit",
+        "praeteritum": "nahm mit",
+        "partizip_ii": "mitgenommen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat mitgenommen"
+      },
+      "government": "jemanden/etwas (Akk.) mitnehmen"
+    },
+    {
+      "canonical_key": "verb:verheiraten",
+      "german": "jemanden verheiraten",
+      "russian": "женить/выдавать замуж кого-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verheiratet",
+        "praeteritum": "verheiratete",
+        "partizip_ii": "verheiratet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verheiratet"
+      },
+      "government": "jemanden (Akk.) mit + Dat. verheiraten"
+    },
+    {
+      "canonical_key": "verb:machen",
+      "german": "machen",
+      "russian": "делать; вызывать состояние",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "macht",
+        "praeteritum": "machte",
+        "partizip_ii": "gemacht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gemacht"
+      },
+      "government": "etwas (Akk.) machen; jemanden + Adjektiv machen"
+    },
+    {
+      "canonical_key": "verb:können",
+      "german": "können",
+      "russian": "мочь; уметь",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "kann",
+        "praeteritum": "konnte",
+        "partizip_ii": "gekonnt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gekonnt"
+      },
+      "grammar_note": "Modalverb; обычно употребляется с Infinitiv без zu"
+    },
+    {
+      "canonical_key": "verb:müssen",
+      "german": "müssen",
+      "russian": "быть должным; быть вынужденным",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "muss",
+        "praeteritum": "musste",
+        "partizip_ii": "gemusst",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gemusst"
+      },
+      "grammar_note": "Modalverb; обычно употребляется с Infinitiv без zu"
+    },
+    {
+      "canonical_key": "verb:singen",
+      "german": "singen",
+      "russian": "петь",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "singt",
+        "praeteritum": "sang",
+        "partizip_ii": "gesungen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gesungen"
+      }
+    },
+    {
+      "canonical_key": "verb:passen zu",
+      "german": "zu etwas passen",
+      "russian": "подходить к чему-либо; соответствовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "passt",
+        "praeteritum": "passte",
+        "partizip_ii": "gepasst",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gepasst"
+      },
+      "government": "zu + Dat."
+    },
+    {
+      "canonical_key": "phrase:möchten + infinitiv",
+      "german": "möchten + Infinitiv",
+      "russian": "хотеть; вежливо выражать желание",
+      "part_of_speech": "phrase",
+      "grammar_note": "möchten = Konjunktiv II von mögen; напр.: Ich möchte in Berlin leben."
+    }
+  ]
+}

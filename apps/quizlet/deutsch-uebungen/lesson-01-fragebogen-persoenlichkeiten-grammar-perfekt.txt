@@ -1,0 +1,42 @@
+essen — Perfekt	hat gegessen
+faszinieren — Perfekt	hat fasziniert
+leben — Perfekt	hat gelebt
+sterben — Perfekt	ist gestorben
+werden — Perfekt	ist geworden
+besitzen — Perfekt	hat besessen
+denken an — Perfekt	hat gedacht
+lachen über — Perfekt	hat gelacht
+besteigen — Perfekt	hat bestiegen
+lesen — Perfekt	hat gelesen
+markieren — Perfekt	hat markiert
+gefallen — Perfekt	hat gefallen
+schreiben — Perfekt	hat geschrieben
+lassen — Perfekt	hat gelassen
+stellen — Perfekt	hat gestellt
+notieren — Perfekt	hat notiert
+kennen — Perfekt	hat gekannt
+erfinden — Perfekt	hat erfunden
+entdecken — Perfekt	hat entdeckt
+bauen — Perfekt	hat gebaut
+beschreiben — Perfekt	hat beschrieben
+sich fühlen — Perfekt	hat sich gefühlt
+verlassen — Perfekt	hat verlassen
+führen — Perfekt	hat geführt
+überraschen — Perfekt	hat überrascht
+erscheinen — Perfekt	ist erschienen
+entwickeln — Perfekt	hat entwickelt
+finden — Perfekt	hat gefunden
+veröffentlichen — Perfekt	hat veröffentlicht
+spielen — Perfekt	hat gespielt
+geraten — Perfekt	ist geraten
+reagieren auf — Perfekt	hat reagiert
+darstellen — Perfekt	hat dargestellt
+hinrichten — Perfekt	hat hingerichtet
+erleben — Perfekt	hat erlebt
+mitnehmen — Perfekt	hat mitgenommen
+verheiraten — Perfekt	hat verheiratet
+machen — Perfekt	hat gemacht
+können — Perfekt	hat gekonnt
+müssen — Perfekt	hat gemusst
+singen — Perfekt	hat gesungen
+passen zu — Perfekt	hat gepasst

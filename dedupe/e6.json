@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
+    "adjective:abenteuerlich": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
     "verb:sprechen": "projects/deutsch-uebungen/decks/2026-09-29.json"
   }
 }

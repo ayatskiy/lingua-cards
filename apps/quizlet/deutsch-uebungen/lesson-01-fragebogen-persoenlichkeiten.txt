@@ -1,0 +1,89 @@
+der Fragebogen	анкета; вопросник
+die Antwort	ответ
+der Lernpartner	партнёр по учебе
+der Lieblingsfilm	любимый фильм
+die Lieblingsmusik	любимая музыка
+der Wunsch	желание
+der Traum	мечта; сон
+die Insel	остров
+das Heimatland	родная страна
+das Thema	тема
+die Ernährung	питание
+die Geografie	география
+die Industrie	промышленность
+die Literatur	литература
+die Gesellschaft	общество; компания
+der Siedler	поселенец
+der Nomadenstamm	кочевое племя
+der Wissenschaftler	учёный
+die Erkenntnis	познание; вывод; понимание
+der Urwald	тропический/девственный лес
+die Wüste	пустыня
+die Grundlage	основа
+die Länderkunde	страноведение
+der Begründer	основатель; основоположник
+die Lehrtätigkeit	преподавательская деятельность
+die Mission	миссия; поручение
+das Forschungsresultat	результат исследования
+der Band	том (книги)
+der Luxus	роскошь
+das Glücksspiel	азартная игра
+der Thronfolger	наследник престола
+der Hass	ненависть
+die Revolution	революция
+der Lebenswandel	образ жизни
+das Angriffsziel	объект нападок; мишень
+das Flugblatt	листовка
+die Bestie	зверь; чудовище
+deutschsprachig	немецкоязычный
+lebenslustig	жизнерадостный; любящий жизнь
+abenteuerlich	приключенческий; рискованный
+suspekt	подозрительный; сомнительный
+böswillig	злонамеренный
+bekannt sein für + Akk.	быть известным чем-либо
+eine Frage stellen	задать вопрос
+aus den Fugen geraten	выйти из равновесия; расстроиться (о порядке/системе)
+sich einen Traum erfüllen	осуществить свою мечту
+essen	есть, кушать
+jemanden faszinieren	очаровывать; увлекать кого-либо
+leben	жить
+sterben	умирать
+werden	становиться; стать
+besitzen	владеть; иметь в собственности
+an etwas denken	думать о чём-либо
+über etwas lachen	смеяться над чем-либо
+besteigen	подниматься на; взбираться на
+lesen	читать
+markieren	отмечать; выделять
+jemandem gefallen	нравиться кому-либо
+schreiben	писать
+lassen	оставлять; позволять; велеть
+stellen	ставить; задавать (вопрос)
+notieren	записывать; отмечать
+kennen	знать; быть знакомым с
+erfinden	изобретать; придумывать
+entdecken	обнаруживать; открывать
+bauen	строить
+beschreiben	описывать
+sich fühlen	чувствовать себя
+verlassen	покидать; оставлять
+führen	вести; руководить
+jemanden überraschen	удивлять кого-либо
+erscheinen	появляться; казаться; выходить (о книге)
+entwickeln	разрабатывать; развивать
+finden	находить; считать (каким-либо)
+veröffentlichen	публиковать
+spielen	играть
+geraten	попадать; приходить в состояние
+auf etwas reagieren	реагировать на что-либо
+darstellen	изображать; представлять
+jemanden hinrichten	казнить кого-либо
+erleben	переживать; испытывать; застать
+mitnehmen	брать с собой
+jemanden verheiraten	женить/выдавать замуж кого-либо
+machen	делать; вызывать состояние
+können	мочь; уметь
+müssen	быть должным; быть вынужденным
+singen	петь
+zu etwas passen	подходить к чему-либо; соответствовать
+möchten + Infinitiv	хотеть; вежливо выражать желание
