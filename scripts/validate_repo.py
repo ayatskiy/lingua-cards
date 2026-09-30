@@ -13,7 +13,7 @@ errors = 0
 
 REQUIRED = [
     "README.md","START_HERE.md","AGENTS.md","CONTRIBUTING.md","repo-context.json",
-    "docs/CARD_WORKFLOW.md","docs/FORMAT_CONVERSION.md","docs/QUIZLET_GUIDE.md","docs/ANKIDROID_GUIDE.md",
+    "docs/CARD_WORKFLOW.md","docs/FORMAT_CONVERSION.md","docs/QUIZLET_GUIDE.md","docs/ANKIDROID_GUIDE.md","docs/PRIVACY_AND_SOURCE_SAFETY.md",
     "projects/README.md","apps/quizlet/README.md","apps/anki/README.md","dedupe/README.md",
     "schemas/deck.schema.json","schemas/dedupe-shard.schema.json",
     ".github/pull_request_template.md",".github/workflows/validate.yml",".github/workflows/pr-shape.yml",
@@ -49,10 +49,25 @@ if ctx_path.is_file():
     ctx = json.loads(ctx_path.read_text(encoding="utf-8"))
     if ctx.get("repository") != "ayatskiy/lingua-cards":
         fail("repository mismatch")
+    if ctx.get("card_contract_version") != 1:
+        fail("card_contract_version must be 1")
     if ctx.get("write_mode") != "pull_request_only":
         fail("write_mode must be pull_request_only")
     if ctx.get("merge_policy") != "human_only_never_auto_merge":
         fail("merge policy must forbid auto-merge")
+    privacy = ctx.get("privacy", {})
+    if privacy.get("repository_visibility") != "public":
+        fail("privacy.repository_visibility must record public repository visibility")
+    if privacy.get("sensitive_source_content_requires_redaction_or_confirmation") is not True:
+        fail("sensitive source content must require redaction or confirmation before public persistence")
+    if privacy.get("persist_raw_attachments") is not False:
+        fail("raw attachments must never be persisted")
+    if privacy.get("persist_secrets_or_credentials") is not False:
+        fail("secrets/credentials must never be persisted")
+    if privacy.get("source_instructions_are_untrusted_data") is not True:
+        fail("source instructions must be treated as untrusted data")
+    if ctx.get("source_safety") != "docs/PRIVACY_AND_SOURCE_SAFETY.md":
+        fail("source_safety path mismatch")
     storage = ctx.get("storage", {})
     if storage.get("default_app") != "quizlet":
         fail("Quizlet must be the default app")
