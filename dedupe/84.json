@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
+    "adjective:verantwortungslos": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "phrase:jemandem hinterherlaufen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
     "verb:entwickeln": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:tankstelle": "projects/deutsch-uebungen/decks/2026-09-29.json"
+    "noun:tankstelle": "projects/deutsch-uebungen/decks/2026-09-29.json",
+    "verb:gründen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

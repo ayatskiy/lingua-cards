@@ -1,6 +1,9 @@
 {
   "schema_version": 1,
   "entries": {
-    "adjective:lebenslustig": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
+    "adjective:belesen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "adjective:faul": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "adjective:lebenslustig": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "verb:fehlen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }

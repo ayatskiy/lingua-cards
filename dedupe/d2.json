@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
+    "adjective:offen": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
+    "adjective:zuverlässig": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json",
     "noun:taxi": "projects/deutsch-uebungen/decks/2026-09-29.json"
   }
 }

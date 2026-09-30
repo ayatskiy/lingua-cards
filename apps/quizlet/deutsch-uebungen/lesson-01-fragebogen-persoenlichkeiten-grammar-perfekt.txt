@@ -40,3 +40,37 @@ können — Perfekt	hat gekonnt
 müssen — Perfekt	hat gemusst
 singen — Perfekt	hat gesungen
 passen zu — Perfekt	hat gepasst
+wählen — Perfekt	hat gewählt
+fehlen — Perfekt	hat gefehlt
+zuordnen — Perfekt	hat zugeordnet
+begründen — Perfekt	hat begründet
+ermitteln — Perfekt	hat ermittelt
+hören — Perfekt	hat gehört
+entscheiden — Perfekt	hat entschieden
+aufführen — Perfekt	hat aufgeführt
+interpretieren — Perfekt	hat interpretiert
+übersetzen — Perfekt	hat übersetzt
+sich wünschen — Perfekt	hat sich gewünscht
+umfassen — Perfekt	hat umfasst
+schicken — Perfekt	hat geschickt
+überzeugen — Perfekt	hat überzeugt
+austauschen — Perfekt	hat ausgetauscht
+ablesen — Perfekt	hat abgelesen
+unterstreichen — Perfekt	hat unterstrichen
+klären — Perfekt	hat geklärt
+ergänzen — Perfekt	hat ergänzt
+übernehmen — Perfekt	hat übernommen
+telefonieren — Perfekt	hat telefoniert
+trinken — Perfekt	hat getrunken
+heiraten — Perfekt	hat geheiratet
+verstärken — Perfekt	hat verstärkt
+abschwächen — Perfekt	hat abgeschwächt
+erzählen — Perfekt	hat erzählt
+aussehen — Perfekt	hat ausgesehen
+sich interessieren — Perfekt	hat sich interessiert
+halten — Perfekt	hat gehalten
+auftauen — Perfekt	ist aufgetaut
+aufwachsen — Perfekt	ist aufgewachsen
+abschließen — Perfekt	hat abgeschlossen
+studieren — Perfekt	hat studiert
+gründen — Perfekt	hat gegründet
