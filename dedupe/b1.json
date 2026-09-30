@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:hausnummer": "projects/deutsch-uebungen/decks/2026-09-29.json"
+    "noun:hausnummer": "projects/deutsch-uebungen/decks/2026-09-29.json",
+    "verb:entdecken": "projects/deutsch-uebungen/decks/lesson-01-fragebogen-persoenlichkeiten.json"
   }
 }
