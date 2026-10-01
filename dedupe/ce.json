@@ -1,7 +1,9 @@
 {
   "schema_version": 1,
   "entries": {
+    "noun:sicherheit": "projects/deutsch-uebungen/decks/menschen-b1-lektion-12-ausflug-des-jahres.json",
     "noun:strecke": "projects/deutsch-uebungen/decks/menschen-b1-lektion-10-haette-ich-das-bloss-anders-gemacht.json",
+    "phrase:wir haben es geschafft.": "projects/deutsch-uebungen/decks/menschen-b1-lektion-12-ausflug-des-jahres.json",
     "verb:verdienen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json"
   }
 }

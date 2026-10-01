@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:betriebsausflug",
+      "german": "der Betriebsausflug",
+      "russian": "корпоративная поездка; выезд коллектива",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Betriebsausflüge"
+    },
+    {
+      "canonical_key": "noun:betriebsversammlung",
+      "german": "die Betriebsversammlung",
+      "russian": "собрание работников предприятия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Betriebsversammlungen"
+    },
+    {
+      "canonical_key": "noun:betriebsrat",
+      "german": "der Betriebsrat",
+      "russian": "производственный совет; совет работников",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Betriebsräte"
+    },
+    {
+      "canonical_key": "noun:wahlvorstand",
+      "german": "der Wahlvorstand",
+      "russian": "избирательная комиссия",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Wahlvorstände"
+    },
+    {
+      "canonical_key": "noun:umbauarbeit",
+      "german": "die Umbauarbeit",
+      "russian": "работа по переоборудованию / ремонту",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Umbauarbeiten"
+    },
+    {
+      "canonical_key": "noun:stau",
+      "german": "der Stau",
+      "russian": "пробка; затор",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Staus"
+    },
+    {
+      "canonical_key": "noun:unfall",
+      "german": "der Unfall",
+      "russian": "авария; несчастный случай",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Unfälle"
+    },
+    {
+      "canonical_key": "noun:batterie",
+      "german": "die Batterie",
+      "russian": "батарейка; аккумулятор",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Batterien"
+    },
+    {
+      "canonical_key": "noun:bürgersteig",
+      "german": "der Bürgersteig",
+      "russian": "тротуар",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Bürgersteige"
+    },
+    {
+      "canonical_key": "noun:boot",
+      "german": "das Boot",
+      "russian": "лодка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Boote"
+    },
+    {
+      "canonical_key": "noun:zertifikat",
+      "german": "das Zertifikat",
+      "russian": "сертификат",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Zertifikate"
+    },
+    {
+      "canonical_key": "noun:herausforderung",
+      "german": "die Herausforderung",
+      "russian": "сложная задача; вызов",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Herausforderungen"
+    },
+    {
+      "canonical_key": "noun:mühe",
+      "german": "die Mühe",
+      "russian": "усилие; труд",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mühen"
+    },
+    {
+      "canonical_key": "noun:sicherheit",
+      "german": "die Sicherheit",
+      "russian": "безопасность; уверенность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:verbesserung",
+      "german": "die Verbesserung",
+      "russian": "улучшение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Verbesserungen"
+    },
+    {
+      "canonical_key": "noun:geburt",
+      "german": "die Geburt",
+      "russian": "рождение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Geburten"
+    },
+    {
+      "canonical_key": "adjective:unterhaltsam",
+      "german": "unterhaltsam",
+      "russian": "развлекательный; занимательный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:aktuell",
+      "german": "aktuell",
+      "russian": "актуальный; текущий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "verb:vertreten",
+      "german": "vertreten",
+      "russian": "представлять чьи-либо интересы; замещать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "vertritt",
+        "praeteritum": "vertrat",
+        "partizip_ii": "vertreten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat vertreten"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "verb:genießen",
+      "german": "genießen",
+      "russian": "наслаждаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "genießt",
+        "praeteritum": "genoss",
+        "partizip_ii": "genossen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat genossen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "verb:anlächeln",
+      "german": "anlächeln",
+      "russian": "улыбаться кому-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lächelt an",
+        "praeteritum": "lächelte an",
+        "partizip_ii": "angelächelt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat angelächelt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:gelingen",
+      "german": "gelingen",
+      "russian": "удаваться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "gelingt",
+        "praeteritum": "gelang",
+        "partizip_ii": "gelungen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist gelungen"
+      },
+      "government": "+ Dat.",
+      "grammar_note": "Сильный глагол; Perfekt с sein."
+    },
+    {
+      "canonical_key": "phrase:der anruf eines guten freundes",
+      "german": "der Anruf eines guten Freundes",
+      "russian": "звонок хорошего друга",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:die lösung eines schwierigen problems",
+      "german": "die Lösung eines schwierigen Problems",
+      "russian": "решение сложной проблемы",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:trotz des schlechten wetters",
+      "german": "trotz des schlechten Wetters",
+      "russian": "несмотря на плохую погоду",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wir haben es geschafft.",
+      "german": "Wir haben es geschafft.",
+      "russian": "Мы справились / мы это сделали.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:genitiv",
+      "german": "Genitiv",
+      "russian": "родительный падеж",
+      "part_of_speech": "other",
+      "grammar_note": "Genitiv отвечает на вопрос wessen? У мужского и среднего рода обычно des/eines + -(e)s у существительного; у женского и множественного — der/einer."
+    },
+    {
+      "canonical_key": "other:adjektivdeklination genitiv",
+      "german": "Adjektivdeklination im Genitiv",
+      "russian": "склонение прилагательных в Genitiv",
+      "part_of_speech": "other",
+      "grammar_note": "После определённого/неопределённого артикля прилагательное в Genitiv обычно получает -en: trotz des langen Winters."
+    }
+  ]
+}
