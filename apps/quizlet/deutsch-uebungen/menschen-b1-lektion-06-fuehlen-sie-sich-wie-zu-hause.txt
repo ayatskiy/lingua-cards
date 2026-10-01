@@ -1,0 +1,96 @@
+der Blumenstrauß	букет цветов
+die Begrüßung	приветствие
+das Gastgeschenk	подарок хозяевам при визите
+der Aperitif	аперитив
+die Vorspeise	закуска; первое блюдо
+die Hauptspeise	главное блюдо
+die Nachspeise	десерт; сладкое блюдо
+der Nachtisch	десерт
+das Dessert	десерт
+der Abschied	прощание
+die Unterhaltung	беседа; разговор; развлечение
+das Verständnis	понимание
+die Erkältung	простуда
+der Fall	случай; ситуация
+die Vorstellung	представление; знакомство; представление в воображении
+das Vorstellungsgespräch	собеседование при приёме на работу
+das Zeichen	знак; сигнал
+die Tischmanieren	манеры поведения за столом
+das Besteck	столовые приборы
+die Besteckreihenfolge	порядок столовых приборов
+die Serviette	салфетка
+der Gang	блюдо; подача (в меню)
+der Gastgeber / die Gastgeberin	хозяин / хозяйка, принимающие гостей
+die Gastfreundschaft	гостеприимство
+die Allergie	аллергия
+der Weizen	пшеница
+das Geschäftsessen	деловой обед / ужин
+der Geschäftspartner / die Geschäftspartnerin	деловой партнёр / партнёрша
+der Geschäftskontakt	деловой контакт
+der Sonderwunsch	особое пожелание
+die Einladung	приглашение
+der Umstand	обстоятельство; затруднение
+der Tischnachbar / die Tischnachbarin	сосед / соседка за столом
+die Kantine	столовая на предприятии / в учреждении
+allergisch	страдающий аллергией; аллергический
+betrunken	пьяный
+senkrecht	вертикальный; отвесный
+sinnlos	бессмысленный
+egal	безразличный; всё равно
+eilig	спешный; торопливый
+ausgezeichnet	отличный; превосходный
+eigentlich	собственно; вообще-то
+tatsächlich	действительно; фактически
+vorher	до этого; заранее
+bestimmt	наверняка; определённо
+daher	поэтому; вследствие этого
+ablehnen	отклонять; отказываться от
+begrüßen	приветствовать
+erfüllen	выполнять; исполнять (желание, условие)
+geschehen	происходить; случаться
+riechen	пахнуть; нюхать
+sich setzen	садиться
+verbringen	проводить (время)
+sich verhalten	вести себя
+verlassen	покидать; оставлять
+beachten	соблюдать; обращать внимание на
+beleidigen	оскорблять
+beobachten	наблюдать
+sich informieren	получать информацию; осведомляться
+einladen	приглашать
+unterbrechen	прерывать
+schmecken	быть на вкус; нравиться на вкус
+stören	мешать; беспокоить
+probieren	пробовать; дегустировать
+nachschenken	доливать напиток
+nachwürzen	добавлять приправу; дополнительно приправлять
+sich entschuldigen	извиняться
+falls	если; в случае если
+Fühlen Sie sich wie zu Hause.	Чувствуйте себя как дома.
+Herzlich willkommen! Kommen Sie rein.	Добро пожаловать! Заходите.
+Schön, dass es geklappt hat.	Хорошо, что всё получилось / что удалось встретиться.
+Vielen Dank für Ihre Gastfreundschaft!	Большое спасибо за Ваше гостеприимство!
+Darf ich Ihnen meine Frau vorstellen?	Разрешите представить Вам мою жену?
+Darf ich Ihnen ein Glas Sekt anbieten?	Могу я предложить Вам бокал игристого вина?
+Darf ich Ihnen von der Vorspeise geben?	Положить Вам закуски?
+Darf ich Ihnen noch etwas nachschenken?	Могу я Вам ещё немного налить?
+Möchten Sie noch etwas von dem Braten?	Хотите ещё немного жаркого?
+Nein, danke. Ich bin leider schon satt.	Нет, спасибо. Я уже сыт / сыта.
+Das hat wirklich ausgezeichnet geschmeckt.	Это было действительно превосходно на вкус.
+Noch einmal herzlichen Dank für die Einladung.	Ещё раз большое спасибо за приглашение.
+Kommen Sie gut nach Hause.	Счастливо добраться домой.
+Wenn es Sie nicht stört, ...	Если Вы не возражаете / если Вам не мешает, ...
+Wenn es keine Umstände macht, hätte ich lieber ...	Если это не доставит хлопот, я бы предпочёл / предпочла ...
+Ich bin allergisch gegen ...	У меня аллергия на ...
+Oh, wie schade.	О, как жаль.
+Das ist kein Problem.	Это не проблема.
+Gern geschehen.	Не за что; пожалуйста.
+Darf ich etwas vorschlagen?	Можно я кое-что предложу?
+Was hältst du davon, wenn wir ...?	Что ты думаешь насчёт того, чтобы мы ...?
+Wir könnten doch ...?	Мы могли бы ведь ...?
+Wollen wir nicht lieber ...?	Может, лучше ...?
+Ich schlage vor, dass ...	Я предлагаю, чтобы ...
+Du hast recht.	Ты прав / права.
+Einverstanden.	Согласен / согласна.
+Ich bin auch dafür.	Я тоже за.
+Das finde ich nicht so gut.	Мне это не очень нравится / я считаю это не очень хорошей идеей.

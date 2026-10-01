@@ -1,0 +1,830 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:blumenstrauß",
+      "german": "der Blumenstrauß",
+      "russian": "букет цветов",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Blumensträuße"
+    },
+    {
+      "canonical_key": "noun:begrüßung",
+      "german": "die Begrüßung",
+      "russian": "приветствие",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Begrüßungen"
+    },
+    {
+      "canonical_key": "noun:gastgeschenk",
+      "german": "das Gastgeschenk",
+      "russian": "подарок хозяевам при визите",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gastgeschenke"
+    },
+    {
+      "canonical_key": "noun:aperitif",
+      "german": "der Aperitif",
+      "russian": "аперитив",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Aperitifs"
+    },
+    {
+      "canonical_key": "noun:vorspeise",
+      "german": "die Vorspeise",
+      "russian": "закуска; первое блюдо",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Vorspeisen"
+    },
+    {
+      "canonical_key": "noun:hauptspeise",
+      "german": "die Hauptspeise",
+      "russian": "главное блюдо",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Hauptspeisen"
+    },
+    {
+      "canonical_key": "noun:nachspeise",
+      "german": "die Nachspeise",
+      "russian": "десерт; сладкое блюдо",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Nachspeisen"
+    },
+    {
+      "canonical_key": "noun:nachtisch",
+      "german": "der Nachtisch",
+      "russian": "десерт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Nachtische"
+    },
+    {
+      "canonical_key": "noun:dessert",
+      "german": "das Dessert",
+      "russian": "десерт",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Desserts"
+    },
+    {
+      "canonical_key": "noun:abschied",
+      "german": "der Abschied",
+      "russian": "прощание",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Abschiede"
+    },
+    {
+      "canonical_key": "noun:unterhaltung",
+      "german": "die Unterhaltung",
+      "russian": "беседа; разговор; развлечение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Unterhaltungen"
+    },
+    {
+      "canonical_key": "noun:verständnis",
+      "german": "das Verständnis",
+      "russian": "понимание",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Verständnisse"
+    },
+    {
+      "canonical_key": "noun:erkältung",
+      "german": "die Erkältung",
+      "russian": "простуда",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Erkältungen"
+    },
+    {
+      "canonical_key": "noun:fall",
+      "german": "der Fall",
+      "russian": "случай; ситуация",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Fälle"
+    },
+    {
+      "canonical_key": "noun:vorstellung",
+      "german": "die Vorstellung",
+      "russian": "представление; знакомство; представление в воображении",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Vorstellungen"
+    },
+    {
+      "canonical_key": "noun:vorstellungsgespräch",
+      "german": "das Vorstellungsgespräch",
+      "russian": "собеседование при приёме на работу",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Vorstellungsgespräche"
+    },
+    {
+      "canonical_key": "noun:zeichen",
+      "german": "das Zeichen",
+      "russian": "знак; сигнал",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Zeichen"
+    },
+    {
+      "canonical_key": "noun:tischmanieren",
+      "german": "die Tischmanieren",
+      "russian": "манеры поведения за столом",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:besteck",
+      "german": "das Besteck",
+      "russian": "столовые приборы",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Bestecke"
+    },
+    {
+      "canonical_key": "noun:besteckreihenfolge",
+      "german": "die Besteckreihenfolge",
+      "russian": "порядок столовых приборов",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Besteckreihenfolgen"
+    },
+    {
+      "canonical_key": "noun:serviette",
+      "german": "die Serviette",
+      "russian": "салфетка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Servietten"
+    },
+    {
+      "canonical_key": "noun:gang",
+      "german": "der Gang",
+      "russian": "блюдо; подача (в меню)",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Gänge"
+    },
+    {
+      "canonical_key": "noun:gastgeber",
+      "german": "der Gastgeber / die Gastgeberin",
+      "russian": "хозяин / хозяйка, принимающие гостей",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Gastgeber / Gastgeberinnen"
+    },
+    {
+      "canonical_key": "noun:gastfreundschaft",
+      "german": "die Gastfreundschaft",
+      "russian": "гостеприимство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:allergie",
+      "german": "die Allergie",
+      "russian": "аллергия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Allergien"
+    },
+    {
+      "canonical_key": "noun:weizen",
+      "german": "der Weizen",
+      "russian": "пшеница",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:geschäftsessen",
+      "german": "das Geschäftsessen",
+      "russian": "деловой обед / ужин",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Geschäftsessen"
+    },
+    {
+      "canonical_key": "noun:geschäftspartner",
+      "german": "der Geschäftspartner / die Geschäftspartnerin",
+      "russian": "деловой партнёр / партнёрша",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Geschäftspartner / Geschäftspartnerinnen"
+    },
+    {
+      "canonical_key": "noun:geschäftskontakt",
+      "german": "der Geschäftskontakt",
+      "russian": "деловой контакт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Geschäftskontakte"
+    },
+    {
+      "canonical_key": "noun:sonderwunsch",
+      "german": "der Sonderwunsch",
+      "russian": "особое пожелание",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Sonderwünsche"
+    },
+    {
+      "canonical_key": "noun:einladung",
+      "german": "die Einladung",
+      "russian": "приглашение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Einladungen"
+    },
+    {
+      "canonical_key": "noun:umstand",
+      "german": "der Umstand",
+      "russian": "обстоятельство; затруднение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Umstände"
+    },
+    {
+      "canonical_key": "noun:tischnachbar",
+      "german": "der Tischnachbar / die Tischnachbarin",
+      "russian": "сосед / соседка за столом",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Tischnachbarn / Tischnachbarinnen"
+    },
+    {
+      "canonical_key": "noun:kantine",
+      "german": "die Kantine",
+      "russian": "столовая на предприятии / в учреждении",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kantinen"
+    },
+    {
+      "canonical_key": "adjective:allergisch",
+      "german": "allergisch",
+      "russian": "страдающий аллергией; аллергический",
+      "part_of_speech": "adjective",
+      "grammar_note": "Обычно: allergisch gegen + Akk. sein."
+    },
+    {
+      "canonical_key": "adjective:betrunken",
+      "german": "betrunken",
+      "russian": "пьяный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:senkrecht",
+      "german": "senkrecht",
+      "russian": "вертикальный; отвесный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:sinnlos",
+      "german": "sinnlos",
+      "russian": "бессмысленный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:egal",
+      "german": "egal",
+      "russian": "безразличный; всё равно",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:eilig",
+      "german": "eilig",
+      "russian": "спешный; торопливый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:ausgezeichnet",
+      "german": "ausgezeichnet",
+      "russian": "отличный; превосходный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:eigentlich",
+      "german": "eigentlich",
+      "russian": "собственно; вообще-то",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:tatsächlich",
+      "german": "tatsächlich",
+      "russian": "действительно; фактически",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:vorher",
+      "german": "vorher",
+      "russian": "до этого; заранее",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:bestimmt",
+      "german": "bestimmt",
+      "russian": "наверняка; определённо",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:daher",
+      "german": "daher",
+      "russian": "поэтому; вследствие этого",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:ablehnen",
+      "german": "ablehnen",
+      "russian": "отклонять; отказываться от",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lehnt ab",
+        "praeteritum": "lehnte ab",
+        "partizip_ii": "abgelehnt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat abgelehnt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:begrüßen",
+      "german": "begrüßen",
+      "russian": "приветствовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "begrüßt",
+        "praeteritum": "begrüßte",
+        "partizip_ii": "begrüßt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat begrüßt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:erfüllen",
+      "german": "erfüllen",
+      "russian": "выполнять; исполнять (желание, условие)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erfüllt",
+        "praeteritum": "erfüllte",
+        "partizip_ii": "erfüllt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erfüllt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:geschehen",
+      "german": "geschehen",
+      "russian": "происходить; случаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "geschieht",
+        "praeteritum": "geschah",
+        "partizip_ii": "geschehen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist geschehen"
+      },
+      "grammar_note": "Сильный глагол; Perfekt с sein."
+    },
+    {
+      "canonical_key": "verb:riechen",
+      "german": "riechen",
+      "russian": "пахнуть; нюхать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "riecht",
+        "praeteritum": "roch",
+        "partizip_ii": "gerochen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gerochen"
+      },
+      "government": "nach + Dat. riechen",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "verb:sich setzen",
+      "german": "sich setzen",
+      "russian": "садиться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "setzt sich",
+        "praeteritum": "setzte sich",
+        "partizip_ii": "gesetzt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gesetzt"
+      },
+      "grammar_note": "Возвратный глагол."
+    },
+    {
+      "canonical_key": "verb:verbringen",
+      "german": "verbringen",
+      "russian": "проводить (время)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verbringt",
+        "praeteritum": "verbrachte",
+        "partizip_ii": "verbracht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verbracht"
+      },
+      "government": "+ Akk. (Zeit verbringen)",
+      "grammar_note": "Смешанный глагол; ver- — неотделяемая приставка."
+    },
+    {
+      "canonical_key": "verb:sich verhalten",
+      "german": "sich verhalten",
+      "russian": "вести себя",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verhält sich",
+        "praeteritum": "verhielt sich",
+        "partizip_ii": "verhalten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich verhalten"
+      },
+      "grammar_note": "Возвратный сильный глагол; Präsens 3sg: a → ä."
+    },
+    {
+      "canonical_key": "verb:verlassen",
+      "german": "verlassen",
+      "russian": "покидать; оставлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verlässt",
+        "praeteritum": "verließ",
+        "partizip_ii": "verlassen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verlassen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол; Präsens 3sg: a → ä."
+    },
+    {
+      "canonical_key": "verb:beachten",
+      "german": "beachten",
+      "russian": "соблюдать; обращать внимание на",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beachtet",
+        "praeteritum": "beachtete",
+        "partizip_ii": "beachtet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat beachtet"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:beleidigen",
+      "german": "beleidigen",
+      "russian": "оскорблять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beleidigt",
+        "praeteritum": "beleidigte",
+        "partizip_ii": "beleidigt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat beleidigt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:beobachten",
+      "german": "beobachten",
+      "russian": "наблюдать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beobachtet",
+        "praeteritum": "beobachtete",
+        "partizip_ii": "beobachtet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat beobachtet"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:sich informieren",
+      "german": "sich informieren",
+      "russian": "получать информацию; осведомляться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "informiert sich",
+        "praeteritum": "informierte sich",
+        "partizip_ii": "informiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich informiert"
+      },
+      "government": "sich über + Akk. informieren",
+      "grammar_note": "Возвратный глагол на -ieren: Partizip II без ge-."
+    },
+    {
+      "canonical_key": "verb:einladen",
+      "german": "einladen",
+      "russian": "приглашать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lädt ein",
+        "praeteritum": "lud ein",
+        "partizip_ii": "eingeladen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat eingeladen"
+      },
+      "government": "jemanden + Akk. zu + Dat. einladen",
+      "grammar_note": "Отделяемый сильный глагол; Präsens 3sg: a → ä."
+    },
+    {
+      "canonical_key": "verb:unterbrechen",
+      "german": "unterbrechen",
+      "russian": "прерывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "unterbricht",
+        "praeteritum": "unterbrach",
+        "partizip_ii": "unterbrochen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat unterbrochen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол; unter- здесь неотделяемая приставка."
+    },
+    {
+      "canonical_key": "verb:schmecken",
+      "german": "schmecken",
+      "russian": "быть на вкус; нравиться на вкус",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schmeckt",
+        "praeteritum": "schmeckte",
+        "partizip_ii": "geschmeckt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geschmeckt"
+      },
+      "government": "jemandem + Dat. schmecken"
+    },
+    {
+      "canonical_key": "verb:stören",
+      "german": "stören",
+      "russian": "мешать; беспокоить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stört",
+        "praeteritum": "störte",
+        "partizip_ii": "gestört",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gestört"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:probieren",
+      "german": "probieren",
+      "russian": "пробовать; дегустировать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "probiert",
+        "praeteritum": "probierte",
+        "partizip_ii": "probiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat probiert"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Глагол на -ieren: Partizip II без ge-."
+    },
+    {
+      "canonical_key": "verb:nachschenken",
+      "german": "nachschenken",
+      "russian": "доливать напиток",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schenkt nach",
+        "praeteritum": "schenkte nach",
+        "partizip_ii": "nachgeschenkt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat nachgeschenkt"
+      },
+      "government": "jemandem + Dat. etwas + Akk. nachschenken",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:nachwürzen",
+      "german": "nachwürzen",
+      "russian": "добавлять приправу; дополнительно приправлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "würzt nach",
+        "praeteritum": "würzte nach",
+        "partizip_ii": "nachgewürzt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat nachgewürzt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:sich entschuldigen",
+      "german": "sich entschuldigen",
+      "russian": "извиняться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "entschuldigt sich",
+        "praeteritum": "entschuldigte sich",
+        "partizip_ii": "entschuldigt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich entschuldigt"
+      },
+      "government": "sich bei + Dat. für + Akk. entschuldigen",
+      "grammar_note": "Возвратный глагол; ent- — неотделяемая приставка."
+    },
+    {
+      "canonical_key": "connector:falls",
+      "german": "falls",
+      "russian": "если; в случае если",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный союз условия. Имеет близкое значение к wenn; спрягаемый глагол стоит в конце придаточного: Falls Sie früher gehen müssen, ..."
+    },
+    {
+      "canonical_key": "phrase:fühlen sie sich wie zu hause.",
+      "german": "Fühlen Sie sich wie zu Hause.",
+      "russian": "Чувствуйте себя как дома.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:herzlich willkommen! kommen sie rein.",
+      "german": "Herzlich willkommen! Kommen Sie rein.",
+      "russian": "Добро пожаловать! Заходите.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:schön, dass es geklappt hat.",
+      "german": "Schön, dass es geklappt hat.",
+      "russian": "Хорошо, что всё получилось / что удалось встретиться.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vielen dank für ihre gastfreundschaft!",
+      "german": "Vielen Dank für Ihre Gastfreundschaft!",
+      "russian": "Большое спасибо за Ваше гостеприимство!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:darf ich ihnen meine frau vorstellen?",
+      "german": "Darf ich Ihnen meine Frau vorstellen?",
+      "russian": "Разрешите представить Вам мою жену?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:darf ich ihnen ein glas sekt anbieten?",
+      "german": "Darf ich Ihnen ein Glas Sekt anbieten?",
+      "russian": "Могу я предложить Вам бокал игристого вина?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:darf ich ihnen von der vorspeise geben?",
+      "german": "Darf ich Ihnen von der Vorspeise geben?",
+      "russian": "Положить Вам закуски?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:darf ich ihnen noch etwas nachschenken?",
+      "german": "Darf ich Ihnen noch etwas nachschenken?",
+      "russian": "Могу я Вам ещё немного налить?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:möchten sie noch etwas von dem braten?",
+      "german": "Möchten Sie noch etwas von dem Braten?",
+      "russian": "Хотите ещё немного жаркого?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:nein, danke. ich bin leider schon satt.",
+      "german": "Nein, danke. Ich bin leider schon satt.",
+      "russian": "Нет, спасибо. Я уже сыт / сыта.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das hat wirklich ausgezeichnet geschmeckt.",
+      "german": "Das hat wirklich ausgezeichnet geschmeckt.",
+      "russian": "Это было действительно превосходно на вкус.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:noch einmal herzlichen dank für die einladung.",
+      "german": "Noch einmal herzlichen Dank für die Einladung.",
+      "russian": "Ещё раз большое спасибо за приглашение.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:kommen sie gut nach hause.",
+      "german": "Kommen Sie gut nach Hause.",
+      "russian": "Счастливо добраться домой.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wenn es sie nicht stört, ...",
+      "german": "Wenn es Sie nicht stört, ...",
+      "russian": "Если Вы не возражаете / если Вам не мешает, ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wenn es keine umstände macht, hätte ich lieber ...",
+      "german": "Wenn es keine Umstände macht, hätte ich lieber ...",
+      "russian": "Если это не доставит хлопот, я бы предпочёл / предпочла ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich bin allergisch gegen ...",
+      "german": "Ich bin allergisch gegen ...",
+      "russian": "У меня аллергия на ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:oh, wie schade.",
+      "german": "Oh, wie schade.",
+      "russian": "О, как жаль.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das ist kein problem.",
+      "german": "Das ist kein Problem.",
+      "russian": "Это не проблема.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:gern geschehen.",
+      "german": "Gern geschehen.",
+      "russian": "Не за что; пожалуйста.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:darf ich etwas vorschlagen?",
+      "german": "Darf ich etwas vorschlagen?",
+      "russian": "Можно я кое-что предложу?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:was hältst du davon, wenn wir ...?",
+      "german": "Was hältst du davon, wenn wir ...?",
+      "russian": "Что ты думаешь насчёт того, чтобы мы ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wir könnten doch ...?",
+      "german": "Wir könnten doch ...?",
+      "russian": "Мы могли бы ведь ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wollen wir nicht lieber ...?",
+      "german": "Wollen wir nicht lieber ...?",
+      "russian": "Может, лучше ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich schlage vor, dass ...",
+      "german": "Ich schlage vor, dass ...",
+      "russian": "Я предлагаю, чтобы ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:du hast recht.",
+      "german": "Du hast recht.",
+      "russian": "Ты прав / права.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:einverstanden.",
+      "german": "Einverstanden.",
+      "russian": "Согласен / согласна.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich bin auch dafür.",
+      "german": "Ich bin auch dafür.",
+      "russian": "Я тоже за.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das finde ich nicht so gut.",
+      "german": "Das finde ich nicht so gut.",
+      "russian": "Мне это не очень нравится / я считаю это не очень хорошей идеей.",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

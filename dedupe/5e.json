@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
-    "adverb:automatisch": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json"
+    "adjective:egal": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
+    "adverb:automatisch": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
+    "noun:weizen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json"
   }
 }

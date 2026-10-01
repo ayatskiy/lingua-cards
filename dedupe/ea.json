@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
-    "adverb:insgesamt": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json"
+    "adverb:insgesamt": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json",
+    "phrase:einverstanden.": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
+    "phrase:noch einmal herzlichen dank für die einladung.": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json"
   }
 }
