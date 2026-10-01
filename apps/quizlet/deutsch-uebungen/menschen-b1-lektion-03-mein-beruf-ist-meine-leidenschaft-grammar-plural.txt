@@ -1,0 +1,44 @@
+die Wohnung — Plural	die Wohnungen
+der Wohnblock — Plural	die Wohnblöcke
+die Wohngemeinschaft — Plural	die Wohngemeinschaften
+das Apartment — Plural	die Apartments
+der Hausmeister — Plural	die Hausmeister
+die Innenstadt — Plural	die Innenstädte
+der Vorort — Plural	die Vororte
+der Innenhof — Plural	die Innenhöfe
+der Hof — Plural	die Höfe
+der Ofen — Plural	die Öfen
+der Mülleimer — Plural	die Mülleimer
+der Makler / die Maklerin — Plural	die Makler / Maklerinnen
+die Wohnfläche — Plural	die Wohnflächen
+das Grundstück — Plural	die Grundstücke
+das Einfamilienhaus — Plural	die Einfamilienhäuser
+das Reihenhaus — Plural	die Reihenhäuser
+die Dachterrasse — Plural	die Dachterrassen
+die Terrasse — Plural	die Terrassen
+der Lift — Plural	die Lifte
+die Lage — Plural	die Lagen
+die Miete — Plural	die Mieten
+die Miethöhe — Plural	die Miethöhen
+die Nebenkosten — Plural	die Nebenkosten
+der Kaufpreis — Plural	die Kaufpreise
+die Eigentumswohnung — Plural	die Eigentumswohnungen
+die Einrichtung — Plural	die Einrichtungen
+die Möbel — Plural	die Möbel
+der Zugang — Plural	die Zugänge
+der Mangel — Plural	die Mängel
+der Anteil — Plural	die Anteile
+das Drittel — Plural	die Drittel
+das Viertel — Plural	die Viertel
+das Fünftel — Plural	die Fünftel
+die Hälfte — Plural	die Hälften
+die Staatsangehörigkeit — Plural	die Staatsangehörigkeiten
+der Einwohner / die Einwohnerin — Plural	die Einwohner / Einwohnerinnen
+die Fläche — Plural	die Flächen
+die Begegnung — Plural	die Begegnungen
+die Leidenschaft — Plural	die Leidenschaften
+das Heim — Plural	die Heime
+die Mietwohnung — Plural	die Mietwohnungen
+der Eigentümer / die Eigentümerin — Plural	die Eigentümer / Eigentümerinnen
+der Bewohner / die Bewohnerin — Plural	die Bewohner / Bewohnerinnen
+die Kosten — Plural	die Kosten

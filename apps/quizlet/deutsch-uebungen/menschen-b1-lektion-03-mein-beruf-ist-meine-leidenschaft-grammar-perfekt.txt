@@ -1,0 +1,18 @@
+vermieten — Perfekt	hat vermietet
+mieten — Perfekt	hat gemietet
+renovieren — Perfekt	hat renoviert
+besichtigen — Perfekt	hat besichtigt
+einziehen — Perfekt	ist eingezogen
+umziehen — Perfekt	ist umgezogen
+ausziehen — Perfekt	ist ausgezogen
+herrschen — Perfekt	hat geherrscht
+leihen — Perfekt	hat geliehen
+träumen — Perfekt	hat geträumt
+sich ärgern — Perfekt	hat sich geärgert
+sich interessieren — Perfekt	hat sich interessiert
+sich beschweren — Perfekt	hat sich beschwert
+helfen — Perfekt	hat geholfen
+gehören — Perfekt	hat gehört
+werfen — Perfekt	hat geworfen
+sich amüsieren — Perfekt	hat sich amüsiert
+funktionieren — Perfekt	hat funktioniert
