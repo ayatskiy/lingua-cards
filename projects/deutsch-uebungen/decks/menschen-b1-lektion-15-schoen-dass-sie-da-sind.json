@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:rufnummer",
+      "german": "die Rufnummer",
+      "russian": "номер телефона",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Rufnummern"
+    },
+    {
+      "canonical_key": "noun:unternehmen",
+      "german": "das Unternehmen",
+      "russian": "предприятие; компания",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Unternehmen"
+    },
+    {
+      "canonical_key": "noun:papierindustrie",
+      "german": "die Papierindustrie",
+      "russian": "бумажная промышленность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:recherche",
+      "german": "die Recherche",
+      "russian": "поиск информации; исследование",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Recherchen"
+    },
+    {
+      "canonical_key": "noun:presse",
+      "german": "die Presse",
+      "russian": "пресса",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:kommunikationsmittel",
+      "german": "das Kommunikationsmittel",
+      "russian": "средство коммуникации",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Kommunikationsmittel"
+    },
+    {
+      "canonical_key": "noun:buchhaltung",
+      "german": "die Buchhaltung",
+      "russian": "бухгалтерия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:datenbank",
+      "german": "die Datenbank",
+      "russian": "база данных",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Datenbanken"
+    },
+    {
+      "canonical_key": "noun:fachtext",
+      "german": "der Fachtext",
+      "russian": "профессиональный / специальный текст",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Fachtexte"
+    },
+    {
+      "canonical_key": "noun:stellenbeschreibung",
+      "german": "die Stellenbeschreibung",
+      "russian": "описание должности",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Stellenbeschreibungen"
+    },
+    {
+      "canonical_key": "noun:callcenter",
+      "german": "das Callcenter",
+      "russian": "колл-центр",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Callcenter"
+    },
+    {
+      "canonical_key": "noun:kundenbetreuung",
+      "german": "die Kundenbetreuung",
+      "russian": "обслуживание клиентов",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:sprachkenntnis",
+      "german": "die Sprachkenntnis",
+      "russian": "знание языка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Sprachkenntnisse"
+    },
+    {
+      "canonical_key": "noun:schichtarbeit",
+      "german": "die Schichtarbeit",
+      "russian": "сменная работа",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:telefonstimme",
+      "german": "die Telefonstimme",
+      "russian": "голос по телефону",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Telefonstimmen"
+    },
+    {
+      "canonical_key": "noun:wissenschaftler",
+      "german": "der Wissenschaftler / die Wissenschaftlerin",
+      "russian": "учёный / учёная",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Wissenschaftler / Wissenschaftlerinnen"
+    },
+    {
+      "canonical_key": "noun:sozialarbeiter",
+      "german": "der Sozialarbeiter / die Sozialarbeiterin",
+      "russian": "социальный работник",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Sozialarbeiter / Sozialarbeiterinnen"
+    },
+    {
+      "canonical_key": "noun:unternehmer",
+      "german": "der Unternehmer / die Unternehmerin",
+      "russian": "предприниматель / предпринимательница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Unternehmer / Unternehmerinnen"
+    },
+    {
+      "canonical_key": "adjective:kontaktfreudig",
+      "german": "kontaktfreudig",
+      "russian": "общительный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:zweisprachig",
+      "german": "zweisprachig",
+      "russian": "двуязычный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:sorgfältig",
+      "german": "sorgfältig",
+      "russian": "тщательный; аккуратный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:üblich",
+      "german": "üblich",
+      "russian": "обычный; принятый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "verb:betreuen",
+      "german": "betreuen",
+      "russian": "обслуживать; сопровождать; опекать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "betreut",
+        "praeteritum": "betreute",
+        "partizip_ii": "betreut",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat betreut"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:übersetzen",
+      "german": "übersetzen",
+      "russian": "переводить (текст)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "übersetzt",
+        "praeteritum": "übersetzte",
+        "partizip_ii": "übersetzt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat übersetzt"
+      },
+      "government": "+ Akk.; aus + Dat. in + Akk.",
+      "grammar_note": "Неотделяемое ударение в значении «переводить»."
+    },
+    {
+      "canonical_key": "verb:sich bewerben",
+      "german": "sich bewerben",
+      "russian": "подавать заявление; устраиваться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bewirbt sich",
+        "praeteritum": "bewarb sich",
+        "partizip_ii": "beworben",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich beworben"
+      },
+      "government": "sich um + Akk. bewerben",
+      "grammar_note": "Возвратный сильный глагол."
+    },
+    {
+      "canonical_key": "verb:abschließen",
+      "german": "abschließen",
+      "russian": "заканчивать; завершать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schließt ab",
+        "praeteritum": "schloss ab",
+        "partizip_ii": "abgeschlossen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat abgeschlossen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:sich weiterentwickeln",
+      "german": "sich weiterentwickeln",
+      "russian": "развиваться дальше",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "entwickelt sich weiter",
+        "praeteritum": "entwickelte sich weiter",
+        "partizip_ii": "weiterentwickelt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich weiterentwickelt"
+      },
+      "grammar_note": "Отделяемый возвратный глагол."
+    },
+    {
+      "canonical_key": "connector:sowohl als auch",
+      "german": "sowohl ... als auch",
+      "russian": "как ... так и",
+      "part_of_speech": "connector",
+      "grammar_note": "Парный союз для перечисления двух равноправных элементов."
+    },
+    {
+      "canonical_key": "connector:nicht nur sondern auch",
+      "german": "nicht nur ... sondern auch",
+      "russian": "не только ... но и",
+      "part_of_speech": "connector",
+      "grammar_note": "Парный союз, добавляющий второй элемент."
+    },
+    {
+      "canonical_key": "phrase:mit großem interesse habe ich ihre anzeige gelesen.",
+      "german": "Mit großem Interesse habe ich Ihre Anzeige gelesen.",
+      "russian": "Я с большим интересом прочитал(а) Ваше объявление.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:daher bewerbe ich mich hiermit um diese stelle.",
+      "german": "Daher bewerbe ich mich hiermit um diese Stelle.",
+      "russian": "Поэтому настоящим я подаю заявление на эту должность.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:es fällt mir leicht, ...",
+      "german": "Es fällt mir leicht, ...",
+      "russian": "Мне легко ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:über eine einladung zu einem persönlichen gespräch würde ich mich sehr freuen.",
+      "german": "Über eine Einladung zu einem persönlichen Gespräch würde ich mich sehr freuen.",
+      "russian": "Я был(а) бы очень рад(а) приглашению на личное собеседование.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sollten sie noch fragen haben, ...",
+      "german": "Sollten Sie noch Fragen haben, ...",
+      "russian": "Если у Вас останутся вопросы, ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:aufzählungen mit paarigen konjunktionen",
+      "german": "Aufzählungen mit sowohl ... als auch / nicht nur ... sondern auch",
+      "russian": "перечисления с парными союзами",
+      "part_of_speech": "other",
+      "grammar_note": "Обе конструкции соединяют равноправные части; nicht nur ... sondern auch подчёркивает добавление второй части."
+    }
+  ]
+}

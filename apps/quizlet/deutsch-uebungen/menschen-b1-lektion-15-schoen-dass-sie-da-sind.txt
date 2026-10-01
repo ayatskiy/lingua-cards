@@ -1,0 +1,35 @@
+die Rufnummer	номер телефона
+das Unternehmen	предприятие; компания
+die Papierindustrie	бумажная промышленность
+die Recherche	поиск информации; исследование
+die Presse	пресса
+das Kommunikationsmittel	средство коммуникации
+die Buchhaltung	бухгалтерия
+die Datenbank	база данных
+der Fachtext	профессиональный / специальный текст
+die Stellenbeschreibung	описание должности
+das Callcenter	колл-центр
+die Kundenbetreuung	обслуживание клиентов
+die Sprachkenntnis	знание языка
+die Schichtarbeit	сменная работа
+die Telefonstimme	голос по телефону
+der Wissenschaftler / die Wissenschaftlerin	учёный / учёная
+der Sozialarbeiter / die Sozialarbeiterin	социальный работник
+der Unternehmer / die Unternehmerin	предприниматель / предпринимательница
+kontaktfreudig	общительный
+zweisprachig	двуязычный
+sorgfältig	тщательный; аккуратный
+üblich	обычный; принятый
+betreuen	обслуживать; сопровождать; опекать
+übersetzen	переводить (текст)
+sich bewerben	подавать заявление; устраиваться
+abschließen	заканчивать; завершать
+sich weiterentwickeln	развиваться дальше
+sowohl ... als auch	как ... так и
+nicht nur ... sondern auch	не только ... но и
+Mit großem Interesse habe ich Ihre Anzeige gelesen.	Я с большим интересом прочитал(а) Ваше объявление.
+Daher bewerbe ich mich hiermit um diese Stelle.	Поэтому настоящим я подаю заявление на эту должность.
+Es fällt mir leicht, ...	Мне легко ...
+Über eine Einladung zu einem persönlichen Gespräch würde ich mich sehr freuen.	Я был(а) бы очень рад(а) приглашению на личное собеседование.
+Sollten Sie noch Fragen haben, ...	Если у Вас останутся вопросы, ...
+Aufzählungen mit sowohl ... als auch / nicht nur ... sondern auch	перечисления с парными союзами
