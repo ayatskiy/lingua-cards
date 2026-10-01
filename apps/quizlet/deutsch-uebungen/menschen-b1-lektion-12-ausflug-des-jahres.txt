@@ -1,0 +1,28 @@
+der Betriebsausflug	корпоративная поездка; выезд коллектива
+die Betriebsversammlung	собрание работников предприятия
+der Betriebsrat	производственный совет; совет работников
+der Wahlvorstand	избирательная комиссия
+die Umbauarbeit	работа по переоборудованию / ремонту
+der Stau	пробка; затор
+der Unfall	авария; несчастный случай
+die Batterie	батарейка; аккумулятор
+der Bürgersteig	тротуар
+das Boot	лодка
+das Zertifikat	сертификат
+die Herausforderung	сложная задача; вызов
+die Mühe	усилие; труд
+die Sicherheit	безопасность; уверенность
+die Verbesserung	улучшение
+die Geburt	рождение
+unterhaltsam	развлекательный; занимательный
+aktuell	актуальный; текущий
+vertreten	представлять чьи-либо интересы; замещать
+genießen	наслаждаться
+anlächeln	улыбаться кому-либо
+gelingen	удаваться
+der Anruf eines guten Freundes	звонок хорошего друга
+die Lösung eines schwierigen Problems	решение сложной проблемы
+trotz des schlechten Wetters	несмотря на плохую погоду
+Wir haben es geschafft.	Мы справились / мы это сделали.
+Genitiv	родительный падеж
+Adjektivdeklination im Genitiv	склонение прилагательных в Genitiv

@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "adverb:inklusive": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "adverb:inklusive": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "noun:verbesserung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-12-ausflug-des-jahres.json"
   }
 }
