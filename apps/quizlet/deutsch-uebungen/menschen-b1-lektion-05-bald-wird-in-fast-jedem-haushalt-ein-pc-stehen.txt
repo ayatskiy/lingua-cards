@@ -1,0 +1,76 @@
+der Roboter	робот
+der PC	персональный компьютер; ПК
+der Laptop	ноутбук
+das Smartphone	смартфон
+der Tablet-PC	планшетный компьютер
+die Festplatte	жёсткий диск; накопитель
+das Laufwerk	дисковод; накопитель; привод
+der Monitor	монитор
+die Tastatur	клавиатура
+die Maus	компьютерная мышь
+die Technik	техника; технология
+der Fortschritt	прогресс
+die Ansicht	мнение; точка зрения
+die Überzeugung	убеждение
+der Verkehr	транспортное движение; движение
+das Gerät	устройство; прибор
+die Mitteilung	сообщение; уведомление
+die Alternative	альтернатива
+die Ernährung	питание; рацион
+die Zukunft	будущее
+der Haushalt	домашнее хозяйство; домохозяйство
+der Computer	компьютер
+die Sprache	язык; речь
+das Passwort	пароль
+die Vorhersage	прогноз; предсказание
+die Vermutung	предположение
+der Vorsatz	намерение; решение что-либо сделать
+die Aufforderung	призыв; требование; побуждение
+die Warnung	предупреждение
+das Transportmittel	транспортное средство
+die Umwelt	окружающая среда
+technisch	технический
+persönlich	личный; персональный
+digital	цифровой
+gefährlich	опасный
+öffentlich	общественный; публичный
+unmöglich	невозможный
+langweilig	скучный; однообразный
+leise	тихий; бесшумный
+sicher	наверняка; вероятно (в прогнозе)
+vermutlich	предположительно; вероятно
+wohl	вероятно; пожалуй
+werden	становиться; в Futur I — вспомогательный глагол
+behaupten	утверждать
+sich fürchten	бояться
+sich drehen	вращаться; поворачиваться
+zurückdrehen	поворачивать назад; возвращать в прежнее положение
+warnen	предупреждать
+sich anstrengen	стараться; прилагать усилия
+liefern	доставлять; поставлять
+ausschalten	выключать
+erkennen	распознавать; узнавать
+vermuten	предполагать
+aufhören	прекращать; переставать
+anbieten	предлагать
+sich verlieben	влюбляться
+sichern	защищать; обеспечивать; сохранять
+versprechen	обещать
+in Zukunft	в будущем
+rund um die Uhr	круглосуточно
+Ich glaube, in 20 Jahren wird ...	Я думаю, через 20 лет ...
+Das halte ich für unmöglich.	Я считаю это невозможным.
+Ich kann mir gut vorstellen, dass ...	Я вполне могу представить, что ...
+Ich vermute, dass ...	Я предполагаю, что ...
+Vermutlich wird ...	Предположительно / вероятно ...
+Es wird wohl ...	Вероятно / пожалуй, ...
+Dazu gibt es wohl keine Alternative.	Для этого, вероятно, нет альтернативы.
+auf seine Ernährung achten	следить за своим питанием
+ein Computersystem mit einem Passwort sichern	защитить компьютерную систему паролем
+technische Geräte ausschalten	выключать технические устройства
+sich bei einer Prüfung besonders anstrengen	особенно постараться на экзамене
+mit dem Computer sprechen	говорить с компьютером
+jemandem eine Stelle anbieten	предложить кому-либо должность / работу
+Futur I: werden + Infinitiv	Futur I: будущее время с werden + инфинитивом
+Futur I für Vorhersagen und Vermutungen	Futur I для прогнозов и предположений
+Futur I für Aufforderungen, Versprechen und Vorsätze	Futur I для требований, обещаний и намерений

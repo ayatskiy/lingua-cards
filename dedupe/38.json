@@ -1,6 +1,9 @@
 {
   "schema_version": 1,
   "entries": {
-    "adjective:besiedelt": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "adjective:besiedelt": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "noun:aufforderung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-05-bald-wird-in-fast-jedem-haushalt-ein-pc-stehen.json",
+    "noun:maus": "projects/deutsch-uebungen/decks/menschen-b1-lektion-05-bald-wird-in-fast-jedem-haushalt-ein-pc-stehen.json",
+    "noun:mitteilung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-05-bald-wird-in-fast-jedem-haushalt-ein-pc-stehen.json"
   }
 }
