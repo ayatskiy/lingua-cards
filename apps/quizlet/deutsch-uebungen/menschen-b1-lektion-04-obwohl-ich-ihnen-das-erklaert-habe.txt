@@ -1,0 +1,74 @@
+der Kundenservice	служба поддержки клиентов; клиентский сервис
+die Reklamation	рекламация; претензия по товару или услуге
+die Durchwahl	прямой внутренний номер телефона
+der Anschluss	телефонная линия; соединение
+der Apparat	телефонный аппарат; аппарат
+die Ansage	голосовое объявление; автоматическое сообщение
+die Auskunft	справка; информация
+die Abteilung	отдел; подразделение
+die Kopie	копия
+das Abonnement	подписка
+der Verlag	издательство
+die Zeitschrift	журнал; периодическое издание
+die Rechnung	счёт; счёт на оплату
+die Kundenzufriedenheit	удовлетворённость клиентов
+die Bedienung	обслуживание; управление устройством
+die Reaktion	реакция
+der Empfänger / die Empfängerin	получатель / получательница
+der Absender / die Absenderin	отправитель / отправительница
+der Betreff	тема письма; предмет обращения
+die Unterschrift	подпись
+der Anrufbeantworter	автоответчик
+der Notdienst	экстренная дежурная служба
+der Telefonservice	телефонная служба поддержки
+die Ausgabe	выпуск; номер издания
+die Werbung	реклама
+die Beschwerde	жалоба; претензия
+besetzt	занятый (о телефонной линии); занято
+zuständig	ответственный; компетентный по данному вопросу
+ärgerlich	досадный; неприятный; раздражающий
+schriftlich	письменный; в письменной форме
+automatisch	автоматически
+selbstverständlich	разумеется; само собой
+mehrfach	неоднократно; несколько раз
+ab sofort	с этого момента; немедленно, начиная сейчас
+abonnieren	подписываться на; оформлять подписку
+auffordern	призывать; требовать; просить сделать что-либо
+bedienen	обслуживать; пользоваться / управлять устройством
+behalten	оставлять себе; сохранять
+enttäuschen	разочаровывать
+erhalten	получать
+senden	посылать; отправлять
+verbinden	соединять; переключать (по телефону)
+zurückrufen	перезванивать
+ausrichten	передавать сообщение; сообщать
+speichern	сохранять (данные)
+kündigen	расторгать; отменять подписку / договор
+anrufen	звонить кому-либо
+durchstellen	соединять по телефону; переключать звонок
+drücken	нажимать
+erreichen	дозваниваться до; достигать
+obwohl	хотя; несмотря на то что
+trotzdem	несмотря на это; всё же
+Könnten Sie mich bitte mit ... verbinden?	Не могли бы Вы соединить меня с ...?
+Ich stelle Sie durch.	Я Вас соединяю / переключаю.
+Bleiben Sie bitte am Apparat.	Оставайтесь, пожалуйста, на линии.
+Ich gebe Ihnen die Durchwahl.	Я дам Вам прямой внутренний номер.
+Kann ich ihm/ihr etwas ausrichten?	Могу я что-нибудь ему/ей передать?
+... ist gerade außer Haus.	... сейчас отсутствует / не на месте.
+Der Anschluss ist besetzt.	Линия занята.
+Was kann ich für Sie tun?	Чем я могу Вам помочь?
+Worum geht es?	О чём речь? В чём дело?
+Ich muss mich beschweren.	Я должен / должна пожаловаться.
+Das ist wirklich sehr ärgerlich.	Это действительно очень неприятно.
+Ich möchte Sie auffordern, dass ...	Я хочу потребовать / попросить Вас, чтобы ...
+Wenn ich bis nächste Woche nichts von Ihnen höre, dann ...	Если до следующей недели я от Вас ничего не услышу, то ...
+Sehr geehrte Damen und Herren	Уважаемые дамы и господа
+Mit freundlichen Grüßen	С уважением
+eine Reklamation schreiben	написать претензию / рекламацию
+eine Zeitschrift abonnieren	подписаться на журнал
+das Abonnement kündigen	отменить / расторгнуть подписку
+eine Kopie senden	отправить копию
+persönliche Beratung	личная консультация
+für Reklamationen zuständig sein	отвечать за рекламации / претензии
+telefonisch nicht erreichbar sein	быть недоступным по телефону

@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:kundenservice",
+      "german": "der Kundenservice",
+      "russian": "служба поддержки клиентов; клиентский сервис",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:reklamation",
+      "german": "die Reklamation",
+      "russian": "рекламация; претензия по товару или услуге",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Reklamationen"
+    },
+    {
+      "canonical_key": "noun:durchwahl",
+      "german": "die Durchwahl",
+      "russian": "прямой внутренний номер телефона",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Durchwahlen"
+    },
+    {
+      "canonical_key": "noun:anschluss",
+      "german": "der Anschluss",
+      "russian": "телефонная линия; соединение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Anschlüsse"
+    },
+    {
+      "canonical_key": "noun:apparat",
+      "german": "der Apparat",
+      "russian": "телефонный аппарат; аппарат",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Apparate"
+    },
+    {
+      "canonical_key": "noun:ansage",
+      "german": "die Ansage",
+      "russian": "голосовое объявление; автоматическое сообщение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ansagen"
+    },
+    {
+      "canonical_key": "noun:auskunft",
+      "german": "die Auskunft",
+      "russian": "справка; информация",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Auskünfte"
+    },
+    {
+      "canonical_key": "noun:abteilung",
+      "german": "die Abteilung",
+      "russian": "отдел; подразделение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Abteilungen"
+    },
+    {
+      "canonical_key": "noun:kopie",
+      "german": "die Kopie",
+      "russian": "копия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kopien"
+    },
+    {
+      "canonical_key": "noun:abonnement",
+      "german": "das Abonnement",
+      "russian": "подписка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Abonnements"
+    },
+    {
+      "canonical_key": "noun:verlag",
+      "german": "der Verlag",
+      "russian": "издательство",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Verlage"
+    },
+    {
+      "canonical_key": "noun:zeitschrift",
+      "german": "die Zeitschrift",
+      "russian": "журнал; периодическое издание",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Zeitschriften"
+    },
+    {
+      "canonical_key": "noun:rechnung",
+      "german": "die Rechnung",
+      "russian": "счёт; счёт на оплату",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Rechnungen"
+    },
+    {
+      "canonical_key": "noun:kundenzufriedenheit",
+      "german": "die Kundenzufriedenheit",
+      "russian": "удовлетворённость клиентов",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:bedienung",
+      "german": "die Bedienung",
+      "russian": "обслуживание; управление устройством",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bedienungen"
+    },
+    {
+      "canonical_key": "noun:reaktion",
+      "german": "die Reaktion",
+      "russian": "реакция",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Reaktionen"
+    },
+    {
+      "canonical_key": "noun:empfänger",
+      "german": "der Empfänger / die Empfängerin",
+      "russian": "получатель / получательница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Empfänger / Empfängerinnen"
+    },
+    {
+      "canonical_key": "noun:absender",
+      "german": "der Absender / die Absenderin",
+      "russian": "отправитель / отправительница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Absender / Absenderinnen"
+    },
+    {
+      "canonical_key": "noun:betreff",
+      "german": "der Betreff",
+      "russian": "тема письма; предмет обращения",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:unterschrift",
+      "german": "die Unterschrift",
+      "russian": "подпись",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Unterschriften"
+    },
+    {
+      "canonical_key": "noun:anrufbeantworter",
+      "german": "der Anrufbeantworter",
+      "russian": "автоответчик",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Anrufbeantworter"
+    },
+    {
+      "canonical_key": "noun:notdienst",
+      "german": "der Notdienst",
+      "russian": "экстренная дежурная служба",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Notdienste"
+    },
+    {
+      "canonical_key": "noun:telefonservice",
+      "german": "der Telefonservice",
+      "russian": "телефонная служба поддержки",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:ausgabe",
+      "german": "die Ausgabe",
+      "russian": "выпуск; номер издания",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ausgaben"
+    },
+    {
+      "canonical_key": "noun:werbung",
+      "german": "die Werbung",
+      "russian": "реклама",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:beschwerde",
+      "german": "die Beschwerde",
+      "russian": "жалоба; претензия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Beschwerden"
+    },
+    {
+      "canonical_key": "adjective:besetzt",
+      "german": "besetzt",
+      "russian": "занятый (о телефонной линии); занято",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:zuständig",
+      "german": "zuständig",
+      "russian": "ответственный; компетентный по данному вопросу",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:ärgerlich",
+      "german": "ärgerlich",
+      "russian": "досадный; неприятный; раздражающий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:schriftlich",
+      "german": "schriftlich",
+      "russian": "письменный; в письменной форме",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:automatisch",
+      "german": "automatisch",
+      "russian": "автоматически",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:selbstverständlich",
+      "german": "selbstverständlich",
+      "russian": "разумеется; само собой",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:mehrfach",
+      "german": "mehrfach",
+      "russian": "неоднократно; несколько раз",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:ab sofort",
+      "german": "ab sofort",
+      "russian": "с этого момента; немедленно, начиная сейчас",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:abonnieren",
+      "german": "abonnieren",
+      "russian": "подписываться на; оформлять подписку",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "abonniert",
+        "praeteritum": "abonnierte",
+        "partizip_ii": "abonniert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat abonniert"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Глагол на -ieren: Partizip II без ge-."
+    },
+    {
+      "canonical_key": "verb:auffordern",
+      "german": "auffordern",
+      "russian": "призывать; требовать; просить сделать что-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "fordert auf",
+        "praeteritum": "forderte auf",
+        "partizip_ii": "aufgefordert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat aufgefordert"
+      },
+      "government": "jemanden + Akk. zu + Dat. auffordern; jemanden auffordern, etwas zu tun",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:bedienen",
+      "german": "bedienen",
+      "russian": "обслуживать; пользоваться / управлять устройством",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bedient",
+        "praeteritum": "bediente",
+        "partizip_ii": "bedient",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat bedient"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "be- — неотделяемая приставка."
+    },
+    {
+      "canonical_key": "verb:behalten",
+      "german": "behalten",
+      "russian": "оставлять себе; сохранять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "behält",
+        "praeteritum": "behielt",
+        "partizip_ii": "behalten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat behalten"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол; Präsens 3sg: a → ä."
+    },
+    {
+      "canonical_key": "verb:enttäuschen",
+      "german": "enttäuschen",
+      "russian": "разочаровывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "enttäuscht",
+        "praeteritum": "enttäuschte",
+        "partizip_ii": "enttäuscht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat enttäuscht"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:erhalten",
+      "german": "erhalten",
+      "russian": "получать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erhält",
+        "praeteritum": "erhielt",
+        "partizip_ii": "erhalten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erhalten"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол; Präsens 3sg: a → ä."
+    },
+    {
+      "canonical_key": "verb:senden",
+      "german": "senden",
+      "russian": "посылать; отправлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "sendet",
+        "praeteritum": "sendete",
+        "partizip_ii": "gesendet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gesendet"
+      },
+      "government": "jemandem + Dat. etwas + Akk. senden"
+    },
+    {
+      "canonical_key": "verb:verbinden",
+      "german": "verbinden",
+      "russian": "соединять; переключать (по телефону)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verbindet",
+        "praeteritum": "verband",
+        "partizip_ii": "verbunden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verbunden"
+      },
+      "government": "jemanden + Akk. mit + Dat. verbinden",
+      "grammar_note": "Сильный глагол; ver- — неотделяемая приставка."
+    },
+    {
+      "canonical_key": "verb:zurückrufen",
+      "german": "zurückrufen",
+      "russian": "перезванивать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "ruft zurück",
+        "praeteritum": "rief zurück",
+        "partizip_ii": "zurückgerufen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat zurückgerufen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:ausrichten",
+      "german": "ausrichten",
+      "russian": "передавать сообщение; сообщать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "richtet aus",
+        "praeteritum": "richtete aus",
+        "partizip_ii": "ausgerichtet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat ausgerichtet"
+      },
+      "government": "jemandem + Dat. etwas + Akk. ausrichten",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:speichern",
+      "german": "speichern",
+      "russian": "сохранять (данные)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "speichert",
+        "praeteritum": "speicherte",
+        "partizip_ii": "gespeichert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gespeichert"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:kündigen",
+      "german": "kündigen",
+      "russian": "расторгать; отменять подписку / договор",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "kündigt",
+        "praeteritum": "kündigte",
+        "partizip_ii": "gekündigt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gekündigt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:anrufen",
+      "german": "anrufen",
+      "russian": "звонить кому-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "ruft an",
+        "praeteritum": "rief an",
+        "partizip_ii": "angerufen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat angerufen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:durchstellen",
+      "german": "durchstellen",
+      "russian": "соединять по телефону; переключать звонок",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stellt durch",
+        "praeteritum": "stellte durch",
+        "partizip_ii": "durchgestellt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat durchgestellt"
+      },
+      "government": "jemanden + Akk. zu + Dat. durchstellen",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:drücken",
+      "german": "drücken",
+      "russian": "нажимать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "drückt",
+        "praeteritum": "drückte",
+        "partizip_ii": "gedrückt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gedrückt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:erreichen",
+      "german": "erreichen",
+      "russian": "дозваниваться до; достигать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erreicht",
+        "praeteritum": "erreichte",
+        "partizip_ii": "erreicht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erreicht"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "er- — неотделяемая приставка."
+    },
+    {
+      "canonical_key": "connector:obwohl",
+      "german": "obwohl",
+      "russian": "хотя; несмотря на то что",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный союз: вводит придаточное, спрягаемый глагол стоит в конце."
+    },
+    {
+      "canonical_key": "connector:trotzdem",
+      "german": "trotzdem",
+      "russian": "несмотря на это; всё же",
+      "part_of_speech": "connector",
+      "grammar_note": "Связующее наречие: занимает позицию 1 или другую позицию, а спрягаемый глагол остаётся на позиции 2."
+    },
+    {
+      "canonical_key": "phrase:könnten sie mich bitte mit ... verbinden?",
+      "german": "Könnten Sie mich bitte mit ... verbinden?",
+      "russian": "Не могли бы Вы соединить меня с ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich stelle sie durch.",
+      "german": "Ich stelle Sie durch.",
+      "russian": "Я Вас соединяю / переключаю.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:bleiben sie bitte am apparat.",
+      "german": "Bleiben Sie bitte am Apparat.",
+      "russian": "Оставайтесь, пожалуйста, на линии.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich gebe ihnen die durchwahl.",
+      "german": "Ich gebe Ihnen die Durchwahl.",
+      "russian": "Я дам Вам прямой внутренний номер.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:kann ich ihm/ihr etwas ausrichten?",
+      "german": "Kann ich ihm/ihr etwas ausrichten?",
+      "russian": "Могу я что-нибудь ему/ей передать?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:jemand ist gerade außer haus.",
+      "german": "... ist gerade außer Haus.",
+      "russian": "... сейчас отсутствует / не на месте.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:der anschluss ist besetzt.",
+      "german": "Der Anschluss ist besetzt.",
+      "russian": "Линия занята.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:was kann ich für sie tun?",
+      "german": "Was kann ich für Sie tun?",
+      "russian": "Чем я могу Вам помочь?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:worum geht es?",
+      "german": "Worum geht es?",
+      "russian": "О чём речь? В чём дело?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich muss mich beschweren.",
+      "german": "Ich muss mich beschweren.",
+      "russian": "Я должен / должна пожаловаться.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das ist wirklich sehr ärgerlich.",
+      "german": "Das ist wirklich sehr ärgerlich.",
+      "russian": "Это действительно очень неприятно.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich möchte sie auffordern, dass ...",
+      "german": "Ich möchte Sie auffordern, dass ...",
+      "russian": "Я хочу потребовать / попросить Вас, чтобы ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wenn ich bis nächste woche nichts von ihnen höre, dann ...",
+      "german": "Wenn ich bis nächste Woche nichts von Ihnen höre, dann ...",
+      "russian": "Если до следующей недели я от Вас ничего не услышу, то ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sehr geehrte damen und herren",
+      "german": "Sehr geehrte Damen und Herren",
+      "russian": "Уважаемые дамы и господа",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:mit freundlichen grüßen",
+      "german": "Mit freundlichen Grüßen",
+      "russian": "С уважением",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine reklamation schreiben",
+      "german": "eine Reklamation schreiben",
+      "russian": "написать претензию / рекламацию",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine zeitschrift abonnieren",
+      "german": "eine Zeitschrift abonnieren",
+      "russian": "подписаться на журнал",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das abonnement kündigen",
+      "german": "das Abonnement kündigen",
+      "russian": "отменить / расторгнуть подписку",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine kopie senden",
+      "german": "eine Kopie senden",
+      "russian": "отправить копию",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:persönliche beratung",
+      "german": "persönliche Beratung",
+      "russian": "личная консультация",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:für reklamationen zuständig sein",
+      "german": "für Reklamationen zuständig sein",
+      "russian": "отвечать за рекламации / претензии",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:telefonisch nicht erreichbar sein",
+      "german": "telefonisch nicht erreichbar sein",
+      "russian": "быть недоступным по телефону",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

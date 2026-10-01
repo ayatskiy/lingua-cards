@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
-    "adjective:ruhig": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "adjective:ruhig": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "noun:ansage": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
+    "verb:behalten": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json"
   }
 }

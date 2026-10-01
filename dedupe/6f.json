@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:praktikant": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json"
+    "noun:praktikant": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json",
+    "noun:verlag": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json"
   }
 }
