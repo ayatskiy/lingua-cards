@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:dame": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json"
+    "noun:dame": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json",
+    "verb:abschrecken": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json"
   }
 }
