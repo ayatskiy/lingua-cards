@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:durchwahl": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json"
+    "noun:durchwahl": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
+    "noun:träne": "projects/deutsch-uebungen/decks/menschen-b1-lektion-16-wir-brauchten-uns-um-nichts-zu-kuemmern.json",
+    "verb:trennen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-16-wir-brauchten-uns-um-nichts-zu-kuemmern.json"
   }
 }

@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:träne",
+      "german": "die Träne",
+      "russian": "слеза",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tränen"
+    },
+    {
+      "canonical_key": "noun:streit",
+      "german": "der Streit",
+      "russian": "ссора; спор",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Streitigkeiten"
+    },
+    {
+      "canonical_key": "noun:ehe",
+      "german": "die Ehe",
+      "russian": "брак; супружество",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ehen"
+    },
+    {
+      "canonical_key": "noun:kuss",
+      "german": "der Kuss",
+      "russian": "поцелуй",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Küsse"
+    },
+    {
+      "canonical_key": "noun:jugend",
+      "german": "die Jugend",
+      "russian": "молодость; молодёжь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:freundschaft",
+      "german": "die Freundschaft",
+      "russian": "дружба",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Freundschaften"
+    },
+    {
+      "canonical_key": "noun:mitternacht",
+      "german": "die Mitternacht",
+      "russian": "полночь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:klavier",
+      "german": "das Klavier",
+      "russian": "фортепиано",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Klaviere"
+    },
+    {
+      "canonical_key": "noun:wert",
+      "german": "der Wert",
+      "russian": "ценность; значение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Werte"
+    },
+    {
+      "canonical_key": "adjective:ungewöhnlich",
+      "german": "ungewöhnlich",
+      "russian": "необычный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:aufgeregt",
+      "german": "aufgeregt",
+      "russian": "взволнованный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:vorstellbar",
+      "german": "vorstellbar",
+      "russian": "представимый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:aufwärts",
+      "german": "aufwärts",
+      "russian": "вверх; по направлению вверх",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:trennen",
+      "german": "trennen",
+      "russian": "разделять; расставаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "trennt",
+        "praeteritum": "trennte",
+        "partizip_ii": "getrennt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat getrennt"
+      },
+      "government": "+ Akk.; sich von + Dat. trennen"
+    },
+    {
+      "canonical_key": "verb:brauchen",
+      "german": "brauchen",
+      "russian": "нуждаться; быть должным только в конструкции brauchen + zu",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "braucht",
+        "praeteritum": "brauchte",
+        "partizip_ii": "gebraucht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gebraucht"
+      },
+      "government": "+ Akk.; nicht/nur brauchen + zu + Infinitiv",
+      "grammar_note": "В отрицании/ограничении может заменять müssen: Du brauchst nicht zu kommen."
+    },
+    {
+      "canonical_key": "verb:sich gewöhnen",
+      "german": "sich gewöhnen",
+      "russian": "привыкать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "gewöhnt sich",
+        "praeteritum": "gewöhnte sich",
+        "partizip_ii": "gewöhnt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gewöhnt"
+      },
+      "government": "sich an + Akk. gewöhnen",
+      "grammar_note": "Возвратный глагол."
+    },
+    {
+      "canonical_key": "verb:annehmen",
+      "german": "annehmen",
+      "russian": "принимать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "nimmt an",
+        "praeteritum": "nahm an",
+        "partizip_ii": "angenommen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat angenommen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:sich lösen",
+      "german": "sich lösen",
+      "russian": "освобождаться; отделяться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "löst sich",
+        "praeteritum": "löste sich",
+        "partizip_ii": "gelöst",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gelöst"
+      },
+      "government": "sich von + Dat. lösen",
+      "grammar_note": "Возвратный глагол."
+    },
+    {
+      "canonical_key": "phrase:es kommt darauf an, ...",
+      "german": "Es kommt darauf an, ...",
+      "russian": "Важно / всё зависит от того, ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:größten wert auf etwas legen",
+      "german": "größten Wert auf etwas legen",
+      "russian": "придавать чему-либо большое значение",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das ist heute kaum vorstellbar.",
+      "german": "Das ist heute kaum vorstellbar.",
+      "russian": "Сегодня это трудно представить.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:bei uns kam das nicht infrage.",
+      "german": "Bei uns kam das nicht infrage.",
+      "russian": "У нас это не рассматривалось / было исключено.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich konnte es kaum erwarten, bis ...",
+      "german": "Ich konnte es kaum erwarten, bis ...",
+      "russian": "Я едва мог(ла) дождаться, когда ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:brauchen mit zu",
+      "german": "nicht/nur brauchen + Infinitiv mit zu",
+      "russian": "не нужно / нужно только + zu-инфинитив",
+      "part_of_speech": "other",
+      "grammar_note": "В отрицательных и ограничительных конструкциях brauchen употребляется с zu + Infinitiv: Du brauchst nicht zu warten. Du brauchst nur anzurufen."
+    }
+  ]
+}
