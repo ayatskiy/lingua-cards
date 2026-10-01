@@ -2,7 +2,9 @@
   "schema_version": 1,
   "entries": {
     "adverb:vorher": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
+    "connector:um zu": "projects/deutsch-uebungen/decks/menschen-b1-lektion-24-das-loest-mehrere-probleme-auf-einmal.json",
     "noun:batterie": "projects/deutsch-uebungen/decks/menschen-b1-lektion-12-ausflug-des-jahres.json",
-    "other:konjunktiv ii vergangenheit": "projects/deutsch-uebungen/decks/menschen-b1-lektion-10-haette-ich-das-bloss-anders-gemacht.json"
+    "other:konjunktiv ii vergangenheit": "projects/deutsch-uebungen/decks/menschen-b1-lektion-10-haette-ich-das-bloss-anders-gemacht.json",
+    "phrase:innerhalb + genitiv": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json"
   }
 }

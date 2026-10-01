@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:gras",
+      "german": "das Gras",
+      "russian": "трава",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:wolle",
+      "german": "die Wolle",
+      "russian": "шерсть; пряжа",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:honig",
+      "german": "der Honig",
+      "russian": "мёд",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:pflanze",
+      "german": "die Pflanze",
+      "russian": "растение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Pflanzen"
+    },
+    {
+      "canonical_key": "noun:heide",
+      "german": "die Heide",
+      "russian": "вересковая пустошь; вереск",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Heiden"
+    },
+    {
+      "canonical_key": "noun:heideblütenfest",
+      "german": "das Heideblütenfest",
+      "russian": "праздник цветения вереска",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Heideblütenfeste"
+    },
+    {
+      "canonical_key": "noun:campingplatz",
+      "german": "der Campingplatz",
+      "russian": "кемпинг",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Campingplätze"
+    },
+    {
+      "canonical_key": "noun:nebensaison",
+      "german": "die Nebensaison",
+      "russian": "низкий туристический сезон",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:landwirtschaft",
+      "german": "die Landwirtschaft",
+      "russian": "сельское хозяйство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:viehhaltung",
+      "german": "die Viehhaltung",
+      "russian": "животноводство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:souvenir",
+      "german": "das Souvenir",
+      "russian": "сувенир",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Souvenirs"
+    },
+    {
+      "canonical_key": "noun:region",
+      "german": "die Region",
+      "russian": "регион",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Regionen"
+    },
+    {
+      "canonical_key": "noun:verein",
+      "german": "der Verein",
+      "russian": "объединение; клуб; общество",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Vereine"
+    },
+    {
+      "canonical_key": "noun:interesse",
+      "german": "das Interesse",
+      "russian": "интерес",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Interessen"
+    },
+    {
+      "canonical_key": "noun:heidekönigin",
+      "german": "die Heidekönigin",
+      "russian": "королева верескового праздника",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Heideköniginnen"
+    },
+    {
+      "canonical_key": "adjective:bekannt",
+      "german": "bekannt",
+      "russian": "известный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:wirtschaftlich",
+      "german": "wirtschaftlich",
+      "russian": "экономический; в экономическом отношении",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:tolerant",
+      "german": "tolerant",
+      "russian": "терпимый; толерантный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:berufstätig",
+      "german": "berufstätig",
+      "russian": "работающий; занятый профессионально",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:günstiger",
+      "german": "günstiger",
+      "russian": "дешевле; выгоднее",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:zelten",
+      "german": "zelten",
+      "russian": "жить в палатке; кемпинговать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "zeltet",
+        "praeteritum": "zeltete",
+        "partizip_ii": "gezeltet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gezeltet"
+      }
+    },
+    {
+      "canonical_key": "verb:sich erholen",
+      "german": "sich erholen",
+      "russian": "отдыхать; восстанавливаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erholt sich",
+        "praeteritum": "erholte sich",
+        "partizip_ii": "erholt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich erholt"
+      },
+      "government": "sich von + Dat. erholen",
+      "grammar_note": "Возвратный глагол."
+    },
+    {
+      "canonical_key": "verb:sich leisten",
+      "german": "sich leisten",
+      "russian": "позволять себе",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "leistet sich",
+        "praeteritum": "leistete sich",
+        "partizip_ii": "geleistet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich geleistet"
+      },
+      "government": "sich (Dat.) etwas (Akk.) leisten"
+    },
+    {
+      "canonical_key": "connector:je desto",
+      "german": "je ... desto/umso ...",
+      "russian": "чем ... тем ...",
+      "part_of_speech": "connector",
+      "grammar_note": "В обеих частях используется сравнительная степень: Je mehr ..., desto/umso besser ..."
+    },
+    {
+      "canonical_key": "phrase:warum ist denn hier nichts los?",
+      "german": "Warum ist denn hier nichts los?",
+      "russian": "Почему же здесь ничего не происходит?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wann ist eigentlich ...?",
+      "german": "Wann ist eigentlich ...?",
+      "russian": "Когда, собственно, ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sie könnten doch ...",
+      "german": "Sie könnten doch ...",
+      "russian": "Вы могли бы ведь ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sie wissen ja, ...",
+      "german": "Sie wissen ja, ...",
+      "russian": "Вы ведь знаете, ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich würde gern wissen, ...",
+      "german": "Ich würde gern wissen, ...",
+      "russian": "Я хотел(а) бы узнать, ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:modalpartikeln denn doch eigentlich ja",
+      "german": "Modalpartikeln denn, doch, eigentlich, ja",
+      "russian": "модальные частицы denn, doch, eigentlich, ja",
+      "part_of_speech": "other",
+      "grammar_note": "Эти частицы меняют оттенок высказывания, не являясь обязательными членами предложения: denn/eigentlich в вопросах, doch в мягких советах, ja при ссылке на известное."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+konsumieren — Grammatik	Глагол на -ieren.
+sich verschlechtern — Grammatik	Возвратный глагол.
+abhängen — Grammatik	Отделяемый сильный глагол.
+mitbestimmen — Grammatik	Отделяемый глагол.
+verbieten — Grammatik	Сильный глагол.
+(an)statt ... zu — Grammatik	При одинаковом подлежащем используется (an)statt + zu-Infinitiv.
+ohne ... zu — Grammatik	При одинаковом подлежащем используется ohne + zu-Infinitiv.
+(an)statt dass — Grammatik	При разных подлежащих используется придаточное с (an)statt dass.
+ohne dass — Grammatik	При разных подлежащих используется придаточное с ohne dass.
+(an)statt/ohne zu vs. (an)statt/ohne dass — Grammatik	Если подлежащее одинаковое, возможен zu-Infinitiv; при разных подлежащих используется dass-придаточное.

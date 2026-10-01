@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:genehmigung",
+      "german": "die Genehmigung",
+      "russian": "разрешение; официальное согласование",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Genehmigungen"
+    },
+    {
+      "canonical_key": "noun:macht",
+      "german": "die Macht",
+      "russian": "власть; сила",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:anzahl",
+      "german": "die Anzahl",
+      "russian": "количество",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Anzahlen"
+    },
+    {
+      "canonical_key": "noun:zone",
+      "german": "die Zone",
+      "russian": "зона",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Zonen"
+    },
+    {
+      "canonical_key": "noun:ursache",
+      "german": "die Ursache",
+      "russian": "причина",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ursachen"
+    },
+    {
+      "canonical_key": "noun:gewalt",
+      "german": "die Gewalt",
+      "russian": "насилие; сила",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:konsequenz",
+      "german": "die Konsequenz",
+      "russian": "последствие; вывод",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Konsequenzen"
+    },
+    {
+      "canonical_key": "noun:garantie",
+      "german": "die Garantie",
+      "russian": "гарантия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Garantien"
+    },
+    {
+      "canonical_key": "noun:flucht",
+      "german": "die Flucht",
+      "russian": "бегство; побег",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Fluchten"
+    },
+    {
+      "canonical_key": "noun:mauerfall",
+      "german": "der Mauerfall",
+      "russian": "падение Берлинской стены",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:maueröffnung",
+      "german": "die Maueröffnung",
+      "russian": "открытие границы / стены",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:begrüßungsgeld",
+      "german": "das Begrüßungsgeld",
+      "russian": "денежная выплата при приветствии",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:volksabstimmung",
+      "german": "die Volksabstimmung",
+      "russian": "референдум; всенародное голосование",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Volksabstimmungen"
+    },
+    {
+      "canonical_key": "noun:alltagskultur",
+      "german": "die Alltagskultur",
+      "russian": "повседневная культура",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:denkmal",
+      "german": "das Denkmal",
+      "russian": "памятник",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Denkmäler"
+    },
+    {
+      "canonical_key": "noun:luftbrücke",
+      "german": "die Luftbrücke",
+      "russian": "воздушный мост",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Luftbrücken"
+    },
+    {
+      "canonical_key": "adjective:europäisch",
+      "german": "europäisch",
+      "russian": "европейский",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:expressionistisch",
+      "german": "expressionistisch",
+      "russian": "экспрессионистский",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:beeindruckend",
+      "german": "beeindruckend",
+      "russian": "впечатляющий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "verb:einführen",
+      "german": "einführen",
+      "russian": "вводить; внедрять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "führt ein",
+        "praeteritum": "führte ein",
+        "partizip_ii": "eingeführt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat eingeführt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:herstellen",
+      "german": "herstellen",
+      "russian": "производить; изготавливать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stellt her",
+        "praeteritum": "stellte her",
+        "partizip_ii": "hergestellt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat hergestellt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:gründen",
+      "german": "gründen",
+      "russian": "основывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "gründet",
+        "praeteritum": "gründete",
+        "partizip_ii": "gegründet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gegründet"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:eröffnen",
+      "german": "eröffnen",
+      "russian": "открывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "eröffnet",
+        "praeteritum": "eröffnete",
+        "partizip_ii": "eröffnet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat eröffnet"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:erleben",
+      "german": "erleben",
+      "russian": "переживать; быть свидетелем",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erlebt",
+        "praeteritum": "erlebte",
+        "partizip_ii": "erlebt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erlebt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "phrase:wurde ... eingeführt",
+      "german": "wurde ... eingeführt",
+      "russian": "было введено ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ist ... hergestellt worden",
+      "german": "ist ... hergestellt worden",
+      "russian": "было произведено ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich hätte das gern erlebt.",
+      "german": "Ich hätte das gern erlebt.",
+      "russian": "Я хотел(а) бы это пережить / увидеть своими глазами.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das war bestimmt eine beeindruckende zeit.",
+      "german": "Das war bestimmt eine beeindruckende Zeit.",
+      "russian": "Наверняка это было впечатляющее время.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:passiv präteritum",
+      "german": "Passiv Präteritum",
+      "russian": "пассив в Präteritum",
+      "part_of_speech": "other",
+      "grammar_note": "Bildung: wurde/wurden + Partizip II: Die Demokratie wurde eingeführt."
+    },
+    {
+      "canonical_key": "other:passiv perfekt",
+      "german": "Passiv Perfekt",
+      "russian": "пассив в Perfekt",
+      "part_of_speech": "other",
+      "grammar_note": "Bildung: sein + Partizip II + worden: Die Gebäude sind renoviert worden."
+    }
+  ]
+}

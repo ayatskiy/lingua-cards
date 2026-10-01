@@ -1,8 +1,10 @@
 {
   "schema_version": 1,
   "entries": {
+    "noun:hüttenwirt": "projects/deutsch-uebungen/decks/menschen-b1-lektion-20-die-anderen-werden-es-dir-danken.json",
     "noun:miethöhe": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
     "noun:stau": "projects/deutsch-uebungen/decks/menschen-b1-lektion-12-ausflug-des-jahres.json",
-    "noun:tennisspiel": "projects/deutsch-uebungen/decks/menschen-b1-lektion-11-nachdem-wir-jahrelang-pech-gehabt-hatten.json"
+    "noun:tennisspiel": "projects/deutsch-uebungen/decks/menschen-b1-lektion-11-nachdem-wir-jahrelang-pech-gehabt-hatten.json",
+    "verb:verbrauchen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-24-das-loest-mehrere-probleme-auf-einmal.json"
   }
 }

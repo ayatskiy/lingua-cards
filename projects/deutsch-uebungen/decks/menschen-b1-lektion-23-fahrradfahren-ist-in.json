@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:bremse",
+      "german": "die Bremse",
+      "russian": "тормоз",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bremsen"
+    },
+    {
+      "canonical_key": "noun:klingel",
+      "german": "die Klingel",
+      "russian": "велосипедный звонок; звонок",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Klingeln"
+    },
+    {
+      "canonical_key": "noun:reifendruck",
+      "german": "der Reifendruck",
+      "russian": "давление в шинах",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:mobilität",
+      "german": "die Mobilität",
+      "russian": "мобильность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:fahrradstation",
+      "german": "die Fahrradstation",
+      "russian": "велосипедная станция / сервисный пункт",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Fahrradstationen"
+    },
+    {
+      "canonical_key": "noun:reinigung",
+      "german": "die Reinigung",
+      "russian": "чистка; очистка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Reinigungen"
+    },
+    {
+      "canonical_key": "noun:kreuzung",
+      "german": "die Kreuzung",
+      "russian": "перекрёсток",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kreuzungen"
+    },
+    {
+      "canonical_key": "noun:stecker",
+      "german": "der Stecker",
+      "russian": "штекер; вилка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Stecker"
+    },
+    {
+      "canonical_key": "noun:gesetz",
+      "german": "das Gesetz",
+      "russian": "закон",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gesetze"
+    },
+    {
+      "canonical_key": "noun:biomüll",
+      "german": "der Biomüll",
+      "russian": "органические отходы",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:bürger",
+      "german": "der Bürger / die Bürgerin",
+      "russian": "гражданин / гражданка",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Bürger / Bürgerinnen"
+    },
+    {
+      "canonical_key": "noun:verkehrspolitik",
+      "german": "die Verkehrspolitik",
+      "russian": "транспортная политика",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:schnellstraße",
+      "german": "die Schnellstraße",
+      "russian": "скоростная дорога",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Schnellstraßen"
+    },
+    {
+      "canonical_key": "noun:radweg",
+      "german": "der Radweg",
+      "russian": "велосипедная дорожка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Radwege"
+    },
+    {
+      "canonical_key": "noun:ersatzteil",
+      "german": "das Ersatzteil",
+      "russian": "запасная часть",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Ersatzteile"
+    },
+    {
+      "canonical_key": "adjective:nützlich",
+      "german": "nützlich",
+      "russian": "полезный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:offenbar",
+      "german": "offenbar",
+      "russian": "очевидный; по-видимому",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:gleichgültig",
+      "german": "gleichgültig",
+      "russian": "безразличный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:nebenbei",
+      "german": "nebenbei",
+      "russian": "попутно; между делом",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:sowieso",
+      "german": "sowieso",
+      "russian": "в любом случае; всё равно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:konsumieren",
+      "german": "konsumieren",
+      "russian": "потреблять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "konsumiert",
+        "praeteritum": "konsumierte",
+        "partizip_ii": "konsumiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat konsumiert"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Глагол на -ieren."
+    },
+    {
+      "canonical_key": "verb:sich verschlechtern",
+      "german": "sich verschlechtern",
+      "russian": "ухудшаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verschlechtert sich",
+        "praeteritum": "verschlechterte sich",
+        "partizip_ii": "verschlechtert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich verschlechtert"
+      },
+      "grammar_note": "Возвратный глагол."
+    },
+    {
+      "canonical_key": "verb:abhängen",
+      "german": "abhängen",
+      "russian": "зависеть",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "hängt ab",
+        "praeteritum": "hing ab",
+        "partizip_ii": "abgehangen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat abgehangen"
+      },
+      "government": "von + Dat. abhängen",
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:mitbestimmen",
+      "german": "mitbestimmen",
+      "russian": "участвовать в принятии решений",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bestimmt mit",
+        "praeteritum": "bestimmte mit",
+        "partizip_ii": "mitbestimmt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat mitbestimmt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:verbieten",
+      "german": "verbieten",
+      "russian": "запрещать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verbietet",
+        "praeteritum": "verbot",
+        "partizip_ii": "verboten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verboten"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "verb:prüfen",
+      "german": "prüfen",
+      "russian": "проверять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "prüft",
+        "praeteritum": "prüfte",
+        "partizip_ii": "geprüft",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geprüft"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "connector:statt zu",
+      "german": "(an)statt ... zu",
+      "russian": "вместо того чтобы",
+      "part_of_speech": "connector",
+      "grammar_note": "При одинаковом подлежащем используется (an)statt + zu-Infinitiv."
+    },
+    {
+      "canonical_key": "connector:ohne zu",
+      "german": "ohne ... zu",
+      "russian": "не делая; без того чтобы",
+      "part_of_speech": "connector",
+      "grammar_note": "При одинаковом подлежащем используется ohne + zu-Infinitiv."
+    },
+    {
+      "canonical_key": "connector:statt dass",
+      "german": "(an)statt dass",
+      "russian": "вместо того чтобы (с отдельным подлежащим)",
+      "part_of_speech": "connector",
+      "grammar_note": "При разных подлежащих используется придаточное с (an)statt dass."
+    },
+    {
+      "canonical_key": "connector:ohne dass",
+      "german": "ohne dass",
+      "russian": "без того чтобы (с отдельным подлежащим)",
+      "part_of_speech": "connector",
+      "grammar_note": "При разных подлежащих используется придаточное с ohne dass."
+    },
+    {
+      "canonical_key": "phrase:ich kann dir da nur zustimmen.",
+      "german": "Ich kann dir da nur zustimmen.",
+      "russian": "Я могу с тобой только согласиться.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich bin voll und ganz deiner meinung.",
+      "german": "Ich bin voll und ganz deiner Meinung.",
+      "russian": "Я полностью с тобой согласен / согласна.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das ist mir ganz egal.",
+      "german": "Das ist mir ganz egal.",
+      "russian": "Мне совершенно всё равно.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:macht dir das nichts aus?",
+      "german": "Macht dir das nichts aus?",
+      "russian": "Тебя это не беспокоит / тебе это не мешает?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:meinetwegen kann jeder das so machen, wie er möchte.",
+      "german": "Meinetwegen kann jeder das so machen, wie er möchte.",
+      "russian": "По мне, каждый может делать это так, как хочет.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:alternative und begleitumsstand",
+      "german": "(an)statt/ohne zu vs. (an)statt/ohne dass",
+      "russian": "альтернатива и сопутствующее обстоятельство",
+      "part_of_speech": "other",
+      "grammar_note": "Если подлежащее одинаковое, возможен zu-Infinitiv; при разных подлежащих используется dass-придаточное."
+    }
+  ]
+}

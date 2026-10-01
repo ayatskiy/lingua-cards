@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entries": {
     "noun:arbeitnehmer": "projects/deutsch-uebungen/decks/menschen-b1-lektion-09-sport-traegt-zu-einem-groesseren-wohlbefinden-bei.json",
-    "noun:jugend": "projects/deutsch-uebungen/decks/menschen-b1-lektion-16-wir-brauchten-uns-um-nichts-zu-kuemmern.json"
+    "noun:jugend": "projects/deutsch-uebungen/decks/menschen-b1-lektion-16-wir-brauchten-uns-um-nichts-zu-kuemmern.json",
+    "phrase:einen besuch wert sein": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json"
   }
 }

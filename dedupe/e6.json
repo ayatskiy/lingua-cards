@@ -1,9 +1,14 @@
 {
   "schema_version": 1,
   "entries": {
+    "noun:metzgerei": "projects/deutsch-uebungen/decks/menschen-b1-lektion-24-das-loest-mehrere-probleme-auf-einmal.json",
+    "noun:ursache": "projects/deutsch-uebungen/decks/menschen-b1-lektion-22-in-der-brd-wurde-die-demokratie-eingefuehrt.json",
     "noun:werkstatt": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json",
     "phrase:es gibt ...": "projects/deutsch-uebungen/decks/menschen-b1-lektion-17-guck-mal-das-ist-schoen.json",
+    "phrase:ich bin voll und ganz deiner meinung.": "projects/deutsch-uebungen/decks/menschen-b1-lektion-23-fahrradfahren-ist-in.json",
     "phrase:mehr als die hälfte": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
-    "verb:einschalten": "projects/deutsch-uebungen/decks/menschen-b1-lektion-08-waehrend-andere-lange-nachdenken.json"
+    "verb:abhängen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-23-fahrradfahren-ist-in.json",
+    "verb:einschalten": "projects/deutsch-uebungen/decks/menschen-b1-lektion-08-waehrend-andere-lange-nachdenken.json",
+    "verb:prüfen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-23-fahrradfahren-ist-in.json"
   }
 }

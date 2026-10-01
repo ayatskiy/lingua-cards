@@ -1,8 +1,12 @@
 {
   "schema_version": 1,
   "entries": {
+    "noun:biomüll": "projects/deutsch-uebungen/decks/menschen-b1-lektion-23-fahrradfahren-ist-in.json",
+    "noun:fahrradstation": "projects/deutsch-uebungen/decks/menschen-b1-lektion-23-fahrradfahren-ist-in.json",
+    "noun:konzertsaal": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json",
     "phrase:möchten sie noch etwas von dem braten?": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
     "verb:einziehen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
-    "verb:pflegen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-07-kann-ich-ihnen-helfen.json"
+    "verb:pflegen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-07-kann-ich-ihnen-helfen.json",
+    "verb:sich verschlechtern": "projects/deutsch-uebungen/decks/menschen-b1-lektion-23-fahrradfahren-ist-in.json"
   }
 }

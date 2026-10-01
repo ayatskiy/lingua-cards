@@ -1,0 +1,7 @@
+gelten — Perfekt	hat gegolten
+sorgen — Perfekt	hat gesorgt
+regeln — Perfekt	hat geregelt
+verunglücken — Perfekt	ist verunglückt
+dienen — Perfekt	hat gedient
+treten — Perfekt	ist getreten
+umgehen — Perfekt	hat umgangen

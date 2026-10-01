@@ -2,7 +2,9 @@
   "schema_version": 1,
   "entries": {
     "noun:betriebsversammlung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-12-ausflug-des-jahres.json",
+    "noun:distanz": "projects/deutsch-uebungen/decks/menschen-b1-lektion-24-das-loest-mehrere-probleme-auf-einmal.json",
     "noun:sonnenfinsternis": "projects/deutsch-uebungen/decks/menschen-b1-lektion-11-nachdem-wir-jahrelang-pech-gehabt-hatten.json",
-    "noun:wohnung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "noun:wohnung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "verb:einpacken": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json"
   }
 }
