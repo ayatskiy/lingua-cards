@@ -1,0 +1,29 @@
+das Ding	вещь; предмет
+die Ecke	угол
+das Fernsehgerät	телевизор
+der Gegenstand	предмет
+der Herd	плита
+das Kissen	подушка
+der Raum	помещение; комната
+das Regal	полка; стеллаж
+der Schreibtisch	письменный стол
+der Spiegel	зеркало
+die Tür	дверь
+der Vorhang	занавеска; штора
+die Wand	стена
+das Werkzeug	инструмент; инструменты
+einrichten	обставлять; оборудовать
+hängen	висеть; вешать
+legen	класть
+liegen	лежать
+stehen	стоять
+stellen	ставить
+verstecken	прятать
+dunkel	тёмный
+hell	светлый
+schwer	тяжёлый; трудный
+vorsichtig	осторожный
+sonst	иначе; в противном случае
+Wo hängt / liegt / steht ...?	Где висит / лежит / стоит ...?
+Wohin soll ich ... hängen / legen / stellen?	Куда мне повесить / положить / поставить ...?
+Wo? + Dativ / Wohin? + Akkusativ	где? + Dativ / куда? + Akkusativ
