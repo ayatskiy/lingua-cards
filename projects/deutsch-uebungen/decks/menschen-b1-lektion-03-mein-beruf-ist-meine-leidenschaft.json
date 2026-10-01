@@ -1,0 +1,825 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:wohnung",
+      "german": "die Wohnung",
+      "russian": "квартира",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Wohnungen"
+    },
+    {
+      "canonical_key": "noun:wohnblock",
+      "german": "der Wohnblock",
+      "russian": "жилой многоквартирный дом",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Wohnblöcke"
+    },
+    {
+      "canonical_key": "noun:wohngemeinschaft",
+      "german": "die Wohngemeinschaft",
+      "russian": "совместная аренда квартиры; WG",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Wohngemeinschaften"
+    },
+    {
+      "canonical_key": "noun:apartment",
+      "german": "das Apartment",
+      "russian": "апартаменты; небольшая квартира",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Apartments"
+    },
+    {
+      "canonical_key": "noun:hausmeister",
+      "german": "der Hausmeister",
+      "russian": "домоуправ; смотритель дома",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Hausmeister"
+    },
+    {
+      "canonical_key": "noun:innenstadt",
+      "german": "die Innenstadt",
+      "russian": "центр города",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Innenstädte"
+    },
+    {
+      "canonical_key": "noun:vorort",
+      "german": "der Vorort",
+      "russian": "пригород",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Vororte"
+    },
+    {
+      "canonical_key": "noun:innenhof",
+      "german": "der Innenhof",
+      "russian": "внутренний двор",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Innenhöfe"
+    },
+    {
+      "canonical_key": "noun:hof",
+      "german": "der Hof",
+      "russian": "двор",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Höfe"
+    },
+    {
+      "canonical_key": "noun:ofen",
+      "german": "der Ofen",
+      "russian": "печь; духовка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Öfen"
+    },
+    {
+      "canonical_key": "noun:mülleimer",
+      "german": "der Mülleimer",
+      "russian": "мусорное ведро; контейнер",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Mülleimer"
+    },
+    {
+      "canonical_key": "noun:makler",
+      "german": "der Makler / die Maklerin",
+      "russian": "риелтор; маклер",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Makler / Maklerinnen"
+    },
+    {
+      "canonical_key": "noun:wohnfläche",
+      "german": "die Wohnfläche",
+      "russian": "жилая площадь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Wohnflächen"
+    },
+    {
+      "canonical_key": "noun:grundstück",
+      "german": "das Grundstück",
+      "russian": "земельный участок",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Grundstücke"
+    },
+    {
+      "canonical_key": "noun:einfamilienhaus",
+      "german": "das Einfamilienhaus",
+      "russian": "частный дом на одну семью",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Einfamilienhäuser"
+    },
+    {
+      "canonical_key": "noun:reihenhaus",
+      "german": "das Reihenhaus",
+      "russian": "таунхаус; дом в рядовой застройке",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Reihenhäuser"
+    },
+    {
+      "canonical_key": "noun:dachterrasse",
+      "german": "die Dachterrasse",
+      "russian": "терраса на крыше",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Dachterrassen"
+    },
+    {
+      "canonical_key": "noun:terrasse",
+      "german": "die Terrasse",
+      "russian": "терраса",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Terrassen"
+    },
+    {
+      "canonical_key": "noun:lift",
+      "german": "der Lift",
+      "russian": "лифт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Lifte"
+    },
+    {
+      "canonical_key": "noun:lage",
+      "german": "die Lage",
+      "russian": "расположение; местоположение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Lagen"
+    },
+    {
+      "canonical_key": "noun:miete",
+      "german": "die Miete",
+      "russian": "арендная плата",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mieten"
+    },
+    {
+      "canonical_key": "noun:miethöhe",
+      "german": "die Miethöhe",
+      "russian": "размер арендной платы",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Miethöhen"
+    },
+    {
+      "canonical_key": "noun:nebenkosten",
+      "german": "die Nebenkosten",
+      "russian": "коммунальные и дополнительные расходы по аренде",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Nebenkosten"
+    },
+    {
+      "canonical_key": "noun:kaufpreis",
+      "german": "der Kaufpreis",
+      "russian": "покупная цена",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Kaufpreise"
+    },
+    {
+      "canonical_key": "noun:eigentumswohnung",
+      "german": "die Eigentumswohnung",
+      "russian": "квартира в собственности",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Eigentumswohnungen"
+    },
+    {
+      "canonical_key": "noun:einrichtung",
+      "german": "die Einrichtung",
+      "russian": "обстановка; меблировка; оборудование",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Einrichtungen"
+    },
+    {
+      "canonical_key": "noun:möbel",
+      "german": "die Möbel",
+      "russian": "мебель",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Möbel"
+    },
+    {
+      "canonical_key": "noun:wohnungsmangel",
+      "german": "der Wohnungsmangel",
+      "russian": "нехватка жилья",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:zugang",
+      "german": "der Zugang",
+      "russian": "доступ; вход",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Zugänge"
+    },
+    {
+      "canonical_key": "noun:mangel",
+      "german": "der Mangel",
+      "russian": "недостаток; нехватка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Mängel"
+    },
+    {
+      "canonical_key": "noun:anteil",
+      "german": "der Anteil",
+      "russian": "доля; часть",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Anteile"
+    },
+    {
+      "canonical_key": "noun:drittel",
+      "german": "das Drittel",
+      "russian": "треть",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Drittel"
+    },
+    {
+      "canonical_key": "noun:viertel",
+      "german": "das Viertel",
+      "russian": "четверть",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Viertel"
+    },
+    {
+      "canonical_key": "noun:fünftel",
+      "german": "das Fünftel",
+      "russian": "пятая часть",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Fünftel"
+    },
+    {
+      "canonical_key": "noun:hälfte",
+      "german": "die Hälfte",
+      "russian": "половина",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Hälften"
+    },
+    {
+      "canonical_key": "noun:bevölkerung",
+      "german": "die Bevölkerung",
+      "russian": "население",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:staatsangehörigkeit",
+      "german": "die Staatsangehörigkeit",
+      "russian": "гражданство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Staatsangehörigkeiten"
+    },
+    {
+      "canonical_key": "noun:einwohner",
+      "german": "der Einwohner / die Einwohnerin",
+      "russian": "житель / жительница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Einwohner / Einwohnerinnen"
+    },
+    {
+      "canonical_key": "noun:fläche",
+      "german": "die Fläche",
+      "russian": "площадь; территория",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Flächen"
+    },
+    {
+      "canonical_key": "noun:begegnung",
+      "german": "die Begegnung",
+      "russian": "встреча; знакомство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Begegnungen"
+    },
+    {
+      "canonical_key": "noun:leidenschaft",
+      "german": "die Leidenschaft",
+      "russian": "страсть; увлечение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Leidenschaften"
+    },
+    {
+      "canonical_key": "noun:heim",
+      "german": "das Heim",
+      "russian": "дом; жильё",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Heime"
+    },
+    {
+      "canonical_key": "noun:mietwohnung",
+      "german": "die Mietwohnung",
+      "russian": "съёмная квартира",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mietwohnungen"
+    },
+    {
+      "canonical_key": "noun:eigentümer",
+      "german": "der Eigentümer / die Eigentümerin",
+      "russian": "собственник / собственница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Eigentümer / Eigentümerinnen"
+    },
+    {
+      "canonical_key": "noun:bewohner",
+      "german": "der Bewohner / die Bewohnerin",
+      "russian": "житель / жительница; проживающий",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Bewohner / Bewohnerinnen"
+    },
+    {
+      "canonical_key": "noun:kosten",
+      "german": "die Kosten",
+      "russian": "расходы; затраты",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kosten"
+    },
+    {
+      "canonical_key": "adjective:renoviert",
+      "german": "renoviert",
+      "russian": "отремонтированный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:möbliert",
+      "german": "möbliert",
+      "russian": "меблированный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:unmöbliert",
+      "german": "unmöbliert",
+      "russian": "немеблированный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:zentral",
+      "german": "zentral",
+      "russian": "центральный; удобно расположенный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:gemütlich",
+      "german": "gemütlich",
+      "russian": "уютный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:ruhig",
+      "german": "ruhig",
+      "russian": "тихий; спокойный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:entfernt",
+      "german": "entfernt",
+      "russian": "удалённый; находящийся на расстоянии",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:besiedelt",
+      "german": "besiedelt",
+      "russian": "заселённый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:inklusive",
+      "german": "inklusive",
+      "russian": "включительно; включая",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:knapp",
+      "german": "knapp",
+      "russian": "чуть меньше; почти",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:etwa",
+      "german": "etwa",
+      "russian": "примерно; около",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:rund",
+      "german": "rund",
+      "russian": "около; приблизительно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:vermieten",
+      "german": "vermieten",
+      "russian": "сдавать в аренду",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "vermietet",
+        "praeteritum": "vermietete",
+        "partizip_ii": "vermietet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat vermietet"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:mieten",
+      "german": "mieten",
+      "russian": "снимать; арендовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "mietet",
+        "praeteritum": "mietete",
+        "partizip_ii": "gemietet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gemietet"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:renovieren",
+      "german": "renovieren",
+      "russian": "ремонтировать; обновлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "renoviert",
+        "praeteritum": "renovierte",
+        "partizip_ii": "renoviert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat renoviert"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "глагол на -ieren: Partizip II без ge-"
+    },
+    {
+      "canonical_key": "verb:besichtigen",
+      "german": "besichtigen",
+      "russian": "осматривать; посещать с целью осмотра",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "besichtigt",
+        "praeteritum": "besichtigte",
+        "partizip_ii": "besichtigt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat besichtigt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "be- — неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:einziehen",
+      "german": "einziehen",
+      "russian": "въезжать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "zieht ein",
+        "praeteritum": "zog ein",
+        "partizip_ii": "eingezogen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist eingezogen"
+      },
+      "government": "in + Akk. einziehen",
+      "grammar_note": "отделяемый сильный глагол; Perfekt с sein"
+    },
+    {
+      "canonical_key": "verb:umziehen",
+      "german": "umziehen",
+      "russian": "переезжать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "zieht um",
+        "praeteritum": "zog um",
+        "partizip_ii": "umgezogen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist umgezogen"
+      },
+      "government": "nach + Dat. / in + Akk. umziehen",
+      "grammar_note": "в значении переезда — отделяемый глагол; Perfekt с sein"
+    },
+    {
+      "canonical_key": "verb:ausziehen",
+      "german": "ausziehen",
+      "russian": "выезжать; съезжать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "zieht aus",
+        "praeteritum": "zog aus",
+        "partizip_ii": "ausgezogen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist ausgezogen"
+      },
+      "government": "aus + Dat. ausziehen",
+      "grammar_note": "в значении выезда из жилья — Perfekt с sein"
+    },
+    {
+      "canonical_key": "verb:herrschen",
+      "german": "herrschen",
+      "russian": "царить; господствовать; иметь место",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "herrscht",
+        "praeteritum": "herrschte",
+        "partizip_ii": "geherrscht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geherrscht"
+      }
+    },
+    {
+      "canonical_key": "verb:leihen",
+      "german": "leihen",
+      "russian": "одалживать; давать взаймы",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "leiht",
+        "praeteritum": "lieh",
+        "partizip_ii": "geliehen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geliehen"
+      },
+      "government": "jemandem + Dat. etwas + Akk. leihen",
+      "grammar_note": "сильный глагол"
+    },
+    {
+      "canonical_key": "verb:träumen",
+      "german": "träumen",
+      "russian": "мечтать; видеть сон",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "träumt",
+        "praeteritum": "träumte",
+        "partizip_ii": "geträumt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geträumt"
+      },
+      "government": "von + Dat. träumen"
+    },
+    {
+      "canonical_key": "verb:sich ärgern",
+      "german": "sich ärgern",
+      "russian": "сердиться; раздражаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "ärgert sich",
+        "praeteritum": "ärgerte sich",
+        "partizip_ii": "geärgert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich geärgert"
+      },
+      "government": "sich über + Akk. ärgern",
+      "grammar_note": "возвратный глагол"
+    },
+    {
+      "canonical_key": "verb:sich interessieren",
+      "german": "sich interessieren",
+      "russian": "интересоваться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "interessiert sich",
+        "praeteritum": "interessierte sich",
+        "partizip_ii": "interessiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich interessiert"
+      },
+      "government": "sich für + Akk. interessieren",
+      "grammar_note": "возвратный глагол на -ieren: Partizip II без ge-"
+    },
+    {
+      "canonical_key": "verb:sich beschweren",
+      "german": "sich beschweren",
+      "russian": "жаловаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beschwert sich",
+        "praeteritum": "beschwerte sich",
+        "partizip_ii": "beschwert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich beschwert"
+      },
+      "government": "sich bei + Dat. über + Akk. beschweren",
+      "grammar_note": "возвратный глагол; be- — неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:helfen",
+      "german": "helfen",
+      "russian": "помогать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "hilft",
+        "praeteritum": "half",
+        "partizip_ii": "geholfen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geholfen"
+      },
+      "government": "+ Dat.",
+      "grammar_note": "сильный глагол; Präsens 3sg: e → i"
+    },
+    {
+      "canonical_key": "verb:gehören",
+      "german": "gehören",
+      "russian": "принадлежать; относиться к",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "gehört",
+        "praeteritum": "gehörte",
+        "partizip_ii": "gehört",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gehört"
+      },
+      "government": "jemandem + Dat. gehören"
+    },
+    {
+      "canonical_key": "verb:werfen",
+      "german": "werfen",
+      "russian": "бросать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wirft",
+        "praeteritum": "warf",
+        "partizip_ii": "geworfen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geworfen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "сильный глагол; Präsens 3sg: e → i"
+    },
+    {
+      "canonical_key": "verb:sich amüsieren",
+      "german": "sich amüsieren",
+      "russian": "развлекаться; веселиться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "amüsiert sich",
+        "praeteritum": "amüsierte sich",
+        "partizip_ii": "amüsiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich amüsiert"
+      },
+      "grammar_note": "возвратный глагол на -ieren: Partizip II без ge-"
+    },
+    {
+      "canonical_key": "verb:funktionieren",
+      "german": "funktionieren",
+      "russian": "работать; функционировать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "funktioniert",
+        "praeteritum": "funktionierte",
+        "partizip_ii": "funktioniert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat funktioniert"
+      },
+      "grammar_note": "глагол на -ieren: Partizip II без ge-"
+    },
+    {
+      "canonical_key": "phrase:in bester lage",
+      "german": "in bester Lage",
+      "russian": "в самом удачном месте; в лучшем районе",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:zur miete wohnen",
+      "german": "zur Miete wohnen",
+      "russian": "жить в съёмном жилье",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:in der innenstadt",
+      "german": "in der Innenstadt",
+      "russian": "в центре города",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:im vorort",
+      "german": "im Vorort",
+      "russian": "в пригороде",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:in eine wohnung einziehen",
+      "german": "in eine Wohnung einziehen",
+      "russian": "въехать в квартиру",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine wohnung besichtigen",
+      "german": "eine Wohnung besichtigen",
+      "russian": "осмотреть квартиру",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine wohnung vermieten",
+      "german": "eine Wohnung vermieten",
+      "russian": "сдавать квартиру в аренду",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:zur verfügung stehen",
+      "german": "zur Verfügung stehen",
+      "russian": "быть в распоряжении; быть доступным",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:einen blick werfen",
+      "german": "einen Blick werfen",
+      "russian": "бросить взгляд",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:etwa die hälfte",
+      "german": "etwa die Hälfte",
+      "russian": "примерно половина",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:knapp ein viertel",
+      "german": "knapp ein Viertel",
+      "russian": "чуть меньше четверти",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:fast 80 prozent",
+      "german": "fast 80 Prozent",
+      "russian": "почти 80 процентов",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:mehr als die hälfte",
+      "german": "mehr als die Hälfte",
+      "russian": "больше половины",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:zwei drittel",
+      "german": "zwei Drittel",
+      "russian": "две трети",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:drei viertel",
+      "german": "drei Viertel",
+      "russian": "три четверти",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:relativpronomen nominativ",
+      "german": "Relativpronomen im Nominativ",
+      "russian": "относительные местоимения в именительном падеже",
+      "part_of_speech": "other",
+      "grammar_note": "Nominativ: der / das / die / die. Das Relativpronomen übernimmt Genus und Numerus vom Bezugswort; der Kasus richtet sich nach seiner Funktion im Relativsatz."
+    },
+    {
+      "canonical_key": "other:relativpronomen akkusativ",
+      "german": "Relativpronomen im Akkusativ",
+      "russian": "относительные местоимения в винительном падеже",
+      "part_of_speech": "other",
+      "grammar_note": "Akkusativ: den / das / die / die. Beispiel: der Garten, den ich schön finde."
+    },
+    {
+      "canonical_key": "other:relativpronomen dativ",
+      "german": "Relativpronomen im Dativ",
+      "russian": "относительные местоимения в дательном падеже",
+      "part_of_speech": "other",
+      "grammar_note": "Dativ: dem / dem / der / denen. Beispiel: die Leute, denen ich oft helfe."
+    },
+    {
+      "canonical_key": "other:relativsatz mit präposition",
+      "german": "Relativsatz mit Präposition",
+      "russian": "относительное предложение с предлогом",
+      "part_of_speech": "other",
+      "grammar_note": "Die Präposition steht vor dem Relativpronomen und bestimmt den Kasus: der Garten, in dem ich mich ausruhe; die Nachbarn, über die ich mich ärgere."
+    }
+  ]
+}

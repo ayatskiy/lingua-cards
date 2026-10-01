@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "adjective:humorvoll": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json"
+    "adjective:humorvoll": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json",
+    "noun:bevölkerung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
   }
 }

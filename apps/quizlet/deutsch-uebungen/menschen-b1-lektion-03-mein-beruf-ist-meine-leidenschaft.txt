@@ -1,0 +1,95 @@
+die Wohnung	квартира
+der Wohnblock	жилой многоквартирный дом
+die Wohngemeinschaft	совместная аренда квартиры; WG
+das Apartment	апартаменты; небольшая квартира
+der Hausmeister	домоуправ; смотритель дома
+die Innenstadt	центр города
+der Vorort	пригород
+der Innenhof	внутренний двор
+der Hof	двор
+der Ofen	печь; духовка
+der Mülleimer	мусорное ведро; контейнер
+der Makler / die Maklerin	риелтор; маклер
+die Wohnfläche	жилая площадь
+das Grundstück	земельный участок
+das Einfamilienhaus	частный дом на одну семью
+das Reihenhaus	таунхаус; дом в рядовой застройке
+die Dachterrasse	терраса на крыше
+die Terrasse	терраса
+der Lift	лифт
+die Lage	расположение; местоположение
+die Miete	арендная плата
+die Miethöhe	размер арендной платы
+die Nebenkosten	коммунальные и дополнительные расходы по аренде
+der Kaufpreis	покупная цена
+die Eigentumswohnung	квартира в собственности
+die Einrichtung	обстановка; меблировка; оборудование
+die Möbel	мебель
+der Wohnungsmangel	нехватка жилья
+der Zugang	доступ; вход
+der Mangel	недостаток; нехватка
+der Anteil	доля; часть
+das Drittel	треть
+das Viertel	четверть
+das Fünftel	пятая часть
+die Hälfte	половина
+die Bevölkerung	население
+die Staatsangehörigkeit	гражданство
+der Einwohner / die Einwohnerin	житель / жительница
+die Fläche	площадь; территория
+die Begegnung	встреча; знакомство
+die Leidenschaft	страсть; увлечение
+das Heim	дом; жильё
+die Mietwohnung	съёмная квартира
+der Eigentümer / die Eigentümerin	собственник / собственница
+der Bewohner / die Bewohnerin	житель / жительница; проживающий
+die Kosten	расходы; затраты
+renoviert	отремонтированный
+möbliert	меблированный
+unmöbliert	немеблированный
+zentral	центральный; удобно расположенный
+gemütlich	уютный
+ruhig	тихий; спокойный
+entfernt	удалённый; находящийся на расстоянии
+besiedelt	заселённый
+inklusive	включительно; включая
+knapp	чуть меньше; почти
+etwa	примерно; около
+rund	около; приблизительно
+vermieten	сдавать в аренду
+mieten	снимать; арендовать
+renovieren	ремонтировать; обновлять
+besichtigen	осматривать; посещать с целью осмотра
+einziehen	въезжать
+umziehen	переезжать
+ausziehen	выезжать; съезжать
+herrschen	царить; господствовать; иметь место
+leihen	одалживать; давать взаймы
+träumen	мечтать; видеть сон
+sich ärgern	сердиться; раздражаться
+sich interessieren	интересоваться
+sich beschweren	жаловаться
+helfen	помогать
+gehören	принадлежать; относиться к
+werfen	бросать
+sich amüsieren	развлекаться; веселиться
+funktionieren	работать; функционировать
+in bester Lage	в самом удачном месте; в лучшем районе
+zur Miete wohnen	жить в съёмном жилье
+in der Innenstadt	в центре города
+im Vorort	в пригороде
+in eine Wohnung einziehen	въехать в квартиру
+eine Wohnung besichtigen	осмотреть квартиру
+eine Wohnung vermieten	сдавать квартиру в аренду
+zur Verfügung stehen	быть в распоряжении; быть доступным
+einen Blick werfen	бросить взгляд
+etwa die Hälfte	примерно половина
+knapp ein Viertel	чуть меньше четверти
+fast 80 Prozent	почти 80 процентов
+mehr als die Hälfte	больше половины
+zwei Drittel	две трети
+drei Viertel	три четверти
+Relativpronomen im Nominativ	относительные местоимения в именительном падеже
+Relativpronomen im Akkusativ	относительные местоимения в винительном падеже
+Relativpronomen im Dativ	относительные местоимения в дательном падеже
+Relativsatz mit Präposition	относительное предложение с предлогом

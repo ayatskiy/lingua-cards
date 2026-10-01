@@ -1,0 +1,15 @@
+vermieten — Rektion	+ Akk.
+mieten — Rektion	+ Akk.
+renovieren — Rektion	+ Akk.
+besichtigen — Rektion	+ Akk.
+einziehen — Rektion	in + Akk. einziehen
+umziehen — Rektion	nach + Dat. / in + Akk. umziehen
+ausziehen — Rektion	aus + Dat. ausziehen
+leihen — Rektion	jemandem + Dat. etwas + Akk. leihen
+träumen — Rektion	von + Dat. träumen
+sich ärgern — Rektion	sich über + Akk. ärgern
+sich interessieren — Rektion	sich für + Akk. interessieren
+sich beschweren — Rektion	sich bei + Dat. über + Akk. beschweren
+helfen — Rektion	+ Dat.
+gehören — Rektion	jemandem + Dat. gehören
+werfen — Rektion	+ Akk.
