@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:pech",
+      "german": "das Pech",
+      "russian": "невезение",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:erlebnis",
+      "german": "das Erlebnis",
+      "russian": "событие; впечатление; переживание",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Erlebnisse"
+    },
+    {
+      "canonical_key": "noun:stern",
+      "german": "der Stern",
+      "russian": "звезда",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Sterne"
+    },
+    {
+      "canonical_key": "noun:gefühl",
+      "german": "das Gefühl",
+      "russian": "чувство; ощущение",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gefühle"
+    },
+    {
+      "canonical_key": "noun:personalchef",
+      "german": "der Personalchef / die Personalchefin",
+      "russian": "руководитель отдела персонала",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Personalchefs / Personalchefinnen"
+    },
+    {
+      "canonical_key": "noun:fußballturnier",
+      "german": "das Fußballturnier",
+      "russian": "футбольный турнир",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Fußballturniere"
+    },
+    {
+      "canonical_key": "noun:marathon",
+      "german": "der Marathon",
+      "russian": "марафон",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Marathons"
+    },
+    {
+      "canonical_key": "noun:tennisspiel",
+      "german": "das Tennisspiel",
+      "russian": "теннисный матч",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Tennisspiele"
+    },
+    {
+      "canonical_key": "noun:glücksmoment",
+      "german": "der Glücksmoment",
+      "russian": "счастливый момент",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Glücksmomente"
+    },
+    {
+      "canonical_key": "noun:sonnenfinsternis",
+      "german": "die Sonnenfinsternis",
+      "russian": "солнечное затмение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Sonnenfinsternisse"
+    },
+    {
+      "canonical_key": "noun:hoffnung",
+      "german": "die Hoffnung",
+      "russian": "надежда",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Hoffnungen"
+    },
+    {
+      "canonical_key": "adjective:berührend",
+      "german": "berührend",
+      "russian": "трогательный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:fröhlich",
+      "german": "fröhlich",
+      "russian": "радостный; весёлый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:bitter",
+      "german": "bitter",
+      "russian": "горький; тяжёлый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:jahrelang",
+      "german": "jahrelang",
+      "russian": "годами; много лет",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:irgendwo",
+      "german": "irgendwo",
+      "russian": "где-то",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:plötzlich",
+      "german": "plötzlich",
+      "russian": "внезапно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:nachempfinden",
+      "german": "nachempfinden",
+      "russian": "сопереживать; понимать по собственным чувствам",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "empfindet nach",
+        "praeteritum": "empfand nach",
+        "partizip_ii": "nachempfunden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat nachempfunden"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:berühren",
+      "german": "berühren",
+      "russian": "трогать; затрагивать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "berührt",
+        "praeteritum": "berührte",
+        "partizip_ii": "berührt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat berührt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:mitteilen",
+      "german": "mitteilen",
+      "russian": "сообщать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "teilt mit",
+        "praeteritum": "teilte mit",
+        "partizip_ii": "mitgeteilt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat mitgeteilt"
+      },
+      "government": "jemandem + Dat. etwas + Akk. mitteilen",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:verlieren",
+      "german": "verlieren",
+      "russian": "проигрывать; терять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verliert",
+        "praeteritum": "verlor",
+        "partizip_ii": "verloren",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verloren"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "connector:nachdem",
+      "german": "nachdem",
+      "russian": "после того как",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный временной союз. Для действия, произошедшего раньше другого прошлого действия, часто используется Plusquamperfekt."
+    },
+    {
+      "canonical_key": "phrase:das kann ich gut nachempfinden.",
+      "german": "Das kann ich gut nachempfinden.",
+      "russian": "Я могу это хорошо понять / прочувствовать.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das finde ich sehr berührend.",
+      "german": "Das finde ich sehr berührend.",
+      "russian": "Я нахожу это очень трогательным.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:so etwas habe ich auch schon einmal erlebt.",
+      "german": "So etwas habe ich auch schon einmal erlebt.",
+      "russian": "Со мной такое тоже уже случалось.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:darüber hätte ich mich auch sehr gefreut.",
+      "german": "Darüber hätte ich mich auch sehr gefreut.",
+      "russian": "Я бы этому тоже очень обрадовался / обрадовалась.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:plusquamperfekt",
+      "german": "Plusquamperfekt",
+      "russian": "предпрошедшее время",
+      "part_of_speech": "other",
+      "grammar_note": "Bildung: hatte/war + Partizip II. Es beschreibt ein Ereignis, das vor einem anderen Ereignis in der Vergangenheit stattfand."
+    }
+  ]
+}

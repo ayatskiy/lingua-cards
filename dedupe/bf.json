@@ -1,6 +1,9 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:vorstellung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json"
+    "noun:fußballturnier": "projects/deutsch-uebungen/decks/menschen-b1-lektion-11-nachdem-wir-jahrelang-pech-gehabt-hatten.json",
+    "noun:pech": "projects/deutsch-uebungen/decks/menschen-b1-lektion-11-nachdem-wir-jahrelang-pech-gehabt-hatten.json",
+    "noun:vorstellung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
+    "phrase:so etwas habe ich auch schon einmal erlebt.": "projects/deutsch-uebungen/decks/menschen-b1-lektion-11-nachdem-wir-jahrelang-pech-gehabt-hatten.json"
   }
 }
