@@ -2,6 +2,8 @@
   "schema_version": 1,
   "entries": {
     "adjective:leise": "projects/deutsch-uebungen/decks/menschen-b1-lektion-05-bald-wird-in-fast-jedem-haushalt-ein-pc-stehen.json",
-    "adverb:wahnsinnig": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json"
+    "adverb:wahnsinnig": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json",
+    "noun:fantasie": "projects/deutsch-uebungen/decks/menschen-b1-lektion-14-die-teilnahme-ist-auf-eigene-gefahr.json",
+    "verb:vereinbaren": "projects/deutsch-uebungen/decks/menschen-b1-lektion-14-die-teilnahme-ist-auf-eigene-gefahr.json"
   }
 }

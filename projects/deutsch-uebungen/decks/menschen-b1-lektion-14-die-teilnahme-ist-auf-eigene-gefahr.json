@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:teilnahme",
+      "german": "die Teilnahme",
+      "russian": "участие",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Teilnahmen"
+    },
+    {
+      "canonical_key": "noun:voraussetzung",
+      "german": "die Voraussetzung",
+      "russian": "предпосылка; условие",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Voraussetzungen"
+    },
+    {
+      "canonical_key": "noun:software",
+      "german": "die Software",
+      "russian": "программное обеспечение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:möglichkeit",
+      "german": "die Möglichkeit",
+      "russian": "возможность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Möglichkeiten"
+    },
+    {
+      "canonical_key": "noun:gefahr",
+      "german": "die Gefahr",
+      "russian": "опасность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gefahren"
+    },
+    {
+      "canonical_key": "noun:eindruck",
+      "german": "der Eindruck",
+      "russian": "впечатление",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Eindrücke"
+    },
+    {
+      "canonical_key": "noun:atem",
+      "german": "der Atem",
+      "russian": "дыхание",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:stimme",
+      "german": "die Stimme",
+      "russian": "голос",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Stimmen"
+    },
+    {
+      "canonical_key": "noun:stoffrest",
+      "german": "der Stoffrest",
+      "russian": "остаток ткани",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Stoffreste"
+    },
+    {
+      "canonical_key": "noun:talent",
+      "german": "das Talent",
+      "russian": "талант",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Talente"
+    },
+    {
+      "canonical_key": "noun:schere",
+      "german": "die Schere",
+      "russian": "ножницы",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Scheren"
+    },
+    {
+      "canonical_key": "noun:nadel",
+      "german": "die Nadel",
+      "russian": "игла",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Nadeln"
+    },
+    {
+      "canonical_key": "noun:fantasie",
+      "german": "die Fantasie",
+      "russian": "фантазия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:haftung",
+      "german": "die Haftung",
+      "russian": "ответственность (юридическая)",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:nähkurs",
+      "german": "der Nähkurs",
+      "russian": "курс шитья",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Nähkurse"
+    },
+    {
+      "canonical_key": "noun:kletterkurs",
+      "german": "der Kletterkurs",
+      "russian": "курс скалолазания",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Kletterkurse"
+    },
+    {
+      "canonical_key": "noun:dienstreise",
+      "german": "die Dienstreise",
+      "russian": "командировка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Dienstreisen"
+    },
+    {
+      "canonical_key": "adjective:notwendig",
+      "german": "notwendig",
+      "russian": "необходимый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:kommend",
+      "german": "kommend",
+      "russian": "предстоящий; следующий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:fehlend",
+      "german": "fehlend",
+      "russian": "отсутствующий; недостающий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:passend",
+      "german": "passend",
+      "russian": "подходящий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "verb:hochladen",
+      "german": "hochladen",
+      "russian": "загружать файл на сервер",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lädt hoch",
+        "praeteritum": "lud hoch",
+        "partizip_ii": "hochgeladen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat hochgeladen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:herunterladen",
+      "german": "herunterladen",
+      "russian": "скачивать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lädt herunter",
+        "praeteritum": "lud herunter",
+        "partizip_ii": "heruntergeladen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat heruntergeladen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:nähen",
+      "german": "nähen",
+      "russian": "шить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "näht",
+        "praeteritum": "nähte",
+        "partizip_ii": "genäht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat genäht"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:klettern",
+      "german": "klettern",
+      "russian": "лазить; заниматься скалолазанием",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "klettert",
+        "praeteritum": "kletterte",
+        "partizip_ii": "geklettert",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist geklettert"
+      },
+      "grammar_note": "Perfekt часто с sein при движении."
+    },
+    {
+      "canonical_key": "verb:entdecken",
+      "german": "entdecken",
+      "russian": "обнаруживать; открывать для себя",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "entdeckt",
+        "praeteritum": "entdeckte",
+        "partizip_ii": "entdeckt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat entdeckt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:vereinbaren",
+      "german": "vereinbaren",
+      "russian": "договариваться; согласовывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "vereinbart",
+        "praeteritum": "vereinbarte",
+        "partizip_ii": "vereinbart",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat vereinbart"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "phrase:auf eigene gefahr",
+      "german": "auf eigene Gefahr",
+      "russian": "на свой страх и риск",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vorkenntnisse sind nicht notwendig.",
+      "german": "Vorkenntnisse sind nicht notwendig.",
+      "russian": "Предварительные знания не требуются.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:in dem kurs haben sie die möglichkeit, ...",
+      "german": "In dem Kurs haben Sie die Möglichkeit, ...",
+      "russian": "На курсе у Вас есть возможность ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wann würde es ihnen passen?",
+      "german": "Wann würde es Ihnen passen?",
+      "russian": "Когда Вам было бы удобно?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:partizip als adjektiv",
+      "german": "Partizipien als Adjektive",
+      "russian": "причастия в функции прилагательных",
+      "part_of_speech": "other",
+      "grammar_note": "Partizip I beschreibt meist einen laufenden Vorgang: wartende Personen. Partizip II beschreibt meist ein Ergebnis/Zustand: ausgefülltes Formular."
+    }
+  ]
+}
