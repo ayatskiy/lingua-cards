@@ -1,0 +1,4 @@
+tanken — Perfekt	hat getankt
+buchen — Perfekt	hat gebucht
+passieren — Perfekt	ist passiert
+schiefgehen — Perfekt	ist schiefgegangen

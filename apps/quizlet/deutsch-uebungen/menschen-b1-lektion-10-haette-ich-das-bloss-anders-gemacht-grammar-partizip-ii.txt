@@ -1,0 +1,4 @@
+tanken — Partizip II	getankt
+buchen — Partizip II	gebucht
+passieren — Partizip II	passiert
+schiefgehen — Partizip II	schiefgegangen
