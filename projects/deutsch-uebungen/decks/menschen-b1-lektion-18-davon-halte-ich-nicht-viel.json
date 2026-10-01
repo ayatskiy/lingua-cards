@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:demokratie",
+      "german": "die Demokratie",
+      "russian": "демократия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Demokratien"
+    },
+    {
+      "canonical_key": "noun:partei",
+      "german": "die Partei",
+      "russian": "политическая партия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Parteien"
+    },
+    {
+      "canonical_key": "noun:parlament",
+      "german": "das Parlament",
+      "russian": "парламент",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Parlamente"
+    },
+    {
+      "canonical_key": "noun:opposition",
+      "german": "die Opposition",
+      "russian": "оппозиция",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:demonstration",
+      "german": "die Demonstration",
+      "russian": "демонстрация; митинг",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Demonstrationen"
+    },
+    {
+      "canonical_key": "noun:minister",
+      "german": "der Minister / die Ministerin",
+      "russian": "министр / министр",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Minister / Ministerinnen"
+    },
+    {
+      "canonical_key": "noun:skandal",
+      "german": "der Skandal",
+      "russian": "скандал",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Skandale"
+    },
+    {
+      "canonical_key": "noun:regierung",
+      "german": "die Regierung",
+      "russian": "правительство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Regierungen"
+    },
+    {
+      "canonical_key": "noun:bundeskanzler",
+      "german": "der Bundeskanzler / die Bundeskanzlerin",
+      "russian": "федеральный канцлер / канцлер",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Bundeskanzler / Bundeskanzlerinnen"
+    },
+    {
+      "canonical_key": "noun:bürgerinitiative",
+      "german": "die Bürgerinitiative",
+      "russian": "гражданская инициатива",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bürgerinitiativen"
+    },
+    {
+      "canonical_key": "noun:nationalfeiertag",
+      "german": "der Nationalfeiertag",
+      "russian": "национальный праздник",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Nationalfeiertage"
+    },
+    {
+      "canonical_key": "noun:frieden",
+      "german": "der Frieden",
+      "russian": "мир; отсутствие войны",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:geschwindigkeitsbeschränkung",
+      "german": "die Geschwindigkeitsbeschränkung",
+      "russian": "ограничение скорости",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Geschwindigkeitsbeschränkungen"
+    },
+    {
+      "canonical_key": "noun:kernkraftwerk",
+      "german": "das Kernkraftwerk",
+      "russian": "атомная электростанция",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Kernkraftwerke"
+    },
+    {
+      "canonical_key": "noun:umweltschutz",
+      "german": "der Umweltschutz",
+      "russian": "охрана окружающей среды",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:energie",
+      "german": "die Energie",
+      "russian": "энергия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Energien"
+    },
+    {
+      "canonical_key": "noun:öffentlichkeit",
+      "german": "die Öffentlichkeit",
+      "russian": "общественность; публичная сфера",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:wahrheit",
+      "german": "die Wahrheit",
+      "russian": "правда; истина",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Wahrheiten"
+    },
+    {
+      "canonical_key": "noun:tourismus",
+      "german": "der Tourismus",
+      "russian": "туризм",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:mehrheit",
+      "german": "die Mehrheit",
+      "russian": "большинство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mehrheiten"
+    },
+    {
+      "canonical_key": "adjective:volksnah",
+      "german": "volksnah",
+      "russian": "близкий к народу",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:pessimistisch",
+      "german": "pessimistisch",
+      "russian": "пессимистичный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "verb:demonstrieren",
+      "german": "demonstrieren",
+      "russian": "демонстрировать; участвовать в демонстрации",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "demonstriert",
+        "praeteritum": "demonstrierte",
+        "partizip_ii": "demonstriert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat demonstriert"
+      },
+      "grammar_note": "Глагол на -ieren: Partizip II без ge-."
+    },
+    {
+      "canonical_key": "verb:sich engagieren",
+      "german": "sich engagieren",
+      "russian": "активно участвовать; заниматься общественной деятельностью",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "engagiert sich",
+        "praeteritum": "engagierte sich",
+        "partizip_ii": "engagiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich engagiert"
+      },
+      "government": "sich für + Akk. engagieren",
+      "grammar_note": "Возвратный глагол на -ieren."
+    },
+    {
+      "canonical_key": "verb:zunehmen",
+      "german": "zunehmen",
+      "russian": "увеличиваться; набирать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "nimmt zu",
+        "praeteritum": "nahm zu",
+        "partizip_ii": "zugenommen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat zugenommen"
+      },
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:sich annähern",
+      "german": "sich annähern",
+      "russian": "приближаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "nähert sich an",
+        "praeteritum": "näherte sich an",
+        "partizip_ii": "angenähert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich angenähert"
+      },
+      "government": "sich + Dat. annähern",
+      "grammar_note": "Отделяемый возвратный глагол."
+    },
+    {
+      "canonical_key": "verb:aufheben",
+      "german": "aufheben",
+      "russian": "отменять; поднимать; сохранять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "hebt auf",
+        "praeteritum": "hob auf",
+        "partizip_ii": "aufgehoben",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat aufgehoben"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:unterscheiden",
+      "german": "unterscheiden",
+      "russian": "различать; отличать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "unterscheidet",
+        "praeteritum": "unterschied",
+        "partizip_ii": "unterschieden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat unterschieden"
+      },
+      "government": "+ Akk.; sich von + Dat. unterscheiden",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "connector:entweder oder",
+      "german": "entweder ... oder",
+      "russian": "либо ... либо",
+      "part_of_speech": "connector",
+      "grammar_note": "Парный союз для альтернатив."
+    },
+    {
+      "canonical_key": "connector:weder noch",
+      "german": "weder ... noch",
+      "russian": "ни ... ни",
+      "part_of_speech": "connector",
+      "grammar_note": "Парный союз для отрицательного перечисления."
+    },
+    {
+      "canonical_key": "connector:zwar aber",
+      "german": "zwar ... aber",
+      "russian": "хотя ... но; правда ... но",
+      "part_of_speech": "connector",
+      "grammar_note": "Парная конструкция для противопоставления."
+    },
+    {
+      "canonical_key": "phrase:davon halte ich nicht viel.",
+      "german": "Davon halte ich nicht viel.",
+      "russian": "Я невысокого мнения об этом / мне это не очень нравится.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das sehe ich auch so.",
+      "german": "Das sehe ich auch so.",
+      "russian": "Я тоже так считаю.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:da bin ich völlig anderer meinung.",
+      "german": "Da bin ich völlig anderer Meinung.",
+      "russian": "Здесь я совершенно другого мнения.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:dagegen spricht, dass ...",
+      "german": "Dagegen spricht, dass ...",
+      "russian": "Против этого говорит то, что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:auf keinen fall.",
+      "german": "Auf keinen Fall.",
+      "russian": "Ни в коем случае.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ganz meine meinung.",
+      "german": "Ganz meine Meinung.",
+      "russian": "Полностью согласен / согласна.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:alternativen und gegensätze",
+      "german": "Satzverbindungen: entweder ... oder, weder ... noch, zwar ... aber",
+      "russian": "альтернативы, отрицательные перечисления и противопоставления",
+      "part_of_speech": "other",
+      "grammar_note": "Парные союзы связывают равноправные части предложения и сохраняют обычный порядок слов."
+    }
+  ]
+}
