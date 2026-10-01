@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:galerie",
+      "german": "die Galerie",
+      "russian": "галерея",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Galerien"
+    },
+    {
+      "canonical_key": "noun:geburtsort",
+      "german": "der Geburtsort",
+      "russian": "место рождения",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Geburtsorte"
+    },
+    {
+      "canonical_key": "noun:hügel",
+      "german": "der Hügel",
+      "russian": "холм",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Hügel"
+    },
+    {
+      "canonical_key": "noun:anerkennung",
+      "german": "die Anerkennung",
+      "russian": "признание",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:sonnenschein",
+      "german": "der Sonnenschein",
+      "russian": "солнечный свет",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:weihnachtsmarkt",
+      "german": "der Weihnachtsmarkt",
+      "russian": "рождественская ярмарка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Weihnachtsmärkte"
+    },
+    {
+      "canonical_key": "noun:gleichberechtigung",
+      "german": "die Gleichberechtigung",
+      "russian": "равноправие",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:malerei",
+      "german": "die Malerei",
+      "russian": "живопись",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:kunstakademie",
+      "german": "die Kunstakademie",
+      "russian": "академия художеств",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kunstakademien"
+    },
+    {
+      "canonical_key": "noun:landschaft",
+      "german": "die Landschaft",
+      "russian": "пейзаж; ландшафт",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Landschaften"
+    },
+    {
+      "canonical_key": "noun:ausstellungsort",
+      "german": "der Ausstellungsort",
+      "russian": "место выставки",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Ausstellungsorte"
+    },
+    {
+      "canonical_key": "noun:grafikdesignstudium",
+      "german": "das Grafikdesignstudium",
+      "russian": "обучение графическому дизайну",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "adjective:neblig",
+      "german": "neblig",
+      "russian": "туманный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:farbig",
+      "german": "farbig",
+      "russian": "цветной; яркий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:künstlerisch",
+      "german": "künstlerisch",
+      "russian": "художественный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:inzwischen",
+      "german": "inzwischen",
+      "russian": "тем временем; к настоящему времени",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:entstehen",
+      "german": "entstehen",
+      "russian": "возникать; появляться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "entsteht",
+        "praeteritum": "entstand",
+        "partizip_ii": "entstanden",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist entstanden"
+      },
+      "grammar_note": "Сильный глагол; Perfekt с sein."
+    },
+    {
+      "canonical_key": "verb:zerstören",
+      "german": "zerstören",
+      "russian": "разрушать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "zerstört",
+        "praeteritum": "zerstörte",
+        "partizip_ii": "zerstört",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat zerstört"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:unterrichten",
+      "german": "unterrichten",
+      "russian": "преподавать; обучать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "unterrichtet",
+        "praeteritum": "unterrichtete",
+        "partizip_ii": "unterrichtet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat unterrichtet"
+      },
+      "government": "+ Akk. / in + Dat."
+    },
+    {
+      "canonical_key": "verb:sich lohnen",
+      "german": "sich lohnen",
+      "russian": "стоить того; окупаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lohnt sich",
+        "praeteritum": "lohnte sich",
+        "partizip_ii": "gelohnt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gelohnt"
+      },
+      "grammar_note": "Возвратная конструкция."
+    },
+    {
+      "canonical_key": "verb:donnern",
+      "german": "donnern",
+      "russian": "греметь (о громе)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "donnert",
+        "praeteritum": "donnerte",
+        "partizip_ii": "gedonnert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gedonnert"
+      }
+    },
+    {
+      "canonical_key": "verb:schneien",
+      "german": "schneien",
+      "russian": "идти (о снеге)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schneit",
+        "praeteritum": "schneite",
+        "partizip_ii": "geschneit",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geschneit"
+      },
+      "grammar_note": "Безличный глагол: Es schneit."
+    },
+    {
+      "canonical_key": "verb:sich einsetzen",
+      "german": "sich einsetzen",
+      "russian": "выступать за; прилагать усилия",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "setzt sich ein",
+        "praeteritum": "setzte sich ein",
+        "partizip_ii": "eingesetzt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich eingesetzt"
+      },
+      "government": "sich für + Akk. einsetzen",
+      "grammar_note": "Отделяемый возвратный глагол."
+    },
+    {
+      "canonical_key": "phrase:es fällt mir schwer, ...",
+      "german": "Es fällt mir schwer, ...",
+      "russian": "Мне трудно ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:es lohnt sich, ...",
+      "german": "Es lohnt sich, ...",
+      "russian": "Стоит ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:es gibt ...",
+      "german": "Es gibt ...",
+      "russian": "Есть / имеется ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:es macht spaß, ...",
+      "german": "Es macht Spaß, ...",
+      "russian": "Это доставляет удовольствие / весело ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:es geht mir gut.",
+      "german": "Es geht mir gut.",
+      "russian": "У меня всё хорошо / я хорошо себя чувствую.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:unpersönliches es",
+      "german": "Ausdrücke mit es",
+      "russian": "безличные конструкции с es",
+      "part_of_speech": "other",
+      "grammar_note": "Es употребляется в устойчивых выражениях, при обозначении погоды, времени и самочувствия: Es regnet. Es ist Abend. Es geht mir gut."
+    }
+  ]
+}

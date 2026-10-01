@@ -1,0 +1,7 @@
+die Galerie — Plural	die Galerien
+der Geburtsort — Plural	die Geburtsorte
+der Hügel — Plural	die Hügel
+der Weihnachtsmarkt — Plural	die Weihnachtsmärkte
+die Kunstakademie — Plural	die Kunstakademien
+die Landschaft — Plural	die Landschaften
+der Ausstellungsort — Plural	die Ausstellungsorte
