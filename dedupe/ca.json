@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
-    "adverb:netto": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json"
+    "adverb:netto": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json",
+    "phrase:durch lesen lernen": "projects/deutsch-uebungen/decks/2026-10-01.json",
+    "verb:sich merken": "projects/deutsch-uebungen/decks/2026-10-01.json"
   }
 }

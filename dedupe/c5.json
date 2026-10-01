@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:empfänger": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json"
+    "adjective:kognitiv": "projects/deutsch-uebungen/decks/2026-10-01.json",
+    "noun:empfänger": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
+    "phrase:eine umfrage machen": "projects/deutsch-uebungen/decks/2026-10-01.json"
   }
 }
