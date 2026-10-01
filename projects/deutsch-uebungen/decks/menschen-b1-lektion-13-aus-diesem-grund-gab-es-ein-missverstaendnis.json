@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:missverständnis",
+      "german": "das Missverständnis",
+      "russian": "недоразумение",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Missverständnisse"
+    },
+    {
+      "canonical_key": "noun:dialekt",
+      "german": "der Dialekt",
+      "russian": "диалект",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Dialekte"
+    },
+    {
+      "canonical_key": "noun:aussprache",
+      "german": "die Aussprache",
+      "russian": "произношение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:datei",
+      "german": "die Datei",
+      "russian": "файл",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Dateien"
+    },
+    {
+      "canonical_key": "noun:ferienbeginn",
+      "german": "der Ferienbeginn",
+      "russian": "начало каникул",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:produktionsfehler",
+      "german": "der Produktionsfehler",
+      "russian": "производственный дефект / ошибка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Produktionsfehler"
+    },
+    {
+      "canonical_key": "noun:exportgeschäft",
+      "german": "das Exportgeschäft",
+      "russian": "экспортный бизнес",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Exportgeschäfte"
+    },
+    {
+      "canonical_key": "noun:trommelkurs",
+      "german": "der Trommelkurs",
+      "russian": "курс игры на барабанах",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Trommelkurse"
+    },
+    {
+      "canonical_key": "noun:erfahrungsbericht",
+      "german": "der Erfahrungsbericht",
+      "russian": "отчёт об опыте; рассказ о личном опыте",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Erfahrungsberichte"
+    },
+    {
+      "canonical_key": "noun:bank",
+      "german": "die Bank",
+      "russian": "банк; скамейка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Banken / Bänke"
+    },
+    {
+      "canonical_key": "noun:schlange",
+      "german": "die Schlange",
+      "russian": "змея; очередь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Schlangen"
+    },
+    {
+      "canonical_key": "noun:hahn",
+      "german": "der Hahn",
+      "russian": "петух; кран",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Hähne"
+    },
+    {
+      "canonical_key": "noun:birne",
+      "german": "die Birne",
+      "russian": "груша; лампочка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Birnen"
+    },
+    {
+      "canonical_key": "noun:bahn",
+      "german": "die Bahn",
+      "russian": "железная дорога; транспортная линия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bahnen"
+    },
+    {
+      "canonical_key": "adjective:undeutlich",
+      "german": "undeutlich",
+      "russian": "нечёткий; неразборчивый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:peinlich",
+      "german": "peinlich",
+      "russian": "неловкий; стыдный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:erschrocken",
+      "german": "erschrocken",
+      "russian": "испуганный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:böse",
+      "german": "böse",
+      "russian": "злой; сердитый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:durcheinander",
+      "german": "durcheinander",
+      "russian": "вперемешку; в беспорядке",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:augenblicklich",
+      "german": "augenblicklich",
+      "russian": "в данный момент; немедленно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:normalerweise",
+      "german": "normalerweise",
+      "russian": "обычно; как правило",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:missverstehen",
+      "german": "missverstehen",
+      "russian": "неправильно понимать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "missversteht",
+        "praeteritum": "missverstand",
+        "partizip_ii": "missverstanden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat missverstanden"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол с неотделяемой приставкой miss-."
+    },
+    {
+      "canonical_key": "verb:bemerken",
+      "german": "bemerken",
+      "russian": "замечать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bemerkt",
+        "praeteritum": "bemerkte",
+        "partizip_ii": "bemerkt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat bemerkt"
+      },
+      "government": "+ Akk.; bemerken, dass ..."
+    },
+    {
+      "canonical_key": "verb:nachfragen",
+      "german": "nachfragen",
+      "russian": "переспрашивать; уточнять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "fragt nach",
+        "praeteritum": "fragte nach",
+        "partizip_ii": "nachgefragt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat nachgefragt"
+      },
+      "government": "bei + Dat. nachfragen",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:aufklären",
+      "german": "aufklären",
+      "russian": "прояснять; разъяснять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "klärt auf",
+        "praeteritum": "klärte auf",
+        "partizip_ii": "aufgeklärt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat aufgeklärt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "connector:deshalb",
+      "german": "deshalb",
+      "russian": "поэтому",
+      "part_of_speech": "connector",
+      "grammar_note": "Связующее наречие причины/следствия: занимает позицию 1, глагол стоит на позиции 2."
+    },
+    {
+      "canonical_key": "connector:daher",
+      "german": "daher",
+      "russian": "поэтому; вследствие этого",
+      "part_of_speech": "connector",
+      "grammar_note": "Связующее наречие: danach folgt das finite Verb."
+    },
+    {
+      "canonical_key": "connector:darum",
+      "german": "darum",
+      "russian": "поэтому",
+      "part_of_speech": "connector",
+      "grammar_note": "Связующее наречие со значением следствия."
+    },
+    {
+      "canonical_key": "connector:nämlich",
+      "german": "nämlich",
+      "russian": "ведь; а именно; дело в том, что",
+      "part_of_speech": "connector",
+      "grammar_note": "Стоит внутри главного предложения и объясняет причину; порядок слов не меняется."
+    },
+    {
+      "canonical_key": "phrase:aus diesem grund ...",
+      "german": "Aus diesem Grund ...",
+      "russian": "По этой причине ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wegen + genitiv",
+      "german": "wegen + Genitiv",
+      "russian": "из-за; по причине + Genitiv",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:habe ich sie richtig verstanden?",
+      "german": "Habe ich Sie richtig verstanden?",
+      "russian": "Я правильно Вас понял(а)?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:bedeutet das, dass ...?",
+      "german": "Bedeutet das, dass ...?",
+      "russian": "Это означает, что ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:können sie mir das bitte erklären?",
+      "german": "Können Sie mir das bitte erklären?",
+      "russian": "Не могли бы Вы мне это объяснить?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:wegen mit genitiv",
+      "german": "Präposition wegen + Genitiv",
+      "russian": "предлог wegen + Genitiv",
+      "part_of_speech": "other",
+      "grammar_note": "Wegen обычно употребляется с Genitiv: wegen der falschen Aussprache, wegen eines unbekannten Wortes."
+    }
+  ]
+}
