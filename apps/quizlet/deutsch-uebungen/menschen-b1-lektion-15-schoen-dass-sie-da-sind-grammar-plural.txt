@@ -1,0 +1,13 @@
+die Rufnummer — Plural	die Rufnummern
+das Unternehmen — Plural	die Unternehmen
+die Recherche — Plural	die Recherchen
+das Kommunikationsmittel — Plural	die Kommunikationsmittel
+die Datenbank — Plural	die Datenbanken
+der Fachtext — Plural	die Fachtexte
+die Stellenbeschreibung — Plural	die Stellenbeschreibungen
+das Callcenter — Plural	die Callcenter
+die Sprachkenntnis — Plural	die Sprachkenntnisse
+die Telefonstimme — Plural	die Telefonstimmen
+der Wissenschaftler / die Wissenschaftlerin — Plural	die Wissenschaftler / Wissenschaftlerinnen
+der Sozialarbeiter / die Sozialarbeiterin — Plural	die Sozialarbeiter / Sozialarbeiterinnen
+der Unternehmer / die Unternehmerin — Plural	die Unternehmer / Unternehmerinnen
