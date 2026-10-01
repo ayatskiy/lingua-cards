@@ -1,0 +1,10 @@
+einschalten — Grammatik	Отделяемый глагол.
+transportieren — Grammatik	Глагол на -ieren: Partizip II без ge-.
+entsprechen — Grammatik	Сильный глагол.
+vorbereiten — Grammatik	Отделяемый глагол.
+da — Grammatik	Подчинительный союз причины; спрягаемый глагол стоит в конце.
+während — Grammatik	Подчинительный временной союз; глагол стоит в конце.
+bevor — Grammatik	Подчинительный временной союз; глагол стоит в конце.
+seitdem — Grammatik	Подчинительный временной союз; действие начинается в прошлом.
+bis — Grammatik	Подчинительный временной союз; обозначает конечную точку.
+Temporalsätze mit während, bevor, seitdem und bis — Grammatik	В придаточном спрягаемый глагол стоит в конце. Während обозначает одновременность, bevor — предшествование, seitdem — начало в прошлом, bis — конечную точку.

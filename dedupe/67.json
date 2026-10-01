@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entries": {
     "noun:praktikum": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json",
-    "phrase:eine aufgabe selbstständig erledigen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json"
+    "phrase:eine aufgabe selbstständig erledigen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json",
+    "verb:chatten": "projects/deutsch-uebungen/decks/menschen-b1-lektion-08-waehrend-andere-lange-nachdenken.json"
   }
 }

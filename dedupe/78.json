@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
+    "connector:bis": "projects/deutsch-uebungen/decks/menschen-b1-lektion-08-waehrend-andere-lange-nachdenken.json",
     "phrase:tipps formulieren": "projects/deutsch-uebungen/decks/2026-10-01.json"
   }
 }
