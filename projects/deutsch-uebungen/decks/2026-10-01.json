@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "phrase:gemeinsam etwas planen",
+      "german": "gemeinsam etwas planen",
+      "russian": "планировать что-то вместе",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:teilnehmen",
+      "german": "teilnehmen",
+      "russian": "участвовать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:gewinnen",
+      "german": "gewinnen",
+      "russian": "выигрывать; получать в качестве выигрыша",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:eine reise planen",
+      "german": "eine Reise planen",
+      "russian": "планировать поездку",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:einen vorschlag machen",
+      "german": "einen Vorschlag machen",
+      "russian": "вносить предложение",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:auf einen vorschlag reagieren",
+      "german": "auf einen Vorschlag reagieren",
+      "russian": "реагировать на предложение",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:gemeinsam entscheiden",
+      "german": "gemeinsam entscheiden",
+      "russian": "решать вместе",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:hinkommen",
+      "german": "hinkommen",
+      "russian": "добираться; попадать туда",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:bei einer familie wohnen",
+      "german": "bei einer Familie wohnen",
+      "russian": "жить в семье",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:mitnehmen",
+      "german": "mitnehmen",
+      "russian": "брать с собой",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:eine klassenparty planen",
+      "german": "eine Klassenparty planen",
+      "russian": "планировать классную вечеринку",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ein abschiedsgeschenk machen",
+      "german": "ein Abschiedsgeschenk machen",
+      "russian": "сделать прощальный подарок",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:essen und getränke kaufen",
+      "german": "Essen und Getränke kaufen",
+      "russian": "покупать еду и напитки",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:präsentieren",
+      "german": "präsentieren",
+      "russian": "представлять; презентовать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:die struktur der präsentation",
+      "german": "die Struktur der Präsentation",
+      "russian": "структура презентации",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:berichten",
+      "german": "berichten",
+      "russian": "рассказывать; сообщать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:die situation im heimatland",
+      "german": "die Situation im Heimatland",
+      "russian": "ситуация на родине",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vor- und nachteile nennen",
+      "german": "Vor- und Nachteile nennen",
+      "russian": "называть преимущества и недостатки",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:seine meinung sagen",
+      "german": "seine Meinung sagen",
+      "russian": "высказывать своё мнение",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:beispiele geben",
+      "german": "Beispiele geben",
+      "russian": "приводить примеры",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:keinen hunger haben",
+      "german": "keinen Hunger haben",
+      "russian": "не быть голодным",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ohne frühstück zur schule gehen",
+      "german": "ohne Frühstück zur Schule gehen",
+      "russian": "идти в школу без завтрака",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:beschreiben",
+      "german": "beschreiben",
+      "russian": "описывать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:sich von einem bild angesprochen fühlen",
+      "german": "sich von einem Bild angesprochen fühlen",
+      "russian": "чувствовать, что изображение тебя затрагивает",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:jemanden kaltlassen",
+      "german": "jemanden kaltlassen",
+      "russian": "оставлять кого-то равнодушным",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:jemanden zum lachen bringen",
+      "german": "jemanden zum Lachen bringen",
+      "russian": "заставлять кого-то смеяться",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:jemanden zum schmunzeln bringen",
+      "german": "jemanden zum Schmunzeln bringen",
+      "russian": "вызывать у кого-то улыбку",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:jemanden an etwas erinnern",
+      "german": "jemanden an etwas erinnern",
+      "russian": "напоминать кому-то о чём-то",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:die richtige reihenfolge",
+      "german": "die richtige Reihenfolge",
+      "russian": "правильная последовательность",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:meilensteine des frühen sprechens",
+      "german": "Meilensteine des frühen Sprechens",
+      "russian": "этапы раннего развития речи",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:mit lauten antworten",
+      "german": "mit Lauten antworten",
+      "russian": "отвечать звуками",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:kurze gespräche",
+      "german": "kurze Gespräche",
+      "russian": "короткие разговоры",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sätze aus zwei wörtern",
+      "german": "Sätze aus zwei Wörtern",
+      "russian": "предложения из двух слов",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:beherrschen",
+      "german": "beherrschen",
+      "russian": "владеть; хорошо знать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:eine fremdsprache lernen",
+      "german": "eine Fremdsprache lernen",
+      "russian": "учить иностранный язык",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:durch lesen lernen",
+      "german": "durch Lesen lernen",
+      "russian": "учиться через чтение",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:auswendig lernen",
+      "german": "auswendig lernen",
+      "russian": "учить наизусть",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:kontakt mit muttersprachlern haben",
+      "german": "Kontakt mit Muttersprachlern haben",
+      "russian": "общаться с носителями языка",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine umfrage machen",
+      "german": "eine Umfrage machen",
+      "russian": "проводить опрос",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:feststellen",
+      "german": "feststellen",
+      "russian": "устанавливать; выяснять",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:zustimmen",
+      "german": "zustimmen",
+      "russian": "соглашаться",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:angst haben, fehler zu machen",
+      "german": "Angst haben, Fehler zu machen",
+      "russian": "бояться делать ошибки",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:sich merken",
+      "german": "sich etwas merken",
+      "russian": "запоминать что-то",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:in einer gruppe arbeiten",
+      "german": "in einer Gruppe arbeiten",
+      "russian": "работать в группе",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ergebnisse festhalten",
+      "german": "Ergebnisse festhalten",
+      "russian": "фиксировать результаты",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:tipps formulieren",
+      "german": "Tipps formulieren",
+      "russian": "формулировать советы",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:jedes wort verstehen",
+      "german": "jedes Wort verstehen",
+      "russian": "понимать каждое слово",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vor der klasse sprechen",
+      "german": "vor der Klasse sprechen",
+      "russian": "говорить перед классом",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:korrigiert werden",
+      "german": "korrigiert werden",
+      "russian": "быть исправленным",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "adjective:haptisch",
+      "german": "haptisch",
+      "russian": "тактильный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:audio-visuell",
+      "german": "audio-visuell",
+      "russian": "аудиовизуальный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:kommunikativ",
+      "german": "kommunikativ",
+      "russian": "коммуникативный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:kognitiv",
+      "german": "kognitiv",
+      "russian": "когнитивный",
+      "part_of_speech": "adjective"
+    }
+  ]
+}

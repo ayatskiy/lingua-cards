@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:absender": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json"
+    "noun:absender": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
+    "phrase:eine reise planen": "projects/deutsch-uebungen/decks/2026-10-01.json"
   }
 }
