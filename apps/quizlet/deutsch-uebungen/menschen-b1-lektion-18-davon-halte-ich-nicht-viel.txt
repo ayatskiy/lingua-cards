@@ -1,0 +1,38 @@
+die Demokratie	демократия
+die Partei	политическая партия
+das Parlament	парламент
+die Opposition	оппозиция
+die Demonstration	демонстрация; митинг
+der Minister / die Ministerin	министр / министр
+der Skandal	скандал
+die Regierung	правительство
+der Bundeskanzler / die Bundeskanzlerin	федеральный канцлер / канцлер
+die Bürgerinitiative	гражданская инициатива
+der Nationalfeiertag	национальный праздник
+der Frieden	мир; отсутствие войны
+die Geschwindigkeitsbeschränkung	ограничение скорости
+das Kernkraftwerk	атомная электростанция
+der Umweltschutz	охрана окружающей среды
+die Energie	энергия
+die Öffentlichkeit	общественность; публичная сфера
+die Wahrheit	правда; истина
+der Tourismus	туризм
+die Mehrheit	большинство
+volksnah	близкий к народу
+pessimistisch	пессимистичный
+demonstrieren	демонстрировать; участвовать в демонстрации
+sich engagieren	активно участвовать; заниматься общественной деятельностью
+zunehmen	увеличиваться; набирать
+sich annähern	приближаться
+aufheben	отменять; поднимать; сохранять
+unterscheiden	различать; отличать
+entweder ... oder	либо ... либо
+weder ... noch	ни ... ни
+zwar ... aber	хотя ... но; правда ... но
+Davon halte ich nicht viel.	Я невысокого мнения об этом / мне это не очень нравится.
+Das sehe ich auch so.	Я тоже так считаю.
+Da bin ich völlig anderer Meinung.	Здесь я совершенно другого мнения.
+Dagegen spricht, dass ...	Против этого говорит то, что ...
+Auf keinen Fall.	Ни в коем случае.
+Ganz meine Meinung.	Полностью согласен / согласна.
+Satzverbindungen: entweder ... oder, weder ... noch, zwar ... aber	альтернативы, отрицательные перечисления и противопоставления
