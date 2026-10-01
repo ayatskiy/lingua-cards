@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:abenteuerlust",
+      "german": "die Abenteuerlust",
+      "russian": "тяга к приключениям",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:charaktereigenschaft",
+      "german": "die Charaktereigenschaft",
+      "russian": "черта характера",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Charaktereigenschaften"
+    },
+    {
+      "canonical_key": "noun:dame",
+      "german": "die Dame",
+      "russian": "дама; женщина (вежл.)",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Damen"
+    },
+    {
+      "canonical_key": "noun:entscheidung",
+      "german": "die Entscheidung",
+      "russian": "решение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Entscheidungen"
+    },
+    {
+      "canonical_key": "noun:erwachsene",
+      "german": "der/die Erwachsene",
+      "russian": "взрослый; взрослая",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Erwachsenen",
+      "grammar_note": "Субстантивированное прилагательное: склоняется как прилагательное и пишется с большой буквы."
+    },
+    {
+      "canonical_key": "noun:humor",
+      "german": "der Humor",
+      "russian": "юмор; чувство юмора",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:jugendliche",
+      "german": "der/die Jugendliche",
+      "russian": "подросток; молодой человек / девушка",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Jugendlichen",
+      "grammar_note": "Субстантивированное прилагательное: склоняется как прилагательное и пишется с большой буквы."
+    },
+    {
+      "canonical_key": "noun:kollege",
+      "german": "der Kollege",
+      "russian": "коллега",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Kollegen",
+      "grammar_note": "n-Deklination: во всех падежах, кроме Nominativ Singular, добавляется -n/-en."
+    },
+    {
+      "canonical_key": "noun:kunde",
+      "german": "der Kunde",
+      "russian": "клиент; покупатель",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Kunden",
+      "grammar_note": "n-Deklination: во всех падежах, кроме Nominativ Singular, добавляется -n/-en."
+    },
+    {
+      "canonical_key": "noun:lebensfreude",
+      "german": "die Lebensfreude",
+      "russian": "жизнерадостность; радость жизни",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:mensch",
+      "german": "der Mensch",
+      "russian": "человек",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Menschen",
+      "grammar_note": "n-Deklination: во всех падежах, кроме Nominativ Singular, добавляется -n/-en."
+    },
+    {
+      "canonical_key": "noun:mitbewohnerin",
+      "german": "die Mitbewohnerin",
+      "russian": "соседка по квартире",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mitbewohnerinnen"
+    },
+    {
+      "canonical_key": "noun:mut",
+      "german": "der Mut",
+      "russian": "смелость; мужество",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:nachhilfe",
+      "german": "die Nachhilfe",
+      "russian": "дополнительные занятия; помощь репетитора",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Nachhilfen"
+    },
+    {
+      "canonical_key": "noun:praktikant",
+      "german": "der Praktikant",
+      "russian": "стажёр; практикант",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Praktikanten",
+      "grammar_note": "n-Deklination: во всех падежах, кроме Nominativ Singular, добавляется -n/-en."
+    },
+    {
+      "canonical_key": "noun:professor",
+      "german": "der Professor",
+      "russian": "профессор",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Professoren",
+      "grammar_note": "n-Deklination: в Akkusativ/Dativ/Genitiv Singular форма Professoren."
+    },
+    {
+      "canonical_key": "noun:respekt",
+      "german": "der Respekt",
+      "russian": "уважение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:schwäche",
+      "german": "die Schwäche",
+      "russian": "слабая сторона; недостаток",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Schwächen"
+    },
+    {
+      "canonical_key": "noun:stipendium",
+      "german": "das Stipendium",
+      "russian": "стипендия",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Stipendien"
+    },
+    {
+      "canonical_key": "noun:stärke",
+      "german": "die Stärke",
+      "russian": "сильная сторона; достоинство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Stärken"
+    },
+    {
+      "canonical_key": "noun:verwandte",
+      "german": "der/die Verwandte",
+      "russian": "родственник; родственница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Verwandten",
+      "grammar_note": "Субстантивированное прилагательное: склоняется как прилагательное и пишется с большой буквы."
+    },
+    {
+      "canonical_key": "noun:vorbild",
+      "german": "das Vorbild",
+      "russian": "пример для подражания",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Vorbilder"
+    },
+    {
+      "canonical_key": "adjective:abenteuerlustig",
+      "german": "abenteuerlustig",
+      "russian": "любящий приключения; склонный к приключениям",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:aufmerksam",
+      "german": "aufmerksam",
+      "russian": "внимательный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:ernst",
+      "german": "ernst",
+      "russian": "серьёзный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:fair",
+      "german": "fair",
+      "russian": "справедливый; честный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:fleißig",
+      "german": "fleißig",
+      "russian": "прилежный; трудолюбивый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:frech",
+      "german": "frech",
+      "russian": "дерзкий; нахальный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:großzügig",
+      "german": "großzügig",
+      "russian": "щедрый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:humorvoll",
+      "german": "humorvoll",
+      "russian": "с чувством юмора",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:hübsch",
+      "german": "hübsch",
+      "russian": "симпатичный; красивый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:intelligent",
+      "german": "intelligent",
+      "russian": "умный; интеллектуальный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:klug",
+      "german": "klug",
+      "russian": "умный; сообразительный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:kreativ",
+      "german": "kreativ",
+      "russian": "творческий; креативный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:kritisch",
+      "german": "kritisch",
+      "russian": "критичный; склонный критиковать",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:lebendig",
+      "german": "lebendig",
+      "russian": "живой; энергичный; оживлённый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:mutig",
+      "german": "mutig",
+      "russian": "смелый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:nervös",
+      "german": "nervös",
+      "russian": "нервный; взволнованный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:ordentlich",
+      "german": "ordentlich",
+      "russian": "аккуратный; организованный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:realistisch",
+      "german": "realistisch",
+      "russian": "реалистичный; здравый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:schwierig",
+      "german": "schwierig",
+      "russian": "трудный; сложный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:sparsam",
+      "german": "sparsam",
+      "russian": "экономный; бережливый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:streng",
+      "german": "streng",
+      "russian": "строгий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:treu",
+      "german": "treu",
+      "russian": "верный; преданный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:vernünftig",
+      "german": "vernünftig",
+      "russian": "разумный; благоразумный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:besonders",
+      "german": "besonders",
+      "russian": "особенно",
+      "part_of_speech": "adverb",
+      "grammar_note": "Gradpartikel/наречие: выделяет признак; «особенно»."
+    },
+    {
+      "canonical_key": "adverb:echt",
+      "german": "echt",
+      "russian": "реально; действительно; очень (разг.)",
+      "part_of_speech": "adverb",
+      "grammar_note": "Gradpartikel: разговорно усиливает оценку."
+    },
+    {
+      "canonical_key": "adverb:finanziell",
+      "german": "finanziell",
+      "russian": "финансово; в финансовом отношении",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:gar nicht",
+      "german": "gar nicht",
+      "russian": "совсем не",
+      "part_of_speech": "adverb",
+      "grammar_note": "Gradpartikel: сильное отрицание; «совсем не»."
+    },
+    {
+      "canonical_key": "adverb:möglichst",
+      "german": "möglichst",
+      "russian": "как можно; по возможности",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:nicht besonders",
+      "german": "nicht besonders",
+      "russian": "не особенно",
+      "part_of_speech": "adverb",
+      "grammar_note": "Gradpartikel: ослабляет оценку; «не особенно»."
+    },
+    {
+      "canonical_key": "adverb:total",
+      "german": "total",
+      "russian": "совершенно; очень (как усилитель)",
+      "part_of_speech": "adverb",
+      "grammar_note": "Gradpartikel: сильно усиливает признак; разговорное употребление."
+    },
+    {
+      "canonical_key": "adverb:wahnsinnig",
+      "german": "wahnsinnig",
+      "russian": "невероятно; ужасно (как усилитель)",
+      "part_of_speech": "adverb",
+      "grammar_note": "Gradpartikel: сильно усиливает признак; разговорное «невероятно/ужасно»."
+    },
+    {
+      "canonical_key": "adverb:wirklich",
+      "german": "wirklich",
+      "russian": "действительно; в самом деле",
+      "part_of_speech": "adverb",
+      "grammar_note": "Gradpartikel/наречие: усиливает или подтверждает оценку; «действительно»."
+    },
+    {
+      "canonical_key": "adverb:ziemlich",
+      "german": "ziemlich",
+      "russian": "довольно; достаточно",
+      "part_of_speech": "adverb",
+      "grammar_note": "Gradpartikel: умеренно усиливает признак; примерно «довольно»."
+    },
+    {
+      "canonical_key": "adverb:überhaupt nicht",
+      "german": "überhaupt nicht",
+      "russian": "совсем не; вообще не",
+      "part_of_speech": "adverb",
+      "grammar_note": "Gradpartikel: сильное отрицание; «совсем не/вообще не»."
+    },
+    {
+      "canonical_key": "verb:akzeptieren",
+      "german": "akzeptieren",
+      "russian": "принимать; признавать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "akzeptiert",
+        "praeteritum": "akzeptierte",
+        "partizip_ii": "akzeptiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat akzeptiert"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "глагол на -ieren: Partizip II без ge-"
+    },
+    {
+      "canonical_key": "verb:aufräumen",
+      "german": "aufräumen",
+      "russian": "убирать; приводить в порядок",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "räumt auf",
+        "praeteritum": "räumte auf",
+        "partizip_ii": "aufgeräumt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat aufgeräumt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "отделяемый глагол"
+    },
+    {
+      "canonical_key": "verb:beeinflussen",
+      "german": "beeinflussen",
+      "russian": "влиять на; оказывать влияние",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beeinflusst",
+        "praeteritum": "beeinflusste",
+        "partizip_ii": "beeinflusst",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat beeinflusst"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:einschlafen",
+      "german": "einschlafen",
+      "russian": "засыпать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schläft ein",
+        "praeteritum": "schlief ein",
+        "partizip_ii": "eingeschlafen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist eingeschlafen"
+      },
+      "grammar_note": "отделяемый сильный глагол; Perfekt с sein"
+    },
+    {
+      "canonical_key": "verb:heiraten",
+      "german": "heiraten",
+      "russian": "жениться; выходить замуж",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "heiratet",
+        "praeteritum": "heiratete",
+        "partizip_ii": "geheiratet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geheiratet"
+      },
+      "government": "+ Akk. (jemanden heiraten)"
+    },
+    {
+      "canonical_key": "verb:kennenlernen",
+      "german": "kennenlernen",
+      "russian": "знакомиться; узнавать ближе",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lernt kennen",
+        "praeteritum": "lernte kennen",
+        "partizip_ii": "kennengelernt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat kennengelernt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "отделяемый глагол; Partizip II: kennengelernt"
+    },
+    {
+      "canonical_key": "verb:sich bedanken",
+      "german": "sich bedanken",
+      "russian": "благодарить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bedankt sich",
+        "praeteritum": "bedankte sich",
+        "partizip_ii": "bedankt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich bedankt"
+      },
+      "government": "sich bei + Dat. für + Akk. bedanken",
+      "grammar_note": "возвратный глагол"
+    },
+    {
+      "canonical_key": "verb:sich durchsetzen",
+      "german": "sich durchsetzen",
+      "russian": "добиваться своего; отстаивать свою позицию",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "setzt sich durch",
+        "praeteritum": "setzte sich durch",
+        "partizip_ii": "durchgesetzt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich durchgesetzt"
+      },
+      "government": "sich gegen + Akk. durchsetzen",
+      "grammar_note": "отделяемый возвратный глагол"
+    },
+    {
+      "canonical_key": "verb:sich kümmern",
+      "german": "sich kümmern",
+      "russian": "заботиться; заниматься чем-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "kümmert sich",
+        "praeteritum": "kümmerte sich",
+        "partizip_ii": "gekümmert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gekümmert"
+      },
+      "government": "sich um + Akk. kümmern",
+      "grammar_note": "возвратный глагол"
+    },
+    {
+      "canonical_key": "verb:sich verabschieden",
+      "german": "sich verabschieden",
+      "russian": "прощаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verabschiedet sich",
+        "praeteritum": "verabschiedete sich",
+        "partizip_ii": "verabschiedet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich verabschiedet"
+      },
+      "government": "sich von + Dat. verabschieden",
+      "grammar_note": "возвратный глагол"
+    },
+    {
+      "canonical_key": "verb:sich wünschen",
+      "german": "sich wünschen",
+      "russian": "желать; хотеть для себя",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wünscht sich",
+        "praeteritum": "wünschte sich",
+        "partizip_ii": "gewünscht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gewünscht"
+      },
+      "government": "sich (Dat.) etwas (Akk.) wünschen",
+      "grammar_note": "возвратная конструкция с Dativ"
+    },
+    {
+      "canonical_key": "verb:unterstützen",
+      "german": "unterstützen",
+      "russian": "поддерживать; помогать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "unterstützt",
+        "praeteritum": "unterstützte",
+        "partizip_ii": "unterstützt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat unterstützt"
+      },
+      "government": "+ Akk.; jemanden bei + Dat. unterstützen"
+    },
+    {
+      "canonical_key": "verb:vorschlagen",
+      "german": "vorschlagen",
+      "russian": "предлагать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schlägt vor",
+        "praeteritum": "schlug vor",
+        "partizip_ii": "vorgeschlagen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat vorgeschlagen"
+      },
+      "government": "jemandem (Dat.) etwas (Akk.) vorschlagen",
+      "grammar_note": "отделяемый сильный глагол; в Präsens 3sg: a → ä"
+    },
+    {
+      "canonical_key": "verb:wirken",
+      "german": "wirken",
+      "russian": "казаться; производить впечатление",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wirkt",
+        "praeteritum": "wirkte",
+        "partizip_ii": "gewirkt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gewirkt"
+      },
+      "government": "+ Adjektiv; auf + Akk. wirken",
+      "grammar_note": "часто используется для описания впечатления от человека"
+    },
+    {
+      "canonical_key": "phrase:besonders wichtig ist mir, dass ...",
+      "german": "Besonders wichtig ist mir, dass ...",
+      "russian": "Для меня особенно важно, чтобы ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ehrlich gesagt",
+      "german": "ehrlich gesagt",
+      "russian": "честно говоря",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:großen respekt vor jemandem haben",
+      "german": "großen Respekt vor jemandem haben",
+      "russian": "очень уважать кого-либо",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:gute laune haben",
+      "german": "gute Laune haben",
+      "russian": "быть в хорошем настроении",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich kenne niemanden, der so ... ist wie ...",
+      "german": "Ich kenne niemanden, der so ... ist wie ...",
+      "russian": "Я не знаю никого, кто был бы таким ... как ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:jemandem einen heiratsantrag machen",
+      "german": "jemandem einen Heiratsantrag machen",
+      "russian": "сделать кому-либо предложение руки и сердца",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sich gegenseitig nachhilfe geben",
+      "german": "sich gegenseitig Nachhilfe geben",
+      "russian": "помогать друг другу с учёбой",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sich keine bessere / keinen besseren ... wünschen",
+      "german": "sich keine bessere / keinen besseren ... wünschen",
+      "russian": "лучшего / лучшей и пожелать нельзя",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

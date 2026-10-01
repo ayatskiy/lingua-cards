@@ -1,0 +1,28 @@
+der/die Erwachsene — Grammatik	Субстантивированное прилагательное: склоняется как прилагательное и пишется с большой буквы.
+der/die Jugendliche — Grammatik	Субстантивированное прилагательное: склоняется как прилагательное и пишется с большой буквы.
+der Kollege — Grammatik	n-Deklination: во всех падежах, кроме Nominativ Singular, добавляется -n/-en.
+der Kunde — Grammatik	n-Deklination: во всех падежах, кроме Nominativ Singular, добавляется -n/-en.
+der Mensch — Grammatik	n-Deklination: во всех падежах, кроме Nominativ Singular, добавляется -n/-en.
+der Praktikant — Grammatik	n-Deklination: во всех падежах, кроме Nominativ Singular, добавляется -n/-en.
+der Professor — Grammatik	n-Deklination: в Akkusativ/Dativ/Genitiv Singular форма Professoren.
+der/die Verwandte — Grammatik	Субстантивированное прилагательное: склоняется как прилагательное и пишется с большой буквы.
+besonders — Grammatik	Gradpartikel/наречие: выделяет признак; «особенно».
+echt — Grammatik	Gradpartikel: разговорно усиливает оценку.
+gar nicht — Grammatik	Gradpartikel: сильное отрицание; «совсем не».
+nicht besonders — Grammatik	Gradpartikel: ослабляет оценку; «не особенно».
+total — Grammatik	Gradpartikel: сильно усиливает признак; разговорное употребление.
+wahnsinnig — Grammatik	Gradpartikel: сильно усиливает признак; разговорное «невероятно/ужасно».
+wirklich — Grammatik	Gradpartikel/наречие: усиливает или подтверждает оценку; «действительно».
+ziemlich — Grammatik	Gradpartikel: умеренно усиливает признак; примерно «довольно».
+überhaupt nicht — Grammatik	Gradpartikel: сильное отрицание; «совсем не/вообще не».
+akzeptieren — Grammatik	глагол на -ieren: Partizip II без ge-
+aufräumen — Grammatik	отделяемый глагол
+einschlafen — Grammatik	отделяемый сильный глагол; Perfekt с sein
+kennenlernen — Grammatik	отделяемый глагол; Partizip II: kennengelernt
+sich bedanken — Grammatik	возвратный глагол
+sich durchsetzen — Grammatik	отделяемый возвратный глагол
+sich kümmern — Grammatik	возвратный глагол
+sich verabschieden — Grammatik	возвратный глагол
+sich wünschen — Grammatik	возвратная конструкция с Dativ
+vorschlagen — Grammatik	отделяемый сильный глагол; в Präsens 3sg: a → ä
+wirken — Grammatik	часто используется для описания впечатления от человека

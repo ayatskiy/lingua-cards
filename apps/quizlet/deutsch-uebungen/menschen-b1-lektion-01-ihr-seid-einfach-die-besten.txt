@@ -1,0 +1,78 @@
+die Abenteuerlust	тяга к приключениям
+die Charaktereigenschaft	черта характера
+die Dame	дама; женщина (вежл.)
+die Entscheidung	решение
+der/die Erwachsene	взрослый; взрослая
+der Humor	юмор; чувство юмора
+der/die Jugendliche	подросток; молодой человек / девушка
+der Kollege	коллега
+der Kunde	клиент; покупатель
+die Lebensfreude	жизнерадостность; радость жизни
+der Mensch	человек
+die Mitbewohnerin	соседка по квартире
+der Mut	смелость; мужество
+die Nachhilfe	дополнительные занятия; помощь репетитора
+der Praktikant	стажёр; практикант
+der Professor	профессор
+der Respekt	уважение
+die Schwäche	слабая сторона; недостаток
+das Stipendium	стипендия
+die Stärke	сильная сторона; достоинство
+der/die Verwandte	родственник; родственница
+das Vorbild	пример для подражания
+abenteuerlustig	любящий приключения; склонный к приключениям
+aufmerksam	внимательный
+ernst	серьёзный
+fair	справедливый; честный
+fleißig	прилежный; трудолюбивый
+frech	дерзкий; нахальный
+großzügig	щедрый
+humorvoll	с чувством юмора
+hübsch	симпатичный; красивый
+intelligent	умный; интеллектуальный
+klug	умный; сообразительный
+kreativ	творческий; креативный
+kritisch	критичный; склонный критиковать
+lebendig	живой; энергичный; оживлённый
+mutig	смелый
+nervös	нервный; взволнованный
+ordentlich	аккуратный; организованный
+realistisch	реалистичный; здравый
+schwierig	трудный; сложный
+sparsam	экономный; бережливый
+streng	строгий
+treu	верный; преданный
+vernünftig	разумный; благоразумный
+besonders	особенно
+echt	реально; действительно; очень (разг.)
+finanziell	финансово; в финансовом отношении
+gar nicht	совсем не
+möglichst	как можно; по возможности
+nicht besonders	не особенно
+total	совершенно; очень (как усилитель)
+wahnsinnig	невероятно; ужасно (как усилитель)
+wirklich	действительно; в самом деле
+ziemlich	довольно; достаточно
+überhaupt nicht	совсем не; вообще не
+akzeptieren	принимать; признавать
+aufräumen	убирать; приводить в порядок
+beeinflussen	влиять на; оказывать влияние
+einschlafen	засыпать
+heiraten	жениться; выходить замуж
+kennenlernen	знакомиться; узнавать ближе
+sich bedanken	благодарить
+sich durchsetzen	добиваться своего; отстаивать свою позицию
+sich kümmern	заботиться; заниматься чем-либо
+sich verabschieden	прощаться
+sich wünschen	желать; хотеть для себя
+unterstützen	поддерживать; помогать
+vorschlagen	предлагать
+wirken	казаться; производить впечатление
+Besonders wichtig ist mir, dass ...	Для меня особенно важно, чтобы ...
+ehrlich gesagt	честно говоря
+großen Respekt vor jemandem haben	очень уважать кого-либо
+gute Laune haben	быть в хорошем настроении
+Ich kenne niemanden, der so ... ist wie ...	Я не знаю никого, кто был бы таким ... как ...
+jemandem einen Heiratsantrag machen	сделать кому-либо предложение руки и сердца
+sich gegenseitig Nachhilfe geben	помогать друг другу с учёбой
+sich keine bessere / keinen besseren ... wünschen	лучшего / лучшей и пожелать нельзя
