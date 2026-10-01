@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entries": {
     "adjective:senkrecht": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
-    "noun:professor": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json"
+    "noun:professor": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json",
+    "phrase:auf keinen fall versäumen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json"
   }
 }

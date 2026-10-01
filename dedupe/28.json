@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entries": {
     "adjective:ausgezeichnet": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
-    "noun:abonnement": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json"
+    "noun:abonnement": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
+    "noun:veranstalter": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json"
   }
 }

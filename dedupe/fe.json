@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entries": {
     "noun:auskunft": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
-    "noun:einfamilienhaus": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "noun:einfamilienhaus": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "phrase:an ... entlang": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json"
   }
 }

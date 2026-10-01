@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
-    "adjective:allergisch": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json"
+    "adjective:allergisch": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
+    "adjective:entspannt": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json",
+    "verb:versäumen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json"
   }
 }

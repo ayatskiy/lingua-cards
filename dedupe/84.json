@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:wohnung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "noun:wohnung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "verb:einpacken": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json"
   }
 }
