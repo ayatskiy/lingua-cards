@@ -1,0 +1,29 @@
+die Galerie	галерея
+der Geburtsort	место рождения
+der Hügel	холм
+die Anerkennung	признание
+der Sonnenschein	солнечный свет
+der Weihnachtsmarkt	рождественская ярмарка
+die Gleichberechtigung	равноправие
+die Malerei	живопись
+die Kunstakademie	академия художеств
+die Landschaft	пейзаж; ландшафт
+der Ausstellungsort	место выставки
+das Grafikdesignstudium	обучение графическому дизайну
+neblig	туманный
+farbig	цветной; яркий
+künstlerisch	художественный
+inzwischen	тем временем; к настоящему времени
+entstehen	возникать; появляться
+zerstören	разрушать
+unterrichten	преподавать; обучать
+sich lohnen	стоить того; окупаться
+donnern	греметь (о громе)
+schneien	идти (о снеге)
+sich einsetzen	выступать за; прилагать усилия
+Es fällt mir schwer, ...	Мне трудно ...
+Es lohnt sich, ...	Стоит ...
+Es gibt ...	Есть / имеется ...
+Es macht Spaß, ...	Это доставляет удовольствие / весело ...
+Es geht mir gut.	У меня всё хорошо / я хорошо себя чувствую.
+Ausdrücke mit es	безличные конструкции с es

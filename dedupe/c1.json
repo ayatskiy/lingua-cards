@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entries": {
     "adverb:aufwärts": "projects/deutsch-uebungen/decks/menschen-b1-lektion-16-wir-brauchten-uns-um-nichts-zu-kuemmern.json",
-    "phrase:eine wohnung vermieten": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "phrase:eine wohnung vermieten": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "verb:sich einsetzen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-17-guck-mal-das-ist-schoen.json"
   }
 }

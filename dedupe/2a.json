@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:aufgabe": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json"
+    "noun:aufgabe": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json",
+    "phrase:es macht spaß, ...": "projects/deutsch-uebungen/decks/menschen-b1-lektion-17-guck-mal-das-ist-schoen.json"
   }
 }

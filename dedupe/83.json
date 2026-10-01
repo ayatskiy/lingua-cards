@@ -2,8 +2,10 @@
   "schema_version": 1,
   "entries": {
     "adjective:kommunikativ": "projects/deutsch-uebungen/decks/2026-10-01.json",
+    "noun:anerkennung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-17-guck-mal-das-ist-schoen.json",
     "noun:makler": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
     "noun:stern": "projects/deutsch-uebungen/decks/menschen-b1-lektion-11-nachdem-wir-jahrelang-pech-gehabt-hatten.json",
-    "phrase:ergebnisse festhalten": "projects/deutsch-uebungen/decks/2026-10-01.json"
+    "phrase:ergebnisse festhalten": "projects/deutsch-uebungen/decks/2026-10-01.json",
+    "phrase:es geht mir gut.": "projects/deutsch-uebungen/decks/menschen-b1-lektion-17-guck-mal-das-ist-schoen.json"
   }
 }
