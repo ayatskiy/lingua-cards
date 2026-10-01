@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:cousin",
+      "german": "der Cousin",
+      "russian": "двоюродный брат",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Cousins"
+    },
+    {
+      "canonical_key": "noun:cousine",
+      "german": "die Cousine",
+      "russian": "двоюродная сестра",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Cousinen"
+    },
+    {
+      "canonical_key": "noun:neffe",
+      "german": "der Neffe",
+      "russian": "племянник",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Neffen"
+    },
+    {
+      "canonical_key": "noun:nichte",
+      "german": "die Nichte",
+      "russian": "племянница",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Nichten"
+    },
+    {
+      "canonical_key": "noun:onkel",
+      "german": "der Onkel",
+      "russian": "дядя",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Onkel"
+    },
+    {
+      "canonical_key": "noun:tante",
+      "german": "die Tante",
+      "russian": "тётя",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tanten"
+    },
+    {
+      "canonical_key": "noun:schwiegereltern",
+      "german": "die Schwiegereltern",
+      "russian": "родители супруга / супруги",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:geschichte",
+      "german": "die Geschichte",
+      "russian": "история; рассказ",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Geschichten"
+    },
+    {
+      "canonical_key": "noun:puppe",
+      "german": "die Puppe",
+      "russian": "кукла",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Puppen"
+    },
+    {
+      "canonical_key": "noun:spiel",
+      "german": "das Spiel",
+      "russian": "игра",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Spiele"
+    },
+    {
+      "canonical_key": "noun:witz",
+      "german": "der Witz",
+      "russian": "шутка; анекдот",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Witze"
+    },
+    {
+      "canonical_key": "noun:anfang",
+      "german": "der Anfang",
+      "russian": "начало",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Anfänge"
+    },
+    {
+      "canonical_key": "noun:ende",
+      "german": "das Ende",
+      "russian": "конец",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Enden"
+    },
+    {
+      "canonical_key": "noun:mannschaft",
+      "german": "die Mannschaft",
+      "russian": "команда",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mannschaften"
+    },
+    {
+      "canonical_key": "noun:pfeffer",
+      "german": "der Pfeffer",
+      "russian": "перец",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:studium",
+      "german": "das Studium",
+      "russian": "учёба в вузе; высшее образование",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Studien"
+    },
+    {
+      "canonical_key": "verb:sammeln",
+      "german": "sammeln",
+      "russian": "собирать; коллекционировать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "sammelt",
+        "praeteritum": "sammelte",
+        "partizip_ii": "gesammelt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gesammelt"
+      }
+    },
+    {
+      "canonical_key": "verb:streiten",
+      "german": "streiten",
+      "russian": "ссориться; спорить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "streitet",
+        "praeteritum": "stritt",
+        "partizip_ii": "gestritten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gestritten"
+      }
+    },
+    {
+      "canonical_key": "verb:übernachten",
+      "german": "übernachten",
+      "russian": "ночевать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "übernachtet",
+        "praeteritum": "übernachtete",
+        "partizip_ii": "übernachtet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat übernachtet"
+      }
+    },
+    {
+      "canonical_key": "verb:verkaufen",
+      "german": "verkaufen",
+      "russian": "продавать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verkauft",
+        "praeteritum": "verkaufte",
+        "partizip_ii": "verkauft",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verkauft"
+      }
+    },
+    {
+      "canonical_key": "verb:zeichnen",
+      "german": "zeichnen",
+      "russian": "рисовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "zeichnet",
+        "praeteritum": "zeichnete",
+        "partizip_ii": "gezeichnet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gezeichnet"
+      }
+    },
+    {
+      "canonical_key": "verb:rufen",
+      "german": "rufen",
+      "russian": "звать; звонить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "ruft",
+        "praeteritum": "rief",
+        "partizip_ii": "gerufen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gerufen"
+      }
+    },
+    {
+      "canonical_key": "verb:wachsen",
+      "german": "wachsen",
+      "russian": "расти",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wächst",
+        "praeteritum": "wuchs",
+        "partizip_ii": "gewachsen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist gewachsen"
+      }
+    },
+    {
+      "canonical_key": "adjective:verrückt",
+      "german": "verrückt",
+      "russian": "сумасшедший; чудаковатый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:kompliziert",
+      "german": "kompliziert",
+      "russian": "сложный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:früher",
+      "german": "früher",
+      "russian": "раньше; прежде",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:zuerst",
+      "german": "zuerst",
+      "russian": "сначала",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:zum schluss",
+      "german": "zum Schluss",
+      "russian": "в конце; напоследок",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "phrase:habe ich dir schon von ... erzählt?",
+      "german": "Habe ich dir schon von ... erzählt?",
+      "russian": "Я уже рассказывал(а) тебе о ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:und weißt du, was dann passiert ist?",
+      "german": "Und weißt du, was dann passiert ist?",
+      "russian": "А знаешь, что произошло потом?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:possessivartikel unser euer ihr ihr",
+      "german": "unser / euer / ihr / Ihr",
+      "russian": "притяжательные артикли: наш / ваш / их (её) / Ваш",
+      "part_of_speech": "other",
+      "grammar_note": "Склоняются как ein-/mein-. В Akkusativ/Dativ окончания зависят от рода и падежа."
+    }
+  ]
+}
