@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:viertelstunde",
+      "german": "die Viertelstunde",
+      "russian": "четверть часа; 15 минут",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Viertelstunden"
+    },
+    {
+      "canonical_key": "noun:zeug",
+      "german": "das Zeug",
+      "russian": "вещи; барахло",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:kreditkarte",
+      "german": "die Kreditkarte",
+      "russian": "кредитная карта",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kreditkarten"
+    },
+    {
+      "canonical_key": "noun:bushaltestelle",
+      "german": "die Bushaltestelle",
+      "russian": "автобусная остановка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bushaltestellen"
+    },
+    {
+      "canonical_key": "noun:gepäck",
+      "german": "das Gepäck",
+      "russian": "багаж",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:campingurlaub",
+      "german": "der Campingurlaub",
+      "russian": "отпуск с кемпингом",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Campingurlaube"
+    },
+    {
+      "canonical_key": "noun:ratschlag",
+      "german": "der Ratschlag",
+      "russian": "совет",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Ratschläge"
+    },
+    {
+      "canonical_key": "noun:vorschlag",
+      "german": "der Vorschlag",
+      "russian": "предложение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Vorschläge"
+    },
+    {
+      "canonical_key": "noun:wunsch",
+      "german": "der Wunsch",
+      "russian": "желание",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Wünsche"
+    },
+    {
+      "canonical_key": "noun:panne",
+      "german": "die Panne",
+      "russian": "неприятная непредвиденная ситуация; поломка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Pannen"
+    },
+    {
+      "canonical_key": "noun:portemonnaie",
+      "german": "das Portemonnaie",
+      "russian": "кошелёк",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Portemonnaies"
+    },
+    {
+      "canonical_key": "noun:strecke",
+      "german": "die Strecke",
+      "russian": "маршрут; участок пути",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Strecken"
+    },
+    {
+      "canonical_key": "noun:autoschlüssel",
+      "german": "der Autoschlüssel",
+      "russian": "ключ от автомобиля",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Autoschlüssel"
+    },
+    {
+      "canonical_key": "adjective:nass",
+      "german": "nass",
+      "russian": "мокрый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:zornig",
+      "german": "zornig",
+      "russian": "сердитый; разгневанный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:blöd",
+      "german": "blöd",
+      "russian": "глупый; неприятный (разг.)",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:zufällig",
+      "german": "zufällig",
+      "russian": "случайно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:völlig",
+      "german": "völlig",
+      "russian": "полностью; совершенно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:wenigstens",
+      "german": "wenigstens",
+      "russian": "по крайней мере",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:tanken",
+      "german": "tanken",
+      "russian": "заправляться; заправлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "tankt",
+        "praeteritum": "tankte",
+        "partizip_ii": "getankt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat getankt"
+      }
+    },
+    {
+      "canonical_key": "verb:buchen",
+      "german": "buchen",
+      "russian": "бронировать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bucht",
+        "praeteritum": "buchte",
+        "partizip_ii": "gebucht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gebucht"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:passieren",
+      "german": "passieren",
+      "russian": "происходить; случаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "passiert",
+        "praeteritum": "passierte",
+        "partizip_ii": "passiert",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist passiert"
+      },
+      "grammar_note": "Глагол на -ieren; в значении события Perfekt часто с sein."
+    },
+    {
+      "canonical_key": "verb:schiefgehen",
+      "german": "schiefgehen",
+      "russian": "пойти не так",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "geht schief",
+        "praeteritum": "ging schief",
+        "partizip_ii": "schiefgegangen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist schiefgegangen"
+      },
+      "grammar_note": "Отделяемый сильный глагол; Perfekt с sein."
+    },
+    {
+      "canonical_key": "phrase:hätte ich doch ...!",
+      "german": "Hätte ich doch ...!",
+      "russian": "Если бы я только ...!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wäre ich bloß ...!",
+      "german": "Wäre ich bloß ...!",
+      "russian": "Если бы я только был(а) / оказался(ась) ...!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das war vielleicht blöd!",
+      "german": "Das war vielleicht blöd!",
+      "russian": "Ну и глупо / неприятно получилось!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das ist ja wirklich dumm gelaufen.",
+      "german": "Das ist ja wirklich dumm gelaufen.",
+      "russian": "Это действительно очень неудачно вышло.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:da kann man wohl nichts mehr machen.",
+      "german": "Da kann man wohl nichts mehr machen.",
+      "russian": "Тут, пожалуй, уже ничего не поделаешь.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vielleicht klappt es ja ein anderes mal.",
+      "german": "Vielleicht klappt es ja ein anderes Mal.",
+      "russian": "Может быть, в другой раз получится.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:konjunktiv ii vergangenheit",
+      "german": "Konjunktiv II Vergangenheit",
+      "russian": "Konjunktiv II прошедшего времени",
+      "part_of_speech": "other",
+      "grammar_note": "Нереальное прошлое: hätte/wäre + Partizip II. Для сожаления часто используются doch, bloß, nur, wenigstens."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+tanken — Präsens (er/sie/es)	tankt
+buchen — Präsens (er/sie/es)	bucht
+passieren — Präsens (er/sie/es)	passiert
+schiefgehen — Präsens (er/sie/es)	geht schief
