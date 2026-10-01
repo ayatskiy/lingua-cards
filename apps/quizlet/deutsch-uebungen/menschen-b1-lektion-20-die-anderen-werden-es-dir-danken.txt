@@ -1,0 +1,30 @@
+das Tal	долина
+der Boden	земля; пол; почва
+der Dreck	грязь
+die Stirnlampe	налобный фонарь
+der Bergstiefel	горный ботинок
+die Gondel	кабина канатной дороги; гондола
+das Matratzenlager	общая спальная комната с матрасами
+der Hüttenwirt / die Hüttenwirtin	хозяин / хозяйка горной хижины
+die Nachtruhe	ночной покой; время тишины
+der Proviant	провизия; еда в дорогу
+die Bergwanderung	поход в горах
+steil	крутой; отвесный
+markiert	размеченный; обозначенный
+überall	повсюду
+genug	достаточно
+gelten	действовать; считаться
+sorgen	заботиться; обеспечивать
+regeln	регулировать; устанавливать правила
+verunglücken	попасть в несчастный случай
+dienen	служить; предназначаться
+treten	ступать; наступать
+umgehen	обходить; обращаться с
+indem	тем что; посредством того что
+sodass	так что; в результате чего
+sich auf eine Bergtour vorbereiten	готовиться к горному походу
+früh genug losgehen	выйти достаточно рано
+auf den markierten Wegen bleiben	оставаться на размеченных тропах
+für Nachtruhe sorgen	обеспечивать ночную тишину
+Das wäre für mich undenkbar.	Для меня это было бы немыслимо.
+Mittel mit indem, Resultat mit sodass	средство с indem, результат с sodass

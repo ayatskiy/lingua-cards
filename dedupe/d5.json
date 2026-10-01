@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
   "entries": {
+    "adjective:europäisch": "projects/deutsch-uebungen/decks/menschen-b1-lektion-22-in-der-brd-wurde-die-demokratie-eingefuehrt.json",
     "adverb:total": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json",
     "noun:galerie": "projects/deutsch-uebungen/decks/menschen-b1-lektion-17-guck-mal-das-ist-schoen.json",
     "noun:geschwindigkeitsbeschränkung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-18-davon-halte-ich-nicht-viel.json",
     "noun:glücksmoment": "projects/deutsch-uebungen/decks/menschen-b1-lektion-11-nachdem-wir-jahrelang-pech-gehabt-hatten.json",
+    "other:zwecksätze": "projects/deutsch-uebungen/decks/menschen-b1-lektion-24-das-loest-mehrere-probleme-auf-einmal.json",
     "verb:geschehen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json"
   }
 }

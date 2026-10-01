@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "adjective:technisch": "projects/deutsch-uebungen/decks/menschen-b1-lektion-05-bald-wird-in-fast-jedem-haushalt-ein-pc-stehen.json"
+    "adjective:technisch": "projects/deutsch-uebungen/decks/menschen-b1-lektion-05-bald-wird-in-fast-jedem-haushalt-ein-pc-stehen.json",
+    "verb:abbauen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-21-vorher-muss-natuerlich-fleissig-geuebt-werden.json"
   }
 }

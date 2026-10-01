@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:gebäck",
+      "german": "das Gebäck",
+      "russian": "выпечка; печенье",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:umgebung",
+      "german": "die Umgebung",
+      "russian": "окрестности; окружение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Umgebungen"
+    },
+    {
+      "canonical_key": "noun:ausfahrt",
+      "german": "die Ausfahrt",
+      "russian": "выезд; съезд с дороги",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ausfahrten"
+    },
+    {
+      "canonical_key": "noun:schuld",
+      "german": "die Schuld",
+      "russian": "вина; долг",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:konzertsaal",
+      "german": "der Konzertsaal",
+      "russian": "концертный зал",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Konzertsäle"
+    },
+    {
+      "canonical_key": "noun:garderobe",
+      "german": "die Garderobe",
+      "russian": "гардероб",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Garderoben"
+    },
+    {
+      "canonical_key": "noun:lautsprecher",
+      "german": "der Lautsprecher",
+      "russian": "громкоговоритель; колонка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Lautsprecher"
+    },
+    {
+      "canonical_key": "noun:publikum",
+      "german": "das Publikum",
+      "russian": "публика; зрители",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:stimmung",
+      "german": "die Stimmung",
+      "russian": "настроение; атмосфера",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Stimmungen"
+    },
+    {
+      "canonical_key": "noun:empfang",
+      "german": "der Empfang",
+      "russian": "приём; ресепшен; сигнал",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Empfänge"
+    },
+    {
+      "canonical_key": "noun:misserfolg",
+      "german": "der Misserfolg",
+      "russian": "неудача",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Misserfolge"
+    },
+    {
+      "canonical_key": "noun:fußgängerzone",
+      "german": "die Fußgängerzone",
+      "russian": "пешеходная зона",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Fußgängerzonen"
+    },
+    {
+      "canonical_key": "noun:parkhaus",
+      "german": "das Parkhaus",
+      "russian": "многоэтажная парковка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Parkhäuser"
+    },
+    {
+      "canonical_key": "noun:kaufhaus",
+      "german": "das Kaufhaus",
+      "russian": "универмаг",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Kaufhäuser"
+    },
+    {
+      "canonical_key": "noun:hallenbad",
+      "german": "das Hallenbad",
+      "russian": "крытый бассейн",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Hallenbäder"
+    },
+    {
+      "canonical_key": "noun:notausgang",
+      "german": "der Notausgang",
+      "russian": "аварийный выход",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Notausgänge"
+    },
+    {
+      "canonical_key": "noun:verpflegung",
+      "german": "die Verpflegung",
+      "russian": "питание; обеспечение едой",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:zustand",
+      "german": "der Zustand",
+      "russian": "состояние",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Zustände"
+    },
+    {
+      "canonical_key": "noun:instrument",
+      "german": "das Instrument",
+      "russian": "музыкальный инструмент",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Instrumente"
+    },
+    {
+      "canonical_key": "noun:veranstalter",
+      "german": "der Veranstalter / die Veranstalterin",
+      "russian": "организатор / организаторша",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Veranstalter / Veranstalterinnen"
+    },
+    {
+      "canonical_key": "adjective:gemischt",
+      "german": "gemischt",
+      "russian": "смешанный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:historisch",
+      "german": "historisch",
+      "russian": "исторический",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:entspannt",
+      "german": "entspannt",
+      "russian": "расслабленный; спокойный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:übermorgen",
+      "german": "übermorgen",
+      "russian": "послезавтра",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:solange",
+      "german": "solange",
+      "russian": "пока; до тех пор пока",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:verteilen",
+      "german": "verteilen",
+      "russian": "распределять; раздавать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verteilt",
+        "praeteritum": "verteilte",
+        "partizip_ii": "verteilt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verteilt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:abbauen",
+      "german": "abbauen",
+      "russian": "разбирать; демонтировать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "baut ab",
+        "praeteritum": "baute ab",
+        "partizip_ii": "abgebaut",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat abgebaut"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:einpacken",
+      "german": "einpacken",
+      "russian": "упаковывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "packt ein",
+        "praeteritum": "packte ein",
+        "partizip_ii": "eingepackt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat eingepackt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:versäumen",
+      "german": "versäumen",
+      "russian": "пропускать; упускать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "versäumt",
+        "praeteritum": "versäumte",
+        "partizip_ii": "versäumt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat versäumt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "phrase:um ... herum",
+      "german": "um ... herum",
+      "russian": "вокруг + Akkusativ",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:an ... entlang",
+      "german": "an ... entlang",
+      "russian": "вдоль + Dativ / Akkusativ в зависимости от конструкции",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:innerhalb + genitiv",
+      "german": "innerhalb + Genitiv",
+      "russian": "в пределах; в течение + Genitiv",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:außerhalb + genitiv",
+      "german": "außerhalb + Genitiv",
+      "russian": "за пределами; вне + Genitiv",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:einen besuch wert sein",
+      "german": "einen Besuch wert sein",
+      "russian": "стоить посещения",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:auf keinen fall versäumen",
+      "german": "auf keinen Fall versäumen",
+      "russian": "ни в коем случае не пропустить",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:passiv mit modalverben",
+      "german": "Passiv Präsens mit Modalverben",
+      "russian": "пассив настоящего времени с модальными глаголами",
+      "part_of_speech": "other",
+      "grammar_note": "Modalverb + Partizip II + werden: Ein Termin muss gefunden werden. Während des Konzerts darf nicht fotografiert werden."
+    },
+    {
+      "canonical_key": "other:lokale präpositionen",
+      "german": "Lokale Präpositionen: um ... herum, an ... entlang, innerhalb, außerhalb",
+      "russian": "локальные предлоги и конструкции",
+      "part_of_speech": "other",
+      "grammar_note": "um ... herum употребляется с Akkusativ; an ... entlang часто описывает движение вдоль; innerhalb/außerhalb обычно требуют Genitiv."
+    }
+  ]
+}

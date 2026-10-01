@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:tal",
+      "german": "das Tal",
+      "russian": "долина",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Täler"
+    },
+    {
+      "canonical_key": "noun:boden",
+      "german": "der Boden",
+      "russian": "земля; пол; почва",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Böden"
+    },
+    {
+      "canonical_key": "noun:dreck",
+      "german": "der Dreck",
+      "russian": "грязь",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:stirnlampe",
+      "german": "die Stirnlampe",
+      "russian": "налобный фонарь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Stirnlampen"
+    },
+    {
+      "canonical_key": "noun:bergstiefel",
+      "german": "der Bergstiefel",
+      "russian": "горный ботинок",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Bergstiefel"
+    },
+    {
+      "canonical_key": "noun:gondel",
+      "german": "die Gondel",
+      "russian": "кабина канатной дороги; гондола",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gondeln"
+    },
+    {
+      "canonical_key": "noun:matratzenlager",
+      "german": "das Matratzenlager",
+      "russian": "общая спальная комната с матрасами",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Matratzenlager"
+    },
+    {
+      "canonical_key": "noun:hüttenwirt",
+      "german": "der Hüttenwirt / die Hüttenwirtin",
+      "russian": "хозяин / хозяйка горной хижины",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Hüttenwirte / Hüttenwirtinnen"
+    },
+    {
+      "canonical_key": "noun:nachtruhe",
+      "german": "die Nachtruhe",
+      "russian": "ночной покой; время тишины",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:proviant",
+      "german": "der Proviant",
+      "russian": "провизия; еда в дорогу",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:bergwanderung",
+      "german": "die Bergwanderung",
+      "russian": "поход в горах",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bergwanderungen"
+    },
+    {
+      "canonical_key": "adjective:steil",
+      "german": "steil",
+      "russian": "крутой; отвесный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:markiert",
+      "german": "markiert",
+      "russian": "размеченный; обозначенный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:überall",
+      "german": "überall",
+      "russian": "повсюду",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:genug",
+      "german": "genug",
+      "russian": "достаточно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:gelten",
+      "german": "gelten",
+      "russian": "действовать; считаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "gilt",
+        "praeteritum": "galt",
+        "partizip_ii": "gegolten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gegolten"
+      },
+      "government": "für + Akk. gelten",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "verb:sorgen",
+      "german": "sorgen",
+      "russian": "заботиться; обеспечивать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "sorgt",
+        "praeteritum": "sorgte",
+        "partizip_ii": "gesorgt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gesorgt"
+      },
+      "government": "für + Akk. sorgen"
+    },
+    {
+      "canonical_key": "verb:regeln",
+      "german": "regeln",
+      "russian": "регулировать; устанавливать правила",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "regelt",
+        "praeteritum": "regelte",
+        "partizip_ii": "geregelt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geregelt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:verunglücken",
+      "german": "verunglücken",
+      "russian": "попасть в несчастный случай",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verunglückt",
+        "praeteritum": "verunglückte",
+        "partizip_ii": "verunglückt",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist verunglückt"
+      },
+      "grammar_note": "Perfekt с sein."
+    },
+    {
+      "canonical_key": "verb:dienen",
+      "german": "dienen",
+      "russian": "служить; предназначаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "dient",
+        "praeteritum": "diente",
+        "partizip_ii": "gedient",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gedient"
+      },
+      "government": "+ Dat.; als + Nom. dienen"
+    },
+    {
+      "canonical_key": "verb:treten",
+      "german": "treten",
+      "russian": "ступать; наступать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "tritt",
+        "praeteritum": "trat",
+        "partizip_ii": "getreten",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist getreten"
+      },
+      "government": "auf + Akk. treten",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "verb:umgehen",
+      "german": "umgehen",
+      "russian": "обходить; обращаться с",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "umgeht",
+        "praeteritum": "umging",
+        "partizip_ii": "umgangen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat umgangen"
+      },
+      "government": "+ Akk. (etwas umgehen)",
+      "grammar_note": "В значении «обходить» приставка неотделяемая."
+    },
+    {
+      "canonical_key": "connector:indem",
+      "german": "indem",
+      "russian": "тем что; посредством того что",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный союз, обозначающий средство/способ; глагол в конце."
+    },
+    {
+      "canonical_key": "connector:sodass",
+      "german": "sodass",
+      "russian": "так что; в результате чего",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный союз, обозначающий результат; глагол в конце."
+    },
+    {
+      "canonical_key": "phrase:sich auf eine bergtour vorbereiten",
+      "german": "sich auf eine Bergtour vorbereiten",
+      "russian": "готовиться к горному походу",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:früh genug losgehen",
+      "german": "früh genug losgehen",
+      "russian": "выйти достаточно рано",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:auf den markierten wegen bleiben",
+      "german": "auf den markierten Wegen bleiben",
+      "russian": "оставаться на размеченных тропах",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:für nachtruhe sorgen",
+      "german": "für Nachtruhe sorgen",
+      "russian": "обеспечивать ночную тишину",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das wäre für mich undenkbar.",
+      "german": "Das wäre für mich undenkbar.",
+      "russian": "Для меня это было бы немыслимо.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:mittel und resultat",
+      "german": "Mittel mit indem, Resultat mit sodass",
+      "russian": "средство с indem, результат с sodass",
+      "part_of_speech": "other",
+      "grammar_note": "Indem отвечает на вопрос «каким способом?», sodass описывает следствие или результат."
+    }
+  ]
+}
