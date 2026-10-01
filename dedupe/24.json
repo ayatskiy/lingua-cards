@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
+    "connector:während": "projects/deutsch-uebungen/decks/menschen-b1-lektion-08-waehrend-andere-lange-nachdenken.json",
     "noun:begrüßung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
     "noun:fläche": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
     "verb:renovieren": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",

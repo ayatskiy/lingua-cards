@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:anleitung",
+      "german": "die Anleitung",
+      "russian": "инструкция; руководство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Anleitungen"
+    },
+    {
+      "canonical_key": "noun:schriftsteller",
+      "german": "der Schriftsteller / die Schriftstellerin",
+      "russian": "писатель / писательница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Schriftsteller / Schriftstellerinnen"
+    },
+    {
+      "canonical_key": "noun:fähigkeit",
+      "german": "die Fähigkeit",
+      "russian": "способность; навык",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Fähigkeiten"
+    },
+    {
+      "canonical_key": "noun:krankenpfleger",
+      "german": "der Krankenpfleger / die Krankenpflegerin",
+      "russian": "медбрат / медсестра",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Krankenpfleger / Krankenpflegerinnen"
+    },
+    {
+      "canonical_key": "noun:langeweile",
+      "german": "die Langeweile",
+      "russian": "скука",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:feierabend",
+      "german": "der Feierabend",
+      "russian": "конец рабочего дня; время после работы",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:handwerker",
+      "german": "der Handwerker / die Handwerkerin",
+      "russian": "мастер; рабочий / работница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Handwerker / Handwerkerinnen"
+    },
+    {
+      "canonical_key": "noun:cafeteria",
+      "german": "die Cafeteria",
+      "russian": "кафетерий",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Cafeterias"
+    },
+    {
+      "canonical_key": "noun:kontaktfreude",
+      "german": "die Kontaktfreude",
+      "russian": "общительность; лёгкость в контактах",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:hilfsbereitschaft",
+      "german": "die Hilfsbereitschaft",
+      "russian": "готовность помочь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:jobchance",
+      "german": "die Jobchance",
+      "russian": "шанс на трудоустройство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Jobchancen"
+    },
+    {
+      "canonical_key": "noun:berufsalltag",
+      "german": "der Berufsalltag",
+      "russian": "повседневная профессиональная жизнь",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:auftrag",
+      "german": "der Auftrag",
+      "russian": "заказ; поручение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Aufträge"
+    },
+    {
+      "canonical_key": "noun:konferenz",
+      "german": "die Konferenz",
+      "russian": "конференция; совещание",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Konferenzen"
+    },
+    {
+      "canonical_key": "adjective:flexibel",
+      "german": "flexibel",
+      "russian": "гибкий; способный приспосабливаться",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:teamfähig",
+      "german": "teamfähig",
+      "russian": "умеющий работать в команде",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:unorganisiert",
+      "german": "unorganisiert",
+      "russian": "неорганизованный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:unpünktlich",
+      "german": "unpünktlich",
+      "russian": "непунктуальный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:geeignet",
+      "german": "geeignet",
+      "russian": "подходящий; пригодный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:stundenlang",
+      "german": "stundenlang",
+      "russian": "часами",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:bloß",
+      "german": "bloß",
+      "russian": "просто; всего лишь; только",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:gleichzeitig",
+      "german": "gleichzeitig",
+      "russian": "одновременно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:einschalten",
+      "german": "einschalten",
+      "russian": "включать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schaltet ein",
+        "praeteritum": "schaltete ein",
+        "partizip_ii": "eingeschaltet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat eingeschaltet"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:tippen",
+      "german": "tippen",
+      "russian": "печатать; набирать текст",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "tippt",
+        "praeteritum": "tippte",
+        "partizip_ii": "getippt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat getippt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:transportieren",
+      "german": "transportieren",
+      "russian": "перевозить; транспортировать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "transportiert",
+        "praeteritum": "transportierte",
+        "partizip_ii": "transportiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat transportiert"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Глагол на -ieren: Partizip II без ge-."
+    },
+    {
+      "canonical_key": "verb:faulenzen",
+      "german": "faulenzen",
+      "russian": "бездельничать; отдыхать без дела",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "faulenzt",
+        "praeteritum": "faulenzte",
+        "partizip_ii": "gefaulenzt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gefaulenzt"
+      }
+    },
+    {
+      "canonical_key": "verb:chatten",
+      "german": "chatten",
+      "russian": "переписываться в чате",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "chattet",
+        "praeteritum": "chattete",
+        "partizip_ii": "gechattet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gechattet"
+      },
+      "government": "mit + Dat. chatten"
+    },
+    {
+      "canonical_key": "verb:entsprechen",
+      "german": "entsprechen",
+      "russian": "соответствовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "entspricht",
+        "praeteritum": "entsprach",
+        "partizip_ii": "entsprochen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat entsprochen"
+      },
+      "government": "+ Dat.",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "verb:vorbereiten",
+      "german": "vorbereiten",
+      "russian": "подготавливать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bereitet vor",
+        "praeteritum": "bereitete vor",
+        "partizip_ii": "vorbereitet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat vorbereitet"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "connector:da",
+      "german": "da",
+      "russian": "так как; поскольку",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный союз причины; спрягаемый глагол стоит в конце."
+    },
+    {
+      "canonical_key": "connector:während",
+      "german": "während",
+      "russian": "в то время как; пока",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный временной союз; глагол стоит в конце."
+    },
+    {
+      "canonical_key": "connector:bevor",
+      "german": "bevor",
+      "russian": "прежде чем; до того как",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный временной союз; глагол стоит в конце."
+    },
+    {
+      "canonical_key": "connector:seitdem",
+      "german": "seitdem",
+      "russian": "с тех пор как",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный временной союз; действие начинается в прошлом."
+    },
+    {
+      "canonical_key": "connector:bis",
+      "german": "bis",
+      "russian": "до тех пор пока; пока не",
+      "part_of_speech": "connector",
+      "grammar_note": "Подчинительный временной союз; обозначает конечную точку."
+    },
+    {
+      "canonical_key": "phrase:das ergebnis sagt, dass ...",
+      "german": "Das Ergebnis sagt, dass ...",
+      "russian": "Результат показывает, что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das passt nicht zu meinen fähigkeiten.",
+      "german": "Das passt nicht zu meinen Fähigkeiten.",
+      "russian": "Это не соответствует моим способностям.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich hätte das nicht erwartet.",
+      "german": "Ich hätte das nicht erwartet.",
+      "russian": "Я этого не ожидал(а).",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich denke eher, dass ...",
+      "german": "Ich denke eher, dass ...",
+      "russian": "Я скорее думаю, что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich kann mir ... sehr gut vorstellen.",
+      "german": "Ich kann mir ... sehr gut vorstellen.",
+      "russian": "Я вполне могу себе представить ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich bin für ... sehr gut geeignet.",
+      "german": "Ich bin für ... sehr gut geeignet.",
+      "russian": "Я очень хорошо подхожу для ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:temporale nebensätze",
+      "german": "Temporalsätze mit während, bevor, seitdem und bis",
+      "russian": "временные придаточные с während, bevor, seitdem и bis",
+      "part_of_speech": "other",
+      "grammar_note": "В придаточном спрягаемый глагол стоит в конце. Während обозначает одновременность, bevor — предшествование, seitdem — начало в прошлом, bis — конечную точку."
+    }
+  ]
+}
