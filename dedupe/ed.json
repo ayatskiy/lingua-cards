@@ -1,7 +1,10 @@
 {
   "schema_version": 1,
   "entries": {
+    "adjective:passend": "projects/deutsch-uebungen/decks/menschen-b1-lektion-14-die-teilnahme-ist-auf-eigene-gefahr.json",
+    "noun:möglichkeit": "projects/deutsch-uebungen/decks/menschen-b1-lektion-14-die-teilnahme-ist-auf-eigene-gefahr.json",
     "noun:trommelkurs": "projects/deutsch-uebungen/decks/menschen-b1-lektion-13-aus-diesem-grund-gab-es-ein-missverstaendnis.json",
-    "verb:beachten": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json"
+    "verb:beachten": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
+    "verb:klettern": "projects/deutsch-uebungen/decks/menschen-b1-lektion-14-die-teilnahme-ist-auf-eigene-gefahr.json"
   }
 }

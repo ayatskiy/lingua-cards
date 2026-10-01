@@ -1,0 +1,32 @@
+die Teilnahme	участие
+die Voraussetzung	предпосылка; условие
+die Software	программное обеспечение
+die Möglichkeit	возможность
+die Gefahr	опасность
+der Eindruck	впечатление
+der Atem	дыхание
+die Stimme	голос
+der Stoffrest	остаток ткани
+das Talent	талант
+die Schere	ножницы
+die Nadel	игла
+die Fantasie	фантазия
+die Haftung	ответственность (юридическая)
+der Nähkurs	курс шитья
+der Kletterkurs	курс скалолазания
+die Dienstreise	командировка
+notwendig	необходимый
+kommend	предстоящий; следующий
+fehlend	отсутствующий; недостающий
+passend	подходящий
+hochladen	загружать файл на сервер
+herunterladen	скачивать
+nähen	шить
+klettern	лазить; заниматься скалолазанием
+entdecken	обнаруживать; открывать для себя
+vereinbaren	договариваться; согласовывать
+auf eigene Gefahr	на свой страх и риск
+Vorkenntnisse sind nicht notwendig.	Предварительные знания не требуются.
+In dem Kurs haben Sie die Möglichkeit, ...	На курсе у Вас есть возможность ...
+Wann würde es Ihnen passen?	Когда Вам было бы удобно?
+Partizipien als Adjektive	причастия в функции прилагательных
