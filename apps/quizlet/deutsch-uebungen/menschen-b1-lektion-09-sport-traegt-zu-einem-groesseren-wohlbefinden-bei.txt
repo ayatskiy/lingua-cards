@@ -1,0 +1,38 @@
+das Nahrungsmittel	продукт питания
+die Fitness	физическая форма; фитнес
+der Vegetarier / die Vegetarierin	вегетарианец / вегетарианка
+die Pause	перерыв
+das Wohlbefinden	хорошее самочувствие
+der Arbeitnehmer / die Arbeitnehmerin	работник / работница
+das Suchtverhalten	зависимое поведение
+die Unternehmensleitung	руководство компании
+der Durchschnitt	среднее значение; средний показатель
+der Zusammenhang	связь; взаимосвязь
+das Verhältnis	отношение; соотношение
+die Bewegungsübung	физическое упражнение
+die Krankenkasse	медицинская страховая касса
+das Entspannungsprogramm	программа расслабления
+die Mahlzeit	приём пищи; блюдо
+das Tageslicht	дневной свет
+die Entspannung	расслабление; отдых
+der Nichtraucherschutz	защита некурящих
+der Führerschein	водительское удостоверение
+familienfreundlich	дружественный к семьям; учитывающий интересы семей
+gesund	здоровый
+frisch	свежий
+glücklich	счастливый
+sechsmal	шесть раз
+schaden	вредить
+verursachen	вызывать; причинять
+sich wohlfühlen	хорошо себя чувствовать
+ausatmen	выдыхать
+anspannen	напрягать
+wiederholen	повторять
+In meiner Präsentation geht es um ...	В моей презентации речь идёт о ...
+Zunächst möchte ich ...	Сначала я хотел(а) бы ...
+Danach erzähle ich von ...	Затем я расскажу о ...
+Zum Schluss können Sie noch Fragen stellen.	В конце Вы можете задать вопросы.
+Ich habe die Erfahrung gemacht, dass ...	По своему опыту я заметил(а), что ...
+Und damit komme ich zu den Vor- und Nachteilen.	И теперь я перехожу к преимуществам и недостаткам.
+Ich danke Ihnen fürs Zuhören.	Благодарю Вас за внимание.
+Adjektivdeklination mit Komparativ und Superlativ	склонение прилагательных в сравнительной и превосходной степени
