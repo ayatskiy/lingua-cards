@@ -2,6 +2,9 @@
   "schema_version": 1,
   "entries": {
     "noun:werkstatt": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json",
-    "phrase:mehr als die hälfte": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "phrase:ich bin voll und ganz deiner meinung.": "projects/deutsch-uebungen/decks/menschen-b1-lektion-23-fahrradfahren-ist-in.json",
+    "phrase:mehr als die hälfte": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "verb:abhängen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-23-fahrradfahren-ist-in.json",
+    "verb:prüfen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-23-fahrradfahren-ist-in.json"
   }
 }

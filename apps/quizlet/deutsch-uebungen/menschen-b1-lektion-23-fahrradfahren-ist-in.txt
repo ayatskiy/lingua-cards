@@ -1,0 +1,36 @@
+die Bremse	тормоз
+die Klingel	велосипедный звонок; звонок
+der Reifendruck	давление в шинах
+die Mobilität	мобильность
+die Fahrradstation	велосипедная станция / сервисный пункт
+die Reinigung	чистка; очистка
+die Kreuzung	перекрёсток
+der Stecker	штекер; вилка
+das Gesetz	закон
+der Biomüll	органические отходы
+der Bürger / die Bürgerin	гражданин / гражданка
+die Verkehrspolitik	транспортная политика
+die Schnellstraße	скоростная дорога
+der Radweg	велосипедная дорожка
+das Ersatzteil	запасная часть
+nützlich	полезный
+offenbar	очевидный; по-видимому
+gleichgültig	безразличный
+nebenbei	попутно; между делом
+sowieso	в любом случае; всё равно
+konsumieren	потреблять
+sich verschlechtern	ухудшаться
+abhängen	зависеть
+mitbestimmen	участвовать в принятии решений
+verbieten	запрещать
+prüfen	проверять
+(an)statt ... zu	вместо того чтобы
+ohne ... zu	не делая; без того чтобы
+(an)statt dass	вместо того чтобы (с отдельным подлежащим)
+ohne dass	без того чтобы (с отдельным подлежащим)
+Ich kann dir da nur zustimmen.	Я могу с тобой только согласиться.
+Ich bin voll und ganz deiner Meinung.	Я полностью с тобой согласен / согласна.
+Das ist mir ganz egal.	Мне совершенно всё равно.
+Macht dir das nichts aus?	Тебя это не беспокоит / тебе это не мешает?
+Meinetwegen kann jeder das so machen, wie er möchte.	По мне, каждый может делать это так, как хочет.
+(an)statt/ohne zu vs. (an)statt/ohne dass	альтернатива и сопутствующее обстоятельство
