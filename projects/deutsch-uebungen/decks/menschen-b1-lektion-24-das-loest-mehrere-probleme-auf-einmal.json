@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:planung",
+      "german": "die Planung",
+      "russian": "планирование",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Planungen"
+    },
+    {
+      "canonical_key": "noun:prozess",
+      "german": "der Prozess",
+      "russian": "процесс",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Prozesse"
+    },
+    {
+      "canonical_key": "noun:kritik",
+      "german": "die Kritik",
+      "russian": "критика",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:einzelheit",
+      "german": "die Einzelheit",
+      "russian": "деталь; подробность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Einzelheiten"
+    },
+    {
+      "canonical_key": "noun:reihe",
+      "german": "die Reihe",
+      "russian": "ряд; серия; очередь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Reihen"
+    },
+    {
+      "canonical_key": "noun:abgas",
+      "german": "das Abgas",
+      "russian": "выхлопной газ",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Abgase"
+    },
+    {
+      "canonical_key": "noun:blatt",
+      "german": "das Blatt",
+      "russian": "лист; листок",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Blätter"
+    },
+    {
+      "canonical_key": "noun:pflaume",
+      "german": "die Pflaume",
+      "russian": "слива",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Pflaumen"
+    },
+    {
+      "canonical_key": "noun:entlassung",
+      "german": "die Entlassung",
+      "russian": "увольнение; освобождение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Entlassungen"
+    },
+    {
+      "canonical_key": "noun:verbrechen",
+      "german": "das Verbrechen",
+      "russian": "преступление",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Verbrechen"
+    },
+    {
+      "canonical_key": "noun:rollstuhl",
+      "german": "der Rollstuhl",
+      "russian": "инвалидная коляска",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Rollstühle"
+    },
+    {
+      "canonical_key": "noun:smog",
+      "german": "der Smog",
+      "russian": "смог",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:entfernung",
+      "german": "die Entfernung",
+      "russian": "расстояние; удаление",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Entfernungen"
+    },
+    {
+      "canonical_key": "noun:technologie",
+      "german": "die Technologie",
+      "russian": "технология",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Technologien"
+    },
+    {
+      "canonical_key": "noun:vitaminmangel",
+      "german": "der Vitaminmangel",
+      "russian": "недостаток витаминов",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:diät",
+      "german": "die Diät",
+      "russian": "диета",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Diäten"
+    },
+    {
+      "canonical_key": "noun:distanz",
+      "german": "die Distanz",
+      "russian": "дистанция; расстояние",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Distanzen"
+    },
+    {
+      "canonical_key": "noun:nähe",
+      "german": "die Nähe",
+      "russian": "близость; близкое расстояние",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:metzgerei",
+      "german": "die Metzgerei",
+      "russian": "мясная лавка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Metzgereien"
+    },
+    {
+      "canonical_key": "adjective:abhängig",
+      "german": "abhängig",
+      "russian": "зависимый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:anwesend",
+      "german": "anwesend",
+      "russian": "присутствующий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:reif",
+      "german": "reif",
+      "russian": "спелый; зрелый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:allmählich",
+      "german": "allmählich",
+      "russian": "постепенно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:anscheinend",
+      "german": "anscheinend",
+      "russian": "по-видимому; очевидно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:beschließen",
+      "german": "beschließen",
+      "russian": "решать; постановлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beschließt",
+        "praeteritum": "beschloss",
+        "partizip_ii": "beschlossen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat beschlossen"
+      },
+      "government": "+ Akk.; beschließen, etwas zu tun",
+      "grammar_note": "Сильный глагол."
+    },
+    {
+      "canonical_key": "verb:verbrauchen",
+      "german": "verbrauchen",
+      "russian": "расходовать; потреблять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verbraucht",
+        "praeteritum": "verbrauchte",
+        "partizip_ii": "verbraucht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verbraucht"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:verändern",
+      "german": "verändern",
+      "russian": "изменять; меняться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verändert",
+        "praeteritum": "veränderte",
+        "partizip_ii": "verändert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verändert"
+      },
+      "government": "+ Akk.; sich verändern"
+    },
+    {
+      "canonical_key": "verb:klagen",
+      "german": "klagen",
+      "russian": "жаловаться; сетовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "klagt",
+        "praeteritum": "klagte",
+        "partizip_ii": "geklagt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geklagt"
+      },
+      "government": "über + Akk. klagen"
+    },
+    {
+      "canonical_key": "verb:begründen",
+      "german": "begründen",
+      "russian": "обосновывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "begründet",
+        "praeteritum": "begründete",
+        "partizip_ii": "begründet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat begründet"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:sich zusammenschließen",
+      "german": "sich zusammenschließen",
+      "russian": "объединяться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schließt sich zusammen",
+        "praeteritum": "schloss sich zusammen",
+        "partizip_ii": "zusammengeschlossen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich zusammengeschlossen"
+      },
+      "government": "sich mit + Dat. zusammenschließen",
+      "grammar_note": "Отделяемый возвратный сильный глагол."
+    },
+    {
+      "canonical_key": "verb:abnehmen",
+      "german": "abnehmen",
+      "russian": "худеть; уменьшаться; снимать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "nimmt ab",
+        "praeteritum": "nahm ab",
+        "partizip_ii": "abgenommen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat abgenommen"
+      },
+      "grammar_note": "Отделяемый сильный глагол."
+    },
+    {
+      "canonical_key": "verb:retten",
+      "german": "retten",
+      "russian": "спасать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "rettet",
+        "praeteritum": "rettete",
+        "partizip_ii": "gerettet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gerettet"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "connector:um zu",
+      "german": "um ... zu",
+      "russian": "чтобы; для того чтобы",
+      "part_of_speech": "connector",
+      "grammar_note": "Если подлежащее в главном и целевом обороте одинаковое, используется um ... zu + Infinitiv."
+    },
+    {
+      "canonical_key": "connector:damit",
+      "german": "damit",
+      "russian": "чтобы; для того чтобы",
+      "part_of_speech": "connector",
+      "grammar_note": "Если подлежащие различаются, используется придаточное с damit; глагол в конце."
+    },
+    {
+      "canonical_key": "connector:als ob",
+      "german": "als ob",
+      "russian": "как будто",
+      "part_of_speech": "connector",
+      "grammar_note": "Для нереального сравнения употребляется als ob + Konjunktiv II."
+    },
+    {
+      "canonical_key": "phrase:für mich besteht kein zweifel daran, dass ...",
+      "german": "Für mich besteht kein Zweifel daran, dass ...",
+      "russian": "Для меня нет сомнения в том, что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wir können nicht so tun, als ob ...",
+      "german": "Wir können nicht so tun, als ob ...",
+      "russian": "Мы не можем делать вид, будто ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das löst mehrere probleme auf einmal.",
+      "german": "Das löst mehrere Probleme auf einmal.",
+      "russian": "Это решает сразу несколько проблем.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:die sache ist aber ganz anders.",
+      "german": "Die Sache ist aber ganz anders.",
+      "russian": "Но дело обстоит совсем иначе.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:um mindestens acht stunden schlafen zu können",
+      "german": "um mindestens acht Stunden schlafen zu können",
+      "russian": "чтобы иметь возможность спать не менее восьми часов",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:zwecksätze",
+      "german": "Zwecksätze mit um ... zu und damit",
+      "russian": "целевые предложения с um ... zu и damit",
+      "part_of_speech": "other",
+      "grammar_note": "Одинаковое подлежащее: um ... zu. Разные подлежащие: damit + придаточное."
+    },
+    {
+      "canonical_key": "other:irreale vergleiche",
+      "german": "Irreale Vergleiche mit als ob + Konjunktiv II",
+      "russian": "нереальные сравнения с als ob + Konjunktiv II",
+      "part_of_speech": "other",
+      "grammar_note": "После als ob спрягаемый глагол стоит в конце: als ob wir dauernd Partys feiern würden."
+    }
+  ]
+}
