@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "entries": {
-    "adjective:schwierig": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json"
+    "adjective:schwierig": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json",
+    "noun:laufwerk": "projects/deutsch-uebungen/decks/menschen-b1-lektion-05-bald-wird-in-fast-jedem-haushalt-ein-pc-stehen.json",
+    "noun:verkehr": "projects/deutsch-uebungen/decks/menschen-b1-lektion-05-bald-wird-in-fast-jedem-haushalt-ein-pc-stehen.json"
   }
 }

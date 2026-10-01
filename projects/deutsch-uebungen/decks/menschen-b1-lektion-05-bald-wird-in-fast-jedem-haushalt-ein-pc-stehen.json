@@ -1,0 +1,667 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:roboter",
+      "german": "der Roboter",
+      "russian": "робот",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Roboter"
+    },
+    {
+      "canonical_key": "noun:pc",
+      "german": "der PC",
+      "russian": "персональный компьютер; ПК",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "PCs"
+    },
+    {
+      "canonical_key": "noun:laptop",
+      "german": "der Laptop",
+      "russian": "ноутбук",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Laptops"
+    },
+    {
+      "canonical_key": "noun:smartphone",
+      "german": "das Smartphone",
+      "russian": "смартфон",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Smartphones"
+    },
+    {
+      "canonical_key": "noun:tablet-pc",
+      "german": "der Tablet-PC",
+      "russian": "планшетный компьютер",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Tablet-PCs"
+    },
+    {
+      "canonical_key": "noun:festplatte",
+      "german": "die Festplatte",
+      "russian": "жёсткий диск; накопитель",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Festplatten"
+    },
+    {
+      "canonical_key": "noun:laufwerk",
+      "german": "das Laufwerk",
+      "russian": "дисковод; накопитель; привод",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Laufwerke"
+    },
+    {
+      "canonical_key": "noun:monitor",
+      "german": "der Monitor",
+      "russian": "монитор",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Monitore"
+    },
+    {
+      "canonical_key": "noun:tastatur",
+      "german": "die Tastatur",
+      "russian": "клавиатура",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tastaturen"
+    },
+    {
+      "canonical_key": "noun:maus",
+      "german": "die Maus",
+      "russian": "компьютерная мышь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mäuse"
+    },
+    {
+      "canonical_key": "noun:technik",
+      "german": "die Technik",
+      "russian": "техника; технология",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:fortschritt",
+      "german": "der Fortschritt",
+      "russian": "прогресс",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Fortschritte"
+    },
+    {
+      "canonical_key": "noun:ansicht",
+      "german": "die Ansicht",
+      "russian": "мнение; точка зрения",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ansichten"
+    },
+    {
+      "canonical_key": "noun:überzeugung",
+      "german": "die Überzeugung",
+      "russian": "убеждение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Überzeugungen"
+    },
+    {
+      "canonical_key": "noun:verkehr",
+      "german": "der Verkehr",
+      "russian": "транспортное движение; движение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:gerät",
+      "german": "das Gerät",
+      "russian": "устройство; прибор",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Geräte"
+    },
+    {
+      "canonical_key": "noun:mitteilung",
+      "german": "die Mitteilung",
+      "russian": "сообщение; уведомление",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mitteilungen"
+    },
+    {
+      "canonical_key": "noun:alternative",
+      "german": "die Alternative",
+      "russian": "альтернатива",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Alternativen"
+    },
+    {
+      "canonical_key": "noun:ernährung",
+      "german": "die Ernährung",
+      "russian": "питание; рацион",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:zukunft",
+      "german": "die Zukunft",
+      "russian": "будущее",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:haushalt",
+      "german": "der Haushalt",
+      "russian": "домашнее хозяйство; домохозяйство",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Haushalte"
+    },
+    {
+      "canonical_key": "noun:computer",
+      "german": "der Computer",
+      "russian": "компьютер",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Computer"
+    },
+    {
+      "canonical_key": "noun:sprache",
+      "german": "die Sprache",
+      "russian": "язык; речь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Sprachen"
+    },
+    {
+      "canonical_key": "noun:passwort",
+      "german": "das Passwort",
+      "russian": "пароль",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Passwörter"
+    },
+    {
+      "canonical_key": "noun:vorhersage",
+      "german": "die Vorhersage",
+      "russian": "прогноз; предсказание",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Vorhersagen"
+    },
+    {
+      "canonical_key": "noun:vermutung",
+      "german": "die Vermutung",
+      "russian": "предположение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Vermutungen"
+    },
+    {
+      "canonical_key": "noun:vorsatz",
+      "german": "der Vorsatz",
+      "russian": "намерение; решение что-либо сделать",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Vorsätze"
+    },
+    {
+      "canonical_key": "noun:aufforderung",
+      "german": "die Aufforderung",
+      "russian": "призыв; требование; побуждение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Aufforderungen"
+    },
+    {
+      "canonical_key": "noun:warnung",
+      "german": "die Warnung",
+      "russian": "предупреждение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Warnungen"
+    },
+    {
+      "canonical_key": "noun:transportmittel",
+      "german": "das Transportmittel",
+      "russian": "транспортное средство",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Transportmittel"
+    },
+    {
+      "canonical_key": "noun:umwelt",
+      "german": "die Umwelt",
+      "russian": "окружающая среда",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "adjective:technisch",
+      "german": "technisch",
+      "russian": "технический",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:persönlich",
+      "german": "persönlich",
+      "russian": "личный; персональный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:digital",
+      "german": "digital",
+      "russian": "цифровой",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:gefährlich",
+      "german": "gefährlich",
+      "russian": "опасный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:öffentlich",
+      "german": "öffentlich",
+      "russian": "общественный; публичный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:unmöglich",
+      "german": "unmöglich",
+      "russian": "невозможный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:langweilig",
+      "german": "langweilig",
+      "russian": "скучный; однообразный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:leise",
+      "german": "leise",
+      "russian": "тихий; бесшумный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:sicher",
+      "german": "sicher",
+      "russian": "наверняка; вероятно (в прогнозе)",
+      "part_of_speech": "adverb",
+      "grammar_note": "В прогнозах часто употребляется как модальный усилитель: Es wird sicher ..."
+    },
+    {
+      "canonical_key": "adverb:vermutlich",
+      "german": "vermutlich",
+      "russian": "предположительно; вероятно",
+      "part_of_speech": "adverb",
+      "grammar_note": "Служит для выражения предположения."
+    },
+    {
+      "canonical_key": "adverb:wohl",
+      "german": "wohl",
+      "russian": "вероятно; пожалуй",
+      "part_of_speech": "adverb",
+      "grammar_note": "Модальное наречие/частица для неуверенного предположения: Es wird wohl ..."
+    },
+    {
+      "canonical_key": "verb:werden",
+      "german": "werden",
+      "russian": "становиться; в Futur I — вспомогательный глагол",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wird",
+        "praeteritum": "wurde",
+        "partizip_ii": "geworden",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist geworden"
+      },
+      "grammar_note": "В Futur I: werden + Infinitiv; спрягается werden, инфинитив стоит в конце."
+    },
+    {
+      "canonical_key": "verb:behaupten",
+      "german": "behaupten",
+      "russian": "утверждать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "behauptet",
+        "praeteritum": "behauptete",
+        "partizip_ii": "behauptet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat behauptet"
+      },
+      "government": "behaupten, dass ..."
+    },
+    {
+      "canonical_key": "verb:sich fürchten",
+      "german": "sich fürchten",
+      "russian": "бояться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "fürchtet sich",
+        "praeteritum": "fürchtete sich",
+        "partizip_ii": "gefürchtet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gefürchtet"
+      },
+      "government": "sich vor + Dat. fürchten",
+      "grammar_note": "возвратный глагол"
+    },
+    {
+      "canonical_key": "verb:sich drehen",
+      "german": "sich drehen",
+      "russian": "вращаться; поворачиваться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "dreht sich",
+        "praeteritum": "drehte sich",
+        "partizip_ii": "gedreht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gedreht"
+      },
+      "grammar_note": "возвратный глагол"
+    },
+    {
+      "canonical_key": "verb:zurückdrehen",
+      "german": "zurückdrehen",
+      "russian": "поворачивать назад; возвращать в прежнее положение",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "dreht zurück",
+        "praeteritum": "drehte zurück",
+        "partizip_ii": "zurückgedreht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat zurückgedreht"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "отделяемый глагол"
+    },
+    {
+      "canonical_key": "verb:warnen",
+      "german": "warnen",
+      "russian": "предупреждать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "warnt",
+        "praeteritum": "warnte",
+        "partizip_ii": "gewarnt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gewarnt"
+      },
+      "government": "jemanden + Akk. vor + Dat. warnen"
+    },
+    {
+      "canonical_key": "verb:sich anstrengen",
+      "german": "sich anstrengen",
+      "russian": "стараться; прилагать усилия",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "strengt sich an",
+        "praeteritum": "strengte sich an",
+        "partizip_ii": "angestrengt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich angestrengt"
+      },
+      "government": "sich bei + Dat. anstrengen",
+      "grammar_note": "отделяемый возвратный глагол"
+    },
+    {
+      "canonical_key": "verb:liefern",
+      "german": "liefern",
+      "russian": "доставлять; поставлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "liefert",
+        "praeteritum": "lieferte",
+        "partizip_ii": "geliefert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geliefert"
+      },
+      "government": "jemandem + Dat. etwas + Akk. liefern"
+    },
+    {
+      "canonical_key": "verb:ausschalten",
+      "german": "ausschalten",
+      "russian": "выключать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schaltet aus",
+        "praeteritum": "schaltete aus",
+        "partizip_ii": "ausgeschaltet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat ausgeschaltet"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "отделяемый глагол"
+    },
+    {
+      "canonical_key": "verb:erkennen",
+      "german": "erkennen",
+      "russian": "распознавать; узнавать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erkennt",
+        "praeteritum": "erkannte",
+        "partizip_ii": "erkannt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erkannt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "er- — неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:vermuten",
+      "german": "vermuten",
+      "russian": "предполагать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "vermutet",
+        "praeteritum": "vermutete",
+        "partizip_ii": "vermutet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat vermutet"
+      },
+      "government": "vermuten, dass ..."
+    },
+    {
+      "canonical_key": "verb:aufhören",
+      "german": "aufhören",
+      "russian": "прекращать; переставать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "hört auf",
+        "praeteritum": "hörte auf",
+        "partizip_ii": "aufgehört",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat aufgehört"
+      },
+      "government": "mit + Dat. aufhören; aufhören, etwas zu tun",
+      "grammar_note": "отделяемый глагол"
+    },
+    {
+      "canonical_key": "verb:anbieten",
+      "german": "anbieten",
+      "russian": "предлагать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bietet an",
+        "praeteritum": "bot an",
+        "partizip_ii": "angeboten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat angeboten"
+      },
+      "government": "jemandem + Dat. etwas + Akk. anbieten",
+      "grammar_note": "отделяемый сильный глагол"
+    },
+    {
+      "canonical_key": "verb:sich verlieben",
+      "german": "sich verlieben",
+      "russian": "влюбляться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verliebt sich",
+        "praeteritum": "verliebte sich",
+        "partizip_ii": "verliebt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich verliebt"
+      },
+      "government": "sich in + Akk. verlieben",
+      "grammar_note": "возвратный глагол; ver- — неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:sichern",
+      "german": "sichern",
+      "russian": "защищать; обеспечивать; сохранять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "sichert",
+        "praeteritum": "sicherte",
+        "partizip_ii": "gesichert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gesichert"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "в контексте техники: Daten/Systeme schützen oder sichern"
+    },
+    {
+      "canonical_key": "verb:versprechen",
+      "german": "versprechen",
+      "russian": "обещать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verspricht",
+        "praeteritum": "versprach",
+        "partizip_ii": "versprochen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat versprochen"
+      },
+      "government": "jemandem + Dat. etwas + Akk. versprechen",
+      "grammar_note": "сильный глагол; ver- — неотделяемая приставка"
+    },
+    {
+      "canonical_key": "phrase:in zukunft",
+      "german": "in Zukunft",
+      "russian": "в будущем",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:rund um die uhr",
+      "german": "rund um die Uhr",
+      "russian": "круглосуточно",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich glaube, in 20 jahren wird ...",
+      "german": "Ich glaube, in 20 Jahren wird ...",
+      "russian": "Я думаю, через 20 лет ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das halte ich für unmöglich.",
+      "german": "Das halte ich für unmöglich.",
+      "russian": "Я считаю это невозможным.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich kann mir gut vorstellen, dass ...",
+      "german": "Ich kann mir gut vorstellen, dass ...",
+      "russian": "Я вполне могу представить, что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich vermute, dass ...",
+      "german": "Ich vermute, dass ...",
+      "russian": "Я предполагаю, что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vermutlich wird ...",
+      "german": "Vermutlich wird ...",
+      "russian": "Предположительно / вероятно ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:es wird wohl ...",
+      "german": "Es wird wohl ...",
+      "russian": "Вероятно / пожалуй, ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:dazu gibt es wohl keine alternative.",
+      "german": "Dazu gibt es wohl keine Alternative.",
+      "russian": "Для этого, вероятно, нет альтернативы.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:auf seine ernährung achten",
+      "german": "auf seine Ernährung achten",
+      "russian": "следить за своим питанием",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ein computersystem mit einem passwort sichern",
+      "german": "ein Computersystem mit einem Passwort sichern",
+      "russian": "защитить компьютерную систему паролем",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:technische geräte ausschalten",
+      "german": "technische Geräte ausschalten",
+      "russian": "выключать технические устройства",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sich bei einer prüfung besonders anstrengen",
+      "german": "sich bei einer Prüfung besonders anstrengen",
+      "russian": "особенно постараться на экзамене",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:mit dem computer sprechen",
+      "german": "mit dem Computer sprechen",
+      "russian": "говорить с компьютером",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine stelle anbieten",
+      "german": "jemandem eine Stelle anbieten",
+      "russian": "предложить кому-либо должность / работу",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:futur i bildung",
+      "german": "Futur I: werden + Infinitiv",
+      "russian": "Futur I: будущее время с werden + инфинитивом",
+      "part_of_speech": "other",
+      "grammar_note": "Спрягаемая форма werden стоит на позиции 2, смысловой инфинитив — в конце: Bald wird in fast jedem Haushalt ein PC stehen."
+    },
+    {
+      "canonical_key": "other:futur i vermutung",
+      "german": "Futur I für Vorhersagen und Vermutungen",
+      "russian": "Futur I для прогнозов и предположений",
+      "part_of_speech": "other",
+      "grammar_note": "Для прогнозов/предположений Futur I часто сочетается с wohl, vermutlich, sicher."
+    },
+    {
+      "canonical_key": "other:futur i aufforderung und vorsatz",
+      "german": "Futur I für Aufforderungen, Versprechen und Vorsätze",
+      "russian": "Futur I для требований, обещаний и намерений",
+      "part_of_speech": "other",
+      "grammar_note": "Futur I может выражать требование/предупреждение, обещание или план: Du wirst ...; Ich werde ..."
+    }
+  ]
+}
