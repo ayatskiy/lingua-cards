@@ -1,0 +1,854 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:ausbildung",
+      "german": "die Ausbildung",
+      "russian": "профессиональное обучение; образование",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ausbildungen"
+    },
+    {
+      "canonical_key": "noun:auszubildende",
+      "german": "der/die Auszubildende",
+      "russian": "учащийся / учащаяся на профессиональном обучении",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Auszubildenden",
+      "grammar_note": "Субстантивированное прилагательное: склоняется как прилагательное."
+    },
+    {
+      "canonical_key": "noun:erzieher",
+      "german": "der Erzieher / die Erzieherin",
+      "russian": "воспитатель / воспитательница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Erzieher / Erzieherinnen"
+    },
+    {
+      "canonical_key": "noun:gehalt",
+      "german": "das Gehalt",
+      "russian": "зарплата; оклад",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gehälter"
+    },
+    {
+      "canonical_key": "noun:betriebsklima",
+      "german": "das Betriebsklima",
+      "russian": "атмосфера в коллективе; рабочий климат",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:leistung",
+      "german": "die Leistung",
+      "russian": "результат; достижение; производительность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Leistungen"
+    },
+    {
+      "canonical_key": "noun:leiter",
+      "german": "der Leiter / die Leiterin",
+      "russian": "руководитель / руководительница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Leiter / Leiterinnen"
+    },
+    {
+      "canonical_key": "noun:praxis",
+      "german": "die Praxis",
+      "russian": "практика",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:theorie",
+      "german": "die Theorie",
+      "russian": "теория",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Theorien"
+    },
+    {
+      "canonical_key": "noun:überstunde",
+      "german": "die Überstunde",
+      "russian": "сверхурочный час",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Überstunden"
+    },
+    {
+      "canonical_key": "noun:verantwortung",
+      "german": "die Verantwortung",
+      "russian": "ответственность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:gelegenheit",
+      "german": "die Gelegenheit",
+      "russian": "возможность; случай",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gelegenheiten"
+    },
+    {
+      "canonical_key": "noun:held",
+      "german": "der Held / die Heldin",
+      "russian": "герой / героиня",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Helden / Heldinnen",
+      "grammar_note": "der Held относится к n-Deklination: z. B. mit dem Helden."
+    },
+    {
+      "canonical_key": "noun:lärm",
+      "german": "der Lärm",
+      "russian": "шум",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:praktikum",
+      "german": "das Praktikum",
+      "russian": "практика; стажировка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Praktika"
+    },
+    {
+      "canonical_key": "noun:praktikumsbericht",
+      "german": "der Praktikumsbericht",
+      "russian": "отчёт о практике / стажировке",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Praktikumsberichte"
+    },
+    {
+      "canonical_key": "noun:teambesprechung",
+      "german": "die Teambesprechung",
+      "russian": "командное совещание",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Teambesprechungen"
+    },
+    {
+      "canonical_key": "noun:teilzeit",
+      "german": "die Teilzeit",
+      "russian": "неполный рабочий день; частичная занятость",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:vollzeit",
+      "german": "die Vollzeit",
+      "russian": "полный рабочий день; полная занятость",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:tagesablauf",
+      "german": "der Tagesablauf",
+      "russian": "распорядок дня",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Tagesabläufe"
+    },
+    {
+      "canonical_key": "noun:berufserfahrung",
+      "german": "die Berufserfahrung",
+      "russian": "профессиональный опыт",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Berufserfahrungen"
+    },
+    {
+      "canonical_key": "noun:arbeitsplatz",
+      "german": "der Arbeitsplatz",
+      "russian": "рабочее место",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Arbeitsplätze"
+    },
+    {
+      "canonical_key": "noun:tätigkeit",
+      "german": "die Tätigkeit",
+      "russian": "деятельность; работа; занятие",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tätigkeiten"
+    },
+    {
+      "canonical_key": "noun:einkommen",
+      "german": "das Einkommen",
+      "russian": "доход",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Einkommen"
+    },
+    {
+      "canonical_key": "noun:stelle",
+      "german": "die Stelle",
+      "russian": "должность; место работы",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Stellen"
+    },
+    {
+      "canonical_key": "noun:werkstatt",
+      "german": "die Werkstatt",
+      "russian": "мастерская",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Werkstätten"
+    },
+    {
+      "canonical_key": "noun:stellenanzeige",
+      "german": "die Stellenanzeige",
+      "russian": "объявление о вакансии",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Stellenanzeigen"
+    },
+    {
+      "canonical_key": "noun:vertrag",
+      "german": "der Vertrag",
+      "russian": "договор; контракт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Verträge"
+    },
+    {
+      "canonical_key": "noun:kenntnis",
+      "german": "die Kenntnis",
+      "russian": "знание; навык",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kenntnisse"
+    },
+    {
+      "canonical_key": "noun:aufgabe",
+      "german": "die Aufgabe",
+      "russian": "задача; обязанность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Aufgaben"
+    },
+    {
+      "canonical_key": "noun:präteritum",
+      "german": "das Präteritum",
+      "russian": "претеритум; простое прошедшее время",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null,
+      "grammar_note": "В L2 Präteritum используется прежде всего в письменных рассказах и сообщениях; в устной речи особенно часто встречается с sein, haben и модальными глаголами."
+    },
+    {
+      "canonical_key": "noun:perfekt",
+      "german": "das Perfekt",
+      "russian": "перфект; прошедшее время Perfekt",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null,
+      "grammar_note": "В L2 Perfekt противопоставляется Präteritum: Perfekt особенно типичен для разговорной речи и личных писем/E-Mails."
+    },
+    {
+      "canonical_key": "adjective:zuverlässig",
+      "german": "zuverlässig",
+      "russian": "надёжный; ответственный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:sozial",
+      "german": "sozial",
+      "russian": "социальный; относящийся к социальной сфере",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:gering",
+      "german": "gering",
+      "russian": "небольшой; низкий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:merkwürdig",
+      "german": "merkwürdig",
+      "russian": "странный; необычный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:hilfsbereit",
+      "german": "hilfsbereit",
+      "russian": "готовый помочь; отзывчивый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:selbstständig",
+      "german": "selbstständig",
+      "russian": "самостоятельный; независимый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:anstrengend",
+      "german": "anstrengend",
+      "russian": "утомительный; напряжённый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:enttäuschend",
+      "german": "enttäuschend",
+      "russian": "разочаровывающий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:angenehm",
+      "german": "angenehm",
+      "russian": "приятный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:unangenehm",
+      "german": "unangenehm",
+      "russian": "неприятный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:unfreundlich",
+      "german": "unfreundlich",
+      "russian": "неприветливый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:zufrieden",
+      "german": "zufrieden",
+      "russian": "довольный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:unzufrieden",
+      "german": "unzufrieden",
+      "russian": "недовольный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:niedrig",
+      "german": "niedrig",
+      "russian": "низкий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:regelmäßig",
+      "german": "regelmäßig",
+      "russian": "регулярный; регулярный по времени",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:brutto",
+      "german": "brutto",
+      "russian": "брутто; до вычета налогов",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:netto",
+      "german": "netto",
+      "russian": "нетто; после вычета налогов",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:insgesamt",
+      "german": "insgesamt",
+      "russian": "в целом; всего",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:anschließend",
+      "german": "anschließend",
+      "russian": "затем; после этого",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:unbedingt",
+      "german": "unbedingt",
+      "russian": "обязательно; непременно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:sich beschäftigen",
+      "german": "sich beschäftigen",
+      "russian": "заниматься; быть занятым",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beschäftigt sich",
+        "praeteritum": "beschäftigte sich",
+        "partizip_ii": "beschäftigt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich beschäftigt"
+      },
+      "government": "sich mit + Dat. beschäftigen",
+      "grammar_note": "возвратный глагол; be- неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:duzen",
+      "german": "duzen",
+      "russian": "обращаться на «ты»",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "duzt",
+        "praeteritum": "duzte",
+        "partizip_ii": "geduzt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geduzt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:erledigen",
+      "german": "erledigen",
+      "russian": "выполнять; делать (задачу)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erledigt",
+        "praeteritum": "erledigte",
+        "partizip_ii": "erledigt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erledigt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:übernehmen",
+      "german": "übernehmen",
+      "russian": "брать на себя; перенимать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "übernimmt",
+        "praeteritum": "übernahm",
+        "partizip_ii": "übernommen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat übernommen"
+      },
+      "government": "+ Akk. (z. B. Verantwortung/Aufgaben übernehmen)",
+      "grammar_note": "сильный глагол; über- здесь неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:sich entschließen",
+      "german": "sich entschließen",
+      "russian": "решаться; принимать решение",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "entschließt sich",
+        "praeteritum": "entschloss sich",
+        "partizip_ii": "entschlossen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich entschlossen"
+      },
+      "government": "sich zu + Dat. entschließen; sich entschließen, etwas zu tun",
+      "grammar_note": "возвратный сильный глагол; ent- неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:erwarten",
+      "german": "erwarten",
+      "russian": "ожидать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erwartet",
+        "praeteritum": "erwartete",
+        "partizip_ii": "erwartet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erwartet"
+      },
+      "government": "+ Akk.; erwarten, dass ..."
+    },
+    {
+      "canonical_key": "verb:führen",
+      "german": "führen",
+      "russian": "вести; проводить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "führt",
+        "praeteritum": "führte",
+        "partizip_ii": "geführt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geführt"
+      },
+      "government": "+ Akk.; jemanden durch + Akk. führen",
+      "grammar_note": "Präteritum Typ 1: schwaches Verb, Stamm + -te → führte."
+    },
+    {
+      "canonical_key": "verb:überlegen",
+      "german": "überlegen",
+      "russian": "обдумывать; размышлять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "überlegt",
+        "praeteritum": "überlegte",
+        "partizip_ii": "überlegt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat überlegt"
+      },
+      "government": "+ Akk.; überlegen, ob/was ...",
+      "grammar_note": "в значении «обдумывать» über- неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:übrig bleiben",
+      "german": "übrig bleiben",
+      "russian": "оставаться; оставаться в остатке",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bleibt übrig",
+        "praeteritum": "blieb übrig",
+        "partizip_ii": "übrig geblieben",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist übrig geblieben"
+      },
+      "grammar_note": "отделяемая конструкция; Perfekt с sein"
+    },
+    {
+      "canonical_key": "verb:sich etwas vorstellen",
+      "german": "sich etwas vorstellen",
+      "russian": "представлять себе что-либо",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stellt sich etwas vor",
+        "praeteritum": "stellte sich etwas vor",
+        "partizip_ii": "vorgestellt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich etwas vorgestellt"
+      },
+      "government": "sich (Dat.) etwas (Akk.) vorstellen; sich vorstellen, dass ...",
+      "grammar_note": "возвратная конструкция с отделяемым vorstellen"
+    },
+    {
+      "canonical_key": "verb:zurechtkommen",
+      "german": "zurechtkommen",
+      "russian": "справляться; ладить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "kommt zurecht",
+        "praeteritum": "kam zurecht",
+        "partizip_ii": "zurechtgekommen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist zurechtgekommen"
+      },
+      "government": "mit + Dat. zurechtkommen",
+      "grammar_note": "отделяемый глагол; Perfekt с sein"
+    },
+    {
+      "canonical_key": "verb:mitarbeiten",
+      "german": "mitarbeiten",
+      "russian": "работать вместе; участвовать в работе",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "arbeitet mit",
+        "praeteritum": "arbeitete mit",
+        "partizip_ii": "mitgearbeitet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat mitgearbeitet"
+      },
+      "government": "bei + Dat. mitarbeiten",
+      "grammar_note": "отделяемый глагол"
+    },
+    {
+      "canonical_key": "verb:mitbringen",
+      "german": "mitbringen",
+      "russian": "приносить с собой; иметь при себе",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bringt mit",
+        "praeteritum": "brachte mit",
+        "partizip_ii": "mitgebracht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat mitgebracht"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "отделяемый смешанный глагол"
+    },
+    {
+      "canonical_key": "verb:bekommen",
+      "german": "bekommen",
+      "russian": "получать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bekommt",
+        "praeteritum": "bekam",
+        "partizip_ii": "bekommen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat bekommen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "сильный глагол; be- неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:gefallen",
+      "german": "gefallen",
+      "russian": "нравиться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "gefällt",
+        "praeteritum": "gefiel",
+        "partizip_ii": "gefallen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gefallen"
+      },
+      "government": "jemandem + Dat. gefallen",
+      "grammar_note": "сильный глагол; Präsens 3sg: a → ä"
+    },
+    {
+      "canonical_key": "verb:halten",
+      "german": "halten",
+      "russian": "держать; проводить / произносить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "hält",
+        "praeteritum": "hielt",
+        "partizip_ii": "gehalten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gehalten"
+      },
+      "government": "+ Akk.; eine Rede halten",
+      "grammar_note": "сильный глагол; Präsens 3sg: a → ä"
+    },
+    {
+      "canonical_key": "verb:bringen",
+      "german": "bringen",
+      "russian": "приносить; привозить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bringt",
+        "praeteritum": "brachte",
+        "partizip_ii": "gebracht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gebracht"
+      },
+      "government": "jemandem + Dat. etwas + Akk. bringen",
+      "grammar_note": "Präteritum Typ 3: Mischverb → brachte."
+    },
+    {
+      "canonical_key": "verb:sich fühlen",
+      "german": "sich fühlen",
+      "russian": "чувствовать себя",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "fühlt sich",
+        "praeteritum": "fühlte sich",
+        "partizip_ii": "gefühlt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gefühlt"
+      },
+      "grammar_note": "возвратный глагол"
+    },
+    {
+      "canonical_key": "verb:bleiben",
+      "german": "bleiben",
+      "russian": "оставаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bleibt",
+        "praeteritum": "blieb",
+        "partizip_ii": "geblieben",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist geblieben"
+      },
+      "grammar_note": "сильный глагол; Perfekt с sein"
+    },
+    {
+      "canonical_key": "verb:geben",
+      "german": "geben",
+      "russian": "давать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "gibt",
+        "praeteritum": "gab",
+        "partizip_ii": "gegeben",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gegeben"
+      },
+      "government": "jemandem + Dat. etwas + Akk. geben",
+      "grammar_note": "Präteritum Typ 2: starkes Verb mit Vokalwechsel → gab."
+    },
+    {
+      "canonical_key": "verb:lassen",
+      "german": "lassen",
+      "russian": "позволять; оставлять; давать/велеть сделать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lässt",
+        "praeteritum": "ließ",
+        "partizip_ii": "gelassen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gelassen"
+      },
+      "government": "+ Akk. + Infinitiv",
+      "grammar_note": "сильный глагол; Präsens 3sg: a → ä"
+    },
+    {
+      "canonical_key": "verb:verdienen",
+      "german": "verdienen",
+      "russian": "зарабатывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verdient",
+        "praeteritum": "verdiente",
+        "partizip_ii": "verdient",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verdient"
+      },
+      "government": "+ Akk. (Geld/ein Gehalt verdienen)"
+    },
+    {
+      "canonical_key": "verb:empfehlen",
+      "german": "empfehlen",
+      "russian": "рекомендовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "empfiehlt",
+        "praeteritum": "empfahl",
+        "partizip_ii": "empfohlen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat empfohlen"
+      },
+      "government": "jemandem + Dat. etwas + Akk. empfehlen; empfehlen, etwas zu tun",
+      "grammar_note": "сильный глагол; emp- неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:abschrecken",
+      "german": "abschrecken",
+      "russian": "отпугивать; отвращать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schreckt ab",
+        "praeteritum": "schreckte ab",
+        "partizip_ii": "abgeschreckt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat abgeschreckt"
+      },
+      "government": "jemanden + Akk. von + Dat. abschrecken",
+      "grammar_note": "отделяемый глагол"
+    },
+    {
+      "canonical_key": "verb:bestehen",
+      "german": "bestehen",
+      "russian": "состоять; состоять из",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "besteht",
+        "praeteritum": "bestand",
+        "partizip_ii": "bestanden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat bestanden"
+      },
+      "government": "aus + Dat. bestehen",
+      "grammar_note": "сильный глагол; be- неотделяемая приставка"
+    },
+    {
+      "canonical_key": "verb:gehen",
+      "german": "gehen",
+      "russian": "идти; уходить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "geht",
+        "praeteritum": "ging",
+        "partizip_ii": "gegangen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist gegangen"
+      },
+      "grammar_note": "сильный глагол; Perfekt с sein"
+    },
+    {
+      "canonical_key": "verb:sich freuen",
+      "german": "sich freuen",
+      "russian": "радоваться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "freut sich",
+        "praeteritum": "freute sich",
+        "partizip_ii": "gefreut",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich gefreut"
+      },
+      "government": "sich auf + Akk. freuen; sich über + Akk. freuen",
+      "grammar_note": "возвратный глагол"
+    },
+    {
+      "canonical_key": "phrase:ein praktikum machen",
+      "german": "ein Praktikum machen",
+      "russian": "проходить практику / стажировку",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine ausbildung machen",
+      "german": "eine Ausbildung machen",
+      "russian": "получать профессиональное образование; проходить обучение",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine feste stelle finden",
+      "german": "eine feste Stelle finden",
+      "russian": "найти постоянную работу / должность",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:in guter/schlechter erinnerung bleiben",
+      "german": "in guter/schlechter Erinnerung bleiben",
+      "russian": "остаться в хорошей/плохой памяти",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:mit jemandem zu tun haben",
+      "german": "mit jemandem zu tun haben",
+      "russian": "иметь дело с кем-либо",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:auf jeden fall",
+      "german": "auf jeden Fall",
+      "russian": "в любом случае; обязательно",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:besonders gut gefiel mir, dass ...",
+      "german": "Besonders gut gefiel mir, dass ...",
+      "russian": "Мне особенно понравилось, что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:insgesamt fühlte ich mich sehr wohl.",
+      "german": "Insgesamt fühlte ich mich sehr wohl.",
+      "russian": "В целом я чувствовал(а) себя очень хорошо.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:etwas fällt positiv auf",
+      "german": "etwas fällt positiv auf",
+      "russian": "что-либо положительно бросается в глаза",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine aufgabe selbstständig erledigen",
+      "german": "eine Aufgabe selbstständig erledigen",
+      "russian": "самостоятельно выполнить задачу",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:im umgang mit + dat.",
+      "german": "im Umgang mit + Dat.",
+      "russian": "в обращении с; при работе с",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:eine rede halten",
+      "german": "eine Rede halten",
+      "russian": "произнести речь; выступить с речью",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
