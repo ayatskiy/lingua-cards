@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
+    "connector:darum": "projects/deutsch-uebungen/decks/menschen-b1-lektion-13-aus-diesem-grund-gab-es-ein-missverstaendnis.json",
     "noun:besteck": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
     "noun:kontaktfreude": "projects/deutsch-uebungen/decks/menschen-b1-lektion-08-waehrend-andere-lange-nachdenken.json"
   }
