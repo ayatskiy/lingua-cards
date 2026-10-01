@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:nahrungsmittel",
+      "german": "das Nahrungsmittel",
+      "russian": "продукт питания",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Nahrungsmittel"
+    },
+    {
+      "canonical_key": "noun:fitness",
+      "german": "die Fitness",
+      "russian": "физическая форма; фитнес",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:vegetarier",
+      "german": "der Vegetarier / die Vegetarierin",
+      "russian": "вегетарианец / вегетарианка",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Vegetarier / Vegetarierinnen"
+    },
+    {
+      "canonical_key": "noun:pause",
+      "german": "die Pause",
+      "russian": "перерыв",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Pausen"
+    },
+    {
+      "canonical_key": "noun:wohlbefinden",
+      "german": "das Wohlbefinden",
+      "russian": "хорошее самочувствие",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:arbeitnehmer",
+      "german": "der Arbeitnehmer / die Arbeitnehmerin",
+      "russian": "работник / работница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Arbeitnehmer / Arbeitnehmerinnen"
+    },
+    {
+      "canonical_key": "noun:suchtverhalten",
+      "german": "das Suchtverhalten",
+      "russian": "зависимое поведение",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:unternehmensleitung",
+      "german": "die Unternehmensleitung",
+      "russian": "руководство компании",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Unternehmensleitungen"
+    },
+    {
+      "canonical_key": "noun:durchschnitt",
+      "german": "der Durchschnitt",
+      "russian": "среднее значение; средний показатель",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Durchschnitte"
+    },
+    {
+      "canonical_key": "noun:zusammenhang",
+      "german": "der Zusammenhang",
+      "russian": "связь; взаимосвязь",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Zusammenhänge"
+    },
+    {
+      "canonical_key": "noun:verhältnis",
+      "german": "das Verhältnis",
+      "russian": "отношение; соотношение",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Verhältnisse"
+    },
+    {
+      "canonical_key": "noun:bewegungsübung",
+      "german": "die Bewegungsübung",
+      "russian": "физическое упражнение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bewegungsübungen"
+    },
+    {
+      "canonical_key": "noun:krankenkasse",
+      "german": "die Krankenkasse",
+      "russian": "медицинская страховая касса",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Krankenkassen"
+    },
+    {
+      "canonical_key": "noun:entspannungsprogramm",
+      "german": "das Entspannungsprogramm",
+      "russian": "программа расслабления",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Entspannungsprogramme"
+    },
+    {
+      "canonical_key": "noun:mahlzeit",
+      "german": "die Mahlzeit",
+      "russian": "приём пищи; блюдо",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mahlzeiten"
+    },
+    {
+      "canonical_key": "noun:tageslicht",
+      "german": "das Tageslicht",
+      "russian": "дневной свет",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:entspannung",
+      "german": "die Entspannung",
+      "russian": "расслабление; отдых",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:nichtraucherschutz",
+      "german": "der Nichtraucherschutz",
+      "russian": "защита некурящих",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:führerschein",
+      "german": "der Führerschein",
+      "russian": "водительское удостоверение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Führerscheine"
+    },
+    {
+      "canonical_key": "adjective:familienfreundlich",
+      "german": "familienfreundlich",
+      "russian": "дружественный к семьям; учитывающий интересы семей",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:gesund",
+      "german": "gesund",
+      "russian": "здоровый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:frisch",
+      "german": "frisch",
+      "russian": "свежий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:glücklich",
+      "german": "glücklich",
+      "russian": "счастливый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:sechsmal",
+      "german": "sechsmal",
+      "russian": "шесть раз",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:schaden",
+      "german": "schaden",
+      "russian": "вредить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schadet",
+        "praeteritum": "schadete",
+        "partizip_ii": "geschadet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geschadet"
+      },
+      "government": "+ Dat."
+    },
+    {
+      "canonical_key": "verb:verursachen",
+      "german": "verursachen",
+      "russian": "вызывать; причинять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verursacht",
+        "praeteritum": "verursachte",
+        "partizip_ii": "verursacht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat verursacht"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:sich wohlfühlen",
+      "german": "sich wohlfühlen",
+      "russian": "хорошо себя чувствовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "fühlt sich wohl",
+        "praeteritum": "fühlte sich wohl",
+        "partizip_ii": "wohlgefühlt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich wohlgefühlt"
+      },
+      "grammar_note": "Возвратный отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:ausatmen",
+      "german": "ausatmen",
+      "russian": "выдыхать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "atmet aus",
+        "praeteritum": "atmete aus",
+        "partizip_ii": "ausgeatmet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat ausgeatmet"
+      },
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:anspannen",
+      "german": "anspannen",
+      "russian": "напрягать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "spannt an",
+        "praeteritum": "spannte an",
+        "partizip_ii": "angespannt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat angespannt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:wiederholen",
+      "german": "wiederholen",
+      "russian": "повторять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wiederholt",
+        "praeteritum": "wiederholte",
+        "partizip_ii": "wiederholt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat wiederholt"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Неотделяемый глагол."
+    },
+    {
+      "canonical_key": "phrase:in meiner präsentation geht es um ...",
+      "german": "In meiner Präsentation geht es um ...",
+      "russian": "В моей презентации речь идёт о ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:zunächst möchte ich ...",
+      "german": "Zunächst möchte ich ...",
+      "russian": "Сначала я хотел(а) бы ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:danach erzähle ich von ...",
+      "german": "Danach erzähle ich von ...",
+      "russian": "Затем я расскажу о ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:zum schluss können sie noch fragen stellen.",
+      "german": "Zum Schluss können Sie noch Fragen stellen.",
+      "russian": "В конце Вы можете задать вопросы.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich habe die erfahrung gemacht, dass ...",
+      "german": "Ich habe die Erfahrung gemacht, dass ...",
+      "russian": "По своему опыту я заметил(а), что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:und damit komme ich zu den vor- und nachteilen.",
+      "german": "Und damit komme ich zu den Vor- und Nachteilen.",
+      "russian": "И теперь я перехожу к преимуществам и недостаткам.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich danke ihnen fürs zuhören.",
+      "german": "Ich danke Ihnen fürs Zuhören.",
+      "russian": "Благодарю Вас за внимание.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:adjektivdeklination komparativ superlativ",
+      "german": "Adjektivdeklination mit Komparativ und Superlativ",
+      "russian": "склонение прилагательных в сравнительной и превосходной степени",
+      "part_of_speech": "other",
+      "grammar_note": "Окончание сравнительной/превосходной формы получает обычное окончание склонения: ein besserer Beruf, den besten Beruf, mit längeren Pausen."
+    }
+  ]
+}

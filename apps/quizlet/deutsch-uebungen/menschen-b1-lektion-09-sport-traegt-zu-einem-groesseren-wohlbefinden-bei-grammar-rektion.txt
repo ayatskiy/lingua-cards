@@ -1,0 +1,4 @@
+schaden — Rektion	+ Dat.
+verursachen — Rektion	+ Akk.
+anspannen — Rektion	+ Akk.
+wiederholen — Rektion	+ Akk.

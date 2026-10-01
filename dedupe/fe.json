@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entries": {
     "noun:auskunft": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
-    "noun:einfamilienhaus": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "noun:einfamilienhaus": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "phrase:in meiner präsentation geht es um ...": "projects/deutsch-uebungen/decks/menschen-b1-lektion-09-sport-traegt-zu-einem-groesseren-wohlbefinden-bei.json"
   }
 }

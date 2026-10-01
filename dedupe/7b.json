@@ -2,6 +2,8 @@
   "schema_version": 1,
   "entries": {
     "adjective:betrunken": "projects/deutsch-uebungen/decks/menschen-b1-lektion-06-fuehlen-sie-sich-wie-zu-hause.json",
-    "noun:begegnung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json"
+    "noun:begegnung": "projects/deutsch-uebungen/decks/menschen-b1-lektion-03-mein-beruf-ist-meine-leidenschaft.json",
+    "noun:mahlzeit": "projects/deutsch-uebungen/decks/menschen-b1-lektion-09-sport-traegt-zu-einem-groesseren-wohlbefinden-bei.json",
+    "verb:verursachen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-09-sport-traegt-zu-einem-groesseren-wohlbefinden-bei.json"
   }
 }
