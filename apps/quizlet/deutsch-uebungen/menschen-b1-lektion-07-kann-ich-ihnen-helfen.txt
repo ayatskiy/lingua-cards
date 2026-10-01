@@ -1,0 +1,42 @@
+die Bürste	щётка
+das Fell	шерсть; мех животного
+der Napf	миска для животного
+das Futter	корм
+der Auslauf	место / пространство для выгула
+die Tierpflege	уход за животными
+die Gewohnheit	привычка
+die Gesellschaft	общество; компания
+die Pflicht	обязанность
+der Rat	совет
+das Angebot	предложение; акция
+der Unterschied	различие
+der Hinweis	указание; полезный совет
+der Nachteil	недостаток; минус
+die Bewegung	движение; физическая активность
+das Kaninchen	кролик
+der Hamster	хомяк
+das Meerschweinchen	морская свинка
+ordentlicher	более аккуратный
+ungefähr	примерный; приблизительный
+tagsüber	днём; в течение дня
+jeweils	каждый раз; соответственно; по ...
+füttern	кормить
+pflegen	ухаживать; заботиться
+fressen	есть (о животных)
+sich umschauen	осматриваться; присматриваться
+raten	советовать
+rechnen	считать; рассчитывать
+berücksichtigen	учитывать; принимать во внимание
+sich entscheiden	решать; принимать решение
+anschaffen	приобретать; обзаводиться
+anprobieren	примерять
+aufpassen	быть внимательным; присматривать
+Ich möchte mir ... anschaffen.	Я хотел(а) бы приобрести ...
+Das kommt für mich nicht infrage.	Для меня это не подходит / исключено.
+Dann würde ich Ihnen ... empfehlen.	Тогда я бы рекомендовал(а) Вам ...
+Danke, das ist ein guter Hinweis.	Спасибо, это хороший совет.
+Ich habe keine Lust, ... zu ...	Мне не хочется ...
+Ich habe keine Zeit, ... zu ...	У меня нет времени, чтобы ...
+Es ist nicht leicht, ... zu ...	Нелегко ...
+Ich kann nur jedem empfehlen, ... zu ...	Я могу всем только посоветовать ...
+Infinitiv mit zu	инфинитив с zu

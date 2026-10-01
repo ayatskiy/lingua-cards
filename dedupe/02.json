@@ -1,6 +1,9 @@
 {
   "schema_version": 1,
   "entries": {
-    "adjective:hilfsbereit": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json"
+    "adjective:hilfsbereit": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json",
+    "adverb:jeweils": "projects/deutsch-uebungen/decks/menschen-b1-lektion-07-kann-ich-ihnen-helfen.json",
+    "noun:gesellschaft": "projects/deutsch-uebungen/decks/menschen-b1-lektion-07-kann-ich-ihnen-helfen.json",
+    "verb:fressen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-07-kann-ich-ihnen-helfen.json"
   }
 }

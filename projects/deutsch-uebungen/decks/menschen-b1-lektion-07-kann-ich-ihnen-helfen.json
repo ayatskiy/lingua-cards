@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:bürste",
+      "german": "die Bürste",
+      "russian": "щётка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bürsten"
+    },
+    {
+      "canonical_key": "noun:fell",
+      "german": "das Fell",
+      "russian": "шерсть; мех животного",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Felle"
+    },
+    {
+      "canonical_key": "noun:napf",
+      "german": "der Napf",
+      "russian": "миска для животного",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Näpfe"
+    },
+    {
+      "canonical_key": "noun:futter",
+      "german": "das Futter",
+      "russian": "корм",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:auslauf",
+      "german": "der Auslauf",
+      "russian": "место / пространство для выгула",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Ausläufe"
+    },
+    {
+      "canonical_key": "noun:tierpflege",
+      "german": "die Tierpflege",
+      "russian": "уход за животными",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": null
+    },
+    {
+      "canonical_key": "noun:gewohnheit",
+      "german": "die Gewohnheit",
+      "russian": "привычка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gewohnheiten"
+    },
+    {
+      "canonical_key": "noun:gesellschaft",
+      "german": "die Gesellschaft",
+      "russian": "общество; компания",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gesellschaften"
+    },
+    {
+      "canonical_key": "noun:pflicht",
+      "german": "die Pflicht",
+      "russian": "обязанность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Pflichten"
+    },
+    {
+      "canonical_key": "noun:rat",
+      "german": "der Rat",
+      "russian": "совет",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Ratschläge"
+    },
+    {
+      "canonical_key": "noun:angebot",
+      "german": "das Angebot",
+      "russian": "предложение; акция",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Angebote"
+    },
+    {
+      "canonical_key": "noun:unterschied",
+      "german": "der Unterschied",
+      "russian": "различие",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Unterschiede"
+    },
+    {
+      "canonical_key": "noun:hinweis",
+      "german": "der Hinweis",
+      "russian": "указание; полезный совет",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Hinweise"
+    },
+    {
+      "canonical_key": "noun:nachteil",
+      "german": "der Nachteil",
+      "russian": "недостаток; минус",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Nachteile"
+    },
+    {
+      "canonical_key": "noun:bewegung",
+      "german": "die Bewegung",
+      "russian": "движение; физическая активность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bewegungen"
+    },
+    {
+      "canonical_key": "noun:kaninchen",
+      "german": "das Kaninchen",
+      "russian": "кролик",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Kaninchen"
+    },
+    {
+      "canonical_key": "noun:hamster",
+      "german": "der Hamster",
+      "russian": "хомяк",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Hamster"
+    },
+    {
+      "canonical_key": "noun:meerschweinchen",
+      "german": "das Meerschweinchen",
+      "russian": "морская свинка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Meerschweinchen"
+    },
+    {
+      "canonical_key": "adjective:ordentlicher",
+      "german": "ordentlicher",
+      "russian": "более аккуратный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:ungefähr",
+      "german": "ungefähr",
+      "russian": "примерный; приблизительный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:tagsüber",
+      "german": "tagsüber",
+      "russian": "днём; в течение дня",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:jeweils",
+      "german": "jeweils",
+      "russian": "каждый раз; соответственно; по ...",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "verb:füttern",
+      "german": "füttern",
+      "russian": "кормить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "füttert",
+        "praeteritum": "fütterte",
+        "partizip_ii": "gefüttert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gefüttert"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:pflegen",
+      "german": "pflegen",
+      "russian": "ухаживать; заботиться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "pflegt",
+        "praeteritum": "pflegte",
+        "partizip_ii": "gepflegt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gepflegt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:fressen",
+      "german": "fressen",
+      "russian": "есть (о животных)",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "frisst",
+        "praeteritum": "fraß",
+        "partizip_ii": "gefressen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gefressen"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Сильный глагол; Präsens 3sg: e → i."
+    },
+    {
+      "canonical_key": "verb:sich umschauen",
+      "german": "sich umschauen",
+      "russian": "осматриваться; присматриваться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schaut sich um",
+        "praeteritum": "schaute sich um",
+        "partizip_ii": "umgeschaut",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich umgeschaut"
+      },
+      "government": "sich nach + Dat. umschauen",
+      "grammar_note": "Отделяемый возвратный глагол."
+    },
+    {
+      "canonical_key": "verb:raten",
+      "german": "raten",
+      "russian": "советовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "rät",
+        "praeteritum": "riet",
+        "partizip_ii": "geraten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geraten"
+      },
+      "government": "jemandem + Dat. zu + Dat. raten",
+      "grammar_note": "Сильный глагол; Präsens 3sg: a → ä."
+    },
+    {
+      "canonical_key": "verb:rechnen",
+      "german": "rechnen",
+      "russian": "считать; рассчитывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "rechnet",
+        "praeteritum": "rechnete",
+        "partizip_ii": "gerechnet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gerechnet"
+      },
+      "government": "mit + Dat. rechnen"
+    },
+    {
+      "canonical_key": "verb:berücksichtigen",
+      "german": "berücksichtigen",
+      "russian": "учитывать; принимать во внимание",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "berücksichtigt",
+        "praeteritum": "berücksichtigte",
+        "partizip_ii": "berücksichtigt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat berücksichtigt"
+      },
+      "government": "+ Akk."
+    },
+    {
+      "canonical_key": "verb:sich entscheiden",
+      "german": "sich entscheiden",
+      "russian": "решать; принимать решение",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "entscheidet sich",
+        "praeteritum": "entschied sich",
+        "partizip_ii": "entschieden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich entschieden"
+      },
+      "government": "sich für/gegen + Akk. entscheiden",
+      "grammar_note": "Возвратный сильный глагол."
+    },
+    {
+      "canonical_key": "verb:anschaffen",
+      "german": "anschaffen",
+      "russian": "приобретать; обзаводиться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schafft an",
+        "praeteritum": "schaffte an",
+        "partizip_ii": "angeschafft",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat angeschafft"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:anprobieren",
+      "german": "anprobieren",
+      "russian": "примерять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "probiert an",
+        "praeteritum": "probierte an",
+        "partizip_ii": "anprobiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat anprobiert"
+      },
+      "government": "+ Akk.",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "verb:aufpassen",
+      "german": "aufpassen",
+      "russian": "быть внимательным; присматривать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "passt auf",
+        "praeteritum": "passte auf",
+        "partizip_ii": "aufgepasst",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat aufgepasst"
+      },
+      "government": "auf + Akk. aufpassen",
+      "grammar_note": "Отделяемый глагол."
+    },
+    {
+      "canonical_key": "phrase:ich möchte mir ... anschaffen.",
+      "german": "Ich möchte mir ... anschaffen.",
+      "russian": "Я хотел(а) бы приобрести ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das kommt für mich nicht infrage.",
+      "german": "Das kommt für mich nicht infrage.",
+      "russian": "Для меня это не подходит / исключено.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:dann würde ich ihnen ... empfehlen.",
+      "german": "Dann würde ich Ihnen ... empfehlen.",
+      "russian": "Тогда я бы рекомендовал(а) Вам ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:danke, das ist ein guter hinweis.",
+      "german": "Danke, das ist ein guter Hinweis.",
+      "russian": "Спасибо, это хороший совет.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich habe keine lust, ... zu ...",
+      "german": "Ich habe keine Lust, ... zu ...",
+      "russian": "Мне не хочется ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich habe keine zeit, ... zu ...",
+      "german": "Ich habe keine Zeit, ... zu ...",
+      "russian": "У меня нет времени, чтобы ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:es ist nicht leicht, ... zu ...",
+      "german": "Es ist nicht leicht, ... zu ...",
+      "russian": "Нелегко ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich kann nur jedem empfehlen, ... zu ...",
+      "german": "Ich kann nur jedem empfehlen, ... zu ...",
+      "russian": "Я могу всем только посоветовать ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:infinitiv mit zu",
+      "german": "Infinitiv mit zu",
+      "russian": "инфинитив с zu",
+      "part_of_speech": "other",
+      "grammar_note": "После многих глаголов, существительных и конструкций с es употребляется zu + Infinitiv; у отделяемых глаголов zu стоит между приставкой и основой: aufzupassen."
+    }
+  ]
+}

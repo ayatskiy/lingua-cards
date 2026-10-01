@@ -1,7 +1,9 @@
 {
   "schema_version": 1,
   "entries": {
+    "adjective:ungefähr": "projects/deutsch-uebungen/decks/menschen-b1-lektion-07-kann-ich-ihnen-helfen.json",
     "phrase:eine reklamation schreiben": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
+    "phrase:ich habe keine zeit, ... zu ...": "projects/deutsch-uebungen/decks/menschen-b1-lektion-07-kann-ich-ihnen-helfen.json",
     "verb:kennenlernen": "projects/deutsch-uebungen/decks/menschen-b1-lektion-01-ihr-seid-einfach-die-besten.json"
   }
 }

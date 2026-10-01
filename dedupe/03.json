@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "entries": {
-    "noun:kundenzufriedenheit": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json"
+    "noun:kundenzufriedenheit": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
+    "phrase:danke, das ist ein guter hinweis.": "projects/deutsch-uebungen/decks/menschen-b1-lektion-07-kann-ich-ihnen-helfen.json"
   }
 }
