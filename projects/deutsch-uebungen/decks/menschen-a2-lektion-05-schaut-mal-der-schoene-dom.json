@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:besuch",
+      "german": "der Besuch",
+      "russian": "визит; посещение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Besuche"
+    },
+    {
+      "canonical_key": "noun:club",
+      "german": "der Club",
+      "russian": "клуб",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Clubs"
+    },
+    {
+      "canonical_key": "noun:ferien",
+      "german": "die Ferien",
+      "russian": "каникулы; отпуск",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:führung",
+      "german": "die Führung",
+      "russian": "экскурсия с гидом; руководство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Führungen"
+    },
+    {
+      "canonical_key": "noun:kamera",
+      "german": "die Kamera",
+      "russian": "камера; фотоаппарат",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kameras"
+    },
+    {
+      "canonical_key": "noun:mauer",
+      "german": "die Mauer",
+      "russian": "стена; крепостная стена",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mauern"
+    },
+    {
+      "canonical_key": "noun:prospekt",
+      "german": "der Prospekt",
+      "russian": "проспект; буклет",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Prospekte"
+    },
+    {
+      "canonical_key": "noun:reiseführer",
+      "german": "der Reiseführer",
+      "russian": "гид; путеводитель",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Reiseführer"
+    },
+    {
+      "canonical_key": "noun:rundgang",
+      "german": "der Rundgang",
+      "russian": "экскурсионный обход; прогулка по маршруту",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Rundgänge"
+    },
+    {
+      "canonical_key": "noun:sehenswürdigkeit",
+      "german": "die Sehenswürdigkeit",
+      "russian": "достопримечательность",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Sehenswürdigkeiten"
+    },
+    {
+      "canonical_key": "noun:tourist",
+      "german": "der Tourist",
+      "russian": "турист",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Touristen"
+    },
+    {
+      "canonical_key": "noun:trinkgeld",
+      "german": "das Trinkgeld",
+      "russian": "чаевые",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Trinkgelder"
+    },
+    {
+      "canonical_key": "noun:unterkunft",
+      "german": "die Unterkunft",
+      "russian": "жильё; место размещения",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Unterkünfte"
+    },
+    {
+      "canonical_key": "noun:nachricht",
+      "german": "die Nachricht",
+      "russian": "сообщение; новость",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Nachrichten"
+    },
+    {
+      "canonical_key": "noun:postkarte",
+      "german": "die Postkarte",
+      "russian": "открытка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Postkarten"
+    },
+    {
+      "canonical_key": "verb:wechseln",
+      "german": "Geld wechseln",
+      "russian": "обменивать деньги; менять валюту",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wechselt",
+        "praeteritum": "wechselte",
+        "partizip_ii": "gewechselt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gewechselt"
+      },
+      "government": "Akk."
+    },
+    {
+      "canonical_key": "adjective:berühmt",
+      "german": "berühmt",
+      "russian": "знаменитый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:geöffnet",
+      "german": "geöffnet",
+      "russian": "открытый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:bunt",
+      "german": "bunt",
+      "russian": "разноцветный; пёстрый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:schick",
+      "german": "schick",
+      "russian": "элегантный; стильный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:einverstanden",
+      "german": "einverstanden",
+      "russian": "согласен",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:meistens",
+      "german": "meistens",
+      "russian": "чаще всего; обычно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:später",
+      "german": "später",
+      "russian": "позже",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "phrase:wollen wir nicht zuerst ...?",
+      "german": "Wollen wir nicht zuerst ...?",
+      "russian": "Может, сначала ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das gefällt dir bestimmt.",
+      "german": "Das gefällt dir bestimmt.",
+      "russian": "Тебе это наверняка понравится.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:einverstanden!",
+      "german": "Einverstanden!",
+      "russian": "Согласен! / Договорились!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:adjektivdeklination definiter artikel",
+      "german": "der schöne Dom / den schönen Dom",
+      "russian": "склонение прилагательных после der/die/das",
+      "part_of_speech": "other",
+      "grammar_note": "После определённого артикля прилагательное обычно получает -e или -en."
+    }
+  ]
+}
