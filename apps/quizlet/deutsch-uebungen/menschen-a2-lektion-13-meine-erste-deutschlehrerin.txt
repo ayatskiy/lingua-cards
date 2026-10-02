@@ -1,0 +1,19 @@
+die Aufgabe	задание
+die Klasse	класс
+die Nachricht	сообщение; новость
+der Satz	предложение
+der Test	тест
+die Vokabel	слово для изучения; лексическая единица
+anschauen	смотреть; рассматривать
+aufschreiben	записывать
+korrigieren	исправлять
+lösen	решать
+merken	запоминать; замечать
+übersetzen	переводить
+wiederholen	повторять
+Ich finde es wichtig, dass ...	Я считаю важным, чтобы ...
+Es hilft mir, wenn ...	Мне помогает, когда ...
+Am liebsten ...	Больше всего я люблю ...
+als	когда (однократное событие в прошлом)
+wenn	когда (повторявшееся событие)
+Als ich im Kindergarten war, ...	Когда я был(а) в детском саду, ...
