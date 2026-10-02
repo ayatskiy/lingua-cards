@@ -1,0 +1,15 @@
+der Rundfunk	радиовещание
+der Spielfilm	художественный фильм
+die Sendung	передача
+das Programm	программа
+der Sender	телеканал; радиостанция
+die Serie	сериал
+die Folge	серия; эпизод
+der Zuschauer / die Zuschauerin	зритель / зрительница
+die Mediathek	медиатека
+die Fernbedienung	пульт дистанционного управления
+Meine Lieblingssendung ist ...	Моя любимая передача — ...
+Ich sehe am liebsten ...	Больше всего я люблю смотреть ...
+Ich habe keine festen Gewohnheiten.	У меня нет постоянных привычек.
+jemandem (Dativ) etwas (Akkusativ) geben	дать кому-то (Dativ) что-то (Akkusativ)
+Sie schenken sie ihnen.	Они дарят это им.
