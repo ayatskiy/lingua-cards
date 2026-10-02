@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:angestellter",
+      "german": "der Angestellte / die Angestellte",
+      "russian": "служащий / служащая",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Angestellte"
+    },
+    {
+      "canonical_key": "noun:arbeiter",
+      "german": "der Arbeiter / die Arbeiterin",
+      "russian": "рабочий / рабочая",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Arbeiter / Arbeiterinnen"
+    },
+    {
+      "canonical_key": "noun:bedingung",
+      "german": "die Bedingung",
+      "russian": "условие",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bedingungen"
+    },
+    {
+      "canonical_key": "noun:betrieb",
+      "german": "der Betrieb",
+      "russian": "предприятие",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Betriebe"
+    },
+    {
+      "canonical_key": "noun:erfolg",
+      "german": "der Erfolg",
+      "russian": "успех",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Erfolge"
+    },
+    {
+      "canonical_key": "noun:export",
+      "german": "der Export",
+      "russian": "экспорт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Exporte"
+    },
+    {
+      "canonical_key": "noun:import",
+      "german": "der Import",
+      "russian": "импорт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Importe"
+    },
+    {
+      "canonical_key": "noun:lager",
+      "german": "das Lager",
+      "russian": "склад",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Lager"
+    },
+    {
+      "canonical_key": "noun:mitarbeiter",
+      "german": "der Mitarbeiter / die Mitarbeiterin",
+      "russian": "сотрудник / сотрудница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Mitarbeiter / Mitarbeiterinnen"
+    },
+    {
+      "canonical_key": "noun:produktion",
+      "german": "die Produktion",
+      "russian": "производство",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Produktionen"
+    },
+    {
+      "canonical_key": "noun:wirtschaft",
+      "german": "die Wirtschaft",
+      "russian": "экономика",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "verb:sinken",
+      "german": "sinken",
+      "russian": "снижаться; падать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "sinkt",
+        "praeteritum": "sank",
+        "partizip_ii": "gesunken",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist gesunken"
+      }
+    },
+    {
+      "canonical_key": "verb:sparen",
+      "german": "sparen",
+      "russian": "экономить; копить",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:steigen",
+      "german": "steigen",
+      "russian": "расти; подниматься",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "steigt",
+        "praeteritum": "stieg",
+        "partizip_ii": "gestiegen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist gestiegen"
+      }
+    },
+    {
+      "canonical_key": "adjective:selbstständig",
+      "german": "selbstständig",
+      "russian": "самостоятельный; работающий на себя",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:international",
+      "german": "international",
+      "russian": "международный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:dringend",
+      "german": "dringend",
+      "russian": "срочно; настоятельно",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "phrase:ist dir das wichtig",
+      "german": "Ist dir das wichtig?",
+      "russian": "Это для тебя важно?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:mir ist das wichtig",
+      "german": "Mir ist das sehr wichtig.",
+      "russian": "Для меня это очень важно.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:adjektivdeklination nullartikel",
+      "german": "Adjektivdeklination nach Nullartikel",
+      "russian": "склонение прилагательных без артикля",
+      "part_of_speech": "other",
+      "grammar_note": "Окончания прилагательного несут признаки рода и падежа: guter Lohn, flexible Arbeitszeit, kleines Büro."
+    }
+  ]
+}
