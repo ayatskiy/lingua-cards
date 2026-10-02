@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:krankenwagen",
+      "german": "der Krankenwagen",
+      "russian": "скорая помощь",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Krankenwagen"
+    },
+    {
+      "canonical_key": "noun:notaufnahme",
+      "german": "die Notaufnahme",
+      "russian": "приёмное отделение неотложной помощи",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Notaufnahmen"
+    },
+    {
+      "canonical_key": "noun:notfall",
+      "german": "der Notfall",
+      "russian": "экстренный случай",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Notfälle"
+    },
+    {
+      "canonical_key": "noun:unfall",
+      "german": "der Unfall",
+      "russian": "несчастный случай; авария",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Unfälle"
+    },
+    {
+      "canonical_key": "noun:verletzung",
+      "german": "die Verletzung",
+      "russian": "травма",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Verletzungen"
+    },
+    {
+      "canonical_key": "noun:blut",
+      "german": "das Blut",
+      "russian": "кровь",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:grippe",
+      "german": "die Grippe",
+      "russian": "грипп",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:herz",
+      "german": "das Herz",
+      "russian": "сердце",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Herzen"
+    },
+    {
+      "canonical_key": "noun:operation",
+      "german": "die Operation",
+      "russian": "операция",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Operationen"
+    },
+    {
+      "canonical_key": "noun:sprechstunde",
+      "german": "die Sprechstunde",
+      "russian": "приёмные часы врача",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Sprechstunden"
+    },
+    {
+      "canonical_key": "noun:verband",
+      "german": "der Verband",
+      "russian": "повязка; бинт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Verbände"
+    },
+    {
+      "canonical_key": "verb:sich verletzen",
+      "german": "sich verletzen",
+      "russian": "пораниться; получить травму",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:operieren",
+      "german": "operieren",
+      "russian": "оперировать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:sterben",
+      "german": "sterben",
+      "russian": "умирать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stirbt",
+        "praeteritum": "starb",
+        "partizip_ii": "gestorben",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist gestorben"
+      }
+    },
+    {
+      "canonical_key": "verb:untersuchen",
+      "german": "untersuchen",
+      "russian": "обследовать; осматривать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:verbinden",
+      "german": "verbinden",
+      "russian": "перевязывать; соединять",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:hinfallen",
+      "german": "hinfallen",
+      "russian": "падать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "fällt hin",
+        "praeteritum": "fiel hin",
+        "partizip_ii": "hingefallen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist hingefallen"
+      }
+    },
+    {
+      "canonical_key": "phrase:sich sorgen machen",
+      "german": "sich Sorgen machen",
+      "russian": "беспокоиться",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:hoffentlich",
+      "german": "Hoffentlich ist ...",
+      "russian": "Надеюсь, что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das tut mir leid",
+      "german": "Das tut mir wirklich leid.",
+      "russian": "Мне действительно жаль.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "connector:weil",
+      "german": "weil",
+      "russian": "потому что",
+      "part_of_speech": "connector",
+      "grammar_note": "В придаточном с weil спрягаемый глагол стоит в конце."
+    },
+    {
+      "canonical_key": "connector:deshalb",
+      "german": "deshalb",
+      "russian": "поэтому",
+      "part_of_speech": "connector",
+      "grammar_note": "После deshalb в главном предложении идёт инверсия: Deshalb hat sie ..."
+    }
+  ]
+}

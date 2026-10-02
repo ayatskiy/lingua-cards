@@ -1,0 +1,22 @@
+der Krankenwagen	скорая помощь
+die Notaufnahme	приёмное отделение неотложной помощи
+der Notfall	экстренный случай
+der Unfall	несчастный случай; авария
+die Verletzung	травма
+das Blut	кровь
+die Grippe	грипп
+das Herz	сердце
+die Operation	операция
+die Sprechstunde	приёмные часы врача
+der Verband	повязка; бинт
+sich verletzen	пораниться; получить травму
+operieren	оперировать
+sterben	умирать
+untersuchen	обследовать; осматривать
+verbinden	перевязывать; соединять
+hinfallen	падать
+sich Sorgen machen	беспокоиться
+Hoffentlich ist ...	Надеюсь, что ...
+Das tut mir wirklich leid.	Мне действительно жаль.
+weil	потому что
+deshalb	поэтому
