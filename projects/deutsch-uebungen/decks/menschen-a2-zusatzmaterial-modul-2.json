@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:prinzessinnengärten",
+      "german": "die Prinzessinnengärten",
+      "russian": "городские сады Prinzessinnengärten",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:gemeinschaftsgarten",
+      "german": "der Gemeinschaftsgarten",
+      "russian": "общественный сад",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:stadtführung",
+      "german": "die Stadtführung",
+      "russian": "экскурсия по городу",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:sehenswürdigkeit",
+      "german": "die Sehenswürdigkeit",
+      "russian": "достопримечательность",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "phrase:willkommen in wien",
+      "german": "Willkommen in Wien!",
+      "russian": "Добро пожаловать в Вену!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:markt",
+      "german": "der Markt",
+      "russian": "рынок",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:stadtrundfahrt",
+      "german": "die Stadtrundfahrt",
+      "russian": "обзорная экскурсия по городу",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "phrase:einen besuch wert",
+      "german": "einen Besuch wert sein",
+      "russian": "стоить посещения",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

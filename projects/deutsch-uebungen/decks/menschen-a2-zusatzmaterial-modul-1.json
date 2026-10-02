@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:stammbaum",
+      "german": "der Stammbaum",
+      "russian": "генеалогическое дерево",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:familiengeschichte",
+      "german": "die Familiengeschichte",
+      "russian": "семейная история",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:umzug",
+      "german": "der Umzug",
+      "russian": "переезд",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:familie mann",
+      "german": "die Familie Mann",
+      "russian": "семья Манн",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "phrase:früher war alles besser",
+      "german": "Früher war alles besser.",
+      "russian": "Раньше всё было лучше.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:umziehen",
+      "german": "umziehen",
+      "russian": "переезжать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:sich erinnern",
+      "german": "sich erinnern",
+      "russian": "вспоминать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "noun:verwandte",
+      "german": "die Verwandten",
+      "russian": "родственники",
+      "part_of_speech": "noun"
+    }
+  ]
+}

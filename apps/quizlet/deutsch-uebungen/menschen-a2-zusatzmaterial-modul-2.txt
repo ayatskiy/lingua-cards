@@ -1,0 +1,8 @@
+die Prinzessinnengärten	городские сады Prinzessinnengärten
+der Gemeinschaftsgarten	общественный сад
+die Stadtführung	экскурсия по городу
+die Sehenswürdigkeit	достопримечательность
+Willkommen in Wien!	Добро пожаловать в Вену!
+der Markt	рынок
+die Stadtrundfahrt	обзорная экскурсия по городу
+einen Besuch wert sein	стоить посещения

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "phrase:stadt land fluss",
+      "german": "Stadt, Land, Fluss",
+      "russian": "город, страна, река",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:erlebnis",
+      "german": "das Erlebnis",
+      "russian": "впечатление; переживание",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:genuss",
+      "german": "der Genuss",
+      "russian": "наслаждение",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:wetterbericht",
+      "german": "der Wetterbericht",
+      "russian": "прогноз погоды",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "phrase:das wetter in der schweiz",
+      "german": "Das Wetter in der Schweiz",
+      "russian": "погода в Швейцарии",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ans meer",
+      "german": "Ans Meer!",
+      "russian": "К морю!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:reisen",
+      "german": "reisen",
+      "russian": "путешествовать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:genießen",
+      "german": "genießen",
+      "russian": "наслаждаться",
+      "part_of_speech": "verb"
+    }
+  ]
+}

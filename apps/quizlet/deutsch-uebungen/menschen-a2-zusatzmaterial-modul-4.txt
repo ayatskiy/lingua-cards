@@ -1,0 +1,8 @@
+der Blog	блог
+gesund	здоровый
+das Restaurant	ресторан
+die Spezialität	фирменное блюдо; специалитет
+Liebe geht durch den Magen.	Путь к сердцу лежит через желудок.
+die Ernährung	питание
+kochen	готовить
+probieren	пробовать

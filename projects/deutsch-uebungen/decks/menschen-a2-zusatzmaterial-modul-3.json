@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:sportstudio",
+      "german": "das Sportstudio",
+      "russian": "фитнес-центр",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:neueröffnung",
+      "german": "die Neueröffnung",
+      "russian": "открытие нового заведения",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:wäsche",
+      "german": "die Wäsche",
+      "russian": "бельё",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "verb:waschen",
+      "german": "waschen",
+      "russian": "стирать; мыть",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:früher und heute",
+      "german": "früher und heute",
+      "russian": "раньше и сегодня",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:24 stunden",
+      "german": "24 Stunden sind zu wenig.",
+      "russian": "24 часов слишком мало.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:alltag",
+      "german": "der Alltag",
+      "russian": "повседневная жизнь",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "verb:sich anmelden",
+      "german": "sich anmelden",
+      "russian": "записываться; регистрироваться",
+      "part_of_speech": "verb"
+    }
+  ]
+}
