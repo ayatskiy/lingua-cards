@@ -1,0 +1,31 @@
+der Cousin	двоюродный брат
+die Cousine	двоюродная сестра
+der Neffe	племянник
+die Nichte	племянница
+der Onkel	дядя
+die Tante	тётя
+die Schwiegereltern	родители супруга / супруги
+die Geschichte	история; рассказ
+die Puppe	кукла
+das Spiel	игра
+der Witz	шутка; анекдот
+der Anfang	начало
+das Ende	конец
+die Mannschaft	команда
+der Pfeffer	перец
+das Studium	учёба в вузе; высшее образование
+sammeln	собирать; коллекционировать
+streiten	ссориться; спорить
+übernachten	ночевать
+verkaufen	продавать
+zeichnen	рисовать
+rufen	звать; звонить
+wachsen	расти
+verrückt	сумасшедший; чудаковатый
+kompliziert	сложный
+früher	раньше; прежде
+zuerst	сначала
+zum Schluss	в конце; напоследок
+Habe ich dir schon von ... erzählt?	Я уже рассказывал(а) тебе о ...?
+Und weißt du, was dann passiert ist?	А знаешь, что произошло потом?
+unser / euer / ihr / Ihr	притяжательные артикли: наш / ваш / их (её) / Ваш

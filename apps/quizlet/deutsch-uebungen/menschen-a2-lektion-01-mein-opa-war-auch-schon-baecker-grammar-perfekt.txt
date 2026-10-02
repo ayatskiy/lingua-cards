@@ -1,0 +1,7 @@
+sammeln — Perfekt	hat gesammelt
+streiten — Perfekt	hat gestritten
+übernachten — Perfekt	hat übernachtet
+verkaufen — Perfekt	hat verkauft
+zeichnen — Perfekt	hat gezeichnet
+rufen — Perfekt	hat gerufen
+wachsen — Perfekt	ist gewachsen
