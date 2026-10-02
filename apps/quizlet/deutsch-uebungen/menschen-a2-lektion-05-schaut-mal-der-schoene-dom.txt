@@ -1,0 +1,27 @@
+der Besuch	визит; посещение
+der Club	клуб
+die Ferien	каникулы; отпуск
+die Führung	экскурсия с гидом; руководство
+die Kamera	камера; фотоаппарат
+die Mauer	стена; крепостная стена
+der Prospekt	проспект; буклет
+der Reiseführer	гид; путеводитель
+der Rundgang	экскурсионный обход; прогулка по маршруту
+die Sehenswürdigkeit	достопримечательность
+der Tourist	турист
+das Trinkgeld	чаевые
+die Unterkunft	жильё; место размещения
+die Nachricht	сообщение; новость
+die Postkarte	открытка
+Geld wechseln	обменивать деньги; менять валюту
+berühmt	знаменитый
+geöffnet	открытый
+bunt	разноцветный; пёстрый
+schick	элегантный; стильный
+einverstanden	согласен
+meistens	чаще всего; обычно
+später	позже
+Wollen wir nicht zuerst ...?	Может, сначала ...?
+Das gefällt dir bestimmt.	Тебе это наверняка понравится.
+Einverstanden!	Согласен! / Договорились!
+der schöne Dom / den schönen Dom	склонение прилагательных после der/die/das
