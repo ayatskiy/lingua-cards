@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:bühne",
+      "german": "die Bühne",
+      "russian": "сцена",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bühnen"
+    },
+    {
+      "canonical_key": "noun:diskussion",
+      "german": "die Diskussion",
+      "russian": "дискуссия",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Diskussionen"
+    },
+    {
+      "canonical_key": "noun:eintritt",
+      "german": "der Eintritt",
+      "russian": "вход; входная плата",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:ermäßigung",
+      "german": "die Ermäßigung",
+      "russian": "скидка; льгота",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ermäßigungen"
+    },
+    {
+      "canonical_key": "noun:festival",
+      "german": "das Festival",
+      "russian": "фестиваль",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Festivals"
+    },
+    {
+      "canonical_key": "noun:karte",
+      "german": "die Karte",
+      "russian": "билет; карта",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Karten"
+    },
+    {
+      "canonical_key": "noun:eintrittskarte",
+      "german": "die Eintrittskarte",
+      "russian": "входной билет",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Eintrittskarten"
+    },
+    {
+      "canonical_key": "noun:kinokarte",
+      "german": "die Kinokarte",
+      "russian": "билет в кино",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kinokarten"
+    },
+    {
+      "canonical_key": "noun:kostüm",
+      "german": "das Kostüm",
+      "russian": "костюм",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Kostüme"
+    },
+    {
+      "canonical_key": "noun:kunst",
+      "german": "die Kunst",
+      "russian": "искусство",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:künstler",
+      "german": "der Künstler / die Künstlerin",
+      "russian": "художник / артист; художница / артистка",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Künstler / Künstlerinnen"
+    },
+    {
+      "canonical_key": "noun:veranstaltung",
+      "german": "die Veranstaltung",
+      "russian": "мероприятие",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Veranstaltungen"
+    },
+    {
+      "canonical_key": "noun:vortrag",
+      "german": "der Vortrag",
+      "russian": "доклад; лекция",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Vorträge"
+    },
+    {
+      "canonical_key": "verb:erleben",
+      "german": "erleben",
+      "russian": "переживать; испытывать; быть свидетелем",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "erlebt",
+        "praeteritum": "erlebte",
+        "partizip_ii": "erlebt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat erlebt"
+      }
+    },
+    {
+      "canonical_key": "verb:stattfinden",
+      "german": "stattfinden",
+      "russian": "состояться; проходить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "findet statt",
+        "praeteritum": "fand statt",
+        "partizip_ii": "stattgefunden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat stattgefunden"
+      }
+    },
+    {
+      "canonical_key": "verb:vorschlagen",
+      "german": "vorschlagen",
+      "russian": "предлагать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "schlägt vor",
+        "praeteritum": "schlug vor",
+        "partizip_ii": "vorgeschlagen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat vorgeschlagen"
+      },
+      "government": "jemandem etwas vorschlagen"
+    },
+    {
+      "canonical_key": "verb:sich verabreden",
+      "german": "sich verabreden",
+      "russian": "договариваться о встрече",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "verabredet sich",
+        "praeteritum": "verabredete sich",
+        "partizip_ii": "verabredet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich verabredet"
+      },
+      "government": "sich mit + Dat. verabreden"
+    },
+    {
+      "canonical_key": "verb:ausmachen",
+      "german": "ausmachen",
+      "russian": "договариваться; условливаться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "macht aus",
+        "praeteritum": "machte aus",
+        "partizip_ii": "ausgemacht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat ausgemacht"
+      }
+    },
+    {
+      "canonical_key": "verb:mitkommen",
+      "german": "mitkommen",
+      "russian": "идти / ехать вместе",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "kommt mit",
+        "praeteritum": "kam mit",
+        "partizip_ii": "mitgekommen",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist mitgekommen"
+      }
+    },
+    {
+      "canonical_key": "verb:absagen",
+      "german": "absagen",
+      "russian": "отменять; отказываться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "sagt ab",
+        "praeteritum": "sagte ab",
+        "partizip_ii": "abgesagt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat abgesagt"
+      }
+    },
+    {
+      "canonical_key": "adjective:prima",
+      "german": "prima",
+      "russian": "отличный; замечательный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:über",
+      "german": "über + Akkusativ (Zeitdauer)",
+      "russian": "на протяжении; в течение",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "phrase:von an",
+      "german": "von ... an",
+      "russian": "начиная с ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vom bis",
+      "german": "vom ... bis ...",
+      "russian": "с ... до ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:was hältst du davon",
+      "german": "Was hältst du davon?",
+      "russian": "Что ты об этом думаешь?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wie wäre es mit",
+      "german": "Wie wäre es mit ...?",
+      "russian": "Как насчёт ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:du hast doch gesagt dass",
+      "german": "Du hast doch gesagt, dass ...",
+      "russian": "Ты ведь сказал(а), что ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:sehr nett aber",
+      "german": "Sehr nett, aber ...",
+      "russian": "Очень мило, но ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das finde ich nicht so interessant",
+      "german": "Das finde ich nicht so interessant.",
+      "russian": "Мне это не очень интересно.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:einverstanden",
+      "german": "Einverstanden!",
+      "russian": "Согласен! / Договорились!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:okay das machen wir",
+      "german": "Okay, das machen wir.",
+      "russian": "Хорошо, так и сделаем.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:temporale präpositionen",
+      "german": "temporale Präpositionen: von ... an / von ... bis / seit / über",
+      "russian": "временные предлоги: начиная с / с ... до / с какого-то момента / на протяжении",
+      "part_of_speech": "other",
+      "grammar_note": "seit + Dativ; über + Akkusativ bei einer Zeitdauer; von ... an und von ... bis markieren Anfang bzw. Zeitraum."
+    }
+  ]
+}
