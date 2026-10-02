@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:dorf",
+      "german": "das Dorf",
+      "russian": "деревня",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Dörfer"
+    },
+    {
+      "canonical_key": "noun:katze",
+      "german": "die Katze",
+      "russian": "кошка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Katzen"
+    },
+    {
+      "canonical_key": "noun:luft",
+      "german": "die Luft",
+      "russian": "воздух",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:ruhe",
+      "german": "die Ruhe",
+      "russian": "покой; тишина",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:strand",
+      "german": "der Strand",
+      "russian": "пляж",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Strände"
+    },
+    {
+      "canonical_key": "noun:tier",
+      "german": "das Tier",
+      "russian": "животное",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Tiere"
+    },
+    {
+      "canonical_key": "noun:ufer",
+      "german": "das Ufer",
+      "russian": "берег",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Ufer"
+    },
+    {
+      "canonical_key": "noun:vogel",
+      "german": "der Vogel",
+      "russian": "птица",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Vögel"
+    },
+    {
+      "canonical_key": "noun:beratung",
+      "german": "die Beratung",
+      "russian": "консультация",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Beratungen"
+    },
+    {
+      "canonical_key": "noun:erfahrung",
+      "german": "die Erfahrung",
+      "russian": "опыт",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Erfahrungen"
+    },
+    {
+      "canonical_key": "noun:fahrt",
+      "german": "die Fahrt",
+      "russian": "поездка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Fahrten"
+    },
+    {
+      "canonical_key": "noun:gruppe",
+      "german": "die Gruppe",
+      "russian": "группа",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gruppen"
+    },
+    {
+      "canonical_key": "noun:karte",
+      "german": "die Karte",
+      "russian": "карта; билет; карточка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Karten"
+    },
+    {
+      "canonical_key": "noun:service",
+      "german": "der Service",
+      "russian": "сервис; обслуживание",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Services"
+    },
+    {
+      "canonical_key": "noun:trend",
+      "german": "der Trend",
+      "russian": "тренд; тенденция",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Trends"
+    },
+    {
+      "canonical_key": "noun:unterricht",
+      "german": "der Unterricht",
+      "russian": "занятия; урок",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:mode",
+      "german": "die Mode",
+      "russian": "мода",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Moden"
+    },
+    {
+      "canonical_key": "verb:wandern",
+      "german": "wandern",
+      "russian": "ходить в поход; пешком путешествовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wandert",
+        "praeteritum": "wanderte",
+        "partizip_ii": "gewandert",
+        "perfekt_auxiliary": "sein",
+        "perfekt": "ist gewandert"
+      }
+    },
+    {
+      "canonical_key": "verb:beraten",
+      "german": "beraten",
+      "russian": "консультировать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "berät",
+        "praeteritum": "beriet",
+        "partizip_ii": "beraten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat beraten"
+      }
+    },
+    {
+      "canonical_key": "verb:beginnen",
+      "german": "beginnen",
+      "russian": "начинать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "beginnt",
+        "praeteritum": "begann",
+        "partizip_ii": "begonnen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat begonnen"
+      }
+    },
+    {
+      "canonical_key": "verb:enden",
+      "german": "enden",
+      "russian": "заканчиваться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "endet",
+        "praeteritum": "endete",
+        "partizip_ii": "geendet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat geendet"
+      }
+    },
+    {
+      "canonical_key": "verb:mitmachen",
+      "german": "mitmachen",
+      "russian": "участвовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "macht mit",
+        "praeteritum": "machte mit",
+        "partizip_ii": "mitgemacht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat mitgemacht"
+      },
+      "grammar_note": "Отделяемый глагол: приставка отделяется в Präsens/Präteritum и ставится в конец предложения."
+    },
+    {
+      "canonical_key": "adjective:aktiv",
+      "german": "aktiv",
+      "russian": "активный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:sportlich",
+      "german": "sportlich",
+      "russian": "спортивный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:außerdem",
+      "german": "außerdem",
+      "russian": "кроме того",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:direkt",
+      "german": "direkt",
+      "russian": "прямо; непосредственно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "phrase:welche idee gefällt ihnen am besten?",
+      "german": "Welche Idee gefällt Ihnen am besten?",
+      "russian": "Какая идея Вам нравится больше всего?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich würde am liebsten ...",
+      "german": "Ich würde am liebsten ...",
+      "russian": "Я бы больше всего хотел(а) ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:wortbildung nomen verb er ung",
+      "german": "Verb + -er / -ung → Nomen",
+      "russian": "образование существительных: Verb + -er / -ung",
+      "part_of_speech": "other",
+      "grammar_note": "-er часто обозначает человека: wandern → der Wanderer; -ung — процесс/результат: beraten → die Beratung."
+    }
+  ]
+}

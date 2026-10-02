@@ -1,0 +1,5 @@
+wandern — Präsens (er/sie/es)	wandert
+beraten — Präsens (er/sie/es)	berät
+beginnen — Präsens (er/sie/es)	beginnt
+enden — Präsens (er/sie/es)	endet
+mitmachen — Präsens (er/sie/es)	macht mit
