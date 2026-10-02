@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:tankstelle",
+      "german": "die Tankstelle",
+      "russian": "заправочная станция",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tankstellen"
+    },
+    {
+      "canonical_key": "noun:fähre",
+      "german": "die Fähre",
+      "russian": "паром",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Fähren"
+    },
+    {
+      "canonical_key": "noun:motor",
+      "german": "der Motor",
+      "russian": "двигатель",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Motoren"
+    },
+    {
+      "canonical_key": "noun:reifen",
+      "german": "der Reifen",
+      "russian": "шина",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Reifen"
+    },
+    {
+      "canonical_key": "noun:abfahrt",
+      "german": "die Abfahrt",
+      "russian": "выезд; отправление",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Abfahrten"
+    },
+    {
+      "canonical_key": "noun:autobahn",
+      "german": "die Autobahn",
+      "russian": "автомагистраль",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Autobahnen"
+    },
+    {
+      "canonical_key": "noun:grenze",
+      "german": "die Grenze",
+      "russian": "граница",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Grenzen"
+    },
+    {
+      "canonical_key": "noun:feld",
+      "german": "das Feld",
+      "russian": "поле",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Felder"
+    },
+    {
+      "canonical_key": "noun:region",
+      "german": "die Region",
+      "russian": "регион",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Regionen"
+    },
+    {
+      "canonical_key": "verb:überqueren",
+      "german": "überqueren",
+      "russian": "пересекать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "adverb:plötzlich",
+      "german": "plötzlich",
+      "russian": "внезапно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "pronoun:jemand",
+      "german": "jemand",
+      "russian": "кто-то",
+      "part_of_speech": "pronoun"
+    },
+    {
+      "canonical_key": "pronoun:niemand",
+      "german": "niemand",
+      "russian": "никто",
+      "part_of_speech": "pronoun"
+    },
+    {
+      "canonical_key": "phrase:ans meer",
+      "german": "ans Meer fahren",
+      "russian": "ехать к морю",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:am meer",
+      "german": "am Meer sein",
+      "russian": "быть у моря",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:in die schweiz",
+      "german": "in die Schweiz fahren",
+      "russian": "ехать в Швейцарию",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:in der schweiz",
+      "german": "in der Schweiz sein",
+      "russian": "быть в Швейцарии",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:so ein zufall",
+      "german": "So ein Zufall!",
+      "russian": "Какое совпадение!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:so ein pech",
+      "german": "So ein Pech!",
+      "russian": "Какая неудача!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:nicht zu glauben",
+      "german": "Nicht zu glauben!",
+      "russian": "Невероятно!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:wohin wo",
+      "german": "Wohin? Akkusativ / Wo? Dativ",
+      "russian": "куда? Akkusativ / где? Dativ",
+      "part_of_speech": "other",
+      "grammar_note": "ans Meer → am Meer; in die Schweiz → in der Schweiz."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+die Tankstelle	заправочная станция
+die Fähre	паром
+der Motor	двигатель
+der Reifen	шина
+die Abfahrt	выезд; отправление
+die Autobahn	автомагистраль
+die Grenze	граница
+das Feld	поле
+die Region	регион
+überqueren	пересекать
+plötzlich	внезапно
+jemand	кто-то
+niemand	никто
+ans Meer fahren	ехать к морю
+am Meer sein	быть у моря
+in die Schweiz fahren	ехать в Швейцарию
+in der Schweiz sein	быть в Швейцарии
+So ein Zufall!	Какое совпадение!
+So ein Pech!	Какая неудача!
+Nicht zu glauben!	Невероятно!
+Wohin? Akkusativ / Wo? Dativ	куда? Akkusativ / где? Dativ
