@@ -1,0 +1,22 @@
+das Besteck	столовые приборы
+die Gabel	вилка
+das Glas	стакан; бокал
+die Kanne	кувшин; кофейник
+der Löffel	ложка
+das Messer	нож
+die Rechnung	счёт
+die Tasse	чашка
+der Teller	тарелка
+der Essig	уксус
+das Hähnchen	курица; цыплёнок (блюдо)
+das Olivenöl	оливковое масло
+die Soße	соус
+das Schnitzel	шницель
+das Steak	стейк
+reservieren	бронировать
+reagieren	реагировать
+Die Rechnung, bitte.	Счёт, пожалуйста.
+Einen Augenblick, bitte.	Одну минуту, пожалуйста.
+Zusammen oder getrennt?	Вместе или раздельно?
+dass	что (союз)
+sondern	а; а наоборот

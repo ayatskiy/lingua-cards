@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:besteck",
+      "german": "das Besteck",
+      "russian": "столовые приборы",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:gabel",
+      "german": "die Gabel",
+      "russian": "вилка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gabeln"
+    },
+    {
+      "canonical_key": "noun:glas",
+      "german": "das Glas",
+      "russian": "стакан; бокал",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gläser"
+    },
+    {
+      "canonical_key": "noun:kanne",
+      "german": "die Kanne",
+      "russian": "кувшин; кофейник",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kannen"
+    },
+    {
+      "canonical_key": "noun:löffel",
+      "german": "der Löffel",
+      "russian": "ложка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Löffel"
+    },
+    {
+      "canonical_key": "noun:messer",
+      "german": "das Messer",
+      "russian": "нож",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Messer"
+    },
+    {
+      "canonical_key": "noun:rechnung",
+      "german": "die Rechnung",
+      "russian": "счёт",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Rechnungen"
+    },
+    {
+      "canonical_key": "noun:tasse",
+      "german": "die Tasse",
+      "russian": "чашка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tassen"
+    },
+    {
+      "canonical_key": "noun:teller",
+      "german": "der Teller",
+      "russian": "тарелка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Teller"
+    },
+    {
+      "canonical_key": "noun:essig",
+      "german": "der Essig",
+      "russian": "уксус",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:hähnchen",
+      "german": "das Hähnchen",
+      "russian": "курица; цыплёнок (блюдо)",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Hähnchen"
+    },
+    {
+      "canonical_key": "noun:olivenöl",
+      "german": "das Olivenöl",
+      "russian": "оливковое масло",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:soße",
+      "german": "die Soße",
+      "russian": "соус",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Soßen"
+    },
+    {
+      "canonical_key": "noun:schnitzel",
+      "german": "das Schnitzel",
+      "russian": "шницель",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Schnitzel"
+    },
+    {
+      "canonical_key": "noun:steak",
+      "german": "das Steak",
+      "russian": "стейк",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Steaks"
+    },
+    {
+      "canonical_key": "verb:reservieren",
+      "german": "reservieren",
+      "russian": "бронировать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:reagieren",
+      "german": "reagieren",
+      "russian": "реагировать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:die rechnung bitte",
+      "german": "Die Rechnung, bitte.",
+      "russian": "Счёт, пожалуйста.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:einen augenblick bitte",
+      "german": "Einen Augenblick, bitte.",
+      "russian": "Одну минуту, пожалуйста.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:zusammen oder getrennt",
+      "german": "Zusammen oder getrennt?",
+      "russian": "Вместе или раздельно?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "connector:dass",
+      "german": "dass",
+      "russian": "что (союз)",
+      "part_of_speech": "connector",
+      "grammar_note": "В придаточном с dass спрягаемый глагол стоит в конце."
+    },
+    {
+      "canonical_key": "connector:sondern",
+      "german": "sondern",
+      "russian": "а; а наоборот",
+      "part_of_speech": "connector"
+    }
+  ]
+}
