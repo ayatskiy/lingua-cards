@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:blog",
+      "german": "der Blog",
+      "russian": "блог",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "adjective:gesund",
+      "german": "gesund",
+      "russian": "здоровый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "noun:restaurant",
+      "german": "das Restaurant",
+      "russian": "ресторан",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:spezialität",
+      "german": "die Spezialität",
+      "russian": "фирменное блюдо; специалитет",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "phrase:liebe geht durch den magen",
+      "german": "Liebe geht durch den Magen.",
+      "russian": "Путь к сердцу лежит через желудок.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:ernährung",
+      "german": "die Ernährung",
+      "russian": "питание",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "verb:kochen",
+      "german": "kochen",
+      "russian": "готовить",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:probieren",
+      "german": "probieren",
+      "russian": "пробовать",
+      "part_of_speech": "verb"
+    }
+  ]
+}

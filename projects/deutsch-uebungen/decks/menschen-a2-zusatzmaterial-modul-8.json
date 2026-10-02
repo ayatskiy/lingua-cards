@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:traumjob",
+      "german": "der Traumjob",
+      "russian": "работа мечты",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:ausland",
+      "german": "das Ausland",
+      "russian": "зарубежье",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "phrase:jobs und reisen",
+      "german": "Jobs und Reisen im Ausland",
+      "russian": "работа и путешествия за границей",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wir sind mit dabei",
+      "german": "Wir sind mit dabei!",
+      "russian": "Мы тоже участвуем!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:erfahrung",
+      "german": "die Erfahrung",
+      "russian": "опыт",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:praktikum",
+      "german": "das Praktikum",
+      "russian": "практика; стажировка",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "verb:mitmachen",
+      "german": "mitmachen",
+      "russian": "участвовать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:sich bewerben",
+      "german": "sich bewerben",
+      "russian": "подавать заявление; устраиваться",
+      "part_of_speech": "verb"
+    }
+  ]
+}

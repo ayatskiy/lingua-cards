@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "phrase:vier menschen vier meinungen",
+      "german": "Vier Menschen – vier Meinungen",
+      "russian": "четыре человека — четыре мнения",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:meinung",
+      "german": "die Meinung",
+      "russian": "мнение",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:lesung",
+      "german": "die Lesung",
+      "russian": "литературное чтение",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "phrase:lesen macht klug",
+      "german": "Lesen macht klug!",
+      "russian": "Чтение делает умнее!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:polizei",
+      "german": "die Polizei",
+      "russian": "полиция",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "phrase:herr kraus musste raus",
+      "german": "Herr Kraus musste raus.",
+      "russian": "Господину Краусу пришлось уйти.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "verb:diskutieren",
+      "german": "diskutieren",
+      "russian": "обсуждать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:berichten",
+      "german": "berichten",
+      "russian": "сообщать; рассказывать",
+      "part_of_speech": "verb"
+    }
+  ]
+}

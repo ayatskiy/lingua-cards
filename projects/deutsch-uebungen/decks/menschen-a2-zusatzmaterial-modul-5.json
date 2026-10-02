@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "phrase:eine woche ohne internet",
+      "german": "Eine Woche ohne Internet",
+      "russian": "неделя без интернета",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:selbstversuch",
+      "german": "der Selbstversuch",
+      "russian": "эксперимент на себе",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:deutschkurs",
+      "german": "der Deutschkurs",
+      "russian": "курс немецкого языка",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "phrase:auf nach deutschland",
+      "german": "Auf nach Deutschland!",
+      "russian": "В Германию!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "noun:küche",
+      "german": "die Küche",
+      "russian": "кухня",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "noun:labkaus",
+      "german": "der Labskaus",
+      "russian": "лабскаус, северонемецкое блюдо",
+      "part_of_speech": "noun"
+    },
+    {
+      "canonical_key": "verb:online bestellen",
+      "german": "online bestellen",
+      "russian": "заказывать онлайн",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:so oder so",
+      "german": "So? ... Oder so?",
+      "russian": "Так? ... Или так?",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
