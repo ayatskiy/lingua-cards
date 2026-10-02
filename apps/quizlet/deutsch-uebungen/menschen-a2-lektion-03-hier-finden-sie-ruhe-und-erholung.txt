@@ -1,0 +1,29 @@
+das Dorf	деревня
+die Katze	кошка
+die Luft	воздух
+die Ruhe	покой; тишина
+der Strand	пляж
+das Tier	животное
+das Ufer	берег
+der Vogel	птица
+die Beratung	консультация
+die Erfahrung	опыт
+die Fahrt	поездка
+die Gruppe	группа
+die Karte	карта; билет; карточка
+der Service	сервис; обслуживание
+der Trend	тренд; тенденция
+der Unterricht	занятия; урок
+die Mode	мода
+wandern	ходить в поход; пешком путешествовать
+beraten	консультировать
+beginnen	начинать
+enden	заканчиваться
+mitmachen	участвовать
+aktiv	активный
+sportlich	спортивный
+außerdem	кроме того
+direkt	прямо; непосредственно
+Welche Idee gefällt Ihnen am besten?	Какая идея Вам нравится больше всего?
+Ich würde am liebsten ...	Я бы больше всего хотел(а) ...
+Verb + -er / -ung → Nomen	образование существительных: Verb + -er / -ung
