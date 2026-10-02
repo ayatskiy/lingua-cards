@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:rundfunk",
+      "german": "der Rundfunk",
+      "russian": "радиовещание",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:spielfilm",
+      "german": "der Spielfilm",
+      "russian": "художественный фильм",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Spielfilme"
+    },
+    {
+      "canonical_key": "noun:sendung",
+      "german": "die Sendung",
+      "russian": "передача",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Sendungen"
+    },
+    {
+      "canonical_key": "noun:programm",
+      "german": "das Programm",
+      "russian": "программа",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Programme"
+    },
+    {
+      "canonical_key": "noun:sender",
+      "german": "der Sender",
+      "russian": "телеканал; радиостанция",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Sender"
+    },
+    {
+      "canonical_key": "noun:serie",
+      "german": "die Serie",
+      "russian": "сериал",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Serien"
+    },
+    {
+      "canonical_key": "noun:folge",
+      "german": "die Folge",
+      "russian": "серия; эпизод",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Folgen"
+    },
+    {
+      "canonical_key": "noun:zuschauer",
+      "german": "der Zuschauer / die Zuschauerin",
+      "russian": "зритель / зрительница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Zuschauer / Zuschauerinnen"
+    },
+    {
+      "canonical_key": "noun:mediathek",
+      "german": "die Mediathek",
+      "russian": "медиатека",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Mediatheken"
+    },
+    {
+      "canonical_key": "noun:fernbedienung",
+      "german": "die Fernbedienung",
+      "russian": "пульт дистанционного управления",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Fernbedienungen"
+    },
+    {
+      "canonical_key": "phrase:meine lieblingssendung",
+      "german": "Meine Lieblingssendung ist ...",
+      "russian": "Моя любимая передача — ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich sehe am liebsten",
+      "german": "Ich sehe am liebsten ...",
+      "russian": "Больше всего я люблю смотреть ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:keine festen gewohnheiten",
+      "german": "Ich habe keine festen Gewohnheiten.",
+      "russian": "У меня нет постоянных привычек.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:dativ akkusativ",
+      "german": "jemandem (Dativ) etwas (Akkusativ) geben",
+      "russian": "дать кому-то (Dativ) что-то (Akkusativ)",
+      "part_of_speech": "other",
+      "grammar_note": "При двух местоимениях Akkusativ обычно стоит перед Dativ: Ich schenke sie ihm."
+    },
+    {
+      "canonical_key": "phrase:sie ihnen",
+      "german": "Sie schenken sie ihnen.",
+      "russian": "Они дарят это им.",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
