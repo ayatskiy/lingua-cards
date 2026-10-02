@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:halbpension",
+      "german": "die Halbpension",
+      "russian": "полупансион",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:einzelzimmer",
+      "german": "das Einzelzimmer",
+      "russian": "одноместный номер",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Einzelzimmer"
+    },
+    {
+      "canonical_key": "noun:rezeption",
+      "german": "die Rezeption",
+      "russian": "ресепшен; стойка регистрации",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Rezeptionen"
+    },
+    {
+      "canonical_key": "noun:parkplatz",
+      "german": "der Parkplatz",
+      "russian": "парковочное место",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Parkplätze"
+    },
+    {
+      "canonical_key": "noun:nichtraucher",
+      "german": "der Nichtraucher / die Nichtraucherin",
+      "russian": "некурящий / некурящая",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Nichtraucher / Nichtraucherinnen"
+    },
+    {
+      "canonical_key": "noun:konferenz",
+      "german": "die Konferenz",
+      "russian": "конференция",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Konferenzen"
+    },
+    {
+      "canonical_key": "noun:kiosk",
+      "german": "der Kiosk",
+      "russian": "киоск",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Kioske"
+    },
+    {
+      "canonical_key": "noun:ärger",
+      "german": "der Ärger",
+      "russian": "неприятность; раздражение",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "phrase:ich hätte gern einzelzimmer",
+      "german": "Ich hätte gern ein Einzelzimmer.",
+      "russian": "Я хотел(а) бы одноместный номер.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:darf ich fragen",
+      "german": "Darf ich fragen, wie lange Sie bleiben möchten?",
+      "russian": "Можно спросить, как долго Вы хотели бы остаться?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich würde gern wissen",
+      "german": "Ich würde gern wissen, ob Sie noch ein Zimmer frei haben.",
+      "russian": "Я хотел(а) бы узнать, есть ли у Вас ещё свободный номер.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vorbei",
+      "german": "am Parkplatz vorbei",
+      "russian": "мимо парковки",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:durch",
+      "german": "durch die Empfangshalle",
+      "russian": "через холл",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:gegenüber",
+      "german": "gegenüber von der Bibliothek",
+      "russian": "напротив библиотеки",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:indirekte fragen",
+      "german": "indirekte Fragen mit ob / Fragewort",
+      "russian": "косвенные вопросы с ob / вопросительным словом",
+      "part_of_speech": "other",
+      "grammar_note": "Спрягаемый глагол стоит в конце: Wissen Sie, wann das Frühstück beginnt? / Ich frage, ob ..."
+    }
+  ]
+}

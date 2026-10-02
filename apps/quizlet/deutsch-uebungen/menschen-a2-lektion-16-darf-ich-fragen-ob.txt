@@ -1,0 +1,15 @@
+die Halbpension	полупансион
+das Einzelzimmer	одноместный номер
+die Rezeption	ресепшен; стойка регистрации
+der Parkplatz	парковочное место
+der Nichtraucher / die Nichtraucherin	некурящий / некурящая
+die Konferenz	конференция
+der Kiosk	киоск
+der Ärger	неприятность; раздражение
+Ich hätte gern ein Einzelzimmer.	Я хотел(а) бы одноместный номер.
+Darf ich fragen, wie lange Sie bleiben möchten?	Можно спросить, как долго Вы хотели бы остаться?
+Ich würde gern wissen, ob Sie noch ein Zimmer frei haben.	Я хотел(а) бы узнать, есть ли у Вас ещё свободный номер.
+am Parkplatz vorbei	мимо парковки
+durch die Empfangshalle	через холл
+gegenüber von der Bibliothek	напротив библиотеки
+indirekte Fragen mit ob / Fragewort	косвенные вопросы с ob / вопросительным словом
