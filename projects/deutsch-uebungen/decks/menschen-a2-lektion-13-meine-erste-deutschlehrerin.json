@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:aufgabe",
+      "german": "die Aufgabe",
+      "russian": "задание",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Aufgaben"
+    },
+    {
+      "canonical_key": "noun:klasse",
+      "german": "die Klasse",
+      "russian": "класс",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Klassen"
+    },
+    {
+      "canonical_key": "noun:nachricht",
+      "german": "die Nachricht",
+      "russian": "сообщение; новость",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Nachrichten"
+    },
+    {
+      "canonical_key": "noun:satz",
+      "german": "der Satz",
+      "russian": "предложение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Sätze"
+    },
+    {
+      "canonical_key": "noun:test",
+      "german": "der Test",
+      "russian": "тест",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Tests"
+    },
+    {
+      "canonical_key": "noun:vokabel",
+      "german": "die Vokabel",
+      "russian": "слово для изучения; лексическая единица",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Vokabeln"
+    },
+    {
+      "canonical_key": "verb:anschauen",
+      "german": "anschauen",
+      "russian": "смотреть; рассматривать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:aufschreiben",
+      "german": "aufschreiben",
+      "russian": "записывать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:korrigieren",
+      "german": "korrigieren",
+      "russian": "исправлять",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:lösen",
+      "german": "lösen",
+      "russian": "решать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:merken",
+      "german": "merken",
+      "russian": "запоминать; замечать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:übersetzen",
+      "german": "übersetzen",
+      "russian": "переводить",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:wiederholen",
+      "german": "wiederholen",
+      "russian": "повторять",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "phrase:ich finde es wichtig",
+      "german": "Ich finde es wichtig, dass ...",
+      "russian": "Я считаю важным, чтобы ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:es hilft mir wenn",
+      "german": "Es hilft mir, wenn ...",
+      "russian": "Мне помогает, когда ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:am liebsten",
+      "german": "Am liebsten ...",
+      "russian": "Больше всего я люблю ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "connector:als",
+      "german": "als",
+      "russian": "когда (однократное событие в прошлом)",
+      "part_of_speech": "connector",
+      "grammar_note": "als употребляется для однократного события/периода в прошлом; глагол в конце придаточного."
+    },
+    {
+      "canonical_key": "connector:wenn past",
+      "german": "wenn",
+      "russian": "когда (повторявшееся событие)",
+      "part_of_speech": "connector",
+      "grammar_note": "wenn употребляется для повторяющихся событий; глагол в конце придаточного."
+    },
+    {
+      "canonical_key": "phrase:als ich im kindergarten war",
+      "german": "Als ich im Kindergarten war, ...",
+      "russian": "Когда я был(а) в детском саду, ...",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
