@@ -1,0 +1,20 @@
+gültig	действительный
+das Visum	виза
+das Konsulat	консульство
+die Kontrolle	контроль; проверка
+der Zoll	таможня
+der Anschluss	пересадка; стыковка
+der Abflug	вылет
+die Impfung	прививка
+das Zuhause	дом; родной дом
+die Geburt	рождение
+die Erinnerung	воспоминание
+die Zukunft	будущее
+beantragen	подавать заявление; запрашивать официально
+verlängern lassen	продлить (поручить/оформить продление)
+leiten	руководить; вести
+arbeitete / sagte / fand / kam / gab / sah	формы Präteritum: работал / сказал / нашёл / пришёл / дал / увидел
+Das war eine tolle Zeit mit vielen schönen Erlebnissen.	Это было прекрасное время со множеством замечательных впечатлений.
+Das würde ich jedem empfehlen.	Я бы порекомендовал(а) это каждому.
+Schade, dass die Zeit so schnell vorbei war.	Жаль, что время прошло так быстро.
+Das würde ich niemandem empfehlen.	Я бы никому это не рекомендовал(а).

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "adjective:gültig",
+      "german": "gültig",
+      "russian": "действительный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "noun:visum",
+      "german": "das Visum",
+      "russian": "виза",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Visa"
+    },
+    {
+      "canonical_key": "noun:konsulat",
+      "german": "das Konsulat",
+      "russian": "консульство",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Konsulate"
+    },
+    {
+      "canonical_key": "noun:kontrolle",
+      "german": "die Kontrolle",
+      "russian": "контроль; проверка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kontrollen"
+    },
+    {
+      "canonical_key": "noun:zoll",
+      "german": "der Zoll",
+      "russian": "таможня",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:anschluss",
+      "german": "der Anschluss",
+      "russian": "пересадка; стыковка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Anschlüsse"
+    },
+    {
+      "canonical_key": "noun:abflug",
+      "german": "der Abflug",
+      "russian": "вылет",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Abflüge"
+    },
+    {
+      "canonical_key": "noun:impfung",
+      "german": "die Impfung",
+      "russian": "прививка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Impfungen"
+    },
+    {
+      "canonical_key": "noun:zuhause",
+      "german": "das Zuhause",
+      "russian": "дом; родной дом",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:geburt",
+      "german": "die Geburt",
+      "russian": "рождение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Geburten"
+    },
+    {
+      "canonical_key": "noun:erinnerung",
+      "german": "die Erinnerung",
+      "russian": "воспоминание",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Erinnerungen"
+    },
+    {
+      "canonical_key": "noun:zukunft",
+      "german": "die Zukunft",
+      "russian": "будущее",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "verb:beantragen",
+      "german": "beantragen",
+      "russian": "подавать заявление; запрашивать официально",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:verlängern lassen",
+      "german": "verlängern lassen",
+      "russian": "продлить (поручить/оформить продление)",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:leiten",
+      "german": "leiten",
+      "russian": "руководить; вести",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "other:präteritum",
+      "german": "arbeitete / sagte / fand / kam / gab / sah",
+      "russian": "формы Präteritum: работал / сказал / нашёл / пришёл / дал / увидел",
+      "part_of_speech": "other",
+      "grammar_note": "Регулярные: arbeitete, sagte. Нерегулярные: fand, kam, gab, sah."
+    },
+    {
+      "canonical_key": "phrase:tolle zeit",
+      "german": "Das war eine tolle Zeit mit vielen schönen Erlebnissen.",
+      "russian": "Это было прекрасное время со множеством замечательных впечатлений.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:jedem empfehlen",
+      "german": "Das würde ich jedem empfehlen.",
+      "russian": "Я бы порекомендовал(а) это каждому.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:schade dass",
+      "german": "Schade, dass die Zeit so schnell vorbei war.",
+      "russian": "Жаль, что время прошло так быстро.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:niemandem empfehlen",
+      "german": "Das würde ich niemandem empfehlen.",
+      "russian": "Я бы никому это не рекомендовал(а).",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
