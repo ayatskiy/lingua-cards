@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:absender",
+      "german": "der Absender",
+      "russian": "отправитель",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Absender"
+    },
+    {
+      "canonical_key": "noun:empfänger",
+      "german": "der Empfänger",
+      "russian": "получатель",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Empfänger"
+    },
+    {
+      "canonical_key": "noun:briefkasten",
+      "german": "der Briefkasten",
+      "russian": "почтовый ящик",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Briefkästen"
+    },
+    {
+      "canonical_key": "noun:briefmarke",
+      "german": "die Briefmarke",
+      "russian": "почтовая марка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Briefmarken"
+    },
+    {
+      "canonical_key": "noun:päckchen",
+      "german": "das Päckchen",
+      "russian": "посылочка; небольшая посылка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Päckchen"
+    },
+    {
+      "canonical_key": "noun:paket",
+      "german": "das Paket",
+      "russian": "посылка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Pakete"
+    },
+    {
+      "canonical_key": "noun:postleitzahl",
+      "german": "die Postleitzahl",
+      "russian": "почтовый индекс",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Postleitzahlen"
+    },
+    {
+      "canonical_key": "noun:schalter",
+      "german": "der Schalter",
+      "russian": "окно обслуживания; стойка",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Schalter"
+    },
+    {
+      "canonical_key": "noun:unterschrift",
+      "german": "die Unterschrift",
+      "russian": "подпись",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Unterschriften"
+    },
+    {
+      "canonical_key": "noun:gebrauchsanweisung",
+      "german": "die Gebrauchsanweisung",
+      "russian": "инструкция по применению",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gebrauchsanweisungen"
+    },
+    {
+      "canonical_key": "verb:ankreuzen",
+      "german": "ankreuzen",
+      "russian": "отмечать крестиком",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "partizip_ii": "angekreuzt"
+      }
+    },
+    {
+      "canonical_key": "verb:ausfüllen",
+      "german": "ausfüllen",
+      "russian": "заполнять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "partizip_ii": "ausgefüllt"
+      }
+    },
+    {
+      "canonical_key": "verb:unterschreiben",
+      "german": "unterschreiben",
+      "russian": "подписывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "partizip_ii": "unterschrieben"
+      }
+    },
+    {
+      "canonical_key": "verb:wiegen",
+      "german": "wiegen",
+      "russian": "взвешивать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "partizip_ii": "gewogen"
+      }
+    },
+    {
+      "canonical_key": "verb:kleben",
+      "german": "kleben",
+      "russian": "клеить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "partizip_ii": "geklebt"
+      }
+    },
+    {
+      "canonical_key": "phrase:vielen dank geschenke",
+      "german": "Vielen Dank für deine tollen Geschenke!",
+      "russian": "Большое спасибо за твои замечательные подарки!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:schön dass gedacht",
+      "german": "Schön, dass du an mich gedacht hast.",
+      "russian": "Приятно, что ты обо мне подумал(а).",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:freue mich auf",
+      "german": "Ich freue mich schon sehr auf ...",
+      "russian": "Я уже очень жду ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:passiv präsens",
+      "german": "Passiv Präsens: werden + Partizip II",
+      "russian": "пассив настоящего времени: werden + Partizip II",
+      "part_of_speech": "other",
+      "grammar_note": "Das Paket wird gepackt. Die Geschenke werden in den Karton gelegt."
+    }
+  ]
+}

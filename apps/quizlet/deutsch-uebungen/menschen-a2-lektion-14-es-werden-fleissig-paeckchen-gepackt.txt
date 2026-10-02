@@ -1,0 +1,19 @@
+der Absender	отправитель
+der Empfänger	получатель
+der Briefkasten	почтовый ящик
+die Briefmarke	почтовая марка
+das Päckchen	посылочка; небольшая посылка
+das Paket	посылка
+die Postleitzahl	почтовый индекс
+der Schalter	окно обслуживания; стойка
+die Unterschrift	подпись
+die Gebrauchsanweisung	инструкция по применению
+ankreuzen	отмечать крестиком
+ausfüllen	заполнять
+unterschreiben	подписывать
+wiegen	взвешивать
+kleben	клеить
+Vielen Dank für deine tollen Geschenke!	Большое спасибо за твои замечательные подарки!
+Schön, dass du an mich gedacht hast.	Приятно, что ты обо мне подумал(а).
+Ich freue mich schon sehr auf ...	Я уже очень жду ...
+Passiv Präsens: werden + Partizip II	пассив настоящего времени: werden + Partizip II
