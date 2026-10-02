@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:kinderbuch",
+      "german": "das Kinderbuch",
+      "russian": "детская книга",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Kinderbücher"
+    },
+    {
+      "canonical_key": "noun:märchen",
+      "german": "das Märchen",
+      "russian": "сказка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Märchen"
+    },
+    {
+      "canonical_key": "noun:comic",
+      "german": "der Comic",
+      "russian": "комикс",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Comics"
+    },
+    {
+      "canonical_key": "noun:ratgeber",
+      "german": "der Ratgeber",
+      "russian": "практическое руководство; справочник",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Ratgeber"
+    },
+    {
+      "canonical_key": "noun:zeitschrift",
+      "german": "die Zeitschrift",
+      "russian": "журнал",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Zeitschriften"
+    },
+    {
+      "canonical_key": "noun:hörbuch",
+      "german": "das Hörbuch",
+      "russian": "аудиокнига",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Hörbücher"
+    },
+    {
+      "canonical_key": "noun:sachbuch",
+      "german": "das Sachbuch",
+      "russian": "научно-популярная / документальная книга",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Sachbücher"
+    },
+    {
+      "canonical_key": "noun:gedicht",
+      "german": "das Gedicht",
+      "russian": "стихотворение",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gedichte"
+    },
+    {
+      "canonical_key": "noun:roman",
+      "german": "der Roman",
+      "russian": "роман",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Romane"
+    },
+    {
+      "canonical_key": "noun:krimi",
+      "german": "der Krimi",
+      "russian": "детектив",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Krimis"
+    },
+    {
+      "canonical_key": "noun:autor",
+      "german": "der Autor / die Autorin",
+      "russian": "автор / авторка",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Autoren / Autorinnen"
+    },
+    {
+      "canonical_key": "verb:vorlesen",
+      "german": "vorlesen",
+      "russian": "читать вслух",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:erfahren",
+      "german": "erfahren",
+      "russian": "узнавать; получать сведения",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "other:modalverben präteritum",
+      "german": "konnte / musste / durfte / sollte / wollte / mochte",
+      "russian": "модальные глаголы в Präteritum",
+      "part_of_speech": "other",
+      "grammar_note": "Формы Präteritum часто используются для рассказа о правилах, желаниях и возможностях в прошлом."
+    },
+    {
+      "canonical_key": "phrase:interessiert mich sehr",
+      "german": "Das interessiert mich sehr.",
+      "russian": "Это меня очень интересует.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:überhaupt nicht",
+      "german": "Das interessiert mich überhaupt nicht.",
+      "russian": "Это меня совершенно не интересует.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich lese lieber",
+      "german": "Ich lese lieber ...",
+      "russian": "Я предпочитаю читать ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:großes interesse",
+      "german": "Ich habe großes Interesse daran.",
+      "russian": "Я очень этим интересуюсь.",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
