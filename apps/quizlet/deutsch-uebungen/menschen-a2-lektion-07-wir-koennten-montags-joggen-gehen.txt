@@ -1,0 +1,21 @@
+die Sportart	вид спорта
+die Diät	диета
+die Gesundheit	здоровье
+das Gewicht	вес
+das Training	тренировка
+abnehmen	худеть; снижать вес
+sich ausruhen	отдыхать
+trainieren	тренироваться
+wiegen	весить
+empfehlen	рекомендовать
+teilnehmen	участвовать
+fit	в хорошей форме
+frische Luft	свежий воздух
+regelmäßig	регулярно
+selten	редко
+mindestens	как минимум
+Du solltest ...	Тебе следовало бы ...
+An deiner Stelle würde ich ...	На твоём месте я бы ...
+Wie wäre es mit ...?	Как насчёт ...?
+könnte / sollte	Konjunktiv II для предложений и советов
+zwischen + Dativ (Zeit)	между ... и ... (о времени)

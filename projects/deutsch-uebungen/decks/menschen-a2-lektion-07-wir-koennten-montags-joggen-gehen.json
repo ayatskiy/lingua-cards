@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:sportart",
+      "german": "die Sportart",
+      "russian": "вид спорта",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Sportarten"
+    },
+    {
+      "canonical_key": "noun:diät",
+      "german": "die Diät",
+      "russian": "диета",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Diäten"
+    },
+    {
+      "canonical_key": "noun:gesundheit",
+      "german": "die Gesundheit",
+      "russian": "здоровье",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:gewicht",
+      "german": "das Gewicht",
+      "russian": "вес",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gewichte"
+    },
+    {
+      "canonical_key": "noun:training",
+      "german": "das Training",
+      "russian": "тренировка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Trainings"
+    },
+    {
+      "canonical_key": "verb:abnehmen",
+      "german": "abnehmen",
+      "russian": "худеть; снижать вес",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "nimmt ab",
+        "praeteritum": "nahm ab",
+        "partizip_ii": "abgenommen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat abgenommen"
+      }
+    },
+    {
+      "canonical_key": "verb:sich ausruhen",
+      "german": "sich ausruhen",
+      "russian": "отдыхать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "ruht sich aus",
+        "praeteritum": "ruhte sich aus",
+        "partizip_ii": "ausgeruht",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat sich ausgeruht"
+      }
+    },
+    {
+      "canonical_key": "verb:trainieren",
+      "german": "trainieren",
+      "russian": "тренироваться",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "trainiert",
+        "praeteritum": "trainierte",
+        "partizip_ii": "trainiert",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat trainiert"
+      }
+    },
+    {
+      "canonical_key": "verb:wiegen",
+      "german": "wiegen",
+      "russian": "весить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wiegt",
+        "praeteritum": "wog",
+        "partizip_ii": "gewogen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gewogen"
+      }
+    },
+    {
+      "canonical_key": "verb:empfehlen",
+      "german": "empfehlen",
+      "russian": "рекомендовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "empfiehlt",
+        "praeteritum": "empfahl",
+        "partizip_ii": "empfohlen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat empfohlen"
+      },
+      "government": "+ Dat. + Akk."
+    },
+    {
+      "canonical_key": "verb:teilnehmen",
+      "german": "teilnehmen",
+      "russian": "участвовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "nimmt teil",
+        "praeteritum": "nahm teil",
+        "partizip_ii": "teilgenommen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat teilgenommen"
+      },
+      "government": "an + Dat."
+    },
+    {
+      "canonical_key": "adjective:fit",
+      "german": "fit",
+      "russian": "в хорошей форме",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "phrase:frische luft",
+      "german": "frische Luft",
+      "russian": "свежий воздух",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "adverb:regelmäßig",
+      "german": "regelmäßig",
+      "russian": "регулярно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:selten",
+      "german": "selten",
+      "russian": "редко",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:mindestens",
+      "german": "mindestens",
+      "russian": "как минимум",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "phrase:du solltest",
+      "german": "Du solltest ...",
+      "russian": "Тебе следовало бы ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:an deiner stelle",
+      "german": "An deiner Stelle würde ich ...",
+      "russian": "На твоём месте я бы ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wie wäre es mit",
+      "german": "Wie wäre es mit ...?",
+      "russian": "Как насчёт ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:konjunktiv ii können sollen",
+      "german": "könnte / sollte",
+      "russian": "Konjunktiv II для предложений и советов",
+      "part_of_speech": "other",
+      "grammar_note": "könnte выражает возможность/предложение; sollte — совет."
+    },
+    {
+      "canonical_key": "other:zwischen dativ",
+      "german": "zwischen + Dativ (Zeit)",
+      "russian": "между ... и ... (о времени)",
+      "part_of_speech": "other",
+      "grammar_note": "Wann? Zwischen sieben und Viertel nach sieben."
+    }
+  ]
+}
