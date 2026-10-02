@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:bargeld",
+      "german": "das Bargeld",
+      "russian": "наличные деньги",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:ec-karte",
+      "german": "die EC-Karte",
+      "russian": "банковская дебетовая карта",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "EC-Karten"
+    },
+    {
+      "canonical_key": "noun:kreditkarte",
+      "german": "die Kreditkarte",
+      "russian": "кредитная карта",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kreditkarten"
+    },
+    {
+      "canonical_key": "noun:versicherung",
+      "german": "die Versicherung",
+      "russian": "страховка; страхование",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Versicherungen"
+    },
+    {
+      "canonical_key": "noun:gesundheitskarte",
+      "german": "die Gesundheitskarte",
+      "russian": "карта медицинского страхования",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Gesundheitskarten"
+    },
+    {
+      "canonical_key": "noun:ausweis",
+      "german": "der Ausweis",
+      "russian": "удостоверение личности",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Ausweise"
+    },
+    {
+      "canonical_key": "noun:führerschein",
+      "german": "der Führerschein",
+      "russian": "водительское удостоверение",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Führerscheine"
+    },
+    {
+      "canonical_key": "noun:hammer",
+      "german": "der Hammer",
+      "russian": "молоток",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Hämmer"
+    },
+    {
+      "canonical_key": "noun:täter",
+      "german": "der Täter / die Täterin",
+      "russian": "преступник / преступница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Täter / Täterinnen"
+    },
+    {
+      "canonical_key": "noun:zeuge",
+      "german": "der Zeuge / die Zeugin",
+      "russian": "свидетель / свидетельница",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Zeugen / Zeuginnen"
+    },
+    {
+      "canonical_key": "verb:stehlen",
+      "german": "stehlen",
+      "russian": "красть",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stiehlt",
+        "praeteritum": "stahl",
+        "partizip_ii": "gestohlen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gestohlen"
+      }
+    },
+    {
+      "canonical_key": "verb:sperren",
+      "german": "sperren",
+      "russian": "блокировать; запирать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:lassen",
+      "german": "lassen",
+      "russian": "позволять; поручать сделать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "lässt",
+        "praeteritum": "ließ",
+        "partizip_ii": "gelassen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gelassen"
+      }
+    },
+    {
+      "canonical_key": "phrase:gibt es zeugen",
+      "german": "Gibt es dafür Zeugen?",
+      "russian": "Есть ли свидетели?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:können sie beschreiben",
+      "german": "Können Sie ihn beschreiben?",
+      "russian": "Можете Вы его описать?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:erinnern",
+      "german": "Daran kann ich mich nicht mehr erinnern.",
+      "russian": "Я больше не могу этого вспомнить.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:frageartikel demonstrativ",
+      "german": "welcher? – dieser / der",
+      "russian": "вопросительный артикль welcher? и указательные местоимения dieser/der",
+      "part_of_speech": "other",
+      "grammar_note": "Формы изменяются по роду, числу и падежу."
+    },
+    {
+      "canonical_key": "phrase:wohnung putzen lassen",
+      "german": "Wir lassen unsere Wohnung putzen.",
+      "russian": "Мы поручаем убрать нашу квартиру.",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

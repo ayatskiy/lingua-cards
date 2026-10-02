@@ -1,0 +1,18 @@
+das Bargeld	наличные деньги
+die EC-Karte	банковская дебетовая карта
+die Kreditkarte	кредитная карта
+die Versicherung	страховка; страхование
+die Gesundheitskarte	карта медицинского страхования
+der Ausweis	удостоверение личности
+der Führerschein	водительское удостоверение
+der Hammer	молоток
+der Täter / die Täterin	преступник / преступница
+der Zeuge / die Zeugin	свидетель / свидетельница
+stehlen	красть
+sperren	блокировать; запирать
+lassen	позволять; поручать сделать
+Gibt es dafür Zeugen?	Есть ли свидетели?
+Können Sie ihn beschreiben?	Можете Вы его описать?
+Daran kann ich mich nicht mehr erinnern.	Я больше не могу этого вспомнить.
+welcher? – dieser / der	вопросительный артикль welcher? и указательные местоимения dieser/der
+Wir lassen unsere Wohnung putzen.	Мы поручаем убрать нашу квартиру.
