@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:kunde",
+      "german": "der Kunde / die Kundin",
+      "russian": "клиент / клиентка",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Kunden / Kundinnen"
+    },
+    {
+      "canonical_key": "noun:notiz",
+      "german": "die Notiz",
+      "russian": "заметка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Notizen"
+    },
+    {
+      "canonical_key": "noun:notizblock",
+      "german": "der Notizblock",
+      "russian": "блокнот",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Notizblöcke"
+    },
+    {
+      "canonical_key": "noun:werkstatt",
+      "german": "die Werkstatt",
+      "russian": "мастерская",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Werkstätten"
+    },
+    {
+      "canonical_key": "noun:briefumschlag",
+      "german": "der Briefumschlag",
+      "russian": "конверт",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Briefumschläge"
+    },
+    {
+      "canonical_key": "noun:handtasche",
+      "german": "die Handtasche",
+      "russian": "сумочка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Handtaschen"
+    },
+    {
+      "canonical_key": "noun:schmuck",
+      "german": "der Schmuck",
+      "russian": "украшения",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:stoff",
+      "german": "der Stoff",
+      "russian": "ткань; материал",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Stoffe"
+    },
+    {
+      "canonical_key": "verb:herstellen",
+      "german": "herstellen",
+      "russian": "производить; изготавливать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:organisieren",
+      "german": "organisieren",
+      "russian": "организовывать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:verwenden",
+      "german": "verwenden",
+      "russian": "использовать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:wegwerfen",
+      "german": "wegwerfen",
+      "russian": "выбрасывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "wirft weg",
+        "praeteritum": "warf weg",
+        "partizip_ii": "weggeworfen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat weggeworfen"
+      }
+    },
+    {
+      "canonical_key": "verb:sich bedanken",
+      "german": "sich bedanken",
+      "russian": "благодарить",
+      "part_of_speech": "verb",
+      "government": "sich bei + Dat. für + Akk. bedanken"
+    },
+    {
+      "canonical_key": "verb:sich erinnern",
+      "german": "sich erinnern",
+      "russian": "вспоминать; помнить",
+      "part_of_speech": "verb",
+      "government": "sich an + Akk. erinnern"
+    },
+    {
+      "canonical_key": "verb:sich fühlen",
+      "german": "sich fühlen",
+      "russian": "чувствовать себя",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:sich streiten",
+      "german": "sich streiten",
+      "russian": "ссориться",
+      "part_of_speech": "verb",
+      "government": "sich mit + Dat. streiten"
+    },
+    {
+      "canonical_key": "verb:sich unterhalten",
+      "german": "sich unterhalten",
+      "russian": "беседовать; разговаривать",
+      "part_of_speech": "verb",
+      "government": "sich mit + Dat. über + Akk. unterhalten"
+    },
+    {
+      "canonical_key": "phrase:herzlichen glückwunsch",
+      "german": "Herzlichen Glückwunsch!",
+      "russian": "Поздравляю!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:viel erfolg",
+      "german": "Viel Erfolg!",
+      "russian": "Успехов!",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vielen dank für",
+      "german": "Vielen Dank für ...",
+      "russian": "Большое спасибо за ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:reflexive verben",
+      "german": "mich / dich / sich / uns / euch / sich",
+      "russian": "возвратные местоимения",
+      "part_of_speech": "other",
+      "grammar_note": "Возвратное местоимение согласуется с лицом подлежащего."
+    }
+  ]
+}
