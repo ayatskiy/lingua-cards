@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:umwelt",
+      "german": "die Umwelt",
+      "russian": "окружающая среда",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:mitglied",
+      "german": "das Mitglied",
+      "russian": "член; участник",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Mitglieder"
+    },
+    {
+      "canonical_key": "noun:steuer",
+      "german": "die Steuer",
+      "russian": "налог",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Steuern"
+    },
+    {
+      "canonical_key": "noun:ziel",
+      "german": "das Ziel",
+      "russian": "цель",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Ziele"
+    },
+    {
+      "canonical_key": "noun:passwort",
+      "german": "das Passwort",
+      "russian": "пароль",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Passwörter"
+    },
+    {
+      "canonical_key": "noun:daten",
+      "german": "die Daten",
+      "russian": "данные",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:ticket",
+      "german": "das Ticket",
+      "russian": "билет",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Tickets"
+    },
+    {
+      "canonical_key": "verb:besitzen",
+      "german": "besitzen",
+      "russian": "владеть; иметь",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:teilen",
+      "german": "teilen",
+      "russian": "делить; совместно пользоваться",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:erreichen",
+      "german": "erreichen",
+      "russian": "достигать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:sich einloggen",
+      "german": "sich einloggen",
+      "russian": "входить в систему",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:ausfüllen",
+      "german": "ein Formular ausfüllen",
+      "russian": "заполнять формуляр",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:anklicken",
+      "german": "anklicken",
+      "russian": "нажимать; кликать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "adjective:umweltfreundlich",
+      "german": "umweltfreundlich",
+      "russian": "экологичный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:außerhalb",
+      "german": "außerhalb",
+      "russian": "за пределами; вне",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:höchstens",
+      "german": "höchstens",
+      "russian": "не более; максимум",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "connector:seit",
+      "german": "seit / seitdem",
+      "russian": "с тех пор как",
+      "part_of_speech": "connector",
+      "grammar_note": "Придаточное с seit/seitdem описывает начальную точку продолжающегося периода; глагол в конце."
+    },
+    {
+      "canonical_key": "connector:bis",
+      "german": "bis",
+      "russian": "пока не; до тех пор пока",
+      "part_of_speech": "connector",
+      "grammar_note": "bis обозначает конечную точку периода; глагол в конце придаточного."
+    },
+    {
+      "canonical_key": "phrase:zuerst musst du",
+      "german": "Zuerst musst du ...",
+      "russian": "Сначала тебе нужно ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:danach wählst du",
+      "german": "Danach wählst du ...",
+      "russian": "После этого ты выбираешь ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:zuletzt musst du",
+      "german": "Zuletzt musst du ...",
+      "russian": "В конце тебе нужно ...",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
