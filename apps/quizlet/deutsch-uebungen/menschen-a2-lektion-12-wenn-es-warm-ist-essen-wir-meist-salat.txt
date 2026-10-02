@@ -1,0 +1,26 @@
+der Alkohol	алкоголь
+das Gericht	блюдо
+das Getreide	зерновые; зерно
+das Huhn	курица
+das Lebensmittel	продукт питания
+die Limonade	лимонад
+das Mineralwasser	минеральная вода
+das Rindfleisch	говядина
+das Schweinefleisch	свинина
+die Hälfte	половина
+braten	жарить
+ansehen	смотреть; рассматривать
+aussuchen	выбирать
+überraschen	удивлять
+verbrauchen	расходовать; потреблять
+sich vorbereiten	готовиться
+sich wundern	удивляться
+scharf	острый
+vegetarisch	вегетарианский
+preiswert	недорогой; выгодный
+durchschnittlich	в среднем
+häufig	часто
+kaum	едва; почти не
+wenn	если; когда
+wenn ... dann ...	если ... то ...
+Bei uns ist das anders.	У нас это иначе.

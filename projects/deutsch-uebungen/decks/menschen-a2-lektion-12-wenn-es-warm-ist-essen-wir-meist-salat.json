@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:alkohol",
+      "german": "der Alkohol",
+      "russian": "алкоголь",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:gericht",
+      "german": "das Gericht",
+      "russian": "блюдо",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gerichte"
+    },
+    {
+      "canonical_key": "noun:getreide",
+      "german": "das Getreide",
+      "russian": "зерновые; зерно",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:huhn",
+      "german": "das Huhn",
+      "russian": "курица",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Hühner"
+    },
+    {
+      "canonical_key": "noun:lebensmittel",
+      "german": "das Lebensmittel",
+      "russian": "продукт питания",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Lebensmittel"
+    },
+    {
+      "canonical_key": "noun:limonade",
+      "german": "die Limonade",
+      "russian": "лимонад",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Limonaden"
+    },
+    {
+      "canonical_key": "noun:mineralwasser",
+      "german": "das Mineralwasser",
+      "russian": "минеральная вода",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:rindfleisch",
+      "german": "das Rindfleisch",
+      "russian": "говядина",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:schweinefleisch",
+      "german": "das Schweinefleisch",
+      "russian": "свинина",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:hälfte",
+      "german": "die Hälfte",
+      "russian": "половина",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Hälften"
+    },
+    {
+      "canonical_key": "verb:braten",
+      "german": "braten",
+      "russian": "жарить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "brät",
+        "praeteritum": "briet",
+        "partizip_ii": "gebraten",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gebraten"
+      }
+    },
+    {
+      "canonical_key": "verb:ansehen",
+      "german": "ansehen",
+      "russian": "смотреть; рассматривать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:aussuchen",
+      "german": "aussuchen",
+      "russian": "выбирать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:überraschen",
+      "german": "überraschen",
+      "russian": "удивлять",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:verbrauchen",
+      "german": "verbrauchen",
+      "russian": "расходовать; потреблять",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:sich vorbereiten",
+      "german": "sich vorbereiten",
+      "russian": "готовиться",
+      "part_of_speech": "verb",
+      "government": "sich auf + Akk. vorbereiten"
+    },
+    {
+      "canonical_key": "verb:sich wundern",
+      "german": "sich wundern",
+      "russian": "удивляться",
+      "part_of_speech": "verb",
+      "government": "sich über + Akk. wundern"
+    },
+    {
+      "canonical_key": "adjective:scharf",
+      "german": "scharf",
+      "russian": "острый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:vegetarisch",
+      "german": "vegetarisch",
+      "russian": "вегетарианский",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:preiswert",
+      "german": "preiswert",
+      "russian": "недорогой; выгодный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:durchschnittlich",
+      "german": "durchschnittlich",
+      "russian": "в среднем",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:häufig",
+      "german": "häufig",
+      "russian": "часто",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "adverb:kaum",
+      "german": "kaum",
+      "russian": "едва; почти не",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "connector:wenn",
+      "german": "wenn",
+      "russian": "если; когда",
+      "part_of_speech": "connector",
+      "grammar_note": "В придаточном с wenn спрягаемый глагол стоит в конце."
+    },
+    {
+      "canonical_key": "phrase:wenn dann",
+      "german": "wenn ... dann ...",
+      "russian": "если ... то ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:bei uns ist das anders",
+      "german": "Bei uns ist das anders.",
+      "russian": "У нас это иначе.",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
