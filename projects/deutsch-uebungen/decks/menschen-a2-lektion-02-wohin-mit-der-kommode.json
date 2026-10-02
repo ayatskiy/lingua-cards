@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:ding",
+      "german": "das Ding",
+      "russian": "вещь; предмет",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Dinge"
+    },
+    {
+      "canonical_key": "noun:ecke",
+      "german": "die Ecke",
+      "russian": "угол",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ecken"
+    },
+    {
+      "canonical_key": "noun:fernsehgerät",
+      "german": "das Fernsehgerät",
+      "russian": "телевизор",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Fernsehgeräte"
+    },
+    {
+      "canonical_key": "noun:gegenstand",
+      "german": "der Gegenstand",
+      "russian": "предмет",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Gegenstände"
+    },
+    {
+      "canonical_key": "noun:herd",
+      "german": "der Herd",
+      "russian": "плита",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Herde"
+    },
+    {
+      "canonical_key": "noun:kissen",
+      "german": "das Kissen",
+      "russian": "подушка",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Kissen"
+    },
+    {
+      "canonical_key": "noun:raum",
+      "german": "der Raum",
+      "russian": "помещение; комната",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Räume"
+    },
+    {
+      "canonical_key": "noun:regal",
+      "german": "das Regal",
+      "russian": "полка; стеллаж",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Regale"
+    },
+    {
+      "canonical_key": "noun:schreibtisch",
+      "german": "der Schreibtisch",
+      "russian": "письменный стол",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Schreibtische"
+    },
+    {
+      "canonical_key": "noun:spiegel",
+      "german": "der Spiegel",
+      "russian": "зеркало",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Spiegel"
+    },
+    {
+      "canonical_key": "noun:tür",
+      "german": "die Tür",
+      "russian": "дверь",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Türen"
+    },
+    {
+      "canonical_key": "noun:vorhang",
+      "german": "der Vorhang",
+      "russian": "занавеска; штора",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Vorhänge"
+    },
+    {
+      "canonical_key": "noun:wand",
+      "german": "die Wand",
+      "russian": "стена",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Wände"
+    },
+    {
+      "canonical_key": "noun:werkzeug",
+      "german": "das Werkzeug",
+      "russian": "инструмент; инструменты",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Werkzeuge"
+    },
+    {
+      "canonical_key": "verb:einrichten",
+      "german": "einrichten",
+      "russian": "обставлять; оборудовать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "richtet ein",
+        "praeteritum": "richtete ein",
+        "partizip_ii": "eingerichtet",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat eingerichtet"
+      },
+      "grammar_note": "Отделяемый глагол: приставка отделяется в Präsens/Präteritum и ставится в конец предложения."
+    },
+    {
+      "canonical_key": "verb:hängen",
+      "german": "hängen",
+      "russian": "висеть; вешать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "hängt",
+        "praeteritum": "hing",
+        "partizip_ii": "gehangen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gehangen"
+      },
+      "grammar_note": "hängen как положение обычно: hing – gehangen; как действие 'повесить' также hängte – gehängt."
+    },
+    {
+      "canonical_key": "verb:legen",
+      "german": "legen",
+      "russian": "класть",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "legt",
+        "praeteritum": "legte",
+        "partizip_ii": "gelegt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gelegt"
+      }
+    },
+    {
+      "canonical_key": "verb:liegen",
+      "german": "liegen",
+      "russian": "лежать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "liegt",
+        "praeteritum": "lag",
+        "partizip_ii": "gelegen",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gelegen"
+      }
+    },
+    {
+      "canonical_key": "verb:stehen",
+      "german": "stehen",
+      "russian": "стоять",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "steht",
+        "praeteritum": "stand",
+        "partizip_ii": "gestanden",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gestanden"
+      }
+    },
+    {
+      "canonical_key": "verb:stellen",
+      "german": "stellen",
+      "russian": "ставить",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "stellt",
+        "praeteritum": "stellte",
+        "partizip_ii": "gestellt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat gestellt"
+      }
+    },
+    {
+      "canonical_key": "verb:verstecken",
+      "german": "verstecken",
+      "russian": "прятать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "versteckt",
+        "praeteritum": "versteckte",
+        "partizip_ii": "versteckt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat versteckt"
+      }
+    },
+    {
+      "canonical_key": "adjective:dunkel",
+      "german": "dunkel",
+      "russian": "тёмный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:hell",
+      "german": "hell",
+      "russian": "светлый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:schwer",
+      "german": "schwer",
+      "russian": "тяжёлый; трудный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:vorsichtig",
+      "german": "vorsichtig",
+      "russian": "осторожный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adverb:sonst",
+      "german": "sonst",
+      "russian": "иначе; в противном случае",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "phrase:wo hängt / liegt / steht ...?",
+      "german": "Wo hängt / liegt / steht ...?",
+      "russian": "Где висит / лежит / стоит ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wohin soll ich ... hängen / legen / stellen?",
+      "german": "Wohin soll ich ... hängen / legen / stellen?",
+      "russian": "Куда мне повесить / положить / поставить ...?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:wechselpräpositionen dativ akkusativ",
+      "german": "Wo? + Dativ / Wohin? + Akkusativ",
+      "russian": "где? + Dativ / куда? + Akkusativ",
+      "part_of_speech": "other",
+      "grammar_note": "Wechselpräpositionen: an, auf, hinter, in, neben, über, unter, vor, zwischen. Положение = Dativ; направление = Akkusativ."
+    }
+  ]
+}

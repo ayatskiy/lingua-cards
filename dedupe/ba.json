@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entries": {
     "adjective:regelmäßig": "projects/deutsch-uebungen/decks/menschen-b1-lektion-02-er-erledigte-seine-aufgaben-zuverlaessig.json",
-    "phrase:wenn ich bis nächste woche nichts von ihnen höre, dann ...": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json"
+    "phrase:wenn ich bis nächste woche nichts von ihnen höre, dann ...": "projects/deutsch-uebungen/decks/menschen-b1-lektion-04-obwohl-ich-ihnen-das-erklaert-habe.json",
+    "verb:stellen": "projects/deutsch-uebungen/decks/menschen-a2-lektion-02-wohin-mit-der-kommode.json"
   }
 }
