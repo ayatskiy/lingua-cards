@@ -1,0 +1,21 @@
+die Umwelt	окружающая среда
+das Mitglied	член; участник
+die Steuer	налог
+das Ziel	цель
+das Passwort	пароль
+die Daten	данные
+das Ticket	билет
+besitzen	владеть; иметь
+teilen	делить; совместно пользоваться
+erreichen	достигать
+sich einloggen	входить в систему
+ein Formular ausfüllen	заполнять формуляр
+anklicken	нажимать; кликать
+umweltfreundlich	экологичный
+außerhalb	за пределами; вне
+höchstens	не более; максимум
+seit / seitdem	с тех пор как
+bis	пока не; до тех пор пока
+Zuerst musst du ...	Сначала тебе нужно ...
+Danach wählst du ...	После этого ты выбираешь ...
+Zuletzt musst du ...	В конце тебе нужно ...
