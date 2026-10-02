@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:zeugnis",
+      "german": "das Zeugnis",
+      "russian": "свидетельство; аттестат",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Zeugnisse"
+    },
+    {
+      "canonical_key": "noun:studium",
+      "german": "das Studium",
+      "russian": "учёба в вузе",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Studien"
+    },
+    {
+      "canonical_key": "noun:abitur",
+      "german": "das Abitur",
+      "russian": "аттестат зрелости; выпускной экзамен",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:ausbildung",
+      "german": "die Ausbildung",
+      "russian": "профессиональное обучение",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ausbildungen"
+    },
+    {
+      "canonical_key": "noun:lehre",
+      "german": "die Lehre",
+      "russian": "профессиональное ученичество",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Lehren"
+    },
+    {
+      "canonical_key": "noun:praktikant",
+      "german": "der Praktikant / die Praktikantin",
+      "russian": "стажёр / стажёрка",
+      "part_of_speech": "noun",
+      "article": "der/die",
+      "plural": "Praktikanten / Praktikantinnen"
+    },
+    {
+      "canonical_key": "noun:akte",
+      "german": "die Akte",
+      "russian": "дело; папка с документами",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Akten"
+    },
+    {
+      "canonical_key": "noun:kündigung",
+      "german": "die Kündigung",
+      "russian": "увольнение; расторжение договора",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Kündigungen"
+    },
+    {
+      "canonical_key": "noun:bewerbung",
+      "german": "die Bewerbung",
+      "russian": "заявление на работу; заявка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bewerbungen"
+    },
+    {
+      "canonical_key": "noun:einkommen",
+      "german": "das Einkommen",
+      "russian": "доход",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Einkommen"
+    },
+    {
+      "canonical_key": "noun:grundschule",
+      "german": "die Grundschule",
+      "russian": "начальная школа",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Grundschulen"
+    },
+    {
+      "canonical_key": "noun:berufsschule",
+      "german": "die Berufsschule",
+      "russian": "профессиональная школа",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Berufsschulen"
+    },
+    {
+      "canonical_key": "noun:fachhochschule",
+      "german": "die Fachhochschule",
+      "russian": "высшая прикладная школа",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Fachhochschulen"
+    },
+    {
+      "canonical_key": "adjective:schriftlich",
+      "german": "schriftlich",
+      "russian": "письменный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:mündlich",
+      "german": "mündlich",
+      "russian": "устный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "phrase:zufrieden damit",
+      "german": "Ich bin sehr zufrieden damit.",
+      "russian": "Я этим очень доволен / довольна.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:stört mich sehr",
+      "german": "Das stört mich sehr.",
+      "russian": "Это мне очень мешает.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich habe genug",
+      "german": "Ich habe genug.",
+      "russian": "С меня хватит.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:relativsätze nom akk",
+      "german": "Relativsätze: der/die/das/die – den/die/das/die",
+      "russian": "относительные предложения: Nominativ и Akkusativ",
+      "part_of_speech": "other",
+      "grammar_note": "Относительное местоимение согласуется с определяемым существительным в роде и числе, падеж зависит от роли внутри придаточного."
+    },
+    {
+      "canonical_key": "phrase:beruf den ich liebe",
+      "german": "Das ist der Beruf, den ich liebe.",
+      "russian": "Это профессия, которую я люблю.",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
