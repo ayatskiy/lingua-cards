@@ -1,0 +1,16 @@
+die Banane — Plural	die Bananen
+die Bohne — Plural	die Bohnen
+das Bonbon — Plural	die Bonbons
+das Getränk — Plural	die Getränke
+die Marmelade — Plural	die Marmeladen
+der Saft — Plural	die Säfte
+die Dose — Plural	die Dosen
+das Gramm — Plural	die Gramm
+das Kilogramm — Plural	die Kilogramm
+der Liter — Plural	die Liter
+die Packung — Plural	die Packungen
+das Pfund — Plural	die Pfunde
+die Portion — Plural	die Portionen
+die Tüte — Plural	die Tüten
+der Einkaufszettel — Plural	die Einkaufszettel
+die Essgewohnheit — Plural	die Essgewohnheiten
