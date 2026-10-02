@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:ballett",
+      "german": "das Ballett",
+      "russian": "балет",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Ballette"
+    },
+    {
+      "canonical_key": "noun:oper",
+      "german": "die Oper",
+      "russian": "опера",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Opern"
+    },
+    {
+      "canonical_key": "noun:musical",
+      "german": "das Musical",
+      "russian": "мюзикл",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Musicals"
+    },
+    {
+      "canonical_key": "noun:zirkus",
+      "german": "der Zirkus",
+      "russian": "цирк",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Zirkusse"
+    },
+    {
+      "canonical_key": "noun:club",
+      "german": "der Club",
+      "russian": "клуб",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Clubs"
+    },
+    {
+      "canonical_key": "noun:ausstellung",
+      "german": "die Ausstellung",
+      "russian": "выставка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Ausstellungen"
+    },
+    {
+      "canonical_key": "noun:konzert",
+      "german": "das Konzert",
+      "russian": "концерт",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Konzerte"
+    },
+    {
+      "canonical_key": "noun:workshop",
+      "german": "der Workshop",
+      "russian": "мастер-класс; воркшоп",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Workshops"
+    },
+    {
+      "canonical_key": "phrase:aus dem theater",
+      "german": "aus dem Theater kommen",
+      "russian": "приходить из театра",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:vom sport",
+      "german": "vom Sport kommen",
+      "russian": "приходить со спорта",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:zum schwimmen",
+      "german": "zum Schwimmen gehen",
+      "russian": "идти плавать",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich habe da einen vorschlag",
+      "german": "Ich habe da einen Vorschlag.",
+      "russian": "У меня есть предложение.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:was hältst du davon",
+      "german": "Was hältst du davon?",
+      "russian": "Что ты об этом думаешь?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:das hört sich nicht so toll an",
+      "german": "Das hört sich ja nicht so toll an.",
+      "russian": "Звучит не очень.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:glaub mir",
+      "german": "Glaub mir. Das ist mal etwas Besonderes.",
+      "russian": "Поверь мне. Это действительно нечто особенное.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:du hast recht",
+      "german": "Du hast recht.",
+      "russian": "Ты прав(а).",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:schon gut",
+      "german": "Schon gut. Lass uns dahin gehen.",
+      "russian": "Ладно. Давай пойдём туда.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:lokale präpositionen",
+      "german": "aus/von – in/zu – bei",
+      "russian": "местные предлоги: откуда / куда / где",
+      "part_of_speech": "other",
+      "grammar_note": "Orte: aus/in; Personen/Aktivitäten часто von/zu/bei."
+    }
+  ]
+}
