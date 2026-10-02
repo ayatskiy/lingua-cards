@@ -1,0 +1,20 @@
+der Angestellte / die Angestellte	служащий / служащая
+der Arbeiter / die Arbeiterin	рабочий / рабочая
+die Bedingung	условие
+der Betrieb	предприятие
+der Erfolg	успех
+der Export	экспорт
+der Import	импорт
+das Lager	склад
+der Mitarbeiter / die Mitarbeiterin	сотрудник / сотрудница
+die Produktion	производство
+die Wirtschaft	экономика
+sinken	снижаться; падать
+sparen	экономить; копить
+steigen	расти; подниматься
+selbstständig	самостоятельный; работающий на себя
+international	международный
+dringend	срочно; настоятельно
+Ist dir das wichtig?	Это для тебя важно?
+Mir ist das sehr wichtig.	Для меня это очень важно.
+Adjektivdeklination nach Nullartikel	склонение прилагательных без артикля
