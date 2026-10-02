@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:sonne",
+      "german": "die Sonne",
+      "russian": "солнце",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:hitze",
+      "german": "die Hitze",
+      "russian": "жара",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:regen",
+      "german": "der Regen",
+      "russian": "дождь",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:kälte",
+      "german": "die Kälte",
+      "russian": "холод",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:schnee",
+      "german": "der Schnee",
+      "russian": "снег",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:gewitter",
+      "german": "das Gewitter",
+      "russian": "гроза",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gewitter"
+    },
+    {
+      "canonical_key": "noun:wind",
+      "german": "der Wind",
+      "russian": "ветер",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Winde"
+    },
+    {
+      "canonical_key": "noun:temperatur",
+      "german": "die Temperatur",
+      "russian": "температура",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Temperaturen"
+    },
+    {
+      "canonical_key": "noun:trockenheit",
+      "german": "die Trockenheit",
+      "russian": "засуха; сухость",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:jahreszeit",
+      "german": "die Jahreszeit",
+      "russian": "время года",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Jahreszeiten"
+    },
+    {
+      "canonical_key": "verb:träumen",
+      "german": "träumen von + Dativ",
+      "russian": "мечтать о",
+      "part_of_speech": "verb",
+      "government": "von + Dat."
+    },
+    {
+      "canonical_key": "verb:sich ärgern",
+      "german": "sich ärgern über + Akkusativ",
+      "russian": "сердиться из-за; на",
+      "part_of_speech": "verb",
+      "government": "über + Akk."
+    },
+    {
+      "canonical_key": "verb:sich freuen",
+      "german": "sich freuen auf + Akkusativ",
+      "russian": "радоваться предстоящему; ждать с радостью",
+      "part_of_speech": "verb",
+      "government": "auf + Akk."
+    },
+    {
+      "canonical_key": "verb:sich interessieren",
+      "german": "sich interessieren für + Akkusativ",
+      "russian": "интересоваться",
+      "part_of_speech": "verb",
+      "government": "für + Akk."
+    },
+    {
+      "canonical_key": "phrase:lust haben auf",
+      "german": "Lust haben auf + Akkusativ",
+      "russian": "хотеть; иметь желание",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:zufrieden mit",
+      "german": "zufrieden mit + Dativ",
+      "russian": "довольный чем-то",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "pronoun:worauf",
+      "german": "Worauf? – Darauf.",
+      "russian": "На что? — На это.",
+      "part_of_speech": "pronoun"
+    },
+    {
+      "canonical_key": "pronoun:wovon",
+      "german": "Wovon? – Davon.",
+      "russian": "О чём? / От чего? — Об этом / От этого.",
+      "part_of_speech": "pronoun"
+    },
+    {
+      "canonical_key": "pronoun:worüber",
+      "german": "Worüber? – Darüber.",
+      "russian": "О чём? — Об этом.",
+      "part_of_speech": "pronoun"
+    },
+    {
+      "canonical_key": "phrase:typisch sind",
+      "german": "Typisch sind Temperaturen ...",
+      "russian": "Типичны температуры ...",
+      "part_of_speech": "phrase"
+    }
+  ]
+}
