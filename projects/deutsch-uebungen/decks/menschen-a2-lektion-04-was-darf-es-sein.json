@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:banane",
+      "german": "die Banane",
+      "russian": "банан",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bananen"
+    },
+    {
+      "canonical_key": "noun:bohne",
+      "german": "die Bohne",
+      "russian": "фасоль; боб",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Bohnen"
+    },
+    {
+      "canonical_key": "noun:bonbon",
+      "german": "das Bonbon",
+      "russian": "конфета",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Bonbons"
+    },
+    {
+      "canonical_key": "noun:gemüse",
+      "german": "das Gemüse",
+      "russian": "овощи",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:getränk",
+      "german": "das Getränk",
+      "russian": "напиток",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Getränke"
+    },
+    {
+      "canonical_key": "noun:marmelade",
+      "german": "die Marmelade",
+      "russian": "варенье; джем",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Marmeladen"
+    },
+    {
+      "canonical_key": "noun:mehl",
+      "german": "das Mehl",
+      "russian": "мука",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:quark",
+      "german": "der Quark",
+      "russian": "творог",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:saft",
+      "german": "der Saft",
+      "russian": "сок",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Säfte"
+    },
+    {
+      "canonical_key": "noun:dose",
+      "german": "die Dose",
+      "russian": "банка; жестяная банка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Dosen"
+    },
+    {
+      "canonical_key": "noun:gramm",
+      "german": "das Gramm",
+      "russian": "грамм",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Gramm"
+    },
+    {
+      "canonical_key": "noun:kilogramm",
+      "german": "das Kilogramm",
+      "russian": "килограмм",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Kilogramm"
+    },
+    {
+      "canonical_key": "noun:liter",
+      "german": "der Liter",
+      "russian": "литр",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Liter"
+    },
+    {
+      "canonical_key": "noun:packung",
+      "german": "die Packung",
+      "russian": "упаковка",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Packungen"
+    },
+    {
+      "canonical_key": "noun:pfund",
+      "german": "das Pfund",
+      "russian": "фунт; полкило (разг.)",
+      "part_of_speech": "noun",
+      "article": "das",
+      "plural": "Pfunde"
+    },
+    {
+      "canonical_key": "noun:portion",
+      "german": "die Portion",
+      "russian": "порция",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Portionen"
+    },
+    {
+      "canonical_key": "noun:tüte",
+      "german": "die Tüte",
+      "russian": "пакет; кулёк",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Tüten"
+    },
+    {
+      "canonical_key": "noun:einkaufszettel",
+      "german": "der Einkaufszettel",
+      "russian": "список покупок",
+      "part_of_speech": "noun",
+      "article": "der",
+      "plural": "Einkaufszettel"
+    },
+    {
+      "canonical_key": "noun:essgewohnheit",
+      "german": "die Essgewohnheit",
+      "russian": "пищевые привычки",
+      "part_of_speech": "noun",
+      "article": "die",
+      "plural": "Essgewohnheiten"
+    },
+    {
+      "canonical_key": "adjective:fett",
+      "german": "fett",
+      "russian": "жирный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:fettarm",
+      "german": "fettarm",
+      "russian": "нежирный; с низким содержанием жира",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:hart",
+      "german": "hart",
+      "russian": "твёрдый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:mager",
+      "german": "mager",
+      "russian": "постный; нежирный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:roh",
+      "german": "roh",
+      "russian": "сырой",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:weich",
+      "german": "weich",
+      "russian": "мягкий",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:hungrig",
+      "german": "hungrig",
+      "russian": "голодный",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "adjective:satt",
+      "german": "satt",
+      "russian": "сытый",
+      "part_of_speech": "adjective"
+    },
+    {
+      "canonical_key": "verb:bestellen",
+      "german": "bestellen",
+      "russian": "заказывать",
+      "part_of_speech": "verb",
+      "verb_forms": {
+        "praesens_3sg": "bestellt",
+        "praeteritum": "bestellte",
+        "partizip_ii": "bestellt",
+        "perfekt_auxiliary": "haben",
+        "perfekt": "hat bestellt"
+      }
+    },
+    {
+      "canonical_key": "adverb:nämlich",
+      "german": "nämlich",
+      "russian": "ведь; а именно",
+      "part_of_speech": "adverb"
+    },
+    {
+      "canonical_key": "phrase:was darf es sein?",
+      "german": "Was darf es sein?",
+      "russian": "Что Вам? / Что будете брать?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:ich hätte gern ...",
+      "german": "Ich hätte gern ...",
+      "russian": "Я бы хотел(а) ...",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:wie viel darf es sein?",
+      "german": "Wie viel darf es sein?",
+      "russian": "Сколько Вам?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:darf es noch etwas sein?",
+      "german": "Darf es noch etwas sein?",
+      "russian": "Что-нибудь ещё?",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "phrase:nein, danke. das ist alles.",
+      "german": "Nein, danke. Das ist alles.",
+      "russian": "Нет, спасибо. Это всё.",
+      "part_of_speech": "phrase"
+    },
+    {
+      "canonical_key": "other:adjektivdeklination indefiniter artikel",
+      "german": "ein magerer Schinken / einen mageren Schinken",
+      "russian": "склонение прилагательных после ein-/kein-/mein-",
+      "part_of_speech": "other",
+      "grammar_note": "Окончание прилагательного зависит от рода, падежа и формы неопределённого/притяжательного артикля."
+    }
+  ]
+}

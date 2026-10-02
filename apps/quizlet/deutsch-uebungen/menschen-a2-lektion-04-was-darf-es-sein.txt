@@ -1,0 +1,35 @@
+die Banane	банан
+die Bohne	фасоль; боб
+das Bonbon	конфета
+das Gemüse	овощи
+das Getränk	напиток
+die Marmelade	варенье; джем
+das Mehl	мука
+der Quark	творог
+der Saft	сок
+die Dose	банка; жестяная банка
+das Gramm	грамм
+das Kilogramm	килограмм
+der Liter	литр
+die Packung	упаковка
+das Pfund	фунт; полкило (разг.)
+die Portion	порция
+die Tüte	пакет; кулёк
+der Einkaufszettel	список покупок
+die Essgewohnheit	пищевые привычки
+fett	жирный
+fettarm	нежирный; с низким содержанием жира
+hart	твёрдый
+mager	постный; нежирный
+roh	сырой
+weich	мягкий
+hungrig	голодный
+satt	сытый
+bestellen	заказывать
+nämlich	ведь; а именно
+Was darf es sein?	Что Вам? / Что будете брать?
+Ich hätte gern ...	Я бы хотел(а) ...
+Wie viel darf es sein?	Сколько Вам?
+Darf es noch etwas sein?	Что-нибудь ещё?
+Nein, danke. Das ist alles.	Нет, спасибо. Это всё.
+ein magerer Schinken / einen mageren Schinken	склонение прилагательных после ein-/kein-/mein-
