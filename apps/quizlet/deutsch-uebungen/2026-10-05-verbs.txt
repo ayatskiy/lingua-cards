@@ -1,0 +1,3 @@
+buchstabieren	произносить; писать по буквам
+herausfinden	выяснять; узнавать
+erklären	объяснять
