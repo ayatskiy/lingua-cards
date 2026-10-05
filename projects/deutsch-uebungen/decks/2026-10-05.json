@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "canonical_key": "noun:tasche",
+      "german": "die Tasche",
+      "russian": "сумка",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:pass",
+      "german": "der Pass",
+      "russian": "паспорт",
+      "part_of_speech": "noun",
+      "article": "der"
+    },
+    {
+      "canonical_key": "noun:fundbüro",
+      "german": "das Fundbüro",
+      "russian": "бюро находок",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "noun:hausnummer",
+      "german": "die Hausnummer",
+      "russian": "номер дома",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:telefonnummer",
+      "german": "die Telefonnummer",
+      "russian": "номер телефона",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "verb:buchstabieren",
+      "german": "buchstabieren",
+      "russian": "произносить; писать по буквам",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "verb:herausfinden",
+      "german": "herausfinden",
+      "russian": "выяснять; узнавать",
+      "part_of_speech": "verb"
+    },
+    {
+      "canonical_key": "noun:persönliche daten",
+      "german": "die persönlichen Daten",
+      "russian": "личные данные",
+      "part_of_speech": "noun",
+      "article": "die"
+    },
+    {
+      "canonical_key": "noun:geburtsdatum",
+      "german": "das Geburtsdatum",
+      "russian": "дата рождения",
+      "part_of_speech": "noun",
+      "article": "das"
+    },
+    {
+      "canonical_key": "verb:erklären",
+      "german": "erklären",
+      "russian": "объяснять",
+      "part_of_speech": "verb"
+    }
+  ]
+}

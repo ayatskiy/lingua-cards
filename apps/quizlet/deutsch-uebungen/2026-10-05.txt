@@ -1,0 +1,10 @@
+die Tasche	сумка
+der Pass	паспорт
+das Fundbüro	бюро находок
+die Hausnummer	номер дома
+die Telefonnummer	номер телефона
+buchstabieren	произносить; писать по буквам
+herausfinden	выяснять; узнавать
+die persönlichen Daten	личные данные
+das Geburtsdatum	дата рождения
+erklären	объяснять
